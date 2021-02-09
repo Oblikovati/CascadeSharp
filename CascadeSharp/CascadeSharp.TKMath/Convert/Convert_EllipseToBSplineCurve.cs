@@ -1,0 +1,54 @@
+//---------------------------------------------------------------------
+// CascadeSharp
+// General Public License V2
+//---------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+
+namespace CascadeSharp
+{
+	//---------------------------------------------------------------------
+	//  Class  Convert_EllipseToBSplineCurve
+	//---------------------------------------------------------------------
+	public  sealed class Convert_EllipseToBSplineCurve : CascadeSharp.Convert_ConicToBSplineCurve
+	{
+
+		public Convert_EllipseToBSplineCurve(gp_Elips2d E, CascadeSharp.Convert_ParameterisationType Parameter_isation)
+			: base()
+		{
+			throw new NotImplementedException();
+		}
+
+		public Convert_EllipseToBSplineCurve(gp_Elips2d E)
+			: base()
+		{
+			throw new NotImplementedException();
+		}
+
+		public Convert_EllipseToBSplineCurve(gp_Elips2d E, double U1, double U2, CascadeSharp.Convert_ParameterisationType Parameter_isation)
+			: base()
+		{
+			throw new NotImplementedException();
+		}
+
+		public Convert_EllipseToBSplineCurve(gp_Elips2d E, double U1, double U2)
+			: base()
+		{
+			throw new NotImplementedException();
+		}
+
+		public Convert_EllipseToBSplineCurve(Convert_EllipseToBSplineCurve parameter1)
+			: base()
+		{
+			throw new NotImplementedException();
+		}
+
+		public Convert_EllipseToBSplineCurve()
+		{
+			throw new NotImplementedException();
+		}
+
+
+	}; // class Convert_EllipseToBSplineCurve
+
+}

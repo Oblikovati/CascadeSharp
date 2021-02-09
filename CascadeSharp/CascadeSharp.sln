@@ -9,11 +9,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelingAlgorithms", "Model
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelingData", "ModelingData", "{6A844B56-6548-475B-86DC-55EC572550E7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{799D10DC-EE5E-48A9-9E02-380889D594DC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualization", "Visualization", "{799D10DC-EE5E-48A9-9E02-380889D594DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKernel", "TKernel", "{99AAC440-5016-44FA-97E6-E21BB8E11B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKernel", "CascadeSharp.TKernel\CascadeSharp.TKernel.csproj", "{3E943544-C8BC-4315-98BB-95B705052FD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKMath", "TKMath", "{8CFA59E2-C2A2-4F46-A684-E0A1A4912AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKMath", "CascadeSharp.TKMath\CascadeSharp.TKMath.csproj", "{F2C3BC5B-B27D-494B-A167-774AA6B06284}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E943544-C8BC-4315-98BB-95B705052FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E943544-C8BC-4315-98BB-95B705052FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E943544-C8BC-4315-98BB-95B705052FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E943544-C8BC-4315-98BB-95B705052FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C3BC5B-B27D-494B-A167-774AA6B06284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C3BC5B-B27D-494B-A167-774AA6B06284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C3BC5B-B27D-494B-A167-774AA6B06284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C3BC5B-B27D-494B-A167-774AA6B06284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99AAC440-5016-44FA-97E6-E21BB8E11B90} = {FC142216-E82A-49D5-BA94-0619186111E1}
+		{3E943544-C8BC-4315-98BB-95B705052FD0} = {99AAC440-5016-44FA-97E6-E21BB8E11B90}
+		{8CFA59E2-C2A2-4F46-A684-E0A1A4912AD3} = {FC142216-E82A-49D5-BA94-0619186111E1}
+		{F2C3BC5B-B27D-494B-A167-774AA6B06284} = {8CFA59E2-C2A2-4F46-A684-E0A1A4912AD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54E5AF8B-54F6-421E-94A3-DB6C0813F82C}
