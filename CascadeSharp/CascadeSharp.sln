@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoundationClasses", "FoundationClasses", "{FC142216-E82A-49D5-BA94-0619186111E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelingAlgorithms", "ModelingAlgorithms", "{66497B01-A094-4552-901A-A410271C0AF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelingData", "ModelingData", "{6A844B56-6548-475B-86DC-55EC572550E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{799D10DC-EE5E-48A9-9E02-380889D594DC}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54E5AF8B-54F6-421E-94A3-DB6C0813F82C}
+	EndGlobalSection
+EndGlobal
