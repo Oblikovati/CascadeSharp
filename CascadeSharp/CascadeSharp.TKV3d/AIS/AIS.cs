@@ -7,25 +7,21 @@ using System;
 
 namespace CascadeSharp.TKV3d.AIS
 {
-	//---------------------------------------------------------------------
-	//  Class  AIS
-	//---------------------------------------------------------------------
-	public  sealed class AIS
-	{
+    //---------------------------------------------------------------------
+    //  Class  AIS
+    //---------------------------------------------------------------------
+    public sealed class AIS
+    {
+        public AIS()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public AIS()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-		public AIS(AIS parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-
-	}; // class AIS
-
+        public AIS(AIS parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
+    }; // class AIS
 }

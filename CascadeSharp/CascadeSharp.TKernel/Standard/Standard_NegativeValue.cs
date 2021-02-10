@@ -7,61 +7,57 @@ using System;
 
 namespace CascadeSharp.TKernel.Standard
 {
-	//---------------------------------------------------------------------
-	//  Class  Standard_NegativeValue
-	//---------------------------------------------------------------------
-	public  sealed class Standard_NegativeValue : Standard_RangeError
-	{
+    //---------------------------------------------------------------------
+    //  Class  Standard_NegativeValue
+    //---------------------------------------------------------------------
+    public sealed class Standard_NegativeValue : Standard_RangeError
+    {
+        public Standard_NegativeValue()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Standard_NegativeValue()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public Standard_NegativeValue(string theMessage)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Standard_NegativeValue(string theMessage)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public Standard_NegativeValue(Standard_NegativeValue parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Standard_NegativeValue(Standard_NegativeValue parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public void Throw()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Throw()
-		{
-			throw new NotImplementedException();
-		}
+        public void Raise(string theMessage)
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Raise(string theMessage)
-		{
-			throw new NotImplementedException();
-		}
+        public void Raise()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Raise()
-		{
-			throw new NotImplementedException();
-		}
+        public Standard_NegativeValue NewInstance(string theMessage)
+        {
+            throw new NotImplementedException();
+        }
 
-				public Standard_NegativeValue NewInstance(string theMessage)
-		{
-			throw new NotImplementedException();
-		}
+        public Standard_NegativeValue NewInstance()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Standard_NegativeValue NewInstance()
-		{
-			throw new NotImplementedException();
-		}
-
-		public char get_type_name()
-		{
-			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-		}
-
-				
-	}; // class Standard_NegativeValue
-
+        public char get_type_name()
+        {
+            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
+        }
+    }; // class Standard_NegativeValue
 }

@@ -7,30 +7,27 @@ using System;
 
 namespace CascadeSharp.TKMath.BSplSLib
 {
-	//---------------------------------------------------------------------
-	//  Class  BSplSLib_EvaluatorFunction
-	//---------------------------------------------------------------------
-	public  abstract class BSplSLib_EvaluatorFunction
-	{
+    //---------------------------------------------------------------------
+    //  Class  BSplSLib_EvaluatorFunction
+    //---------------------------------------------------------------------
+    public abstract class BSplSLib_EvaluatorFunction
+    {
+        public BSplSLib_EvaluatorFunction()
+            : base()
+        {
+            throw new NotImplementedException("Native class is abstract");
+        }
 
-		public BSplSLib_EvaluatorFunction()
-			: base()
-		{
-			throw new NotImplementedException("Native class is abstract");
-		}
+        public BSplSLib_EvaluatorFunction(BSplSLib_EvaluatorFunction parameter1)
+            : base()
+        {
+            throw new NotImplementedException("Native class is abstract");
+        }
 
-		public BSplSLib_EvaluatorFunction(BSplSLib_EvaluatorFunction parameter1)
-			: base()
-		{
-			throw new NotImplementedException("Native class is abstract");
-		}
-
-		public void Evaluate(int theDerivativeRequest, double theUParameter, double theVParameter, ref double theResult, ref int theErrorCode)
-		{
-			throw new NotImplementedException();
-		}
-
-
-	}; // class BSplSLib_EvaluatorFunction
-
+        public void Evaluate(int theDerivativeRequest, double theUParameter, double theVParameter, ref double theResult,
+            ref int theErrorCode)
+        {
+            throw new NotImplementedException();
+        }
+    }; // class BSplSLib_EvaluatorFunction
 }

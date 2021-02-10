@@ -5,12 +5,11 @@
 
 namespace CascadeSharp.TKService.Aspect
 {
-	//---------------------------------------------------------------------
-	//  Enum  Aspect_XAtom
-	//---------------------------------------------------------------------
-	public	enum Aspect_XAtom
-	{
-		Aspect_XA_DELETE_WINDOW = 0
-	} // enum  class Aspect_XAtom
-
+    //---------------------------------------------------------------------
+    //  Enum  Aspect_XAtom
+    //---------------------------------------------------------------------
+    public enum Aspect_XAtom
+    {
+        Aspect_XA_DELETE_WINDOW = 0
+    } // enum  class Aspect_XAtom
 }

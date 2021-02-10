@@ -9,45 +9,41 @@ using CascadeSharp.TKMath.TColgp;
 
 namespace CascadeSharp.TKFeat.LocOpe
 {
-	//---------------------------------------------------------------------
-	//  Class  LocOpe
-	//---------------------------------------------------------------------
-	public  sealed class LocOpe
-	{
+    //---------------------------------------------------------------------
+    //  Class  LocOpe
+    //---------------------------------------------------------------------
+    public sealed class LocOpe
+    {
+        public LocOpe()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public LocOpe()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public LocOpe(LocOpe parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public LocOpe(LocOpe parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public bool Closed(TopoDS_Wire W, TopoDS_Face OnF)
+        {
+            throw new NotImplementedException();
+        }
 
-		public bool Closed(TopoDS_Wire W, TopoDS_Face OnF)
-		{
-			throw new NotImplementedException();
-		}
+        public bool Closed(TopoDS_Edge E, TopoDS_Face OnF)
+        {
+            throw new NotImplementedException();
+        }
 
-		public bool Closed(TopoDS_Edge E, TopoDS_Face OnF)
-		{
-			throw new NotImplementedException();
-		}
+        public bool TgtFaces(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2)
+        {
+            throw new NotImplementedException();
+        }
 
-		public bool TgtFaces(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2)
-		{
-			throw new NotImplementedException();
-		}
-
-		public void SampleEdges(TopoDS_Shape S, TColgp_SequenceOfPnt Pt)
-		{
-			throw new NotImplementedException();
-		}
-
-
-	}; // class LocOpe
-
+        public void SampleEdges(TopoDS_Shape S, TColgp_SequenceOfPnt Pt)
+        {
+            throw new NotImplementedException();
+        }
+    }; // class LocOpe
 }

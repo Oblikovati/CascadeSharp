@@ -7,45 +7,41 @@ using System;
 
 namespace CascadeSharp.TKernel.Units
 {
-	//---------------------------------------------------------------------
-	//  Class  Units_UnitsLexicon
-	//---------------------------------------------------------------------
-	public  sealed class Units_UnitsLexicon : Units_Lexicon
-	{
+    //---------------------------------------------------------------------
+    //  Class  Units_UnitsLexicon
+    //---------------------------------------------------------------------
+    public sealed class Units_UnitsLexicon : Units_Lexicon
+    {
+        public Units_UnitsLexicon()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Units_UnitsLexicon()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public Units_UnitsLexicon(Units_UnitsLexicon parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Units_UnitsLexicon(Units_UnitsLexicon parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public void Creates(bool amode)
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Creates(bool amode)
-		{
-			throw new NotImplementedException();
-		}
+        public void Creates()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Creates()
-		{
-			throw new NotImplementedException();
-		}
+        public void Dump()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Dump()
-		{
-			throw new NotImplementedException();
-		}
-
-		public char get_type_name()
-		{
-			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-		}
-
-				
-	}; // class Units_UnitsLexicon
-
+        public char get_type_name()
+        {
+            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
+        }
+    }; // class Units_UnitsLexicon
 }

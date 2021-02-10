@@ -7,25 +7,21 @@ using System;
 
 namespace CascadeSharp.TKBool.TopOpeBRep
 {
-	//---------------------------------------------------------------------
-	//  Class  TopOpeBRep
-	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRep
-	{
+    //---------------------------------------------------------------------
+    //  Class  TopOpeBRep
+    //---------------------------------------------------------------------
+    public sealed class TopOpeBRep
+    {
+        public TopOpeBRep()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public TopOpeBRep()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-		public TopOpeBRep(TopOpeBRep parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-		
-	}; // class TopOpeBRep
-
+        public TopOpeBRep(TopOpeBRep parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
+    }; // class TopOpeBRep
 }

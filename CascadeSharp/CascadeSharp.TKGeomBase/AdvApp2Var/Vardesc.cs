@@ -7,25 +7,21 @@ using System;
 
 namespace CascadeSharp.TKGeomBase.AdvApp2Var
 {
-	//---------------------------------------------------------------------
-	//  Class  Vardesc
-	//---------------------------------------------------------------------
-	public  sealed class Vardesc
-	{
+    //---------------------------------------------------------------------
+    //  Class  Vardesc
+    //---------------------------------------------------------------------
+    public sealed class Vardesc
+    {
+        public Vardesc()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Vardesc()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-		public Vardesc(Vardesc parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-
-	}; // class Vardesc
-
+        public Vardesc(Vardesc parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
+    }; // class Vardesc
 }

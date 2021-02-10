@@ -7,25 +7,21 @@ using System;
 
 namespace CascadeSharp.TKGeomBase.AdvApp2Var
 {
-	//---------------------------------------------------------------------
-	//  Class  Namelist
-	//---------------------------------------------------------------------
-	public  sealed class Namelist
-	{
+    //---------------------------------------------------------------------
+    //  Class  Namelist
+    //---------------------------------------------------------------------
+    public sealed class Namelist
+    {
+        public Namelist()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Namelist()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-		public Namelist(Namelist parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-
-	}; // class Namelist
-
+        public Namelist(Namelist parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
+    }; // class Namelist
 }

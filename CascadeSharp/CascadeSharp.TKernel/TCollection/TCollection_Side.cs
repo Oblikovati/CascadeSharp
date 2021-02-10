@@ -5,13 +5,12 @@
 
 namespace CascadeSharp.TKernel.TCollection
 {
-	//---------------------------------------------------------------------
-	//  Enum  TCollection_Side
-	//---------------------------------------------------------------------
-	public	enum TCollection_Side
-	{
-		TCollection_Left = 0,
-		TCollection_Right = 1
-	} // enum  class TCollection_Side
-
+    //---------------------------------------------------------------------
+    //  Enum  TCollection_Side
+    //---------------------------------------------------------------------
+    public enum TCollection_Side
+    {
+        TCollection_Left = 0,
+        TCollection_Right = 1
+    } // enum  class TCollection_Side
 }

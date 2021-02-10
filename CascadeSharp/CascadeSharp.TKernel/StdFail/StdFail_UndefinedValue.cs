@@ -8,61 +8,57 @@ using CascadeSharp.TKernel.Standard;
 
 namespace CascadeSharp.TKernel.StdFail
 {
-	//---------------------------------------------------------------------
-	//  Class  StdFail_UndefinedValue
-	//---------------------------------------------------------------------
-	public  sealed class StdFail_UndefinedValue : Standard_DomainError
-	{
+    //---------------------------------------------------------------------
+    //  Class  StdFail_UndefinedValue
+    //---------------------------------------------------------------------
+    public sealed class StdFail_UndefinedValue : Standard_DomainError
+    {
+        public StdFail_UndefinedValue()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public StdFail_UndefinedValue()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public StdFail_UndefinedValue(string theMessage)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public StdFail_UndefinedValue(string theMessage)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public StdFail_UndefinedValue(StdFail_UndefinedValue parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public StdFail_UndefinedValue(StdFail_UndefinedValue parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public void Throw()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Throw()
-		{
-			throw new NotImplementedException();
-		}
+        public void Raise(string theMessage)
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Raise(string theMessage)
-		{
-			throw new NotImplementedException();
-		}
+        public void Raise()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Raise()
-		{
-			throw new NotImplementedException();
-		}
+        public StdFail_UndefinedValue NewInstance(string theMessage)
+        {
+            throw new NotImplementedException();
+        }
 
-				public StdFail_UndefinedValue NewInstance(string theMessage)
-		{
-			throw new NotImplementedException();
-		}
+        public StdFail_UndefinedValue NewInstance()
+        {
+            throw new NotImplementedException();
+        }
 
-		public StdFail_UndefinedValue NewInstance()
-		{
-			throw new NotImplementedException();
-		}
-
-		public char get_type_name()
-		{
-			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-		}
-
-				
-	}; // class StdFail_UndefinedValue
-
+        public char get_type_name()
+        {
+            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
+        }
+    }; // class StdFail_UndefinedValue
 }

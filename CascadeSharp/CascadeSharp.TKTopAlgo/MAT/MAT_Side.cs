@@ -5,13 +5,12 @@
 
 namespace CascadeSharp.TKTopAlgo.MAT
 {
-	//---------------------------------------------------------------------
-	//  Enum  MAT_Side
-	//---------------------------------------------------------------------
-	public	enum MAT_Side
-	{
-		MAT_Left = 0,
-		MAT_Right = 1
-	} // enum  class MAT_Side
-
+    //---------------------------------------------------------------------
+    //  Enum  MAT_Side
+    //---------------------------------------------------------------------
+    public enum MAT_Side
+    {
+        MAT_Left = 0,
+        MAT_Right = 1
+    } // enum  class MAT_Side
 }

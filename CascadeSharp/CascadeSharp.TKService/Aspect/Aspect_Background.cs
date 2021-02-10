@@ -8,41 +8,37 @@ using CascadeSharp.TKernel.Quantity;
 
 namespace CascadeSharp.TKService.Aspect
 {
-	//---------------------------------------------------------------------
-	//  Class  Aspect_Background
-	//---------------------------------------------------------------------
-	public  class Aspect_Background
-	{
+    //---------------------------------------------------------------------
+    //  Class  Aspect_Background
+    //---------------------------------------------------------------------
+    public class Aspect_Background
+    {
+        public Aspect_Background()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Aspect_Background()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public Aspect_Background(Quantity_Color AColor)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Aspect_Background(Quantity_Color AColor)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public Aspect_Background(Aspect_Background parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Aspect_Background(Aspect_Background parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public void SetColor(Quantity_Color AColor)
+        {
+            throw new NotImplementedException();
+        }
 
-		public void SetColor(Quantity_Color AColor)
-		{
-			throw new NotImplementedException();
-		}
-
-		public Quantity_Color Color()
-		{
-			throw new NotImplementedException();
-		}
-
-				
-	}; // class Aspect_Background
-
+        public Quantity_Color Color()
+        {
+            throw new NotImplementedException();
+        }
+    }; // class Aspect_Background
 }

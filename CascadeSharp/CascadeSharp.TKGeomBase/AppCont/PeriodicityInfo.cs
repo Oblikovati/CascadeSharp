@@ -7,25 +7,21 @@ using System;
 
 namespace CascadeSharp.TKGeomBase.AppCont
 {
-	//---------------------------------------------------------------------
-	//  Class  PeriodicityInfo
-	//---------------------------------------------------------------------
-	public  sealed class PeriodicityInfo
-	{
+    //---------------------------------------------------------------------
+    //  Class  PeriodicityInfo
+    //---------------------------------------------------------------------
+    public sealed class PeriodicityInfo
+    {
+        public PeriodicityInfo()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public PeriodicityInfo()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-		public PeriodicityInfo(PeriodicityInfo parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
-
-
-	}; // class PeriodicityInfo
-
+        public PeriodicityInfo(PeriodicityInfo parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
+    }; // class PeriodicityInfo
 }

@@ -8,61 +8,57 @@ using CascadeSharp.TKernel.Standard;
 
 namespace CascadeSharp.TKernel.StdFail
 {
-	//---------------------------------------------------------------------
-	//  Class  StdFail_UndefinedDerivative
-	//---------------------------------------------------------------------
-	public  sealed class StdFail_UndefinedDerivative : Standard_DomainError
-	{
+    //---------------------------------------------------------------------
+    //  Class  StdFail_UndefinedDerivative
+    //---------------------------------------------------------------------
+    public sealed class StdFail_UndefinedDerivative : Standard_DomainError
+    {
+        public StdFail_UndefinedDerivative()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public StdFail_UndefinedDerivative()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public StdFail_UndefinedDerivative(string theMessage)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public StdFail_UndefinedDerivative(string theMessage)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public StdFail_UndefinedDerivative(StdFail_UndefinedDerivative parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public StdFail_UndefinedDerivative(StdFail_UndefinedDerivative parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public void Throw()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Throw()
-		{
-			throw new NotImplementedException();
-		}
+        public void Raise(string theMessage)
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Raise(string theMessage)
-		{
-			throw new NotImplementedException();
-		}
+        public void Raise()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Raise()
-		{
-			throw new NotImplementedException();
-		}
+        public StdFail_UndefinedDerivative NewInstance(string theMessage)
+        {
+            throw new NotImplementedException();
+        }
 
-				public StdFail_UndefinedDerivative NewInstance(string theMessage)
-		{
-			throw new NotImplementedException();
-		}
+        public StdFail_UndefinedDerivative NewInstance()
+        {
+            throw new NotImplementedException();
+        }
 
-		public StdFail_UndefinedDerivative NewInstance()
-		{
-			throw new NotImplementedException();
-		}
-
-		public char get_type_name()
-		{
-			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-		}
-
-				
-	}; // class StdFail_UndefinedDerivative
-
+        public char get_type_name()
+        {
+            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
+        }
+    }; // class StdFail_UndefinedDerivative
 }

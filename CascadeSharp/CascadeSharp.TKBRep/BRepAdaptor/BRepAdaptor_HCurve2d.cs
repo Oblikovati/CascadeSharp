@@ -8,51 +8,47 @@ using CascadeSharp.TKG2d.Adaptor2d;
 
 namespace CascadeSharp.TKBRep.BRepAdaptor
 {
-	//---------------------------------------------------------------------
-	//  Class  BRepAdaptor_HCurve2d
-	//---------------------------------------------------------------------
-	public  sealed class BRepAdaptor_HCurve2d : Adaptor2d_HCurve2d
-	{
+    //---------------------------------------------------------------------
+    //  Class  BRepAdaptor_HCurve2d
+    //---------------------------------------------------------------------
+    public sealed class BRepAdaptor_HCurve2d : Adaptor2d_HCurve2d
+    {
+        public BRepAdaptor_HCurve2d()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public BRepAdaptor_HCurve2d()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public BRepAdaptor_HCurve2d(BRepAdaptor_Curve2d C)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public BRepAdaptor_HCurve2d(BRepAdaptor_Curve2d C)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public BRepAdaptor_HCurve2d(BRepAdaptor_HCurve2d parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public BRepAdaptor_HCurve2d(BRepAdaptor_HCurve2d parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public void Set(BRepAdaptor_Curve2d C)
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Set(BRepAdaptor_Curve2d C)
-		{
-			throw new NotImplementedException();
-		}
+        public Adaptor2d_Curve2d Curve2d()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Adaptor2d_Curve2d Curve2d()
-		{
-			throw new NotImplementedException();
-		}
+        public BRepAdaptor_Curve2d ChangeCurve2d()
+        {
+            throw new NotImplementedException();
+        }
 
-		public BRepAdaptor_Curve2d ChangeCurve2d()
-		{
-			throw new NotImplementedException();
-		}
-
-		public char get_type_name()
-		{
-			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-		}
-
-				
-	}; // class BRepAdaptor_HCurve2d
-
+        public char get_type_name()
+        {
+            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
+        }
+    }; // class BRepAdaptor_HCurve2d
 }

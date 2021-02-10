@@ -8,61 +8,57 @@ using CascadeSharp.TKernel.Standard;
 
 namespace CascadeSharp.TKService.Aspect
 {
-	//---------------------------------------------------------------------
-	//  Class  Aspect_AspectFillAreaDefinitionError
-	//---------------------------------------------------------------------
-	public  sealed class Aspect_AspectFillAreaDefinitionError : Standard_OutOfRange
-	{
+    //---------------------------------------------------------------------
+    //  Class  Aspect_AspectFillAreaDefinitionError
+    //---------------------------------------------------------------------
+    public sealed class Aspect_AspectFillAreaDefinitionError : Standard_OutOfRange
+    {
+        public Aspect_AspectFillAreaDefinitionError()
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Aspect_AspectFillAreaDefinitionError()
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public Aspect_AspectFillAreaDefinitionError(string theMessage)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Aspect_AspectFillAreaDefinitionError(string theMessage)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public Aspect_AspectFillAreaDefinitionError(Aspect_AspectFillAreaDefinitionError parameter1)
+            : base()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Aspect_AspectFillAreaDefinitionError(Aspect_AspectFillAreaDefinitionError parameter1)
-			: base()
-		{
-			throw new NotImplementedException();
-		}
+        public void Throw()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Throw()
-		{
-			throw new NotImplementedException();
-		}
+        public void Raise(string theMessage)
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Raise(string theMessage)
-		{
-			throw new NotImplementedException();
-		}
+        public void Raise()
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Raise()
-		{
-			throw new NotImplementedException();
-		}
+        public Aspect_AspectFillAreaDefinitionError NewInstance(string theMessage)
+        {
+            throw new NotImplementedException();
+        }
 
-				public Aspect_AspectFillAreaDefinitionError NewInstance(string theMessage)
-		{
-			throw new NotImplementedException();
-		}
+        public Aspect_AspectFillAreaDefinitionError NewInstance()
+        {
+            throw new NotImplementedException();
+        }
 
-		public Aspect_AspectFillAreaDefinitionError NewInstance()
-		{
-			throw new NotImplementedException();
-		}
-
-		public char get_type_name()
-		{
-			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-		}
-
-				
-	}; // class Aspect_AspectFillAreaDefinitionError
-
+        public char get_type_name()
+        {
+            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
+        }
+    }; // class Aspect_AspectFillAreaDefinitionError
 }
