@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKGeomAlgo.GeomFill;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_SectionLaw
@@ -70,7 +74,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity(int Index, double TolAngular)
+		public GeomAbs_Shape Continuity(int Index, double TolAngular)
 		{
 			throw new NotImplementedException();
 		}

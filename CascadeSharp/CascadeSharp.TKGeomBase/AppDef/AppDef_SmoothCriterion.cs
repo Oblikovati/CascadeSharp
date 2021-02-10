@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKGeomBase.FEmTool;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.AppDef
 {
 	//---------------------------------------------------------------------
 	//  Class  AppDef_SmoothCriterion

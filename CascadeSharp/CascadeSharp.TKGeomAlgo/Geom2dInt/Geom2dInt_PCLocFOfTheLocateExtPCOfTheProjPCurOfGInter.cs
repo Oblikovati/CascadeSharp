@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dInt
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter : math_FunctionWithDerivative
 	{
 
 		public Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter()

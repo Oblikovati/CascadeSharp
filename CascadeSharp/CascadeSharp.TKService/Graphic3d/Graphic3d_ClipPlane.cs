@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_ClipPlane
@@ -126,12 +131,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetCappingHatch(CascadeSharp.Aspect_HatchStyle theStyle)
+		public void SetCappingHatch(Aspect_HatchStyle theStyle)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_HatchStyle CappingHatch()
+		public Aspect_HatchStyle CappingHatch()
 		{
 			throw new NotImplementedException();
 		}

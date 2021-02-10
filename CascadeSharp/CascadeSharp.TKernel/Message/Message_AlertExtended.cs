@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_AlertExtended
 	//---------------------------------------------------------------------
-	public  sealed class Message_AlertExtended : CascadeSharp.Message_Alert
+	public  sealed class Message_AlertExtended : Message_Alert
 	{
 
 		public Message_AlertExtended()
@@ -25,7 +25,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Message_Alert AddAlert(Message_Report theReport, Message_Attribute theAttribute, CascadeSharp.Message_Gravity theGravity)
+		public Message_Alert AddAlert(Message_Report theReport, Message_Attribute theAttribute, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}

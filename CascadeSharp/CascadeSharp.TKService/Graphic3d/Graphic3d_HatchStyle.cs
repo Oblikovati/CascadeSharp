@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_HatchStyle
@@ -19,7 +22,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_HatchStyle(CascadeSharp.Aspect_HatchStyle theType)
+		public Graphic3d_HatchStyle(Aspect_HatchStyle theType)
 			: base()
 		{
 			throw new NotImplementedException();

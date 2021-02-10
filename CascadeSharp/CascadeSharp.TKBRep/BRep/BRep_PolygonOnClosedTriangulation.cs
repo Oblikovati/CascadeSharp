@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_PolygonOnClosedTriangulation
 	//---------------------------------------------------------------------
-	public  sealed class BRep_PolygonOnClosedTriangulation : CascadeSharp.BRep_PolygonOnTriangulation
+	public  sealed class BRep_PolygonOnClosedTriangulation : BRep_PolygonOnTriangulation
 	{
 
 				public BRep_PolygonOnClosedTriangulation(BRep_PolygonOnClosedTriangulation parameter1)

@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_FixSmallCurves
 	//---------------------------------------------------------------------
-	public  class ShapeUpgrade_FixSmallCurves : CascadeSharp.ShapeUpgrade_Tool
+	public  class ShapeUpgrade_FixSmallCurves : ShapeUpgrade_Tool
 	{
 
 		public ShapeUpgrade_FixSmallCurves()
@@ -45,7 +49,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Status(CascadeSharp.ShapeExtend_Status status)
+		public bool Status(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,8 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Enum  Aspect_FillMethod

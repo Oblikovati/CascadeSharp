@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d_Trihedron
@@ -35,7 +38,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetPosition(CascadeSharp.Aspect_TypeOfTriedronPosition thePosition)
+		public void SetPosition(Aspect_TypeOfTriedronPosition thePosition)
 		{
 			throw new NotImplementedException();
 		}

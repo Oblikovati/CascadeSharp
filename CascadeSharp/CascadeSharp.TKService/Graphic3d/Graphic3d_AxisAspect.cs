@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_AxisAspect

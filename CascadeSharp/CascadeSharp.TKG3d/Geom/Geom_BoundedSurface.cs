@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_BoundedSurface
 	//---------------------------------------------------------------------
-	public  abstract class Geom_BoundedSurface : CascadeSharp.Geom_Surface
+	public  abstract class Geom_BoundedSurface : Geom_Surface
 	{
 
 		public Geom_BoundedSurface(Geom_BoundedSurface parameter1)

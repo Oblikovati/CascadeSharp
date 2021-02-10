@@ -2,10 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomBase.GeomLib
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomLib
@@ -40,17 +48,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void BuildCurve3d(double Tolerance, Adaptor3d_CurveOnSurface CurvePtr, double FirstParameter, double LastParameter, Geom_Curve NewCurvePtr, ref double MaxDeviation, ref double AverageDeviation, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree, int MaxSegment)
+		public void BuildCurve3d(double Tolerance, Adaptor3d_CurveOnSurface CurvePtr, double FirstParameter, double LastParameter, Geom_Curve NewCurvePtr, ref double MaxDeviation, ref double AverageDeviation, GeomAbs_Shape Continuity, int MaxDegree, int MaxSegment)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void BuildCurve3d(double Tolerance, Adaptor3d_CurveOnSurface CurvePtr, double FirstParameter, double LastParameter, Geom_Curve NewCurvePtr, ref double MaxDeviation, ref double AverageDeviation, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree)
+		public void BuildCurve3d(double Tolerance, Adaptor3d_CurveOnSurface CurvePtr, double FirstParameter, double LastParameter, Geom_Curve NewCurvePtr, ref double MaxDeviation, ref double AverageDeviation, GeomAbs_Shape Continuity, int MaxDegree)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void BuildCurve3d(double Tolerance, Adaptor3d_CurveOnSurface CurvePtr, double FirstParameter, double LastParameter, Geom_Curve NewCurvePtr, ref double MaxDeviation, ref double AverageDeviation, CascadeSharp.GeomAbs_Shape Continuity)
+		public void BuildCurve3d(double Tolerance, Adaptor3d_CurveOnSurface CurvePtr, double FirstParameter, double LastParameter, Geom_Curve NewCurvePtr, ref double MaxDeviation, ref double AverageDeviation, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}

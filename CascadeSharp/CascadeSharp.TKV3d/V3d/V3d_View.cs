@@ -2,10 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d_View
@@ -13,7 +22,7 @@ namespace CascadeSharp
 	public  sealed class V3d_View : Standard_Transient
 	{
 
-		public V3d_View(V3d_Viewer theViewer, CascadeSharp.V3d_TypeOfView theType)
+		public V3d_View(V3d_Viewer theViewer, V3d_TypeOfView theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -152,7 +161,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBackgroundColor(CascadeSharp.Quantity_TypeOfColor theType, double theV1, double theV2, double theV3)
+		public void SetBackgroundColor(Quantity_TypeOfColor theType, double theV1, double theV2, double theV3)
 		{
 			throw new NotImplementedException();
 		}
@@ -162,12 +171,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBgGradientColors(Quantity_Color theColor1, Quantity_Color theColor2, CascadeSharp.Aspect_GradientFillMethod theFillStyle, bool theToUpdate)
+		public void SetBgGradientColors(Quantity_Color theColor1, Quantity_Color theColor2, Aspect_GradientFillMethod theFillStyle, bool theToUpdate)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBgGradientColors(Quantity_Color theColor1, Quantity_Color theColor2, CascadeSharp.Aspect_GradientFillMethod theFillStyle)
+		public void SetBgGradientColors(Quantity_Color theColor1, Quantity_Color theColor2, Aspect_GradientFillMethod theFillStyle)
 		{
 			throw new NotImplementedException();
 		}
@@ -177,12 +186,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBgGradientStyle(CascadeSharp.Aspect_GradientFillMethod theMethod, bool theToUpdate)
+		public void SetBgGradientStyle(Aspect_GradientFillMethod theMethod, bool theToUpdate)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBgGradientStyle(CascadeSharp.Aspect_GradientFillMethod theMethod)
+		public void SetBgGradientStyle(Aspect_GradientFillMethod theMethod)
 		{
 			throw new NotImplementedException();
 		}
@@ -192,12 +201,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBackgroundImage(string theFileName, CascadeSharp.Aspect_FillMethod theFillStyle, bool theToUpdate)
+		public void SetBackgroundImage(string theFileName, Aspect_FillMethod theFillStyle, bool theToUpdate)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBackgroundImage(string theFileName, CascadeSharp.Aspect_FillMethod theFillStyle)
+		public void SetBackgroundImage(string theFileName, Aspect_FillMethod theFillStyle)
 		{
 			throw new NotImplementedException();
 		}
@@ -207,12 +216,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBackgroundImage(Graphic3d_Texture2D theTexture, CascadeSharp.Aspect_FillMethod theFillStyle, bool theToUpdate)
+		public void SetBackgroundImage(Graphic3d_Texture2D theTexture, Aspect_FillMethod theFillStyle, bool theToUpdate)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBackgroundImage(Graphic3d_Texture2D theTexture, CascadeSharp.Aspect_FillMethod theFillStyle)
+		public void SetBackgroundImage(Graphic3d_Texture2D theTexture, Aspect_FillMethod theFillStyle)
 		{
 			throw new NotImplementedException();
 		}
@@ -222,12 +231,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBgImageStyle(CascadeSharp.Aspect_FillMethod theFillStyle, bool theToUpdate)
+		public void SetBgImageStyle(Aspect_FillMethod theFillStyle, bool theToUpdate)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBgImageStyle(CascadeSharp.Aspect_FillMethod theFillStyle)
+		public void SetBgImageStyle(Aspect_FillMethod theFillStyle)
 		{
 			throw new NotImplementedException();
 		}
@@ -272,7 +281,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetShadingModel(CascadeSharp.Graphic3d_TypeOfShadingModel theShadingModel)
+		public void SetShadingModel(Graphic3d_TypeOfShadingModel theShadingModel)
 		{
 			throw new NotImplementedException();
 		}
@@ -282,7 +291,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetVisualization(CascadeSharp.V3d_TypeOfVisualization theType)
+		public void SetVisualization(V3d_TypeOfVisualization theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -352,22 +361,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void TriedronDisplay(CascadeSharp.Aspect_TypeOfTriedronPosition thePosition, Quantity_Color theColor, double theScale, CascadeSharp.V3d_TypeOfVisualization theMode)
+		public void TriedronDisplay(Aspect_TypeOfTriedronPosition thePosition, Quantity_Color theColor, double theScale, V3d_TypeOfVisualization theMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void TriedronDisplay(CascadeSharp.Aspect_TypeOfTriedronPosition thePosition, Quantity_Color theColor, double theScale)
+		public void TriedronDisplay(Aspect_TypeOfTriedronPosition thePosition, Quantity_Color theColor, double theScale)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void TriedronDisplay(CascadeSharp.Aspect_TypeOfTriedronPosition thePosition, Quantity_Color theColor)
+		public void TriedronDisplay(Aspect_TypeOfTriedronPosition thePosition, Quantity_Color theColor)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void TriedronDisplay(CascadeSharp.Aspect_TypeOfTriedronPosition thePosition)
+		public void TriedronDisplay(Aspect_TypeOfTriedronPosition thePosition)
 		{
 			throw new NotImplementedException();
 		}
@@ -422,22 +431,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Rotate(CascadeSharp.V3d_TypeOfAxe Axe, double Angle, double X, double Y, double Z, bool Start)
+		public void Rotate(V3d_TypeOfAxe Axe, double Angle, double X, double Y, double Z, bool Start)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Rotate(CascadeSharp.V3d_TypeOfAxe Axe, double Angle, double X, double Y, double Z)
+		public void Rotate(V3d_TypeOfAxe Axe, double Angle, double X, double Y, double Z)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Rotate(CascadeSharp.V3d_TypeOfAxe Axe, double Angle, bool Start)
+		public void Rotate(V3d_TypeOfAxe Axe, double Angle, bool Start)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Rotate(CascadeSharp.V3d_TypeOfAxe Axe, double Angle)
+		public void Rotate(V3d_TypeOfAxe Axe, double Angle)
 		{
 			throw new NotImplementedException();
 		}
@@ -462,12 +471,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Move(CascadeSharp.V3d_TypeOfAxe Axe, double Length, bool Start)
+		public void Move(V3d_TypeOfAxe Axe, double Length, bool Start)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Move(CascadeSharp.V3d_TypeOfAxe Axe, double Length)
+		public void Move(V3d_TypeOfAxe Axe, double Length)
 		{
 			throw new NotImplementedException();
 		}
@@ -492,12 +501,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Translate(CascadeSharp.V3d_TypeOfAxe Axe, double Length, bool Start)
+		public void Translate(V3d_TypeOfAxe Axe, double Length, bool Start)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Translate(CascadeSharp.V3d_TypeOfAxe Axe, double Length)
+		public void Translate(V3d_TypeOfAxe Axe, double Length)
 		{
 			throw new NotImplementedException();
 		}
@@ -532,12 +541,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Turn(CascadeSharp.V3d_TypeOfAxe Axe, double Angle, bool Start)
+		public void Turn(V3d_TypeOfAxe Axe, double Angle, bool Start)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Turn(CascadeSharp.V3d_TypeOfAxe Axe, double Angle)
+		public void Turn(V3d_TypeOfAxe Axe, double Angle)
 		{
 			throw new NotImplementedException();
 		}
@@ -572,12 +581,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetProj(CascadeSharp.V3d_TypeOfOrientation theOrientation, bool theIsYup)
+		public void SetProj(V3d_TypeOfOrientation theOrientation, bool theIsYup)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetProj(CascadeSharp.V3d_TypeOfOrientation theOrientation)
+		public void SetProj(V3d_TypeOfOrientation theOrientation)
 		{
 			throw new NotImplementedException();
 		}
@@ -592,7 +601,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetUp(CascadeSharp.V3d_TypeOfOrientation Orientation)
+		public void SetUp(V3d_TypeOfOrientation Orientation)
 		{
 			throw new NotImplementedException();
 		}
@@ -787,7 +796,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void BackgroundColor(CascadeSharp.Quantity_TypeOfColor Type, ref double V1, ref double V2, ref double V3)
+		public void BackgroundColor(Quantity_TypeOfColor Type, ref double V1, ref double V2, ref double V3)
 		{
 			throw new NotImplementedException();
 		}
@@ -867,7 +876,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfShadingModel ShadingModel()
+		public Graphic3d_TypeOfShadingModel ShadingModel()
 		{
 			throw new NotImplementedException();
 		}
@@ -877,7 +886,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.V3d_TypeOfVisualization Visualization()
+		public V3d_TypeOfVisualization Visualization()
 		{
 			throw new NotImplementedException();
 		}
@@ -907,7 +916,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.V3d_TypeOfView Type()
+		public V3d_TypeOfView Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -942,7 +951,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AxialScale(int Dx, int Dy, CascadeSharp.V3d_TypeOfAxe Ax_is)
+		public void AxialScale(int Dx, int Dy, V3d_TypeOfAxe Ax_is)
 		{
 			throw new NotImplementedException();
 		}
@@ -1017,7 +1026,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Dump(string theFile,  ref CascadeSharp.Graphic3d_BufferType theBufferType)
+		public bool Dump(string theFile,  ref Graphic3d_BufferType theBufferType)
 		{
 			throw new NotImplementedException();
 		}
@@ -1032,17 +1041,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ToPixMap(Image_PixMap theImage, int theWidth, int theHeight,  ref CascadeSharp.Graphic3d_BufferType theBufferType, bool theToAdjustAspect, CascadeSharp.V3d_StereoDumpOptions theStereoOptions)
+		public bool ToPixMap(Image_PixMap theImage, int theWidth, int theHeight,  ref Graphic3d_BufferType theBufferType, bool theToAdjustAspect, V3d_StereoDumpOptions theStereoOptions)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool ToPixMap(Image_PixMap theImage, int theWidth, int theHeight,  ref CascadeSharp.Graphic3d_BufferType theBufferType, bool theToAdjustAspect)
+		public bool ToPixMap(Image_PixMap theImage, int theWidth, int theHeight,  ref Graphic3d_BufferType theBufferType, bool theToAdjustAspect)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool ToPixMap(Image_PixMap theImage, int theWidth, int theHeight,  ref CascadeSharp.Graphic3d_BufferType theBufferType)
+		public bool ToPixMap(Image_PixMap theImage, int theWidth, int theHeight,  ref Graphic3d_BufferType theBufferType)
 		{
 			throw new NotImplementedException();
 		}
@@ -1052,7 +1061,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBackFacingModel(CascadeSharp.V3d_TypeOfBackfacingModel theModel)
+		public void SetBackFacingModel(V3d_TypeOfBackfacingModel theModel)
 		{
 			throw new NotImplementedException();
 		}
@@ -1062,7 +1071,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.V3d_TypeOfBackfacingModel BackFacingModel()
+		public V3d_TypeOfBackfacingModel BackFacingModel()
 		{
 			throw new NotImplementedException();
 		}
@@ -1127,7 +1136,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void DiagnosticInformation(TColStd_IndexedDataMapOfStringString theDict, CascadeSharp.Graphic3d_DiagnosticInfo theFlags)
+		public void DiagnosticInformation(TColStd_IndexedDataMapOfStringString theDict, Graphic3d_DiagnosticInfo theFlags)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.BOPAlgo;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBO.BRepAlgoAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgoAPI_Check
 	//---------------------------------------------------------------------
-	public  sealed class BRepAlgoAPI_Check : CascadeSharp.BOPAlgo_Options
+	public  sealed class BRepAlgoAPI_Check : BOPAlgo_Options
 	{
 
 		public BRepAlgoAPI_Check()
@@ -37,19 +39,19 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public BRepAlgoAPI_Check(TopoDS_Shape theS1, TopoDS_Shape theS2, CascadeSharp.BOPAlgo_Operation theOp, bool bTestSE, bool bTestSI)
+		public BRepAlgoAPI_Check(TopoDS_Shape theS1, TopoDS_Shape theS2, BOPAlgo_Operation theOp, bool bTestSE, bool bTestSI)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepAlgoAPI_Check(TopoDS_Shape theS1, TopoDS_Shape theS2, CascadeSharp.BOPAlgo_Operation theOp, bool bTestSE)
+		public BRepAlgoAPI_Check(TopoDS_Shape theS1, TopoDS_Shape theS2, BOPAlgo_Operation theOp, bool bTestSE)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepAlgoAPI_Check(TopoDS_Shape theS1, TopoDS_Shape theS2, CascadeSharp.BOPAlgo_Operation theOp)
+		public BRepAlgoAPI_Check(TopoDS_Shape theS1, TopoDS_Shape theS2, BOPAlgo_Operation theOp)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -82,17 +84,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetData(TopoDS_Shape theS1, TopoDS_Shape theS2, CascadeSharp.BOPAlgo_Operation theOp, bool bTestSE, bool bTestSI)
+		public void SetData(TopoDS_Shape theS1, TopoDS_Shape theS2, BOPAlgo_Operation theOp, bool bTestSE, bool bTestSI)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetData(TopoDS_Shape theS1, TopoDS_Shape theS2, CascadeSharp.BOPAlgo_Operation theOp, bool bTestSE)
+		public void SetData(TopoDS_Shape theS1, TopoDS_Shape theS2, BOPAlgo_Operation theOp, bool bTestSE)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetData(TopoDS_Shape theS1, TopoDS_Shape theS2, CascadeSharp.BOPAlgo_Operation theOp)
+		public void SetData(TopoDS_Shape theS1, TopoDS_Shape theS2, BOPAlgo_Operation theOp)
 		{
 			throw new NotImplementedException();
 		}

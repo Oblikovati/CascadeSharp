@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKShHealing.ShapeBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeBuild_Edge

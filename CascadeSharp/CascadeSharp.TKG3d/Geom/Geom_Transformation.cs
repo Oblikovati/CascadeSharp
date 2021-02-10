@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_Transformation
@@ -91,7 +93,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.gp_TrsfForm Form()
+		public gp_TrsfForm Form()
 		{
 			throw new NotImplementedException();
 		}

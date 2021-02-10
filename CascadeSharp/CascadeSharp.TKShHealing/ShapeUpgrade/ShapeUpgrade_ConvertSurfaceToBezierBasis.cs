@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_ConvertSurfaceToBezierBasis
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_ConvertSurfaceToBezierBasis : CascadeSharp.ShapeUpgrade_SplitSurface
+	public  sealed class ShapeUpgrade_ConvertSurfaceToBezierBasis : ShapeUpgrade_SplitSurface
 	{
 
 		public ShapeUpgrade_ConvertSurfaceToBezierBasis()

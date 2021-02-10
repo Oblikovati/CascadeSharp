@@ -2,24 +2,27 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_RLine
 	//---------------------------------------------------------------------
-	public  sealed class IntPatch_RLine : CascadeSharp.IntPatch_PointLine
+	public  sealed class IntPatch_RLine : IntPatch_PointLine
 	{
 
-		public IntPatch_RLine(bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_RLine(bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_RLine(bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_RLine(bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException();

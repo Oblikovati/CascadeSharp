@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomBase.IntAna;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.IntCurveSurface
 {
 	//---------------------------------------------------------------------
 	//  Class  IntCurveSurface_HInter
 	//---------------------------------------------------------------------
-	public  sealed class IntCurveSurface_HInter : CascadeSharp.IntCurveSurface_Intersection
+	public  sealed class IntCurveSurface_HInter : IntCurveSurface_Intersection
 	{
 
 		public IntCurveSurface_HInter()

@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_GraphicDriver
@@ -35,7 +39,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public int InquireLimit(CascadeSharp.Graphic3d_TypeOfLimit theType)
+						public int InquireLimit(Graphic3d_TypeOfLimit theType)
 		{
 			throw new NotImplementedException();
 		}

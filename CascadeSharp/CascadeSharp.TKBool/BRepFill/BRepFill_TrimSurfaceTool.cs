@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_TrimSurfaceTool
@@ -45,7 +51,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Project(double U1, double U2, Geom_Curve Curve, Geom2d_Curve PCurve1, Geom2d_Curve PCurve2,  ref CascadeSharp.GeomAbs_Shape myCont)
+		public void Project(double U1, double U2, Geom_Curve Curve, Geom2d_Curve PCurve1, Geom2d_Curve PCurve2,  ref GeomAbs_Shape myCont)
 		{
 			throw new NotImplementedException();
 		}

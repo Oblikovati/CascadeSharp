@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_ShaderObject
@@ -13,7 +15,7 @@ namespace CascadeSharp
 	public  sealed class Graphic3d_ShaderObject : Standard_Transient
 	{
 
-		public Graphic3d_ShaderObject(CascadeSharp.Graphic3d_TypeOfShaderObject theType)
+		public Graphic3d_ShaderObject(Graphic3d_TypeOfShaderObject theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -40,7 +42,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfShaderObject Type()
+		public Graphic3d_TypeOfShaderObject Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -50,12 +52,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_ShaderObject CreateFromFile(CascadeSharp.Graphic3d_TypeOfShaderObject theType, TCollection_AsciiString thePath)
+		public Graphic3d_ShaderObject CreateFromFile(Graphic3d_TypeOfShaderObject theType, TCollection_AsciiString thePath)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_ShaderObject CreateFromSource(CascadeSharp.Graphic3d_TypeOfShaderObject theType, TCollection_AsciiString theSource)
+		public Graphic3d_ShaderObject CreateFromSource(Graphic3d_TypeOfShaderObject theType, TCollection_AsciiString theSource)
 		{
 			throw new NotImplementedException();
 		}

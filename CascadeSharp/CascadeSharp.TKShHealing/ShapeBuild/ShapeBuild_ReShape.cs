@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeBuild_ReShape
 	//---------------------------------------------------------------------
-	public  sealed class ShapeBuild_ReShape : CascadeSharp.BRepTools_ReShape
+	public  sealed class ShapeBuild_ReShape : BRepTools_ReShape
 	{
 
 		public ShapeBuild_ReShape()
@@ -25,12 +29,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape Apply(TopoDS_Shape shape, CascadeSharp.TopAbs_ShapeEnum until, int buildmode)
+		public TopoDS_Shape Apply(TopoDS_Shape shape, TopAbs_ShapeEnum until, int buildmode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape Apply(TopoDS_Shape shape, CascadeSharp.TopAbs_ShapeEnum until)
+		public TopoDS_Shape Apply(TopoDS_Shape shape, TopAbs_ShapeEnum until)
 		{
 			throw new NotImplementedException();
 		}
@@ -50,7 +54,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Status(CascadeSharp.ShapeExtend_Status status)
+		public bool Status(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

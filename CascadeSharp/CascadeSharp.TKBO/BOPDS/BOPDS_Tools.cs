@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBO.BOPDS
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPDS_Tools
@@ -25,22 +26,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int TypeToInteger(CascadeSharp.TopAbs_ShapeEnum theT1, CascadeSharp.TopAbs_ShapeEnum theT2)
+		public int TypeToInteger(TopAbs_ShapeEnum theT1, TopAbs_ShapeEnum theT2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int TypeToInteger(CascadeSharp.TopAbs_ShapeEnum theT)
+		public int TypeToInteger(TopAbs_ShapeEnum theT)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool HasBRep(CascadeSharp.TopAbs_ShapeEnum theT)
+		public bool HasBRep(TopAbs_ShapeEnum theT)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsInterfering(CascadeSharp.TopAbs_ShapeEnum theT)
+		public bool IsInterfering(TopAbs_ShapeEnum theT)
 		{
 			throw new NotImplementedException();
 		}

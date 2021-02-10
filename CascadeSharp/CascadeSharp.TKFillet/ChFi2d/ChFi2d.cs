@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKFillet.ChFi2d
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFi2d
@@ -30,7 +31,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFi2d_ConstructionError FindConnectedEdges(TopoDS_Face F, TopoDS_Vertex V, TopoDS_Edge E1, TopoDS_Edge E2)
+		public ChFi2d_ConstructionError FindConnectedEdges(TopoDS_Face F, TopoDS_Vertex V, TopoDS_Edge E1, TopoDS_Edge E2)
 		{
 			throw new NotImplementedException();
 		}

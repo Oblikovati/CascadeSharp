@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKService.Image
 {
 	//---------------------------------------------------------------------
 	//  Class  Image_CompressedPixMap
@@ -30,22 +32,22 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.Image_Format BaseFormat()
+						public Image_Format BaseFormat()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBaseFormat(CascadeSharp.Image_Format theFormat)
+		public void SetBaseFormat(Image_Format theFormat)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Image_CompressedFormat CompressedFormat()
+		public Image_CompressedFormat CompressedFormat()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetCompressedFormat(CascadeSharp.Image_CompressedFormat theFormat)
+		public void SetCompressedFormat(Image_CompressedFormat theFormat)
 		{
 			throw new NotImplementedException();
 		}

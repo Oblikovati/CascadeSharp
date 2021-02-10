@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFeat.LocOpe
 {
 	//---------------------------------------------------------------------
 	//  Class  LocOpe_SequenceOfLin

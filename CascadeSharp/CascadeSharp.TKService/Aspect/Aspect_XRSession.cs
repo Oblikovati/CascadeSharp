@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_XRSession
@@ -60,7 +65,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool SubmitEye(IntPtr theTexture, CascadeSharp.Aspect_GraphicsLibrary theGraphicsLib, CascadeSharp.Aspect_ColorSpace theColorSpace, CascadeSharp.Aspect_Eye theEye)
+		public bool SubmitEye(IntPtr theTexture, Aspect_GraphicsLibrary theGraphicsLib, Aspect_ColorSpace theColorSpace, Aspect_Eye theEye)
 		{
 			throw new NotImplementedException();
 		}
@@ -120,7 +125,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NamedTrackedDevice(CascadeSharp.Aspect_XRTrackedDeviceRole theDevice)
+		public int NamedTrackedDevice(Aspect_XRTrackedDeviceRole theDevice)
 		{
 			throw new NotImplementedException();
 		}
@@ -160,22 +165,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_XRSession.TrackingUniverseOrigin TrackingOrigin()
+		public TrackingUniverseOrigin TrackingOrigin()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTrackingOrigin(CascadeSharp.Aspect_XRSession.TrackingUniverseOrigin theOrigin)
+		public void SetTrackingOrigin(TrackingUniverseOrigin theOrigin)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Aspect_XRAction GenericAction(CascadeSharp.Aspect_XRTrackedDeviceRole theDevice, CascadeSharp.Aspect_XRGenericAction theAction)
+		public Aspect_XRAction GenericAction(Aspect_XRTrackedDeviceRole theDevice, Aspect_XRGenericAction theAction)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString GetString(CascadeSharp.Aspect_XRSession.InfoString theInfo)
+		public TCollection_AsciiString GetString(InfoString theInfo)
 		{
 			throw new NotImplementedException();
 		}

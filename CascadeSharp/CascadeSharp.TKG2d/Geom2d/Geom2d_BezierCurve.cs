@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_BezierCurve
 	//---------------------------------------------------------------------
-	public  sealed class Geom2d_BezierCurve : CascadeSharp.Geom2d_BoundedCurve
+	public  sealed class Geom2d_BezierCurve : Geom2d_BoundedCurve
 	{
 
 		public Geom2d_BezierCurve(TColgp_Array1OfPnt2d CurvePoles)
@@ -116,7 +120,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}

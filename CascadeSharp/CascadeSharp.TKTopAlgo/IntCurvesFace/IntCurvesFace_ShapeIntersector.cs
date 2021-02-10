@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKGeomAlgo.IntCurveSurface;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.IntCurvesFace
 {
 	//---------------------------------------------------------------------
 	//  Class  IntCurvesFace_ShapeIntersector
@@ -75,12 +80,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntCurveSurface_TransitionOnCurve Transition(int I)
+		public IntCurveSurface_TransitionOnCurve Transition(int I)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State(int I)
+		public TopAbs_State State(int I)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_PaveClassifier
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepBuild_PaveClassifier : CascadeSharp.TopOpeBRepBuild_LoopClassifier
+	public  sealed class TopOpeBRepBuild_PaveClassifier : TopOpeBRepBuild_LoopClassifier
 	{
 
 		public TopOpeBRepBuild_PaveClassifier(TopoDS_Shape E)
@@ -30,7 +32,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Compare(TopOpeBRepBuild_Loop L1, TopOpeBRepBuild_Loop L2)
+		public TopAbs_State Compare(TopOpeBRepBuild_Loop L1, TopOpeBRepBuild_Loop L2)
 		{
 			throw new NotImplementedException();
 		}
@@ -45,17 +47,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public double AdjustCase(double p1, CascadeSharp.TopAbs_Orientation o, double first, double period, double tol, ref int cas)
+		public double AdjustCase(double p1, TopAbs_Orientation o, double first, double period, double tol, ref int cas)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State CompareOnNonPeriodic()
+		public TopAbs_State CompareOnNonPeriodic()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State CompareOnPeriodic()
+		public TopAbs_State CompareOnPeriodic()
 		{
 			throw new NotImplementedException();
 		}

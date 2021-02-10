@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CascadeSharp.TKMath
+﻿namespace CascadeSharp.TKMath
 {
     public class Class1
     {

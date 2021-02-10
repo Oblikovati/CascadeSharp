@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_TransformPers
@@ -13,25 +16,25 @@ namespace CascadeSharp
 	public  sealed class Graphic3d_TransformPers : Standard_Transient
 	{
 
-		public Graphic3d_TransformPers(CascadeSharp.Graphic3d_TransModeFlags theMode)
+		public Graphic3d_TransformPers(Graphic3d_TransModeFlags theMode)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_TransformPers(CascadeSharp.Graphic3d_TransModeFlags theMode, gp_Pnt thePnt)
+		public Graphic3d_TransformPers(Graphic3d_TransModeFlags theMode, gp_Pnt thePnt)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_TransformPers(CascadeSharp.Graphic3d_TransModeFlags theMode, CascadeSharp.Aspect_TypeOfTriedronPosition theCorner, Graphic3d_Vec2i theOffset)
+		public Graphic3d_TransformPers(Graphic3d_TransModeFlags theMode, Aspect_TypeOfTriedronPosition theCorner, Graphic3d_Vec2i theOffset)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_TransformPers(CascadeSharp.Graphic3d_TransModeFlags theMode, CascadeSharp.Aspect_TypeOfTriedronPosition theCorner)
+		public Graphic3d_TransformPers(Graphic3d_TransModeFlags theMode, Aspect_TypeOfTriedronPosition theCorner)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -53,17 +56,17 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public bool IsZoomOrRotate(CascadeSharp.Graphic3d_TransModeFlags theMode)
+						public bool IsZoomOrRotate(Graphic3d_TransModeFlags theMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsTrihedronOr2d(CascadeSharp.Graphic3d_TransModeFlags theMode)
+		public bool IsTrihedronOr2d(Graphic3d_TransModeFlags theMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_TransformPers FromDeprecatedParams(CascadeSharp.Graphic3d_TransModeFlags theFlag, gp_Pnt thePoint)
+		public Graphic3d_TransformPers FromDeprecatedParams(Graphic3d_TransModeFlags theFlag, gp_Pnt thePoint)
 		{
 			throw new NotImplementedException();
 		}
@@ -78,22 +81,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TransModeFlags Mode()
+		public Graphic3d_TransModeFlags Mode()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TransModeFlags Flags()
+		public Graphic3d_TransModeFlags Flags()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetPersistence(CascadeSharp.Graphic3d_TransModeFlags theMode, gp_Pnt thePnt)
+		public void SetPersistence(Graphic3d_TransModeFlags theMode, gp_Pnt thePnt)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetPersistence(CascadeSharp.Graphic3d_TransModeFlags theMode, CascadeSharp.Aspect_TypeOfTriedronPosition theCorner, Graphic3d_Vec2i theOffset)
+		public void SetPersistence(Graphic3d_TransModeFlags theMode, Aspect_TypeOfTriedronPosition theCorner, Graphic3d_Vec2i theOffset)
 		{
 			throw new NotImplementedException();
 		}
@@ -108,12 +111,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfTriedronPosition Corner2d()
+		public Aspect_TypeOfTriedronPosition Corner2d()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetCorner2d(CascadeSharp.Aspect_TypeOfTriedronPosition thePos)
+		public void SetCorner2d(Aspect_TypeOfTriedronPosition thePos)
 		{
 			throw new NotImplementedException();
 		}

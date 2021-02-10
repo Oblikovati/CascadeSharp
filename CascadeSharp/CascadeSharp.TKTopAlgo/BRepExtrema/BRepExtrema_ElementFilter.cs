@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKTopAlgo.BRepExtrema
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepExtrema_ElementFilter
@@ -25,7 +25,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepExtrema_ElementFilter.FilterResult PreCheckElements(int parameter1, int parameter2)
+		public FilterResult PreCheckElements(int parameter1, int parameter2)
 		{
 			throw new NotImplementedException();
 		}

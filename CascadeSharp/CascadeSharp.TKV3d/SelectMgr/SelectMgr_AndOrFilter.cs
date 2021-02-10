@@ -2,18 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_AndOrFilter
 	//---------------------------------------------------------------------
-	public  sealed class SelectMgr_AndOrFilter : CascadeSharp.SelectMgr_CompositionFilter
+	public  sealed class SelectMgr_AndOrFilter : SelectMgr_CompositionFilter
 	{
 
-		public SelectMgr_AndOrFilter(CascadeSharp.SelectMgr_FilterType theFilterType)
+		public SelectMgr_AndOrFilter(SelectMgr_FilterType theFilterType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -35,12 +35,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public CascadeSharp.SelectMgr_FilterType FilterType()
+				public SelectMgr_FilterType FilterType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetFilterType(CascadeSharp.SelectMgr_FilterType theFilterType)
+		public void SetFilterType(SelectMgr_FilterType theFilterType)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKMath.gp
 {
 	//---------------------------------------------------------------------
 	//  Class  gp_Quaternion
@@ -90,12 +90,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetEulerAngles(CascadeSharp.gp_EulerSequence theOrder, double theAlpha, double theBeta, double theGamma)
+		public void SetEulerAngles(gp_EulerSequence theOrder, double theAlpha, double theBeta, double theGamma)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GetEulerAngles(CascadeSharp.gp_EulerSequence theOrder, ref double theAlpha, ref double theBeta, ref double theGamma)
+		public void GetEulerAngles(gp_EulerSequence theOrder, ref double theAlpha, ref double theBeta, ref double theGamma)
 		{
 			throw new NotImplementedException();
 		}

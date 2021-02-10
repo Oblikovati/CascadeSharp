@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Structure
@@ -126,7 +130,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetVisual(CascadeSharp.Graphic3d_TypeOfStructure AV_isual)
+		public void SetVisual(Graphic3d_TypeOfStructure AV_isual)
 		{
 			throw new NotImplementedException();
 		}
@@ -241,12 +245,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfStructure Visual()
+		public Graphic3d_TypeOfStructure Visual()
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool AcceptConnection(Graphic3d_Structure theStructure1, Graphic3d_Structure theStructure2, CascadeSharp.Graphic3d_TypeOfConnection theType)
+		public bool AcceptConnection(Graphic3d_Structure theStructure1, Graphic3d_Structure theStructure2, Graphic3d_TypeOfConnection theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -256,12 +260,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Connect(Graphic3d_Structure theStructure, CascadeSharp.Graphic3d_TypeOfConnection theType, bool theWithCheck)
+		public void Connect(Graphic3d_Structure theStructure, Graphic3d_TypeOfConnection theType, bool theWithCheck)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Connect(Graphic3d_Structure theStructure, CascadeSharp.Graphic3d_TypeOfConnection theType)
+		public void Connect(Graphic3d_Structure theStructure, Graphic3d_TypeOfConnection theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -286,7 +290,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void DisconnectAll(CascadeSharp.Graphic3d_TypeOfConnection AType)
+		public void DisconnectAll(Graphic3d_TypeOfConnection AType)
 		{
 			throw new NotImplementedException();
 		}
@@ -351,7 +355,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfStructure ComputeVisual()
+		public Graphic3d_TypeOfStructure ComputeVisual()
 		{
 			throw new NotImplementedException();
 		}
@@ -381,17 +385,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void PrintNetwork(Graphic3d_Structure AStructure, CascadeSharp.Graphic3d_TypeOfConnection AType)
+		public void PrintNetwork(Graphic3d_Structure AStructure, Graphic3d_TypeOfConnection AType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Remove(Graphic3d_Structure thePtr, CascadeSharp.Graphic3d_TypeOfConnection theType)
+		public void Remove(Graphic3d_Structure thePtr, Graphic3d_TypeOfConnection theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetComputeVisual(CascadeSharp.Graphic3d_TypeOfStructure theV_isual)
+		public void SetComputeVisual(Graphic3d_TypeOfStructure theV_isual)
 		{
 			throw new NotImplementedException();
 		}

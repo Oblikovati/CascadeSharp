@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.gce
 {
 	//---------------------------------------------------------------------
 	//  Class  gce_MakeElips2d
 	//---------------------------------------------------------------------
-	public  sealed class gce_MakeElips2d : CascadeSharp.gce_Root
+	public  sealed class gce_MakeElips2d : gce_Root
 	{
 
 		public gce_MakeElips2d(gp_Ax2d MajorAx_is, double MajorRadius, double MinorRadius, bool Sense)

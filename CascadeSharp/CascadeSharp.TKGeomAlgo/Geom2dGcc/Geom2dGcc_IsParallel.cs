@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dGcc
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dGcc_IsParallel
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dGcc_IsParallel : CascadeSharp.Standard_DomainError
+	public  sealed class Geom2dGcc_IsParallel : Standard_DomainError
 	{
 
 		public Geom2dGcc_IsParallel()

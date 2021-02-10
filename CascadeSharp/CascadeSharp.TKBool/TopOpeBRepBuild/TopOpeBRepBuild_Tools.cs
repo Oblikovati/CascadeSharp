@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBool.TopOpeBRepTool;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_Tools
@@ -25,7 +31,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public CascadeSharp.TopAbs_State FindStateThroughVertex(TopoDS_Shape aShape, TopOpeBRepTool_ShapeClassifier aShapeClassifier, TopOpeBRepDS_IndexedDataMapOfShapeWithState aMapOfShapeWithState, TopTools_MapOfShape anAvoidSubshMap)
+						public TopAbs_State FindStateThroughVertex(TopoDS_Shape aShape, TopOpeBRepTool_ShapeClassifier aShapeClassifier, TopOpeBRepDS_IndexedDataMapOfShapeWithState aMapOfShapeWithState, TopTools_MapOfShape anAvoidSubshMap)
 		{
 			throw new NotImplementedException();
 		}
@@ -35,7 +41,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SpreadStateToChild(TopoDS_Shape aShape, CascadeSharp.TopAbs_State aState, TopOpeBRepDS_IndexedDataMapOfShapeWithState aMapOfShapeWithState)
+		public void SpreadStateToChild(TopoDS_Shape aShape, TopAbs_State aState, TopOpeBRepDS_IndexedDataMapOfShapeWithState aMapOfShapeWithState)
 		{
 			throw new NotImplementedException();
 		}

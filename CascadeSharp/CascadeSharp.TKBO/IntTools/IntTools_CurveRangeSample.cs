@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBO.IntTools
 {
 	//---------------------------------------------------------------------
 	//  Class  IntTools_CurveRangeSample
 	//---------------------------------------------------------------------
-	public  sealed class IntTools_CurveRangeSample : CascadeSharp.IntTools_BaseRangeSample
+	public  sealed class IntTools_CurveRangeSample : IntTools_BaseRangeSample
 	{
 
 		public IntTools_CurveRangeSample()

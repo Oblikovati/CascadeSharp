@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS
@@ -25,67 +27,67 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString SPrint(CascadeSharp.TopAbs_State S)
+		public TCollection_AsciiString SPrint(TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}
 
-				public TCollection_AsciiString SPrint(CascadeSharp.TopOpeBRepDS_Kind K)
+				public TCollection_AsciiString SPrint(TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString SPrint(CascadeSharp.TopOpeBRepDS_Kind K, int I, TCollection_AsciiString B, TCollection_AsciiString A)
+		public TCollection_AsciiString SPrint(TopOpeBRepDS_Kind K, int I, TCollection_AsciiString B, TCollection_AsciiString A)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString SPrint(CascadeSharp.TopOpeBRepDS_Kind K, int I, TCollection_AsciiString B)
+		public TCollection_AsciiString SPrint(TopOpeBRepDS_Kind K, int I, TCollection_AsciiString B)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString SPrint(CascadeSharp.TopOpeBRepDS_Kind K, int I)
+		public TCollection_AsciiString SPrint(TopOpeBRepDS_Kind K, int I)
 		{
 			throw new NotImplementedException();
 		}
 
-										public TCollection_AsciiString SPrint(CascadeSharp.TopAbs_ShapeEnum T)
+										public TCollection_AsciiString SPrint(TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString SPrint(CascadeSharp.TopAbs_ShapeEnum T, int I)
+		public TCollection_AsciiString SPrint(TopAbs_ShapeEnum T, int I)
 		{
 			throw new NotImplementedException();
 		}
 
-				public TCollection_AsciiString SPrint(CascadeSharp.TopAbs_Orientation O)
+				public TCollection_AsciiString SPrint(TopAbs_Orientation O)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString SPrint(CascadeSharp.TopOpeBRepDS_Config C)
+		public TCollection_AsciiString SPrint(TopOpeBRepDS_Config C)
 		{
 			throw new NotImplementedException();
 		}
 
-				public bool IsGeometry(CascadeSharp.TopOpeBRepDS_Kind K)
+				public bool IsGeometry(TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsTopology(CascadeSharp.TopOpeBRepDS_Kind K)
+		public bool IsTopology(TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum KindToShape(CascadeSharp.TopOpeBRepDS_Kind K)
+		public TopAbs_ShapeEnum KindToShape(TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Kind ShapeToKind(CascadeSharp.TopAbs_ShapeEnum S)
+		public TopOpeBRepDS_Kind ShapeToKind(TopAbs_ShapeEnum S)
 		{
 			throw new NotImplementedException();
 		}

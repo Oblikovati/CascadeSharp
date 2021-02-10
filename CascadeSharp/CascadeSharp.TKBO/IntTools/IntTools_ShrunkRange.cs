@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.Bnd;
+
+namespace CascadeSharp.TKBO.IntTools
 {
 	//---------------------------------------------------------------------
 	//  Class  IntTools_ShrunkRange

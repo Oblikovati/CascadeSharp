@@ -2,10 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_EdgesIntersector
@@ -180,7 +189,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRep_P2Dstatus Status1()
+		public TopOpeBRep_P2Dstatus Status1()
 		{
 			throw new NotImplementedException();
 		}
@@ -240,7 +249,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition Transition1(int Index, CascadeSharp.TopAbs_Orientation EO)
+		public TopOpeBRepDS_Transition Transition1(int Index, TopAbs_Orientation EO)
 		{
 			throw new NotImplementedException();
 		}
@@ -275,7 +284,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Config EdgesConfig1()
+		public TopOpeBRepDS_Config EdgesConfig1()
 		{
 			throw new NotImplementedException();
 		}

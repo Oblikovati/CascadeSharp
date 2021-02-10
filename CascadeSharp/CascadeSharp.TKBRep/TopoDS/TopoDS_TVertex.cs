@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBRep.TopoDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopoDS_TVertex
 	//---------------------------------------------------------------------
-	public  abstract class TopoDS_TVertex : CascadeSharp.TopoDS_TShape
+	public  abstract class TopoDS_TVertex : TopoDS_TShape
 	{
 
 		public TopoDS_TVertex()
@@ -25,7 +26,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class is abstract");
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum ShapeType()
+		public TopAbs_ShapeEnum ShapeType()
 		{
 			throw new NotImplementedException();
 		}

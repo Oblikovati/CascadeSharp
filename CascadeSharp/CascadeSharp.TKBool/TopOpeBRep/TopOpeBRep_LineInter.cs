@@ -2,10 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKGeomAlgo.IntPatch;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_LineInter
@@ -35,7 +42,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRep_TypeLineCurve TypeLineCurve()
+		public TopOpeBRep_TypeLineCurve TypeLineCurve()
 		{
 			throw new NotImplementedException();
 		}
@@ -135,22 +142,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_TypeTrans TransitionOnS1()
+		public IntSurf_TypeTrans TransitionOnS1()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_TypeTrans TransitionOnS2()
+		public IntSurf_TypeTrans TransitionOnS2()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_Situation SituationS1()
+		public IntSurf_Situation SituationS1()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_Situation SituationS2()
+		public IntSurf_Situation SituationS2()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_SpecialPoints
@@ -60,12 +64,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ContinueAfterSpecialPoint(Adaptor3d_HSurface theQSurf, Adaptor3d_HSurface thePSurf, IntSurf_PntOn2S theRefPt, CascadeSharp.IntPatch_SpecPntType theSPType, double theTol2D, IntSurf_PntOn2S theNewPoint, bool theIsReversed)
+		public bool ContinueAfterSpecialPoint(Adaptor3d_HSurface theQSurf, Adaptor3d_HSurface thePSurf, IntSurf_PntOn2S theRefPt, IntPatch_SpecPntType theSPType, double theTol2D, IntSurf_PntOn2S theNewPoint, bool theIsReversed)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool ContinueAfterSpecialPoint(Adaptor3d_HSurface theQSurf, Adaptor3d_HSurface thePSurf, IntSurf_PntOn2S theRefPt, CascadeSharp.IntPatch_SpecPntType theSPType, double theTol2D, IntSurf_PntOn2S theNewPoint)
+		public bool ContinueAfterSpecialPoint(Adaptor3d_HSurface theQSurf, Adaptor3d_HSurface thePSurf, IntSurf_PntOn2S theRefPt, IntPatch_SpecPntType theSPType, double theTol2D, IntSurf_PntOn2S theNewPoint)
 		{
 			throw new NotImplementedException();
 		}

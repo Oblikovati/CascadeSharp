@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GccInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GccInt_BHyper
 	//---------------------------------------------------------------------
-	public  sealed class GccInt_BHyper : CascadeSharp.GccInt_Bisec
+	public  sealed class GccInt_BHyper : GccInt_Bisec
 	{
 
 		public GccInt_BHyper(gp_Hypr2d Hyper)
@@ -35,7 +36,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccInt_IType ArcType()
+		public GccInt_IType ArcType()
 		{
 			throw new NotImplementedException();
 		}

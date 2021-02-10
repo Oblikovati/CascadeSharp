@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_UndefinedDerivative
 	//---------------------------------------------------------------------
-	public  sealed class Geom_UndefinedDerivative : CascadeSharp.Standard_DomainError
+	public  sealed class Geom_UndefinedDerivative : Standard_DomainError
 	{
 
 		public Geom_UndefinedDerivative()

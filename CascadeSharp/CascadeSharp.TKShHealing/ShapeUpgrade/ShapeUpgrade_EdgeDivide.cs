@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.TColStd;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_EdgeDivide
 	//---------------------------------------------------------------------
-	public  class ShapeUpgrade_EdgeDivide : CascadeSharp.ShapeUpgrade_Tool
+	public  class ShapeUpgrade_EdgeDivide : ShapeUpgrade_Tool
 	{
 
 		public ShapeUpgrade_EdgeDivide()

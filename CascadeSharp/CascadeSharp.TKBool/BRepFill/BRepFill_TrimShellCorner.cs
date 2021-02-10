@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.BOPDS;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_TrimShellCorner
@@ -13,7 +17,7 @@ namespace CascadeSharp
 	public  sealed class BRepFill_TrimShellCorner
 	{
 
-		public BRepFill_TrimShellCorner(TopTools_HArray2OfShape theFaces, CascadeSharp.BRepFill_TransitionStyle theTransition, gp_Ax2 theAxeOfB_isPlane)
+		public BRepFill_TrimShellCorner(TopTools_HArray2OfShape theFaces, BRepFill_TransitionStyle theTransition, gp_Ax2 theAxeOfB_isPlane)
 			: base()
 		{
 			throw new NotImplementedException();

@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBRep.BRepLProp
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepLProp_SurfaceTool

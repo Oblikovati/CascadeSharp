@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_Axis
 	//---------------------------------------------------------------------
-	public  sealed class AIS_Axis : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_Axis : AIS_InteractiveObject
 	{
 
 		public AIS_Axis(Geom_Line aComponent)
@@ -19,7 +22,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AIS_Axis(Geom_Axis2Placement aComponent, CascadeSharp.AIS_TypeOfAxis anAx_isType)
+		public AIS_Axis(Geom_Axis2Placement aComponent, AIS_TypeOfAxis anAx_isType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -62,7 +65,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetAxis2Placement(Geom_Axis2Placement aComponent, CascadeSharp.AIS_TypeOfAxis anAx_isType)
+		public void SetAxis2Placement(Geom_Axis2Placement aComponent, AIS_TypeOfAxis anAx_isType)
 		{
 			throw new NotImplementedException();
 		}
@@ -72,12 +75,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_TypeOfAxis TypeOfAxis()
+		public AIS_TypeOfAxis TypeOfAxis()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTypeOfAxis(CascadeSharp.AIS_TypeOfAxis theTypeAx_is)
+		public void SetTypeOfAxis(AIS_TypeOfAxis theTypeAx_is)
 		{
 			throw new NotImplementedException();
 		}
@@ -97,7 +100,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_KindOfInteractive Type()
+		public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}

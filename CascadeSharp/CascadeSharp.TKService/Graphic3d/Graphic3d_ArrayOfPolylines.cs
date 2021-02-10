@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_ArrayOfPolylines
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_ArrayOfPolylines : CascadeSharp.Graphic3d_ArrayOfPrimitives
+	public  sealed class Graphic3d_ArrayOfPolylines : Graphic3d_ArrayOfPrimitives
 	{
 
 		public Graphic3d_ArrayOfPolylines(int theMaxVertexs, int theMaxBounds, int theMaxEdges, int theArrayFlags)

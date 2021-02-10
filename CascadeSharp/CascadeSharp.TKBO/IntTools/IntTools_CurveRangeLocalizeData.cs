@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.Bnd;
+
+namespace CascadeSharp.TKBO.IntTools
 {
 	//---------------------------------------------------------------------
 	//  Class  IntTools_CurveRangeLocalizeData

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKG2d.Adaptor2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Adaptor2d_HOffsetCurve
 	//---------------------------------------------------------------------
-	public  sealed class Adaptor2d_HOffsetCurve : CascadeSharp.Adaptor2d_HCurve2d
+	public  sealed class Adaptor2d_HOffsetCurve : Adaptor2d_HCurve2d
 	{
 
 		public Adaptor2d_HOffsetCurve()

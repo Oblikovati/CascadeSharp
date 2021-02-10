@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.IntImp;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox
 	//---------------------------------------------------------------------
-	public  sealed class GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox : CascadeSharp.math_FunctionSetWithDerivatives
+	public  sealed class GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox : math_FunctionSetWithDerivatives
 	{
 
 		public GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox(Adaptor3d_HSurface S1, Adaptor3d_HSurface S2)
@@ -55,7 +60,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ComputeParameters(CascadeSharp.IntImp_ConstIsoparametric ChoixIso, TColStd_Array1OfReal Param, math_Vector UVap, math_Vector BornInf, math_Vector BornSup, math_Vector Tolerance)
+		public void ComputeParameters(IntImp_ConstIsoparametric ChoixIso, TColStd_Array1OfReal Param, math_Vector UVap, math_Vector BornInf, math_Vector BornSup, math_Vector Tolerance)
 		{
 			throw new NotImplementedException();
 		}
@@ -70,7 +75,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsTangent(math_Vector UVap, TColStd_Array1OfReal Param,  ref CascadeSharp.IntImp_ConstIsoparametric BestChoix)
+		public bool IsTangent(math_Vector UVap, TColStd_Array1OfReal Param,  ref IntImp_ConstIsoparametric BestChoix)
 		{
 			throw new NotImplementedException();
 		}

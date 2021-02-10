@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKGeomAlgo.GccEnt
 {
 	//---------------------------------------------------------------------
 	//  Class  GccEnt_Array1OfPosition
@@ -31,13 +31,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GccEnt_Array1OfPosition( ref CascadeSharp.GccEnt_Position theBegin, int theLower, int theUpper)
+		public GccEnt_Array1OfPosition( ref GccEnt_Position theBegin, int theLower, int theUpper)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-										public void Init( ref CascadeSharp.GccEnt_Position theValue)
+										public void Init( ref GccEnt_Position theValue)
 		{
 			throw new NotImplementedException();
 		}
@@ -87,37 +87,37 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position First()
+		public GccEnt_Position First()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position ChangeFirst()
+		public GccEnt_Position ChangeFirst()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position Last()
+		public GccEnt_Position Last()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position ChangeLast()
+		public GccEnt_Position ChangeLast()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position Value(int theIndex)
+		public GccEnt_Position Value(int theIndex)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position ChangeValue(int theIndex)
+		public GccEnt_Position ChangeValue(int theIndex)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetValue(int theIndex,  ref CascadeSharp.GccEnt_Position theItem)
+		public void SetValue(int theIndex,  ref GccEnt_Position theItem)
 		{
 			throw new NotImplementedException();
 		}

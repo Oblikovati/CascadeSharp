@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomBase.AdvApp2Var
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApp2Var_Iso
@@ -19,13 +22,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AdvApp2Var_Iso(CascadeSharp.GeomAbs_IsoType type, int iu, int iv)
+		public AdvApp2Var_Iso(GeomAbs_IsoType type, int iu, int iv)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AdvApp2Var_Iso(CascadeSharp.GeomAbs_IsoType type, double cte, double Ufirst, double Ulast, double Vfirst, double Vlast, int pos, int iu, int iv)
+		public AdvApp2Var_Iso(GeomAbs_IsoType type, double cte, double Ufirst, double Ulast, double Vfirst, double Vlast, int pos, int iu, int iv)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -87,7 +90,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_IsoType Type()
+		public GeomAbs_IsoType Type()
 		{
 			throw new NotImplementedException();
 		}

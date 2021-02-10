@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_FrameStats
@@ -75,12 +76,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public ulong CounterValue(CascadeSharp.Graphic3d_FrameStatsCounter theCounter)
+		public ulong CounterValue(Graphic3d_FrameStatsCounter theCounter)
 		{
 			throw new NotImplementedException();
 		}
 
-		public double TimerValue(CascadeSharp.Graphic3d_FrameStatsTimer theTimer)
+		public double TimerValue(Graphic3d_FrameStatsTimer theTimer)
 		{
 			throw new NotImplementedException();
 		}
@@ -105,12 +106,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public ulong ChangeCounter(CascadeSharp.Graphic3d_FrameStatsCounter theCounter)
+						public ulong ChangeCounter(Graphic3d_FrameStatsCounter theCounter)
 		{
 			throw new NotImplementedException();
 		}
 
-		public double ChangeTimer(CascadeSharp.Graphic3d_FrameStatsTimer theTimer)
+		public double ChangeTimer(Graphic3d_FrameStatsTimer theTimer)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomBase.AppParCurves;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomBase.AppDef
 {
 	//---------------------------------------------------------------------
 	//  Class  AppDef_MultiPointConstraint
 	//---------------------------------------------------------------------
-	public  sealed class AppDef_MultiPointConstraint : CascadeSharp.AppParCurves_MultiPoint
+	public  sealed class AppDef_MultiPointConstraint : AppParCurves_MultiPoint
 	{
 
 		public AppDef_MultiPointConstraint()

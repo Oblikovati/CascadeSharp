@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_SplitCurve3dContinuity
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_SplitCurve3dContinuity : CascadeSharp.ShapeUpgrade_SplitCurve3d
+	public  sealed class ShapeUpgrade_SplitCurve3dContinuity : ShapeUpgrade_SplitCurve3d
 	{
 
 		public ShapeUpgrade_SplitCurve3dContinuity()
@@ -25,7 +27,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetCriterion(CascadeSharp.GeomAbs_Shape Criterion)
+		public void SetCriterion(GeomAbs_Shape Criterion)
 		{
 			throw new NotImplementedException();
 		}

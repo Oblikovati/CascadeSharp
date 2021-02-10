@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKBO.BOPTools
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPTools_ConnexityBlock

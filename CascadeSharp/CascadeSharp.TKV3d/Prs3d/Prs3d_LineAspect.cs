@@ -2,18 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_LineAspect
 	//---------------------------------------------------------------------
-	public  class Prs3d_LineAspect : CascadeSharp.Prs3d_BasicAspect
+	public  class Prs3d_LineAspect : Prs3d_BasicAspect
 	{
 
-		public Prs3d_LineAspect(Quantity_Color theColor, CascadeSharp.Aspect_TypeOfLine theType, double theWidth)
+		public Prs3d_LineAspect(Quantity_Color theColor, Aspect_TypeOfLine theType, double theWidth)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -46,7 +49,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetTypeOfLine(CascadeSharp.Aspect_TypeOfLine theType)
+		public void SetTypeOfLine(Aspect_TypeOfLine theType)
 		{
 			throw new NotImplementedException();
 		}

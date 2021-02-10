@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.ProjLib
 {
 	//---------------------------------------------------------------------
 	//  Class  ProjLib_Torus
 	//---------------------------------------------------------------------
-	public  sealed class ProjLib_Torus : CascadeSharp.ProjLib_Projector
+	public  sealed class ProjLib_Torus : ProjLib_Projector
 	{
 
 		public ProjLib_Torus()

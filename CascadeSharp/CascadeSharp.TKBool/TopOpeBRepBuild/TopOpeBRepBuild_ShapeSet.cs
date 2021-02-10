@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_ShapeSet
@@ -13,13 +17,13 @@ namespace CascadeSharp
 	public  class TopOpeBRepBuild_ShapeSet
 	{
 
-		public TopOpeBRepBuild_ShapeSet(CascadeSharp.TopAbs_ShapeEnum SubShapeType, bool checkshape)
+		public TopOpeBRepBuild_ShapeSet(TopAbs_ShapeEnum SubShapeType, bool checkshape)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_ShapeSet(CascadeSharp.TopAbs_ShapeEnum SubShapeType)
+		public TopOpeBRepBuild_ShapeSet(TopAbs_ShapeEnum SubShapeType)
 			: base()
 		{
 			throw new NotImplementedException();

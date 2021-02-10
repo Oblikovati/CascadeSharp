@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopExp;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_ShapeExplorer
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepTool_ShapeExplorer : CascadeSharp.TopExp_Explorer
+	public  sealed class TopOpeBRepTool_ShapeExplorer : TopExp_Explorer
 	{
 
 		public TopOpeBRepTool_ShapeExplorer()
@@ -19,13 +22,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepTool_ShapeExplorer(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum ToFind, CascadeSharp.TopAbs_ShapeEnum ToAvoid)
+		public TopOpeBRepTool_ShapeExplorer(TopoDS_Shape S, TopAbs_ShapeEnum ToFind, TopAbs_ShapeEnum ToAvoid)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepTool_ShapeExplorer(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum ToFind)
+		public TopOpeBRepTool_ShapeExplorer(TopoDS_Shape S, TopAbs_ShapeEnum ToFind)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -37,12 +40,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Init(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum ToFind, CascadeSharp.TopAbs_ShapeEnum ToAvoid)
+		public void Init(TopoDS_Shape S, TopAbs_ShapeEnum ToFind, TopAbs_ShapeEnum ToAvoid)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum ToFind)
+		public void Init(TopoDS_Shape S, TopAbs_ShapeEnum ToFind)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKShHealing.ShapeExtend
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeExtend_ComplexCurve
 	//---------------------------------------------------------------------
-	public  abstract class ShapeExtend_ComplexCurve : CascadeSharp.Geom_Curve
+	public  abstract class ShapeExtend_ComplexCurve : Geom_Curve
 	{
 
 		public ShapeExtend_ComplexCurve()
@@ -75,7 +78,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}

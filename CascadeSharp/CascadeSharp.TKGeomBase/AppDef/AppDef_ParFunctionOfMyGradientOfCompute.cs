@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomBase.AppParCurves;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.AppDef
 {
 	//---------------------------------------------------------------------
 	//  Class  AppDef_ParFunctionOfMyGradientOfCompute
 	//---------------------------------------------------------------------
-	public  sealed class AppDef_ParFunctionOfMyGradientOfCompute : CascadeSharp.math_MultipleVarFunctionWithGradient
+	public  sealed class AppDef_ParFunctionOfMyGradientOfCompute : math_MultipleVarFunctionWithGradient
 	{
 
 		public AppDef_ParFunctionOfMyGradientOfCompute(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, int Deg)
@@ -75,12 +77,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AppParCurves_Constraint FirstConstraint(AppParCurves_HArray1OfConstraintCouple TheConstraints, int FirstPoint)
+		public AppParCurves_Constraint FirstConstraint(AppParCurves_HArray1OfConstraintCouple TheConstraints, int FirstPoint)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AppParCurves_Constraint LastConstraint(AppParCurves_HArray1OfConstraintCouple TheConstraints, int LastPoint)
+		public AppParCurves_Constraint LastConstraint(AppParCurves_HArray1OfConstraintCouple TheConstraints, int LastPoint)
 		{
 			throw new NotImplementedException();
 		}

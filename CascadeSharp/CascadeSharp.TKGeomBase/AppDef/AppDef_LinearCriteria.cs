@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKGeomBase.FEmTool;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.AppDef
 {
 	//---------------------------------------------------------------------
 	//  Class  AppDef_LinearCriteria
 	//---------------------------------------------------------------------
-	public  sealed class AppDef_LinearCriteria : CascadeSharp.AppDef_SmoothCriterion
+	public  sealed class AppDef_LinearCriteria : AppDef_SmoothCriterion
 	{
 
 		public AppDef_LinearCriteria(AppDef_MultiLine SSP, int FirstPoint, int LastPoint)

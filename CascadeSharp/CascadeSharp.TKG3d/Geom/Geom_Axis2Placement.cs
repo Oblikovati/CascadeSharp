@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_Axis2Placement
 	//---------------------------------------------------------------------
-	public  sealed class Geom_Axis2Placement : CascadeSharp.Geom_AxisPlacement
+	public  sealed class Geom_Axis2Placement : Geom_AxisPlacement
 	{
 
 		public Geom_Axis2Placement(gp_Ax2 A2)

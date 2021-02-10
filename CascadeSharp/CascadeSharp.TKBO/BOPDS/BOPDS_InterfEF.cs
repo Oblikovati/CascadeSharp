@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.IntTools;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKBO.BOPDS
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPDS_InterfEF
 	//---------------------------------------------------------------------
-	public  sealed class BOPDS_InterfEF : CascadeSharp.BOPDS_Interf
+	public  sealed class BOPDS_InterfEF : BOPDS_Interf
 	{
 
 		public BOPDS_InterfEF()

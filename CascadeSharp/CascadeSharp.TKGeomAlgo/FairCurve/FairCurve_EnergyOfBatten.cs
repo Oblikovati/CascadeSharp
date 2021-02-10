@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.FairCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  FairCurve_EnergyOfBatten
 	//---------------------------------------------------------------------
-	public  sealed class FairCurve_EnergyOfBatten : CascadeSharp.FairCurve_Energy
+	public  sealed class FairCurve_EnergyOfBatten : FairCurve_Energy
 	{
 
 		public FairCurve_EnergyOfBatten(int BSplOrder, TColStd_HArray1OfReal FlatKnots, TColgp_HArray1OfPnt2d Poles, int ContrOrder1, int ContrOrder2, FairCurve_BattenLaw Law, double LengthSliding, bool FreeSliding, double Angle1, double Angle2)
@@ -53,7 +56,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.FairCurve_AnalysisCode Status()
+		public FairCurve_AnalysisCode Status()
 		{
 			throw new NotImplementedException();
 		}

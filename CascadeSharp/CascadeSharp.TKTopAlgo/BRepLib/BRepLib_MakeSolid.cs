@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKTopAlgo.BRepLib
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepLib_MakeSolid
 	//---------------------------------------------------------------------
-	public  sealed class BRepLib_MakeSolid : CascadeSharp.BRepLib_MakeShape
+	public  sealed class BRepLib_MakeSolid : BRepLib_MakeShape
 	{
 
 		public BRepLib_MakeSolid()
@@ -71,7 +72,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepLib_ShapeModification FaceStatus(TopoDS_Face F)
+		public BRepLib_ShapeModification FaceStatus(TopoDS_Face F)
 		{
 			throw new NotImplementedException();
 		}

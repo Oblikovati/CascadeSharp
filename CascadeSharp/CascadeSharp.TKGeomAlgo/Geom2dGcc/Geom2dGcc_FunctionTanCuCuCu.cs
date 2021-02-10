@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dGcc
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dGcc_FunctionTanCuCuCu
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dGcc_FunctionTanCuCuCu : CascadeSharp.math_FunctionSetWithDerivatives
+	public  sealed class Geom2dGcc_FunctionTanCuCuCu : math_FunctionSetWithDerivatives
 	{
 
 		public Geom2dGcc_FunctionTanCuCuCu(Geom2dAdaptor_Curve C1, Geom2dAdaptor_Curve C2, Geom2dAdaptor_Curve C3)

@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepTool;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_BuildTool
@@ -19,7 +24,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_BuildTool(CascadeSharp.TopOpeBRepTool_OutCurveType OutCurveType)
+		public TopOpeBRepDS_BuildTool(TopOpeBRepTool_OutCurveType OutCurveType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -197,12 +202,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Orientation(TopoDS_Shape S, CascadeSharp.TopAbs_Orientation O)
+		public void Orientation(TopoDS_Shape S, TopAbs_Orientation O)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(TopoDS_Shape S)
+		public TopAbs_Orientation Orientation(TopoDS_Shape S)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKService.Image
 {
 	//---------------------------------------------------------------------
 	//  Class  Image_SupportedFormats
@@ -30,12 +31,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public bool IsSupported(CascadeSharp.Image_Format theFormat)
+						public bool IsSupported(Image_Format theFormat)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Add(CascadeSharp.Image_Format theFormat)
+		public void Add(Image_Format theFormat)
 		{
 			throw new NotImplementedException();
 		}
@@ -45,12 +46,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsSupported(CascadeSharp.Image_CompressedFormat theFormat)
+		public bool IsSupported(Image_CompressedFormat theFormat)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Add(CascadeSharp.Image_CompressedFormat theFormat)
+		public void Add(Image_CompressedFormat theFormat)
 		{
 			throw new NotImplementedException();
 		}

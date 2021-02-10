@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d
@@ -25,7 +27,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public gp_Dir GetProjAxis(CascadeSharp.V3d_TypeOfOrientation theOrientation)
+		public gp_Dir GetProjAxis(V3d_TypeOfOrientation theOrientation)
 		{
 			throw new NotImplementedException();
 		}
@@ -45,17 +47,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public string TypeOfOrientationToString(CascadeSharp.V3d_TypeOfOrientation theType)
+		public string TypeOfOrientationToString(V3d_TypeOfOrientation theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.V3d_TypeOfOrientation TypeOfOrientationFromString(string theTypeString)
+		public V3d_TypeOfOrientation TypeOfOrientationFromString(string theTypeString)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool TypeOfOrientationFromString(string theTypeString,  ref CascadeSharp.V3d_TypeOfOrientation theType)
+		public bool TypeOfOrientationFromString(string theTypeString,  ref V3d_TypeOfOrientation theType)
 		{
 			throw new NotImplementedException();
 		}

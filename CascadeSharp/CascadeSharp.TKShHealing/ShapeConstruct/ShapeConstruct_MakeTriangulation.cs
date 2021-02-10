@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKTopAlgo.BRepBuilderAPI;
+
+namespace CascadeSharp.TKShHealing.ShapeConstruct
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeConstruct_MakeTriangulation
 	//---------------------------------------------------------------------
-	public  sealed class ShapeConstruct_MakeTriangulation : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  sealed class ShapeConstruct_MakeTriangulation : BRepBuilderAPI_MakeShape
 	{
 
 		public ShapeConstruct_MakeTriangulation(TColgp_Array1OfPnt pnts, double prec)

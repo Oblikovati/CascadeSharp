@@ -2,10 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepLib
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepLib
@@ -65,17 +73,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool BuildCurve3d(TopoDS_Edge E, double Tolerance, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree, int MaxSegment)
+		public bool BuildCurve3d(TopoDS_Edge E, double Tolerance, GeomAbs_Shape Continuity, int MaxDegree, int MaxSegment)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildCurve3d(TopoDS_Edge E, double Tolerance, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree)
+		public bool BuildCurve3d(TopoDS_Edge E, double Tolerance, GeomAbs_Shape Continuity, int MaxDegree)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildCurve3d(TopoDS_Edge E, double Tolerance, CascadeSharp.GeomAbs_Shape Continuity)
+		public bool BuildCurve3d(TopoDS_Edge E, double Tolerance, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}
@@ -90,17 +98,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool BuildCurves3d(TopoDS_Shape S, double Tolerance, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree, int MaxSegment)
+		public bool BuildCurves3d(TopoDS_Shape S, double Tolerance, GeomAbs_Shape Continuity, int MaxDegree, int MaxSegment)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildCurves3d(TopoDS_Shape S, double Tolerance, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree)
+		public bool BuildCurves3d(TopoDS_Shape S, double Tolerance, GeomAbs_Shape Continuity, int MaxDegree)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildCurves3d(TopoDS_Shape S, double Tolerance, CascadeSharp.GeomAbs_Shape Continuity)
+		public bool BuildCurves3d(TopoDS_Shape S, double Tolerance, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}

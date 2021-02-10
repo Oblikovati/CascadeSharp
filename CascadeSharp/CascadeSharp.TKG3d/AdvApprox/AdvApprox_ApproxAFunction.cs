@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKG3d.AdvApprox
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApprox_ApproxAFunction
@@ -13,13 +16,13 @@ namespace CascadeSharp
 	public  sealed class AdvApprox_ApproxAFunction
 	{
 
-		public AdvApprox_ApproxAFunction(int Num1DSS, int Num2DSS, int Num3DSS, TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, double First, double Last, CascadeSharp.GeomAbs_Shape Continuity, int MaxDeg, int MaxSeg, AdvApprox_EvaluatorFunction Func)
+		public AdvApprox_ApproxAFunction(int Num1DSS, int Num2DSS, int Num3DSS, TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, double First, double Last, GeomAbs_Shape Continuity, int MaxDeg, int MaxSeg, AdvApprox_EvaluatorFunction Func)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AdvApprox_ApproxAFunction(int Num1DSS, int Num2DSS, int Num3DSS, TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, double First, double Last, CascadeSharp.GeomAbs_Shape Continuity, int MaxDeg, int MaxSeg, AdvApprox_EvaluatorFunction Func, AdvApprox_Cutting CutTool)
+		public AdvApprox_ApproxAFunction(int Num1DSS, int Num2DSS, int Num3DSS, TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, double First, double Last, GeomAbs_Shape Continuity, int MaxDeg, int MaxSeg, AdvApprox_EvaluatorFunction Func, AdvApprox_Cutting CutTool)
 			: base()
 		{
 			throw new NotImplementedException();

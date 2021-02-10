@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_PointCloud
 	//---------------------------------------------------------------------
-	public  sealed class AIS_PointCloud : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_PointCloud : AIS_InteractiveObject
 	{
 
 		public AIS_PointCloud()

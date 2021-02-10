@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_Fixed
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_Fixed : CascadeSharp.GeomFill_TrihedronLaw
+	public  sealed class GeomFill_Fixed : GeomFill_TrihedronLaw
 	{
 
 		public GeomFill_Fixed(gp_Vec Tangent, gp_Vec Normal)
@@ -50,12 +53,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

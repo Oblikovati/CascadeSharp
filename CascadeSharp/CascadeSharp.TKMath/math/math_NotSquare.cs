@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKMath.math
 {
 	//---------------------------------------------------------------------
 	//  Class  math_NotSquare
 	//---------------------------------------------------------------------
-	public  sealed class math_NotSquare : CascadeSharp.Standard_DimensionError
+	public  sealed class math_NotSquare : Standard_DimensionError
 	{
 
 		public math_NotSquare()

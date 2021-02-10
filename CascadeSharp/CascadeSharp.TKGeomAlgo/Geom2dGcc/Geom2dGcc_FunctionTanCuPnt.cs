@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dGcc
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dGcc_FunctionTanCuPnt
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dGcc_FunctionTanCuPnt : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class Geom2dGcc_FunctionTanCuPnt : math_FunctionWithDerivative
 	{
 
 		public Geom2dGcc_FunctionTanCuPnt(Geom2dAdaptor_Curve C, gp_Pnt2d Point)

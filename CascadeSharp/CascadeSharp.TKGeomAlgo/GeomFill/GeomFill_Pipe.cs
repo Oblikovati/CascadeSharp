@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TColGeom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_Pipe
@@ -25,7 +31,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GeomFill_Pipe(Geom_Curve Path, Geom_Curve FirstSect, CascadeSharp.GeomFill_Trihedron Option)
+		public GeomFill_Pipe(Geom_Curve Path, Geom_Curve FirstSect, GeomFill_Trihedron Option)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -90,7 +96,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Init(Geom_Curve Path, Geom_Curve FirstSect, CascadeSharp.GeomFill_Trihedron Option)
+		public void Init(Geom_Curve Path, Geom_Curve FirstSect, GeomFill_Trihedron Option)
 		{
 			throw new NotImplementedException();
 		}
@@ -145,17 +151,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(double Tol, bool Polynomial, CascadeSharp.GeomAbs_Shape Conti, int MaxDegree, int NbMaxSegment)
+		public void Perform(double Tol, bool Polynomial, GeomAbs_Shape Conti, int MaxDegree, int NbMaxSegment)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(double Tol, bool Polynomial, CascadeSharp.GeomAbs_Shape Conti, int MaxDegree)
+		public void Perform(double Tol, bool Polynomial, GeomAbs_Shape Conti, int MaxDegree)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(double Tol, bool Polynomial, CascadeSharp.GeomAbs_Shape Conti)
+		public void Perform(double Tol, bool Polynomial, GeomAbs_Shape Conti)
 		{
 			throw new NotImplementedException();
 		}

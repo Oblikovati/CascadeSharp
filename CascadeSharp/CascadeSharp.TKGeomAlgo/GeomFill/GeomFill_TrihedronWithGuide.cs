@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_TrihedronWithGuide
 	//---------------------------------------------------------------------
-	public  abstract class GeomFill_TrihedronWithGuide : CascadeSharp.GeomFill_TrihedronLaw
+	public  abstract class GeomFill_TrihedronWithGuide : GeomFill_TrihedronLaw
 	{
 
 		public GeomFill_TrihedronWithGuide(GeomFill_TrihedronWithGuide parameter1)

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GC
 {
 	//---------------------------------------------------------------------
 	//  Class  GC_MakeTrimmedCylinder
 	//---------------------------------------------------------------------
-	public  sealed class GC_MakeTrimmedCylinder : CascadeSharp.GC_Root
+	public  sealed class GC_MakeTrimmedCylinder : GC_Root
 	{
 
 		public GC_MakeTrimmedCylinder(gp_Pnt P1, gp_Pnt P2, gp_Pnt P3)

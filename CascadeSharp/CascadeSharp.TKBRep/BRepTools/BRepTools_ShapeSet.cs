@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRep;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBRep.BRepTools
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepTools_ShapeSet
 	//---------------------------------------------------------------------
-	public  sealed class BRepTools_ShapeSet : CascadeSharp.TopTools_ShapeSet
+	public  sealed class BRepTools_ShapeSet : TopTools_ShapeSet
 	{
 
 		public BRepTools_ShapeSet(bool _isWithTriangles)
@@ -57,7 +61,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Check(CascadeSharp.TopAbs_ShapeEnum T, TopoDS_Shape S)
+		public void Check(TopAbs_ShapeEnum T, TopoDS_Shape S)
 		{
 			throw new NotImplementedException();
 		}

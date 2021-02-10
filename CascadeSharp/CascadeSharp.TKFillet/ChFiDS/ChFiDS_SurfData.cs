@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_SurfData
@@ -65,7 +68,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation()
+		public TopAbs_Orientation Orientation()
 		{
 			throw new NotImplementedException();
 		}
@@ -125,7 +128,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation ChangeOrientation()
+		public TopAbs_Orientation ChangeOrientation()
 		{
 			throw new NotImplementedException();
 		}

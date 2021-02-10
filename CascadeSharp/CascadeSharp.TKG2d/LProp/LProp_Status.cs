@@ -2,10 +2,8 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+namespace CascadeSharp.TKG2d.LProp
 {
 	//---------------------------------------------------------------------
 	//  Enum  LProp_Status

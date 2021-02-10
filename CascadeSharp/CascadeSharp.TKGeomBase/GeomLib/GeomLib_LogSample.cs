@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.GeomLib
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomLib_LogSample
 	//---------------------------------------------------------------------
-	public  sealed class GeomLib_LogSample : CascadeSharp.math_FunctionSample
+	public  sealed class GeomLib_LogSample : math_FunctionSample
 	{
 
 		public GeomLib_LogSample(double A, double B, int N)

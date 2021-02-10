@@ -2,10 +2,8 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Enum  TopOpeBRepDS_Config

@@ -2,15 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.Prs3d;
+using CascadeSharp.TKV3d.SelectMgr;
+using CascadeSharp.TKV3d.V3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_ViewCube
 	//---------------------------------------------------------------------
-	public  class AIS_ViewCube : CascadeSharp.AIS_InteractiveObject
+	public  class AIS_ViewCube : AIS_InteractiveObject
 	{
 
 		public AIS_ViewCube()
@@ -30,17 +37,17 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public bool IsBoxSide(CascadeSharp.V3d_TypeOfOrientation theOrient)
+						public bool IsBoxSide(V3d_TypeOfOrientation theOrient)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsBoxEdge(CascadeSharp.V3d_TypeOfOrientation theOrient)
+		public bool IsBoxEdge(V3d_TypeOfOrientation theOrient)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsBoxCorner(CascadeSharp.V3d_TypeOfOrientation theOrient)
+		public bool IsBoxCorner(V3d_TypeOfOrientation theOrient)
 		{
 			throw new NotImplementedException();
 		}
@@ -285,12 +292,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString BoxSideLabel(CascadeSharp.V3d_TypeOfOrientation theSide)
+		public TCollection_AsciiString BoxSideLabel(V3d_TypeOfOrientation theSide)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBoxSideLabel(CascadeSharp.V3d_TypeOfOrientation theSide, TCollection_AsciiString theLabel)
+		public void SetBoxSideLabel(V3d_TypeOfOrientation theSide, TCollection_AsciiString theLabel)
 		{
 			throw new NotImplementedException();
 		}
@@ -325,7 +332,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString AxisLabel(CascadeSharp.Prs3d_DatumParts theAx_is)
+		public TCollection_AsciiString AxisLabel(Prs3d_DatumParts theAx_is)
 		{
 			throw new NotImplementedException();
 		}
@@ -470,22 +477,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void createBoxPartTriangles(Graphic3d_ArrayOfTriangles theTr_is, ref int theNbNodes, ref int theNbTr_is, CascadeSharp.V3d_TypeOfOrientation theDir)
+		public void createBoxPartTriangles(Graphic3d_ArrayOfTriangles theTr_is, ref int theNbNodes, ref int theNbTr_is, V3d_TypeOfOrientation theDir)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void createBoxSideTriangles(Graphic3d_ArrayOfTriangles theTr_is, ref int theNbNodes, ref int theNbTr_is, CascadeSharp.V3d_TypeOfOrientation theDir)
+		public void createBoxSideTriangles(Graphic3d_ArrayOfTriangles theTr_is, ref int theNbNodes, ref int theNbTr_is, V3d_TypeOfOrientation theDir)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void createBoxEdgeTriangles(Graphic3d_ArrayOfTriangles theTr_is, ref int theNbNodes, ref int theNbTr_is, CascadeSharp.V3d_TypeOfOrientation theDir)
+		public void createBoxEdgeTriangles(Graphic3d_ArrayOfTriangles theTr_is, ref int theNbNodes, ref int theNbTr_is, V3d_TypeOfOrientation theDir)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void createBoxCornerTriangles(Graphic3d_ArrayOfTriangles theTr_is, ref int theNbNodes, ref int theNbTr_is, CascadeSharp.V3d_TypeOfOrientation theDir)
+		public void createBoxCornerTriangles(Graphic3d_ArrayOfTriangles theTr_is, ref int theNbNodes, ref int theNbTr_is, V3d_TypeOfOrientation theDir)
 		{
 			throw new NotImplementedException();
 		}

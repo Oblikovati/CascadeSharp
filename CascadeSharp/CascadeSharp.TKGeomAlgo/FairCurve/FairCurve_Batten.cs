@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.FairCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  FairCurve_Batten
@@ -86,17 +88,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Compute( ref CascadeSharp.FairCurve_AnalysisCode Code, int NbIterations, double Tolerance)
+		public bool Compute( ref FairCurve_AnalysisCode Code, int NbIterations, double Tolerance)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Compute( ref CascadeSharp.FairCurve_AnalysisCode Code, int NbIterations)
+		public bool Compute( ref FairCurve_AnalysisCode Code, int NbIterations)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Compute( ref CascadeSharp.FairCurve_AnalysisCode Code)
+		public bool Compute( ref FairCurve_AnalysisCode Code)
 		{
 			throw new NotImplementedException();
 		}
@@ -176,7 +178,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Compute(gp_Vec2d DeltaP1, gp_Vec2d DeltaP2, double DeltaAngle1, double DeltaAngle2,  ref CascadeSharp.FairCurve_AnalysisCode ACode, int NbIterations, double Tolerance)
+		public bool Compute(gp_Vec2d DeltaP1, gp_Vec2d DeltaP2, double DeltaAngle1, double DeltaAngle2,  ref FairCurve_AnalysisCode ACode, int NbIterations, double Tolerance)
 		{
 			throw new NotImplementedException();
 		}

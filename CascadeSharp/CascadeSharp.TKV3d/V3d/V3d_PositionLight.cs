@@ -2,18 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d_PositionLight
 	//---------------------------------------------------------------------
-	public  class V3d_PositionLight : CascadeSharp.Graphic3d_CLight
+	public  class V3d_PositionLight : Graphic3d_CLight
 	{
 
-		public V3d_PositionLight(CascadeSharp.Graphic3d_TypeOfLightSource theType)
+		public V3d_PositionLight(Graphic3d_TypeOfLightSource theType)
 			: base()
 		{
 			throw new NotImplementedException();

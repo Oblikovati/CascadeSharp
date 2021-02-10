@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_BezierCurves
@@ -19,19 +20,19 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GeomFill_BezierCurves(Geom_BezierCurve C1, Geom_BezierCurve C2, Geom_BezierCurve C3, Geom_BezierCurve C4, CascadeSharp.GeomFill_FillingStyle Type)
+		public GeomFill_BezierCurves(Geom_BezierCurve C1, Geom_BezierCurve C2, Geom_BezierCurve C3, Geom_BezierCurve C4, GeomFill_FillingStyle Type)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomFill_BezierCurves(Geom_BezierCurve C1, Geom_BezierCurve C2, Geom_BezierCurve C3, CascadeSharp.GeomFill_FillingStyle Type)
+		public GeomFill_BezierCurves(Geom_BezierCurve C1, Geom_BezierCurve C2, Geom_BezierCurve C3, GeomFill_FillingStyle Type)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomFill_BezierCurves(Geom_BezierCurve C1, Geom_BezierCurve C2, CascadeSharp.GeomFill_FillingStyle Type)
+		public GeomFill_BezierCurves(Geom_BezierCurve C1, Geom_BezierCurve C2, GeomFill_FillingStyle Type)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -43,17 +44,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Init(Geom_BezierCurve C1, Geom_BezierCurve C2, Geom_BezierCurve C3, Geom_BezierCurve C4, CascadeSharp.GeomFill_FillingStyle Type)
+		public void Init(Geom_BezierCurve C1, Geom_BezierCurve C2, Geom_BezierCurve C3, Geom_BezierCurve C4, GeomFill_FillingStyle Type)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(Geom_BezierCurve C1, Geom_BezierCurve C2, Geom_BezierCurve C3, CascadeSharp.GeomFill_FillingStyle Type)
+		public void Init(Geom_BezierCurve C1, Geom_BezierCurve C2, Geom_BezierCurve C3, GeomFill_FillingStyle Type)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(Geom_BezierCurve C1, Geom_BezierCurve C2, CascadeSharp.GeomFill_FillingStyle Type)
+		public void Init(Geom_BezierCurve C1, Geom_BezierCurve C2, GeomFill_FillingStyle Type)
 		{
 			throw new NotImplementedException();
 		}

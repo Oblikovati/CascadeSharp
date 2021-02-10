@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBRep.TopoDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopoDS_TCompSolid
 	//---------------------------------------------------------------------
-	public  sealed class TopoDS_TCompSolid : CascadeSharp.TopoDS_TShape
+	public  sealed class TopoDS_TCompSolid : TopoDS_TShape
 	{
 
 		public TopoDS_TCompSolid()
@@ -25,7 +26,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum ShapeType()
+		public TopAbs_ShapeEnum ShapeType()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Texture2Dplane
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_Texture2Dplane : CascadeSharp.Graphic3d_Texture2D
+	public  sealed class Graphic3d_Texture2Dplane : Graphic3d_Texture2D
 	{
 
 		public Graphic3d_Texture2Dplane(TCollection_AsciiString theFileName)
@@ -19,7 +21,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_Texture2Dplane(CascadeSharp.Graphic3d_NameOfTexture2D theNOT)
+		public Graphic3d_Texture2Dplane(Graphic3d_NameOfTexture2D theNOT)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -52,7 +54,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetPlane(CascadeSharp.Graphic3d_NameOfTexturePlane thePlane)
+		public void SetPlane(Graphic3d_NameOfTexturePlane thePlane)
 		{
 			throw new NotImplementedException();
 		}
@@ -82,7 +84,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_NameOfTexturePlane Plane()
+		public Graphic3d_NameOfTexturePlane Plane()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKFeat.LocOpe
 {
 	//---------------------------------------------------------------------
 	//  Class  LocOpe_GluedShape
 	//---------------------------------------------------------------------
-	public  sealed class LocOpe_GluedShape : CascadeSharp.LocOpe_GeneratedShape
+	public  sealed class LocOpe_GluedShape : LocOpe_GeneratedShape
 	{
 
 		public LocOpe_GluedShape()

@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKPrim.BRepPrim
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepPrim_Revolution
 	//---------------------------------------------------------------------
-	public  class BRepPrim_Revolution : CascadeSharp.BRepPrim_OneAxis
+	public  class BRepPrim_Revolution : BRepPrim_OneAxis
 	{
 
 		public BRepPrim_Revolution(gp_Ax2 A, double VMin, double VMax, Geom_Curve M, Geom2d_Curve PM)

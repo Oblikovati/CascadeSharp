@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKMath.math
 {
 	//---------------------------------------------------------------------
 	//  Class  math_TrigonometricEquationFunction
 	//---------------------------------------------------------------------
-	public  sealed class math_TrigonometricEquationFunction : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class math_TrigonometricEquationFunction : math_FunctionWithDerivative
 	{
 
 		public math_TrigonometricEquationFunction(double A, double B, double C, double D, double E)

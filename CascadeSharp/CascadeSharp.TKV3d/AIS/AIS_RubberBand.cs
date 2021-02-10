@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_RubberBand
 	//---------------------------------------------------------------------
-	public  sealed class AIS_RubberBand : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_RubberBand : AIS_InteractiveObject
 	{
 
 		public AIS_RubberBand()
@@ -19,43 +23,43 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AIS_RubberBand(Quantity_Color theLineColor, CascadeSharp.Aspect_TypeOfLine theType, double theLineWidth, bool theIsPolygonClosed)
+		public AIS_RubberBand(Quantity_Color theLineColor, Aspect_TypeOfLine theType, double theLineWidth, bool theIsPolygonClosed)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_RubberBand(Quantity_Color theLineColor, CascadeSharp.Aspect_TypeOfLine theType, double theLineWidth)
+		public AIS_RubberBand(Quantity_Color theLineColor, Aspect_TypeOfLine theType, double theLineWidth)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_RubberBand(Quantity_Color theLineColor, CascadeSharp.Aspect_TypeOfLine theType)
+		public AIS_RubberBand(Quantity_Color theLineColor, Aspect_TypeOfLine theType)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_RubberBand(Quantity_Color theLineColor, CascadeSharp.Aspect_TypeOfLine theType, Quantity_Color theFillColor, double theTransparency, double theLineWidth, bool theIsPolygonClosed)
+		public AIS_RubberBand(Quantity_Color theLineColor, Aspect_TypeOfLine theType, Quantity_Color theFillColor, double theTransparency, double theLineWidth, bool theIsPolygonClosed)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_RubberBand(Quantity_Color theLineColor, CascadeSharp.Aspect_TypeOfLine theType, Quantity_Color theFillColor, double theTransparency, double theLineWidth)
+		public AIS_RubberBand(Quantity_Color theLineColor, Aspect_TypeOfLine theType, Quantity_Color theFillColor, double theTransparency, double theLineWidth)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_RubberBand(Quantity_Color theLineColor, CascadeSharp.Aspect_TypeOfLine theType, Quantity_Color theFillColor, double theTransparency)
+		public AIS_RubberBand(Quantity_Color theLineColor, Aspect_TypeOfLine theType, Quantity_Color theFillColor, double theTransparency)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_RubberBand(Quantity_Color theLineColor, CascadeSharp.Aspect_TypeOfLine theType, Quantity_Color theFillColor)
+		public AIS_RubberBand(Quantity_Color theLineColor, Aspect_TypeOfLine theType, Quantity_Color theFillColor)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -122,12 +126,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetLineType(CascadeSharp.Aspect_TypeOfLine theType)
+		public void SetLineType(Aspect_TypeOfLine theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfLine LineType()
+		public Aspect_TypeOfLine LineType()
 		{
 			throw new NotImplementedException();
 		}

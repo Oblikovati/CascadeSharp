@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.Law
 {
 	//---------------------------------------------------------------------
 	//  Class  Law_Interpol
 	//---------------------------------------------------------------------
-	public  sealed class Law_Interpol : CascadeSharp.Law_BSpFunc
+	public  sealed class Law_Interpol : Law_BSpFunc
 	{
 
 		public Law_Interpol()

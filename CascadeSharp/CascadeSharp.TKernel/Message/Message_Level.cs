@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_Level
@@ -40,7 +41,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool AddAlert(CascadeSharp.Message_Gravity theGravity, Message_Alert theAlert)
+		public bool AddAlert(Message_Gravity theGravity, Message_Alert theAlert)
 		{
 			throw new NotImplementedException();
 		}

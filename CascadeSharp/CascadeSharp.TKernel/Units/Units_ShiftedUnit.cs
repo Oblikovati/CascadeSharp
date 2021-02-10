@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Units
 {
 	//---------------------------------------------------------------------
 	//  Class  Units_ShiftedUnit
 	//---------------------------------------------------------------------
-	public  sealed class Units_ShiftedUnit : CascadeSharp.Units_Unit
+	public  sealed class Units_ShiftedUnit : Units_Unit
 	{
 
 		public Units_ShiftedUnit(string aname, string asymbol, double avalue, double amove, Units_Quantity aquantity)

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_ClosedFaceDivide
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_ClosedFaceDivide : CascadeSharp.ShapeUpgrade_FaceDivide
+	public  sealed class ShapeUpgrade_ClosedFaceDivide : ShapeUpgrade_FaceDivide
 	{
 
 		public ShapeUpgrade_ClosedFaceDivide()

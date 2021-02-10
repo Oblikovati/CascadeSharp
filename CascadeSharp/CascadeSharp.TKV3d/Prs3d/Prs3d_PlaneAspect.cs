@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_PlaneAspect
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_PlaneAspect : CascadeSharp.Prs3d_BasicAspect
+	public  sealed class Prs3d_PlaneAspect : Prs3d_BasicAspect
 	{
 
 		public Prs3d_PlaneAspect()

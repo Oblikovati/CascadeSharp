@@ -2,18 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_CurvePointInterference
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepDS_CurvePointInterference : CascadeSharp.TopOpeBRepDS_Interference
+	public  sealed class TopOpeBRepDS_CurvePointInterference : TopOpeBRepDS_Interference
 	{
 
-		public TopOpeBRepDS_CurvePointInterference(TopOpeBRepDS_Transition T, CascadeSharp.TopOpeBRepDS_Kind ST, int S, CascadeSharp.TopOpeBRepDS_Kind GT, int G, double P)
+		public TopOpeBRepDS_CurvePointInterference(TopOpeBRepDS_Transition T, TopOpeBRepDS_Kind ST, int S, TopOpeBRepDS_Kind GT, int G, double P)
 			: base()
 		{
 			throw new NotImplementedException();

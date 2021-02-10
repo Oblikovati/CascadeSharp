@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBRep.TopTools
 {
 	//---------------------------------------------------------------------
 	//  Class  TopTools_MutexForShapeProvider
@@ -25,7 +27,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void CreateMutexesForSubShapes(TopoDS_Shape theShape, CascadeSharp.TopAbs_ShapeEnum theType)
+		public void CreateMutexesForSubShapes(TopoDS_Shape theShape, TopAbs_ShapeEnum theType)
 		{
 			throw new NotImplementedException();
 		}

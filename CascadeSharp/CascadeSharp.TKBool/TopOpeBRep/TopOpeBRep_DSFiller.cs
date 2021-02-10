@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBool.TopOpeBRepTool;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_DSFiller

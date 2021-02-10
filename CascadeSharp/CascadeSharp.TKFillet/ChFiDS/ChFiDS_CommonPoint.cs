@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_CommonPoint
@@ -35,7 +38,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetArc(double Tol, TopoDS_Edge A, double Param, CascadeSharp.TopAbs_Orientation TArc)
+		public void SetArc(double Tol, TopoDS_Edge A, double Param, TopAbs_Orientation TArc)
 		{
 			throw new NotImplementedException();
 		}
@@ -85,7 +88,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation TransitionOnArc()
+		public TopAbs_Orientation TransitionOnArc()
 		{
 			throw new NotImplementedException();
 		}

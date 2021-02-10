@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKTopAlgo.BRepCheck
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepCheck_Solid
 	//---------------------------------------------------------------------
-	public  sealed class BRepCheck_Solid : CascadeSharp.BRepCheck_Result
+	public  sealed class BRepCheck_Solid : BRepCheck_Result
 	{
 
 		public BRepCheck_Solid(TopoDS_Solid theS)

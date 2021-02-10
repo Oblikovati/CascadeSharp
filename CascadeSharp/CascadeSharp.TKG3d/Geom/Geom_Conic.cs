@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_Conic
 	//---------------------------------------------------------------------
-	public  abstract class Geom_Conic : CascadeSharp.Geom_Curve
+	public  abstract class Geom_Conic : Geom_Curve
 	{
 
 		public Geom_Conic()
@@ -80,7 +82,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}

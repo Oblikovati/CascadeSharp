@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_PrinterToReport
 	//---------------------------------------------------------------------
-	public  sealed class Message_PrinterToReport : CascadeSharp.Message_Printer
+	public  sealed class Message_PrinterToReport : Message_Printer
 	{
 
 		public Message_PrinterToReport()
@@ -40,17 +41,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public void SendObject(Standard_Transient theObject, CascadeSharp.Message_Gravity theGravity)
+				public void SendObject(Standard_Transient theObject, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void send(TCollection_AsciiString theString, CascadeSharp.Message_Gravity theGravity)
+		public void send(TCollection_AsciiString theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void sendMetricAlert(TCollection_AsciiString theValue, CascadeSharp.Message_Gravity theGravity)
+		public void sendMetricAlert(TCollection_AsciiString theValue, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}

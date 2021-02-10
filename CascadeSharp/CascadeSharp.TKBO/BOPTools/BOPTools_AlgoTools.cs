@@ -2,10 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.IntTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBO.BOPTools
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPTools_AlgoTools
@@ -105,27 +112,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State ComputeState(gp_Pnt thePoint, TopoDS_Solid theSolid, double theTol, IntTools_Context theContext)
+		public TopAbs_State ComputeState(gp_Pnt thePoint, TopoDS_Solid theSolid, double theTol, IntTools_Context theContext)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State ComputeState(TopoDS_Vertex theVertex, TopoDS_Solid theSolid, double theTol, IntTools_Context theContext)
+		public TopAbs_State ComputeState(TopoDS_Vertex theVertex, TopoDS_Solid theSolid, double theTol, IntTools_Context theContext)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State ComputeState(TopoDS_Edge theEdge, TopoDS_Solid theSolid, double theTol, IntTools_Context theContext)
+		public TopAbs_State ComputeState(TopoDS_Edge theEdge, TopoDS_Solid theSolid, double theTol, IntTools_Context theContext)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State ComputeState(TopoDS_Face theFace, TopoDS_Solid theSolid, double theTol, TopTools_IndexedMapOfShape theBounds, IntTools_Context theContext)
+		public TopAbs_State ComputeState(TopoDS_Face theFace, TopoDS_Solid theSolid, double theTol, TopTools_IndexedMapOfShape theBounds, IntTools_Context theContext)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State ComputeStateByOnePoint(TopoDS_Shape theShape, TopoDS_Solid theSolid, double theTol, IntTools_Context theContext)
+		public TopAbs_State ComputeStateByOnePoint(TopoDS_Shape theShape, TopoDS_Solid theSolid, double theTol, IntTools_Context theContext)
 		{
 			throw new NotImplementedException();
 		}
@@ -215,17 +222,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MakeConnexityBlocks(TopoDS_Shape theS, CascadeSharp.TopAbs_ShapeEnum theConnectionType, CascadeSharp.TopAbs_ShapeEnum theElementType, TopTools_ListOfShape theLCB)
+		public void MakeConnexityBlocks(TopoDS_Shape theS, TopAbs_ShapeEnum theConnectionType, TopAbs_ShapeEnum theElementType, TopTools_ListOfShape theLCB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MakeConnexityBlocks(TopoDS_Shape theS, CascadeSharp.TopAbs_ShapeEnum theConnectionType, CascadeSharp.TopAbs_ShapeEnum theElementType, TopTools_ListOfListOfShape theLCB, TopTools_IndexedDataMapOfShapeListOfShape theConnectionMap)
+		public void MakeConnexityBlocks(TopoDS_Shape theS, TopAbs_ShapeEnum theConnectionType, TopAbs_ShapeEnum theElementType, TopTools_ListOfListOfShape theLCB, TopTools_IndexedDataMapOfShapeListOfShape theConnectionMap)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MakeConnexityBlocks(TopTools_ListOfShape theLS, CascadeSharp.TopAbs_ShapeEnum theConnectionType, CascadeSharp.TopAbs_ShapeEnum theElementType, BOPTools_ListOfConnexityBlock theLCB)
+		public void MakeConnexityBlocks(TopTools_ListOfShape theLS, TopAbs_ShapeEnum theConnectionType, TopAbs_ShapeEnum theElementType, BOPTools_ListOfConnexityBlock theLCB)
 		{
 			throw new NotImplementedException();
 		}
@@ -345,7 +352,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MakeContainer(CascadeSharp.TopAbs_ShapeEnum theType, TopoDS_Shape theShape)
+		public void MakeContainer(TopAbs_ShapeEnum theType, TopoDS_Shape theShape)
 		{
 			throw new NotImplementedException();
 		}

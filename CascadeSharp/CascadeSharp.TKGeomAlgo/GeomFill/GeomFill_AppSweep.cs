@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKGeomAlgo.AppBlend;
+using CascadeSharp.TKGeomBase.Approx;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_AppSweep
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_AppSweep : CascadeSharp.AppBlend_Approx
+	public  sealed class GeomFill_AppSweep : AppBlend_Approx
 	{
 
 		public GeomFill_AppSweep()
@@ -47,12 +52,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetParType(CascadeSharp.Approx_ParametrizationType ParType)
+		public void SetParType(Approx_ParametrizationType ParType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetContinuity(CascadeSharp.GeomAbs_Shape C)
+		public void SetContinuity(GeomAbs_Shape C)
 		{
 			throw new NotImplementedException();
 		}
@@ -62,12 +67,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Approx_ParametrizationType ParType()
+		public Approx_ParametrizationType ParType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}

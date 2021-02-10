@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_BadEdgeFilter
 	//---------------------------------------------------------------------
-	public  sealed class AIS_BadEdgeFilter : CascadeSharp.SelectMgr_Filter
+	public  sealed class AIS_BadEdgeFilter : SelectMgr_Filter
 	{
 
 		public AIS_BadEdgeFilter()
@@ -25,7 +28,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ActsOn(CascadeSharp.TopAbs_ShapeEnum aType)
+		public bool ActsOn(TopAbs_ShapeEnum aType)
 		{
 			throw new NotImplementedException();
 		}

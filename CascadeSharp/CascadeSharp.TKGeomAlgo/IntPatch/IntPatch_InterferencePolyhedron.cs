@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.Intf;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_InterferencePolyhedron
 	//---------------------------------------------------------------------
-	public  sealed class IntPatch_InterferencePolyhedron : CascadeSharp.Intf_Interference
+	public  sealed class IntPatch_InterferencePolyhedron : Intf_Interference
 	{
 
 		public IntPatch_InterferencePolyhedron()

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBool.BRepAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgo_Cut
 	//---------------------------------------------------------------------
-	public  sealed class BRepAlgo_Cut : CascadeSharp.BRepAlgo_BooleanOperation
+	public  sealed class BRepAlgo_Cut : BRepAlgo_BooleanOperation
 	{
 
 		public BRepAlgo_Cut(TopoDS_Shape S1, TopoDS_Shape S2)

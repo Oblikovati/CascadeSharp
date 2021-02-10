@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomBase.Approx;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomBase.AppDef
 {
 	//---------------------------------------------------------------------
 	//  Class  AppDef_MyLineTool
@@ -90,7 +92,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Approx_Status WhatStatus(AppDef_MultiLine ML, int I1, int I2)
+		public Approx_Status WhatStatus(AppDef_MultiLine ML, int I1, int I2)
 		{
 			throw new NotImplementedException();
 		}

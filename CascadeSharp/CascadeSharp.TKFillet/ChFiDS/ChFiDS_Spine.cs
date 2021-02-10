@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_Spine
@@ -66,12 +71,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetFirstStatus(CascadeSharp.ChFiDS_State S)
+		public void SetFirstStatus(ChFiDS_State S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetLastStatus(CascadeSharp.ChFiDS_State S)
+		public void SetLastStatus(ChFiDS_State S)
 		{
 			throw new NotImplementedException();
 		}
@@ -256,7 +261,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_CurveType GetGeomType()
+		public GeomAbs_CurveType GetGeomType()
 		{
 			throw new NotImplementedException();
 		}
@@ -271,32 +276,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFiDS_State FirstStatus()
+		public ChFiDS_State FirstStatus()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFiDS_State LastStatus()
+		public ChFiDS_State LastStatus()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFiDS_State Status(bool IsFirst)
+		public ChFiDS_State Status(bool IsFirst)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFiDS_TypeOfConcavity GetTypeOfConcavity()
+		public ChFiDS_TypeOfConcavity GetTypeOfConcavity()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus(CascadeSharp.ChFiDS_State S, bool IsFirst)
+		public void SetStatus(ChFiDS_State S, bool IsFirst)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTypeOfConcavity(CascadeSharp.ChFiDS_TypeOfConcavity theType)
+		public void SetTypeOfConcavity(ChFiDS_TypeOfConcavity theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -376,17 +381,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetErrorStatus(CascadeSharp.ChFiDS_ErrorStatus state)
+		public void SetErrorStatus(ChFiDS_ErrorStatus state)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFiDS_ErrorStatus ErrorStatus()
+		public ChFiDS_ErrorStatus ErrorStatus()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFiDS_ChamfMode Mode()
+		public ChFiDS_ChamfMode Mode()
 		{
 			throw new NotImplementedException();
 		}

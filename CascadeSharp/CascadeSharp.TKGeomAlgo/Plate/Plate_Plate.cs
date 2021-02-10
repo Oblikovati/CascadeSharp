@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.Plate
 {
 	//---------------------------------------------------------------------
 	//  Class  Plate_Plate

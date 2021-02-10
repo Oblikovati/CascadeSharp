@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKFillet.ChFi2d
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFi2d_Builder
@@ -126,7 +128,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFi2d_ConstructionError Status()
+		public ChFi2d_ConstructionError Status()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_ConicalSurface
 	//---------------------------------------------------------------------
-	public  sealed class Geom_ConicalSurface : CascadeSharp.Geom_ElementarySurface
+	public  sealed class Geom_ConicalSurface : Geom_ElementarySurface
 	{
 
 		public Geom_ConicalSurface(gp_Ax3 A3, double Ang, double Radius)

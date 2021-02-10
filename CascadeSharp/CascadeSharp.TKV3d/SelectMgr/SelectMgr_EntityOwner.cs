@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_EntityOwner

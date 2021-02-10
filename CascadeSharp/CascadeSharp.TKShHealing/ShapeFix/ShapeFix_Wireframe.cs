@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeFix
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeFix_Wireframe
 	//---------------------------------------------------------------------
-	public  sealed class ShapeFix_Wireframe : CascadeSharp.ShapeFix_Root
+	public  sealed class ShapeFix_Wireframe : ShapeFix_Root
 	{
 
 		public ShapeFix_Wireframe()
@@ -71,12 +74,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool StatusWireGaps(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusWireGaps(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusSmallEdges(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusSmallEdges(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

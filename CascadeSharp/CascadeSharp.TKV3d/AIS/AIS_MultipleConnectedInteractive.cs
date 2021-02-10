@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_MultipleConnectedInteractive
 	//---------------------------------------------------------------------
-	public  sealed class AIS_MultipleConnectedInteractive : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_MultipleConnectedInteractive : AIS_InteractiveObject
 	{
 
 		public AIS_MultipleConnectedInteractive()
@@ -35,7 +39,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_KindOfInteractive Type()
+		public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -95,7 +99,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AIS_InteractiveObject Connect(AIS_InteractiveObject theInteractive, gp_Trsf theLocation,  ref CascadeSharp.Graphic3d_TransModeFlags theTrsfPersFlag, gp_Pnt theTrsfPersPoint)
+		public AIS_InteractiveObject Connect(AIS_InteractiveObject theInteractive, gp_Trsf theLocation,  ref Graphic3d_TransModeFlags theTrsfPersFlag, gp_Pnt theTrsfPersPoint)
 		{
 			throw new NotImplementedException();
 		}

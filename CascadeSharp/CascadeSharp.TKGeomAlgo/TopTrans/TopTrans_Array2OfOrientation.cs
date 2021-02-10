@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKGeomAlgo.TopTrans
 {
 	//---------------------------------------------------------------------
 	//  Class  TopTrans_Array2OfOrientation
@@ -31,13 +32,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopTrans_Array2OfOrientation( ref CascadeSharp.TopAbs_Orientation theBegin, int theRowLower, int theRowUpper, int theColLower, int theColUpper)
+		public TopTrans_Array2OfOrientation( ref TopAbs_Orientation theBegin, int theRowLower, int theRowUpper, int theColLower, int theColUpper)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init( ref CascadeSharp.TopAbs_Orientation theValue)
+		public void Init( ref TopAbs_Orientation theValue)
 		{
 			throw new NotImplementedException();
 		}
@@ -107,17 +108,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Value(int theRow, int theCol)
+		public TopAbs_Orientation Value(int theRow, int theCol)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation ChangeValue(int theRow, int theCol)
+		public TopAbs_Orientation ChangeValue(int theRow, int theCol)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetValue(int theRow, int theCol,  ref CascadeSharp.TopAbs_Orientation theItem)
+		public void SetValue(int theRow, int theCol,  ref TopAbs_Orientation theItem)
 		{
 			throw new NotImplementedException();
 		}
@@ -132,7 +133,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void fillIndexTable(CascadeSharp.TopAbs_Orientation theTable)
+		public void fillIndexTable(TopAbs_Orientation theTable)
 		{
 			throw new NotImplementedException();
 		}

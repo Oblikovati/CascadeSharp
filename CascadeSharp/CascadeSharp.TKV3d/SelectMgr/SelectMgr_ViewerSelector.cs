@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_ViewerSelector
@@ -75,7 +79,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.SelectMgr_TypeOfDepthTolerance DepthToleranceType()
+		public SelectMgr_TypeOfDepthTolerance DepthToleranceType()
 		{
 			throw new NotImplementedException();
 		}
@@ -85,7 +89,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetDepthTolerance(CascadeSharp.SelectMgr_TypeOfDepthTolerance theType, double theTolerance)
+		public void SetDepthTolerance(SelectMgr_TypeOfDepthTolerance theType, double theTolerance)
 		{
 			throw new NotImplementedException();
 		}
@@ -120,7 +124,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public bool Modes(SelectMgr_SelectableObject theSelectableObject, TColStd_ListOfInteger theModeL_ist, CascadeSharp.SelectMgr_StateOfSelection theWantedState)
+						public bool Modes(SelectMgr_SelectableObject theSelectableObject, TColStd_ListOfInteger theModeL_ist, SelectMgr_StateOfSelection theWantedState)
 		{
 			throw new NotImplementedException();
 		}
@@ -140,7 +144,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.SelectMgr_StateOfSelection Status(SelectMgr_Selection theSelection)
+		public SelectMgr_StateOfSelection Status(SelectMgr_Selection theSelection)
 		{
 			throw new NotImplementedException();
 		}

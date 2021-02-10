@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKTopAlgo.MAT
 {
 	//---------------------------------------------------------------------
 	//  Class  MAT_Zone
@@ -61,7 +62,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public MAT_Node NodeForTurn(MAT_Arc anArc, MAT_BasicElt aBasicElt, CascadeSharp.MAT_Side aSide)
+						public MAT_Node NodeForTurn(MAT_Arc anArc, MAT_BasicElt aBasicElt, MAT_Side aSide)
 		{
 			throw new NotImplementedException();
 		}

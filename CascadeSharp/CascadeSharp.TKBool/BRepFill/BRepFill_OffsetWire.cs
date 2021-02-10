@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKTopAlgo.Bisector;
+using CascadeSharp.TKTopAlgo.BRepMAT2d;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_OffsetWire
@@ -19,13 +25,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_OffsetWire(TopoDS_Face Spine, CascadeSharp.GeomAbs_JoinType Join, bool IsOpenResult)
+		public BRepFill_OffsetWire(TopoDS_Face Spine, GeomAbs_JoinType Join, bool IsOpenResult)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_OffsetWire(TopoDS_Face Spine, CascadeSharp.GeomAbs_JoinType Join)
+		public BRepFill_OffsetWire(TopoDS_Face Spine, GeomAbs_JoinType Join)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -43,12 +49,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Init(TopoDS_Face Spine, CascadeSharp.GeomAbs_JoinType Join, bool IsOpenResult)
+		public void Init(TopoDS_Face Spine, GeomAbs_JoinType Join, bool IsOpenResult)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(TopoDS_Face Spine, CascadeSharp.GeomAbs_JoinType Join)
+		public void Init(TopoDS_Face Spine, GeomAbs_JoinType Join)
 		{
 			throw new NotImplementedException();
 		}
@@ -68,12 +74,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void PerformWithBiLo(TopoDS_Face WSP, double Offset, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, CascadeSharp.GeomAbs_JoinType Join, double Alt)
+		public void PerformWithBiLo(TopoDS_Face WSP, double Offset, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, GeomAbs_JoinType Join, double Alt)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void PerformWithBiLo(TopoDS_Face WSP, double Offset, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, CascadeSharp.GeomAbs_JoinType Join)
+		public void PerformWithBiLo(TopoDS_Face WSP, double Offset, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, GeomAbs_JoinType Join)
 		{
 			throw new NotImplementedException();
 		}
@@ -103,7 +109,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_JoinType JoinType()
+		public GeomAbs_JoinType JoinType()
 		{
 			throw new NotImplementedException();
 		}

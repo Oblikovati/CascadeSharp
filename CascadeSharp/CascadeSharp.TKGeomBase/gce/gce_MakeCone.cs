@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.gce
 {
 	//---------------------------------------------------------------------
 	//  Class  gce_MakeCone
 	//---------------------------------------------------------------------
-	public  sealed class gce_MakeCone : CascadeSharp.gce_Root
+	public  sealed class gce_MakeCone : gce_Root
 	{
 
 		public gce_MakeCone(gp_Ax2 A2, double Ang, double Radius)

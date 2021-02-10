@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_OsculatingSurface
@@ -66,7 +68,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsQPunctual(Geom_Surface S, double Param, CascadeSharp.GeomAbs_IsoType IT, double TolMin, double TolMax)
+		public bool IsQPunctual(Geom_Surface S, double Param, GeomAbs_IsoType IT, double TolMin, double TolMax)
 		{
 			throw new NotImplementedException();
 		}

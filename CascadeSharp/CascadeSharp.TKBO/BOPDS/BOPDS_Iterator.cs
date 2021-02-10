@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.IntTools;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBO.BOPDS
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPDS_Iterator
@@ -41,7 +45,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Initialize(CascadeSharp.TopAbs_ShapeEnum theType1, CascadeSharp.TopAbs_ShapeEnum theType2)
+		public void Initialize(TopAbs_ShapeEnum theType1, TopAbs_ShapeEnum theType2)
 		{
 			throw new NotImplementedException();
 		}

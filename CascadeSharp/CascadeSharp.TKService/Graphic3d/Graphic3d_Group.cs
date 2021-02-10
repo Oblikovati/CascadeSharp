@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Group
@@ -145,32 +148,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-																		public void Text(string theTextUtf, gp_Ax2 theOrientation, double theHeight, double theAngle, CascadeSharp.Graphic3d_TextPath theTp, CascadeSharp.Graphic3d_HorizontalTextAlignment theHTA, CascadeSharp.Graphic3d_VerticalTextAlignment theVTA, bool theToEvalMinMax, bool theHasOwnAnchor)
+																		public void Text(string theTextUtf, gp_Ax2 theOrientation, double theHeight, double theAngle, Graphic3d_TextPath theTp, Graphic3d_HorizontalTextAlignment theHTA, Graphic3d_VerticalTextAlignment theVTA, bool theToEvalMinMax, bool theHasOwnAnchor)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Text(string theTextUtf, gp_Ax2 theOrientation, double theHeight, double theAngle, CascadeSharp.Graphic3d_TextPath theTp, CascadeSharp.Graphic3d_HorizontalTextAlignment theHTA, CascadeSharp.Graphic3d_VerticalTextAlignment theVTA, bool theToEvalMinMax)
+		public void Text(string theTextUtf, gp_Ax2 theOrientation, double theHeight, double theAngle, Graphic3d_TextPath theTp, Graphic3d_HorizontalTextAlignment theHTA, Graphic3d_VerticalTextAlignment theVTA, bool theToEvalMinMax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Text(string theTextUtf, gp_Ax2 theOrientation, double theHeight, double theAngle, CascadeSharp.Graphic3d_TextPath theTp, CascadeSharp.Graphic3d_HorizontalTextAlignment theHTA, CascadeSharp.Graphic3d_VerticalTextAlignment theVTA)
+		public void Text(string theTextUtf, gp_Ax2 theOrientation, double theHeight, double theAngle, Graphic3d_TextPath theTp, Graphic3d_HorizontalTextAlignment theHTA, Graphic3d_VerticalTextAlignment theVTA)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Text(TCollection_ExtendedString theText, gp_Ax2 theOrientation, double theHeight, double theAngle, CascadeSharp.Graphic3d_TextPath theTp, CascadeSharp.Graphic3d_HorizontalTextAlignment theHTA, CascadeSharp.Graphic3d_VerticalTextAlignment theVTA, bool theToEvalMinMax, bool theHasOwnAnchor)
+		public void Text(TCollection_ExtendedString theText, gp_Ax2 theOrientation, double theHeight, double theAngle, Graphic3d_TextPath theTp, Graphic3d_HorizontalTextAlignment theHTA, Graphic3d_VerticalTextAlignment theVTA, bool theToEvalMinMax, bool theHasOwnAnchor)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Text(TCollection_ExtendedString theText, gp_Ax2 theOrientation, double theHeight, double theAngle, CascadeSharp.Graphic3d_TextPath theTp, CascadeSharp.Graphic3d_HorizontalTextAlignment theHTA, CascadeSharp.Graphic3d_VerticalTextAlignment theVTA, bool theToEvalMinMax)
+		public void Text(TCollection_ExtendedString theText, gp_Ax2 theOrientation, double theHeight, double theAngle, Graphic3d_TextPath theTp, Graphic3d_HorizontalTextAlignment theHTA, Graphic3d_VerticalTextAlignment theVTA, bool theToEvalMinMax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Text(TCollection_ExtendedString theText, gp_Ax2 theOrientation, double theHeight, double theAngle, CascadeSharp.Graphic3d_TextPath theTp, CascadeSharp.Graphic3d_HorizontalTextAlignment theHTA, CascadeSharp.Graphic3d_VerticalTextAlignment theVTA)
+		public void Text(TCollection_ExtendedString theText, gp_Ax2 theOrientation, double theHeight, double theAngle, Graphic3d_TextPath theTp, Graphic3d_HorizontalTextAlignment theHTA, Graphic3d_VerticalTextAlignment theVTA)
 		{
 			throw new NotImplementedException();
 		}

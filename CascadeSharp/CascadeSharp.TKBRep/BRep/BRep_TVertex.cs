@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_TVertex
 	//---------------------------------------------------------------------
-	public  sealed class BRep_TVertex : CascadeSharp.TopoDS_TVertex
+	public  sealed class BRep_TVertex : TopoDS_TVertex
 	{
 
 		public BRep_TVertex()

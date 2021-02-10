@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntSurf
 {
 	//---------------------------------------------------------------------
 	//  Class  IntSurf_Quadric
@@ -95,7 +97,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_SurfaceType TypeQuadric()
+		public GeomAbs_SurfaceType TypeQuadric()
 		{
 			throw new NotImplementedException();
 		}

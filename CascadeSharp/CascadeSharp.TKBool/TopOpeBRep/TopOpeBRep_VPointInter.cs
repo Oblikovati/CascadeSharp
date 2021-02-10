@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKGeomAlgo.IntPatch;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_VPointInter
@@ -145,12 +150,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State(int I)
+		public TopAbs_State State(int I)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void State(CascadeSharp.TopAbs_State S, int I)
+		public void State(TopAbs_State S, int I)
 		{
 			throw new NotImplementedException();
 		}

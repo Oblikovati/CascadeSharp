@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+
+namespace CascadeSharp.TKGeomAlgo.HatchGen
 {
 	//---------------------------------------------------------------------
 	//  Class  HatchGen_PointOnHatching
 	//---------------------------------------------------------------------
-	public  sealed class HatchGen_PointOnHatching : CascadeSharp.HatchGen_IntersectionPoint
+	public  sealed class HatchGen_PointOnHatching : HatchGen_IntersectionPoint
 	{
 
 		public HatchGen_PointOnHatching()

@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKernel.Quantity;
+
+namespace CascadeSharp.TKService.Image
 {
 	//---------------------------------------------------------------------
 	//  Class  Image_PixMap
@@ -50,12 +53,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Image_Format Format()
+		public Image_Format Format()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetFormat(CascadeSharp.Image_Format thePixelFormat)
+		public void SetFormat(Image_Format thePixelFormat)
 		{
 			throw new NotImplementedException();
 		}
@@ -120,22 +123,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool InitWrapper(CascadeSharp.Image_Format thePixelFormat, ref byte theDataPtr, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
+		public bool InitWrapper(Image_Format thePixelFormat, ref byte theDataPtr, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool InitWrapper(CascadeSharp.Image_Format thePixelFormat, ref byte theDataPtr, ulong theSizeX, ulong theSizeY)
+		public bool InitWrapper(Image_Format thePixelFormat, ref byte theDataPtr, ulong theSizeX, ulong theSizeY)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool InitTrash(CascadeSharp.Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
+		public bool InitTrash(Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool InitTrash(CascadeSharp.Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY)
+		public bool InitTrash(Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY)
 		{
 			throw new NotImplementedException();
 		}
@@ -145,17 +148,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool InitZero(CascadeSharp.Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes, byte theValue)
+		public bool InitZero(Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes, byte theValue)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool InitZero(CascadeSharp.Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
+		public bool InitZero(Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool InitZero(CascadeSharp.Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY)
+		public bool InitZero(Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY)
 		{
 			throw new NotImplementedException();
 		}
@@ -205,7 +208,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public ulong SizePixelBytes(CascadeSharp.Image_Format thePixelFormat)
+		public ulong SizePixelBytes(Image_Format thePixelFormat)
 		{
 			throw new NotImplementedException();
 		}

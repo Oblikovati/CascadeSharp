@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKPrim.Sweep
 {
 	//---------------------------------------------------------------------
 	//  Class  Sweep_NumShape
@@ -19,25 +20,25 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Sweep_NumShape(int Index, CascadeSharp.TopAbs_ShapeEnum Type, bool Closed, bool BegInf, bool EndInf)
+		public Sweep_NumShape(int Index, TopAbs_ShapeEnum Type, bool Closed, bool BegInf, bool EndInf)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Sweep_NumShape(int Index, CascadeSharp.TopAbs_ShapeEnum Type, bool Closed, bool BegInf)
+		public Sweep_NumShape(int Index, TopAbs_ShapeEnum Type, bool Closed, bool BegInf)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Sweep_NumShape(int Index, CascadeSharp.TopAbs_ShapeEnum Type, bool Closed)
+		public Sweep_NumShape(int Index, TopAbs_ShapeEnum Type, bool Closed)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Sweep_NumShape(int Index, CascadeSharp.TopAbs_ShapeEnum Type)
+		public Sweep_NumShape(int Index, TopAbs_ShapeEnum Type)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -49,22 +50,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Init(int Index, CascadeSharp.TopAbs_ShapeEnum Type, bool Closed, bool BegInf, bool EndInf)
+		public void Init(int Index, TopAbs_ShapeEnum Type, bool Closed, bool BegInf, bool EndInf)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(int Index, CascadeSharp.TopAbs_ShapeEnum Type, bool Closed, bool BegInf)
+		public void Init(int Index, TopAbs_ShapeEnum Type, bool Closed, bool BegInf)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(int Index, CascadeSharp.TopAbs_ShapeEnum Type, bool Closed)
+		public void Init(int Index, TopAbs_ShapeEnum Type, bool Closed)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(int Index, CascadeSharp.TopAbs_ShapeEnum Type)
+		public void Init(int Index, TopAbs_ShapeEnum Type)
 		{
 			throw new NotImplementedException();
 		}
@@ -74,7 +75,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum Type()
+		public TopAbs_ShapeEnum Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -94,7 +95,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation()
+		public TopAbs_Orientation Orientation()
 		{
 			throw new NotImplementedException();
 		}

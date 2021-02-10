@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKTopAlgo.BRepBuilderAPI;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat_SplitShape
 	//---------------------------------------------------------------------
-	public  sealed class BRepFeat_SplitShape : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  sealed class BRepFeat_SplitShape : BRepBuilderAPI_MakeShape
 	{
 
 		public BRepFeat_SplitShape()

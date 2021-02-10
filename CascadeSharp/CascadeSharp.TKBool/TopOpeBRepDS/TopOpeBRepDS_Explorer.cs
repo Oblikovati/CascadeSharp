@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_Explorer
@@ -19,13 +21,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Explorer(TopOpeBRepDS_HDataStructure HDS, CascadeSharp.TopAbs_ShapeEnum T, bool findkeep)
+		public TopOpeBRepDS_Explorer(TopOpeBRepDS_HDataStructure HDS, TopAbs_ShapeEnum T, bool findkeep)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Explorer(TopOpeBRepDS_HDataStructure HDS, CascadeSharp.TopAbs_ShapeEnum T)
+		public TopOpeBRepDS_Explorer(TopOpeBRepDS_HDataStructure HDS, TopAbs_ShapeEnum T)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -43,12 +45,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Init(TopOpeBRepDS_HDataStructure HDS, CascadeSharp.TopAbs_ShapeEnum T, bool findkeep)
+		public void Init(TopOpeBRepDS_HDataStructure HDS, TopAbs_ShapeEnum T, bool findkeep)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(TopOpeBRepDS_HDataStructure HDS, CascadeSharp.TopAbs_ShapeEnum T)
+		public void Init(TopOpeBRepDS_HDataStructure HDS, TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}
@@ -58,7 +60,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum Type()
+		public TopAbs_ShapeEnum Type()
 		{
 			throw new NotImplementedException();
 		}

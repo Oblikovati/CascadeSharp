@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKGeomAlgo.GccInt;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.Bisector
 {
 	//---------------------------------------------------------------------
 	//  Class  Bisector_BisecAna
 	//---------------------------------------------------------------------
-	public  sealed class Bisector_BisecAna : CascadeSharp.Bisector_Curve
+	public  sealed class Bisector_BisecAna : Bisector_Curve
 	{
 
 		public Bisector_BisecAna()
@@ -25,12 +29,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(Geom2d_Curve Cu1, Geom2d_Curve Cu2, gp_Pnt2d P, gp_Vec2d V1, gp_Vec2d V2, double Sense, CascadeSharp.GeomAbs_JoinType jointype, double Tolerance, bool oncurve)
+		public void Perform(Geom2d_Curve Cu1, Geom2d_Curve Cu2, gp_Pnt2d P, gp_Vec2d V1, gp_Vec2d V2, double Sense, GeomAbs_JoinType jointype, double Tolerance, bool oncurve)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(Geom2d_Curve Cu1, Geom2d_Curve Cu2, gp_Pnt2d P, gp_Vec2d V1, gp_Vec2d V2, double Sense, CascadeSharp.GeomAbs_JoinType jointype, double Tolerance)
+		public void Perform(Geom2d_Curve Cu1, Geom2d_Curve Cu2, gp_Pnt2d P, gp_Vec2d V1, gp_Vec2d V2, double Sense, GeomAbs_JoinType jointype, double Tolerance)
 		{
 			throw new NotImplementedException();
 		}
@@ -140,7 +144,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}

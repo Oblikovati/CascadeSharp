@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.PLib;
+
+namespace CascadeSharp.TKGeomBase.FEmTool
 {
 	//---------------------------------------------------------------------
 	//  Class  FEmTool_ElementsOfRefMatrix
 	//---------------------------------------------------------------------
-	public  sealed class FEmTool_ElementsOfRefMatrix : CascadeSharp.math_FunctionSet
+	public  sealed class FEmTool_ElementsOfRefMatrix : math_FunctionSet
 	{
 
 		public FEmTool_ElementsOfRefMatrix(PLib_Base TheBase, int DerOrder)

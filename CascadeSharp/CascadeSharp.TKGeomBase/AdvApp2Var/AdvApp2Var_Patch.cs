@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomBase.AdvApp2Var
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApp2Var_Patch

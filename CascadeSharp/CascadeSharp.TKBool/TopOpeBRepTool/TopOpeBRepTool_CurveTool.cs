@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_CurveTool
@@ -19,7 +23,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepTool_CurveTool(CascadeSharp.TopOpeBRepTool_OutCurveType OCT)
+		public TopOpeBRepTool_CurveTool(TopOpeBRepTool_OutCurveType OCT)
 			: base()
 		{
 			throw new NotImplementedException();

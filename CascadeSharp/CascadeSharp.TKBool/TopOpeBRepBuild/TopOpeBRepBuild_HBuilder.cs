@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_HBuilder
@@ -60,37 +66,37 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MergeShapes(TopoDS_Shape S1, CascadeSharp.TopAbs_State TB1, TopoDS_Shape S2, CascadeSharp.TopAbs_State TB2)
+		public void MergeShapes(TopoDS_Shape S1, TopAbs_State TB1, TopoDS_Shape S2, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeSolids(TopoDS_Shape S1, CascadeSharp.TopAbs_State TB1, TopoDS_Shape S2, CascadeSharp.TopAbs_State TB2)
+		public void MergeSolids(TopoDS_Shape S1, TopAbs_State TB1, TopoDS_Shape S2, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeSolid(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public void MergeSolid(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsSplit(TopoDS_Shape S, CascadeSharp.TopAbs_State ToBuild)
+		public bool IsSplit(TopoDS_Shape S, TopAbs_State ToBuild)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopTools_ListOfShape Splits(TopoDS_Shape S, CascadeSharp.TopAbs_State ToBuild)
+		public TopTools_ListOfShape Splits(TopoDS_Shape S, TopAbs_State ToBuild)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsMerged(TopoDS_Shape S, CascadeSharp.TopAbs_State ToBuild)
+		public bool IsMerged(TopoDS_Shape S, TopAbs_State ToBuild)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopTools_ListOfShape Merged(TopoDS_Shape S, CascadeSharp.TopAbs_State ToBuild)
+		public TopTools_ListOfShape Merged(TopoDS_Shape S, TopAbs_State ToBuild)
 		{
 			throw new NotImplementedException();
 		}
@@ -195,7 +201,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MergeKPart(CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void MergeKPart(TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}

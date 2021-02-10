@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_ZLayerSettings
@@ -175,17 +178,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsSettingEnabled(CascadeSharp.Graphic3d_ZLayerSetting theSetting)
+		public bool IsSettingEnabled(Graphic3d_ZLayerSetting theSetting)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void EnableSetting(CascadeSharp.Graphic3d_ZLayerSetting theSetting)
+		public void EnableSetting(Graphic3d_ZLayerSetting theSetting)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void DisableSetting(CascadeSharp.Graphic3d_ZLayerSetting theSetting)
+		public void DisableSetting(Graphic3d_ZLayerSetting theSetting)
 		{
 			throw new NotImplementedException();
 		}

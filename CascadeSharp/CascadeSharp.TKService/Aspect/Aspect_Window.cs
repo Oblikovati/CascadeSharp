@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_Window
@@ -40,7 +43,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBackground(Quantity_Color theFirstColor, Quantity_Color theSecondColor, CascadeSharp.Aspect_GradientFillMethod theFillMethod)
+		public void SetBackground(Quantity_Color theFirstColor, Quantity_Color theSecondColor, Aspect_GradientFillMethod theFillMethod)
 		{
 			throw new NotImplementedException();
 		}
@@ -55,7 +58,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfResize DoResize()
+		public Aspect_TypeOfResize DoResize()
 		{
 			throw new NotImplementedException();
 		}
@@ -70,7 +73,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_FillMethod BackgroundFillMethod()
+		public Aspect_FillMethod BackgroundFillMethod()
 		{
 			throw new NotImplementedException();
 		}

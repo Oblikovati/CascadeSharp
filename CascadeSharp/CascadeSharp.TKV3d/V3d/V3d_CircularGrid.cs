@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d_CircularGrid
 	//---------------------------------------------------------------------
-	public  sealed class V3d_CircularGrid : CascadeSharp.Aspect_CircularGrid
+	public  sealed class V3d_CircularGrid : Aspect_CircularGrid
 	{
 
 		public V3d_CircularGrid(V3d_Viewer aViewer, Quantity_Color aColor, Quantity_Color aTenthColor)

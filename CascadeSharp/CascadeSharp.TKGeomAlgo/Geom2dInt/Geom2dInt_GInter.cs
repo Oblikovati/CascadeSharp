@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dInt
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dInt_GInter
 	//---------------------------------------------------------------------
-	public  class Geom2dInt_GInter : CascadeSharp.IntRes2d_Intersection
+	public  class Geom2dInt_GInter : IntRes2d_Intersection
 	{
 
 		public Geom2dInt_GInter()

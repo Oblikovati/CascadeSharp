@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_RemoveInternalWires
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_RemoveInternalWires : CascadeSharp.ShapeUpgrade_Tool
+	public  sealed class ShapeUpgrade_RemoveInternalWires : ShapeUpgrade_Tool
 	{
 
 		public ShapeUpgrade_RemoveInternalWires()
@@ -71,7 +74,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Status(CascadeSharp.ShapeExtend_Status theStatus)
+		public bool Status(ShapeExtend_Status theStatus)
 		{
 			throw new NotImplementedException();
 		}

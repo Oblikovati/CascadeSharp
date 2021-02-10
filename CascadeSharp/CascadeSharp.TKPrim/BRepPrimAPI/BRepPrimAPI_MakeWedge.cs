@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKPrim.BRepPrim;
+using CascadeSharp.TKTopAlgo.BRepBuilderAPI;
+
+namespace CascadeSharp.TKPrim.BRepPrimAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepPrimAPI_MakeWedge
 	//---------------------------------------------------------------------
-	public  sealed class BRepPrimAPI_MakeWedge : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  sealed class BRepPrimAPI_MakeWedge : BRepBuilderAPI_MakeShape
 	{
 
 		public BRepPrimAPI_MakeWedge(double dx, double dy, double dz, double ltx)

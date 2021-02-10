@@ -2,18 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.GProp;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepGProp
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepGProp_MeshProps
 	//---------------------------------------------------------------------
-	public  sealed class BRepGProp_MeshProps : CascadeSharp.GProp_GProps
+	public  sealed class BRepGProp_MeshProps : GProp_GProps
 	{
 
-		public BRepGProp_MeshProps(CascadeSharp.BRepGProp_MeshProps.BRepGProp_MeshObjType theType)
+		public BRepGProp_MeshProps(BRepGProp_MeshObjType theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -40,7 +42,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepGProp_MeshProps.BRepGProp_MeshObjType GetMeshObjType()
+		public BRepGProp_MeshObjType GetMeshObjType()
 		{
 			throw new NotImplementedException();
 		}

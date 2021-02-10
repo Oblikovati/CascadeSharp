@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.TColGeom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomBase.GeomConvert
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomConvert_CompBezierSurfacesToBSplineSurface
@@ -31,19 +35,19 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GeomConvert_CompBezierSurfacesToBSplineSurface(TColGeom_Array2OfBezierSurface Beziers, TColStd_Array1OfReal UKnots, TColStd_Array1OfReal VKnots, CascadeSharp.GeomAbs_Shape UContinuity, CascadeSharp.GeomAbs_Shape VContinuity, double Tolerance)
+		public GeomConvert_CompBezierSurfacesToBSplineSurface(TColGeom_Array2OfBezierSurface Beziers, TColStd_Array1OfReal UKnots, TColStd_Array1OfReal VKnots, GeomAbs_Shape UContinuity, GeomAbs_Shape VContinuity, double Tolerance)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomConvert_CompBezierSurfacesToBSplineSurface(TColGeom_Array2OfBezierSurface Beziers, TColStd_Array1OfReal UKnots, TColStd_Array1OfReal VKnots, CascadeSharp.GeomAbs_Shape UContinuity, CascadeSharp.GeomAbs_Shape VContinuity)
+		public GeomConvert_CompBezierSurfacesToBSplineSurface(TColGeom_Array2OfBezierSurface Beziers, TColStd_Array1OfReal UKnots, TColStd_Array1OfReal VKnots, GeomAbs_Shape UContinuity, GeomAbs_Shape VContinuity)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomConvert_CompBezierSurfacesToBSplineSurface(TColGeom_Array2OfBezierSurface Beziers, TColStd_Array1OfReal UKnots, TColStd_Array1OfReal VKnots, CascadeSharp.GeomAbs_Shape UContinuity)
+		public GeomConvert_CompBezierSurfacesToBSplineSurface(TColGeom_Array2OfBezierSurface Beziers, TColStd_Array1OfReal UKnots, TColStd_Array1OfReal VKnots, GeomAbs_Shape UContinuity)
 			: base()
 		{
 			throw new NotImplementedException();

@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_CLight
@@ -13,7 +17,7 @@ namespace CascadeSharp
 	public  class Graphic3d_CLight : Standard_Transient
 	{
 
-		public Graphic3d_CLight(CascadeSharp.Graphic3d_TypeOfLightSource theType)
+		public Graphic3d_CLight(Graphic3d_TypeOfLightSource theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -35,7 +39,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.Graphic3d_TypeOfLightSource Type()
+						public Graphic3d_TypeOfLightSource Type()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_Hyperbola
 	//---------------------------------------------------------------------
-	public  sealed class Geom2d_Hyperbola : CascadeSharp.Geom2d_Conic
+	public  sealed class Geom2d_Hyperbola : Geom2d_Conic
 	{
 
 		public Geom2d_Hyperbola(gp_Hypr2d H)

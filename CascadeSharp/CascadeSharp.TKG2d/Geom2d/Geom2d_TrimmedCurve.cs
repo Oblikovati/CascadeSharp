@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_TrimmedCurve
 	//---------------------------------------------------------------------
-	public  sealed class Geom2d_TrimmedCurve : CascadeSharp.Geom2d_BoundedCurve
+	public  sealed class Geom2d_TrimmedCurve : Geom2d_BoundedCurve
 	{
 
 		public Geom2d_TrimmedCurve(Geom2d_Curve C, double U1, double U2, bool Sense, bool theAdjustPeriodic)
@@ -72,7 +74,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}

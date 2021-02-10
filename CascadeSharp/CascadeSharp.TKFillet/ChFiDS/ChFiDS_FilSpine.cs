@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKGeomAlgo.Law;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_FilSpine
 	//---------------------------------------------------------------------
-	public  sealed class ChFiDS_FilSpine : CascadeSharp.ChFiDS_Spine
+	public  sealed class ChFiDS_FilSpine : ChFiDS_Spine
 	{
 
 		public ChFiDS_FilSpine()

@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKernel.TColStd;
+
+namespace CascadeSharp.TKService.Font
 {
 	//---------------------------------------------------------------------
 	//  Class  Font_FontMgr
@@ -35,7 +39,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public char FontAspectToString(CascadeSharp.Font_FontAspect theAspect)
+		public char FontAspectToString(Font_FontAspect theAspect)
 		{
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
@@ -60,7 +64,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Font_SystemFont GetFont(TCollection_HAsciiString theFontName, CascadeSharp.Font_FontAspect theFontAspect, int theFontSize)
+		public Font_SystemFont GetFont(TCollection_HAsciiString theFontName, Font_FontAspect theFontAspect, int theFontSize)
 		{
 			throw new NotImplementedException();
 		}
@@ -70,22 +74,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Font_SystemFont FindFont(TCollection_AsciiString theFontName, CascadeSharp.Font_StrictLevel theStrictLevel,  ref CascadeSharp.Font_FontAspect theFontAspect, bool theDoFailMsg)
+		public Font_SystemFont FindFont(TCollection_AsciiString theFontName, Font_StrictLevel theStrictLevel,  ref Font_FontAspect theFontAspect, bool theDoFailMsg)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Font_SystemFont FindFont(TCollection_AsciiString theFontName, CascadeSharp.Font_StrictLevel theStrictLevel,  ref CascadeSharp.Font_FontAspect theFontAspect)
+		public Font_SystemFont FindFont(TCollection_AsciiString theFontName, Font_StrictLevel theStrictLevel,  ref Font_FontAspect theFontAspect)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Font_SystemFont FindFont(TCollection_AsciiString theFontName,  ref CascadeSharp.Font_FontAspect theFontAspect)
+		public Font_SystemFont FindFont(TCollection_AsciiString theFontName,  ref Font_FontAspect theFontAspect)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Font_SystemFont FindFallbackFont(CascadeSharp.Font_UnicodeSubset theSubset, CascadeSharp.Font_FontAspect theFontAspect)
+		public Font_SystemFont FindFallbackFont(Font_UnicodeSubset theSubset, Font_FontAspect theFontAspect)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBO.BRepAlgoAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgoAPI_Section
 	//---------------------------------------------------------------------
-	public  sealed class BRepAlgoAPI_Section : CascadeSharp.BRepAlgoAPI_BooleanOperation
+	public  sealed class BRepAlgoAPI_Section : BRepAlgoAPI_BooleanOperation
 	{
 
 		public BRepAlgoAPI_Section()

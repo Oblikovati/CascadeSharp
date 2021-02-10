@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.IntCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  IntCurve_MyImpParToolOfIntImpConicParConic
 	//---------------------------------------------------------------------
-	public  sealed class IntCurve_MyImpParToolOfIntImpConicParConic : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class IntCurve_MyImpParToolOfIntImpConicParConic : math_FunctionWithDerivative
 	{
 
 		public IntCurve_MyImpParToolOfIntImpConicParConic(IntCurve_IConicTool IT, IntCurve_PConic PC)

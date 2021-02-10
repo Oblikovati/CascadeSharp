@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Camera
@@ -140,12 +143,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetProjectionType(CascadeSharp.Graphic3d_Camera.Projection theProjection)
+		public void SetProjectionType(Projection theProjection)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_Camera.Projection ProjectionType()
+		public Projection ProjectionType()
 		{
 			throw new NotImplementedException();
 		}
@@ -220,7 +223,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetZFocus(CascadeSharp.Graphic3d_Camera.FocusType theType, double theZFocus)
+		public void SetZFocus(FocusType theType, double theZFocus)
 		{
 			throw new NotImplementedException();
 		}
@@ -230,12 +233,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_Camera.FocusType ZFocusType()
+		public FocusType ZFocusType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetIOD(CascadeSharp.Graphic3d_Camera.IODType theType, double theIOD)
+		public void SetIOD(IODType theType, double theIOD)
 		{
 			throw new NotImplementedException();
 		}
@@ -245,7 +248,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_Camera.IODType GetIODType()
+		public IODType GetIODType()
 		{
 			throw new NotImplementedException();
 		}

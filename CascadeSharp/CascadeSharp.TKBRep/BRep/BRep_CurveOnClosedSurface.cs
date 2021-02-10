@@ -2,18 +2,23 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_CurveOnClosedSurface
 	//---------------------------------------------------------------------
-	public  sealed class BRep_CurveOnClosedSurface : CascadeSharp.BRep_CurveOnSurface
+	public  sealed class BRep_CurveOnClosedSurface : BRep_CurveOnSurface
 	{
 
-		public BRep_CurveOnClosedSurface(Geom2d_Curve PC1, Geom2d_Curve PC2, Geom_Surface S, TopLoc_Location L, CascadeSharp.GeomAbs_Shape C)
+		public BRep_CurveOnClosedSurface(Geom2d_Curve PC1, Geom2d_Curve PC2, Geom_Surface S, TopLoc_Location L, GeomAbs_Shape C)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -70,12 +75,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Continuity(CascadeSharp.GeomAbs_Shape C)
+		public void Continuity(GeomAbs_Shape C)
 		{
 			throw new NotImplementedException();
 		}

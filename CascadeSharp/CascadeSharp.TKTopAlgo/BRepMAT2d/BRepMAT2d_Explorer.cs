@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG2d.TColGeom2d;
+
+namespace CascadeSharp.TKTopAlgo.BRepMAT2d
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepMAT2d_Explorer

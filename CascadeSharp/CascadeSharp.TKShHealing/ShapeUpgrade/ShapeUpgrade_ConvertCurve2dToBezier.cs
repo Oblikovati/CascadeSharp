@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.TColGeom2d;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_ConvertCurve2dToBezier
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_ConvertCurve2dToBezier : CascadeSharp.ShapeUpgrade_SplitCurve2d
+	public  sealed class ShapeUpgrade_ConvertCurve2dToBezier : ShapeUpgrade_SplitCurve2d
 	{
 
 		public ShapeUpgrade_ConvertCurve2dToBezier()

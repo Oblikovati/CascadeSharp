@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_Line
@@ -13,13 +15,13 @@ namespace CascadeSharp
 	public  class IntPatch_Line : Standard_Transient
 	{
 
-		public IntPatch_Line(bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_Line(bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_Line(bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_Line(bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -47,7 +49,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntPatch_IType ArcType()
+		public IntPatch_IType ArcType()
 		{
 			throw new NotImplementedException();
 		}
@@ -57,22 +59,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_TypeTrans TransitionOnS1()
+		public IntSurf_TypeTrans TransitionOnS1()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_TypeTrans TransitionOnS2()
+		public IntSurf_TypeTrans TransitionOnS2()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_Situation SituationS1()
+		public IntSurf_Situation SituationS1()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_Situation SituationS2()
+		public IntSurf_Situation SituationS2()
 		{
 			throw new NotImplementedException();
 		}

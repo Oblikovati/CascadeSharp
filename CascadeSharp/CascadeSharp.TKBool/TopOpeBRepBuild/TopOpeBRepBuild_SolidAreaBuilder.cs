@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_SolidAreaBuilder
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepBuild_SolidAreaBuilder : CascadeSharp.TopOpeBRepBuild_Area3dBuilder
+	public  sealed class TopOpeBRepBuild_SolidAreaBuilder : TopOpeBRepBuild_Area3dBuilder
 	{
 
 		public TopOpeBRepBuild_SolidAreaBuilder()

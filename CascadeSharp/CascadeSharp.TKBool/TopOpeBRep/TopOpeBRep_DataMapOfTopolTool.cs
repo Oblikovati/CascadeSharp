@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKTopAlgo.BRepTopAdaptor;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_DataMapOfTopolTool

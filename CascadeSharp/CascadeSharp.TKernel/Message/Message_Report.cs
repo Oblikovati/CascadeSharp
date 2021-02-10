@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_Report
@@ -19,12 +20,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddAlert(CascadeSharp.Message_Gravity theGravity, Message_Alert theAlert)
+		public void AddAlert(Message_Gravity theGravity, Message_Alert theAlert)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Message_ListOfAlert GetAlerts(CascadeSharp.Message_Gravity theGravity)
+		public Message_ListOfAlert GetAlerts(Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -74,12 +75,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Clear(CascadeSharp.Message_Gravity theGravity)
+		public void Clear(Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
 
-						public void SetActiveMetric(CascadeSharp.Message_MetricType theMetricType, bool theActivate)
+						public void SetActiveMetric(Message_MetricType theMetricType, bool theActivate)
 		{
 			throw new NotImplementedException();
 		}
@@ -104,7 +105,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SendMessages(Message_Messenger theMessenger, CascadeSharp.Message_Gravity theGravity)
+		public void SendMessages(Message_Messenger theMessenger, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -114,7 +115,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Merge(Message_Report theOther, CascadeSharp.Message_Gravity theGravity)
+		public void Merge(Message_Report theOther, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -134,7 +135,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void sendMessages(Message_Messenger theMessenger, CascadeSharp.Message_Gravity theGravity, Message_CompositeAlerts theCompositeAlert)
+		public void sendMessages(Message_Messenger theMessenger, Message_Gravity theGravity, Message_CompositeAlerts theCompositeAlert)
 		{
 			throw new NotImplementedException();
 		}

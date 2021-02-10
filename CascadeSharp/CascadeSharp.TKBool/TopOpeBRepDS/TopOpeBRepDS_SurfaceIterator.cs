@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_SurfaceIterator
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepDS_SurfaceIterator : CascadeSharp.TopOpeBRepDS_InterferenceIterator
+	public  sealed class TopOpeBRepDS_SurfaceIterator : TopOpeBRepDS_InterferenceIterator
 	{
 
 		public TopOpeBRepDS_SurfaceIterator(TopOpeBRepDS_ListOfInterference L)
@@ -35,7 +36,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(CascadeSharp.TopAbs_State S)
+		public TopAbs_Orientation Orientation(TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}

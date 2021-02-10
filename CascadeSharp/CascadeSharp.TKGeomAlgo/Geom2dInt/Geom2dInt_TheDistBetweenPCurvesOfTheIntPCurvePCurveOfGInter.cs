@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dInt
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter : CascadeSharp.math_FunctionSetWithDerivatives
+	public  sealed class Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter : math_FunctionSetWithDerivatives
 	{
 
 		public Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter(Adaptor2d_Curve2d curve1, Adaptor2d_Curve2d curve2)

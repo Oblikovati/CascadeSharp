@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.Prs3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_GraphicTool
@@ -25,32 +29,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Quantity_NameOfColor GetLineColor(Prs3d_Drawer aDrawer, CascadeSharp.AIS_TypeOfAttribute TheTypeOfAttributes)
+		public Quantity_NameOfColor GetLineColor(Prs3d_Drawer aDrawer, AIS_TypeOfAttribute TheTypeOfAttributes)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GetLineColor(Prs3d_Drawer aDrawer, CascadeSharp.AIS_TypeOfAttribute TheTypeOfAttributes, Quantity_Color TheLineColor)
+		public void GetLineColor(Prs3d_Drawer aDrawer, AIS_TypeOfAttribute TheTypeOfAttributes, Quantity_Color TheLineColor)
 		{
 			throw new NotImplementedException();
 		}
 
-		public double GetLineWidth(Prs3d_Drawer aDrawer, CascadeSharp.AIS_TypeOfAttribute TheTypeOfAttributes)
+		public double GetLineWidth(Prs3d_Drawer aDrawer, AIS_TypeOfAttribute TheTypeOfAttributes)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfLine GetLineType(Prs3d_Drawer aDrawer, CascadeSharp.AIS_TypeOfAttribute TheTypeOfAttributes)
+		public Aspect_TypeOfLine GetLineType(Prs3d_Drawer aDrawer, AIS_TypeOfAttribute TheTypeOfAttributes)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GetLineAtt(Prs3d_Drawer aDrawer, CascadeSharp.AIS_TypeOfAttribute TheTypeOfAttributes,  ref CascadeSharp.Quantity_NameOfColor aCol, ref double aWidth,  ref CascadeSharp.Aspect_TypeOfLine aTyp)
+		public void GetLineAtt(Prs3d_Drawer aDrawer, AIS_TypeOfAttribute TheTypeOfAttributes,  ref Quantity_NameOfColor aCol, ref double aWidth,  ref Aspect_TypeOfLine aTyp)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Quantity_NameOfColor GetInteriorColor(Prs3d_Drawer aDrawer)
+		public Quantity_NameOfColor GetInteriorColor(Prs3d_Drawer aDrawer)
 		{
 			throw new NotImplementedException();
 		}

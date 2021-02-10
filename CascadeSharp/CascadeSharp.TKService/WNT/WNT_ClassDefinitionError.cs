@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKService.WNT
 {
 	//---------------------------------------------------------------------
 	//  Class  WNT_ClassDefinitionError
 	//---------------------------------------------------------------------
-	public  sealed class WNT_ClassDefinitionError : CascadeSharp.Standard_ConstructionError
+	public  sealed class WNT_ClassDefinitionError : Standard_ConstructionError
 	{
 
 		public WNT_ClassDefinitionError()

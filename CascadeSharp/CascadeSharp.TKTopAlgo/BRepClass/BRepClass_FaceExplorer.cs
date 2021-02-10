@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepClass
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepClass_FaceExplorer
@@ -90,7 +93,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void CurrentEdge(BRepClass_Edge E,  ref CascadeSharp.TopAbs_Orientation Or)
+		public void CurrentEdge(BRepClass_Edge E,  ref TopAbs_Orientation Or)
 		{
 			throw new NotImplementedException();
 		}

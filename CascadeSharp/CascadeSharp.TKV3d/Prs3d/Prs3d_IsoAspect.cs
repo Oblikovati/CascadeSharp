@@ -2,18 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_IsoAspect
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_IsoAspect : CascadeSharp.Prs3d_LineAspect
+	public  sealed class Prs3d_IsoAspect : Prs3d_LineAspect
 	{
 
-		public Prs3d_IsoAspect(Quantity_Color theColor, CascadeSharp.Aspect_TypeOfLine theType, double theWidth, int theNumber)
+		public Prs3d_IsoAspect(Quantity_Color theColor, Aspect_TypeOfLine theType, double theWidth, int theNumber)
 			: base()
 		{
 			throw new NotImplementedException();

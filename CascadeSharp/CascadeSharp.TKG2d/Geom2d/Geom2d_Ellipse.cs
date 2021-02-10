@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_Ellipse
 	//---------------------------------------------------------------------
-	public  sealed class Geom2d_Ellipse : CascadeSharp.Geom2d_Conic
+	public  sealed class Geom2d_Ellipse : Geom2d_Conic
 	{
 
 		public Geom2d_Ellipse(gp_Elips2d E)

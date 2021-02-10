@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.GccEnt;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GccAna
 {
 	//---------------------------------------------------------------------
 	//  Class  GccAna_Circ2dTanCen
@@ -57,7 +59,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void WhichQualifier(int Index,  ref CascadeSharp.GccEnt_Position Qualif1)
+		public void WhichQualifier(int Index,  ref GccEnt_Position Qualif1)
 		{
 			throw new NotImplementedException();
 		}

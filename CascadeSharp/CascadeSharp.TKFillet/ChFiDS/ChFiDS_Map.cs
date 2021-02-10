@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_Map
@@ -25,7 +28,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Fill(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T1, CascadeSharp.TopAbs_ShapeEnum T2)
+		public void Fill(TopoDS_Shape S, TopAbs_ShapeEnum T1, TopAbs_ShapeEnum T2)
 		{
 			throw new NotImplementedException();
 		}

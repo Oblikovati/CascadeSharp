@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_PolyArc
 	//---------------------------------------------------------------------
-	public  sealed class IntPatch_PolyArc : CascadeSharp.IntPatch_Polygo
+	public  sealed class IntPatch_PolyArc : IntPatch_Polygo
 	{
 
 		public IntPatch_PolyArc(Adaptor2d_HCurve2d A, int NbSample, double Pfirst, double Plast, Bnd_Box2d BoxOtherPolygon)

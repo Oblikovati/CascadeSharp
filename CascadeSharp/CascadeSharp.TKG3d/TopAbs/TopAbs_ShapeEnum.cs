@@ -2,10 +2,8 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+namespace CascadeSharp.TKG3d.TopAbs
 {
 	//---------------------------------------------------------------------
 	//  Enum  TopAbs_ShapeEnum

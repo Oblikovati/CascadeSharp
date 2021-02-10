@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_ArrayOfTriangleFans
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_ArrayOfTriangleFans : CascadeSharp.Graphic3d_ArrayOfPrimitives
+	public  sealed class Graphic3d_ArrayOfTriangleFans : Graphic3d_ArrayOfPrimitives
 	{
 
 		public Graphic3d_ArrayOfTriangleFans(int theMaxVertexs, int theMaxFans, int theArrayFlags)

@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBRep.TopExp
 {
 	//---------------------------------------------------------------------
 	//  Class  TopExp
@@ -25,7 +28,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MapShapes(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T, TopTools_IndexedMapOfShape M)
+		public void MapShapes(TopoDS_Shape S, TopAbs_ShapeEnum T, TopTools_IndexedMapOfShape M)
 		{
 			throw new NotImplementedException();
 		}
@@ -40,17 +43,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MapShapesAndAncestors(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA, TopTools_IndexedDataMapOfShapeListOfShape M)
+		public void MapShapesAndAncestors(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA, TopTools_IndexedDataMapOfShapeListOfShape M)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MapShapesAndUniqueAncestors(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA, TopTools_IndexedDataMapOfShapeListOfShape M, bool useOrientation)
+		public void MapShapesAndUniqueAncestors(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA, TopTools_IndexedDataMapOfShapeListOfShape M, bool useOrientation)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MapShapesAndUniqueAncestors(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA, TopTools_IndexedDataMapOfShapeListOfShape M)
+		public void MapShapesAndUniqueAncestors(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA, TopTools_IndexedDataMapOfShapeListOfShape M)
 		{
 			throw new NotImplementedException();
 		}

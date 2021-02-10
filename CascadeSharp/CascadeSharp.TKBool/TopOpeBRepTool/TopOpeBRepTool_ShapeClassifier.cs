@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_ShapeClassifier
@@ -46,12 +50,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateShapeShape(TopoDS_Shape S, TopoDS_Shape SRef, int samedomain)
+		public TopAbs_State StateShapeShape(TopoDS_Shape S, TopoDS_Shape SRef, int samedomain)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateShapeShape(TopoDS_Shape S, TopoDS_Shape SRef)
+		public TopAbs_State StateShapeShape(TopoDS_Shape S, TopoDS_Shape SRef)
 		{
 			throw new NotImplementedException();
 		}
@@ -66,22 +70,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateShapeShape(TopoDS_Shape S, TopoDS_Shape AvoidS, TopoDS_Shape SRef)
+		public TopAbs_State StateShapeShape(TopoDS_Shape S, TopoDS_Shape AvoidS, TopoDS_Shape SRef)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateShapeShape(TopoDS_Shape S, TopTools_ListOfShape LAvoidS, TopoDS_Shape SRef)
+		public TopAbs_State StateShapeShape(TopoDS_Shape S, TopTools_ListOfShape LAvoidS, TopoDS_Shape SRef)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateShapeReference(TopoDS_Shape S, TopoDS_Shape AvoidS)
+		public TopAbs_State StateShapeReference(TopoDS_Shape S, TopoDS_Shape AvoidS)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateShapeReference(TopoDS_Shape S, TopTools_ListOfShape LAvoidS)
+		public TopAbs_State StateShapeReference(TopoDS_Shape S, TopTools_ListOfShape LAvoidS)
 		{
 			throw new NotImplementedException();
 		}
@@ -101,7 +105,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State()
+		public TopAbs_State State()
 		{
 			throw new NotImplementedException();
 		}

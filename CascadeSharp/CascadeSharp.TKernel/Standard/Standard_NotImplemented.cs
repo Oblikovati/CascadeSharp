@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_NotImplemented
 	//---------------------------------------------------------------------
-	public  sealed class Standard_NotImplemented : CascadeSharp.Standard_ProgramError
+	public  sealed class Standard_NotImplemented : Standard_ProgramError
 	{
 
 		public Standard_NotImplemented()

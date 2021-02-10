@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+
+namespace CascadeSharp.TKFillet.FilletSurf
 {
 	//---------------------------------------------------------------------
 	//  Class  FilletSurf_Builder
@@ -58,12 +62,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.FilletSurf_StatusDone IsDone()
+		public FilletSurf_StatusDone IsDone()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.FilletSurf_ErrorTypeStatus StatusError()
+		public FilletSurf_ErrorTypeStatus StatusError()
 		{
 			throw new NotImplementedException();
 		}
@@ -133,12 +137,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.FilletSurf_StatusType StartSectionStatus()
+		public FilletSurf_StatusType StartSectionStatus()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.FilletSurf_StatusType EndSectionStatus()
+		public FilletSurf_StatusType EndSectionStatus()
 		{
 			throw new NotImplementedException();
 		}

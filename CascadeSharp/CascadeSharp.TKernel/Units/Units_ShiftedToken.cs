@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Units
 {
 	//---------------------------------------------------------------------
 	//  Class  Units_ShiftedToken
 	//---------------------------------------------------------------------
-	public  sealed class Units_ShiftedToken : CascadeSharp.Units_Token
+	public  sealed class Units_ShiftedToken : Units_Token
 	{
 
 		public Units_ShiftedToken(string aword, string amean, double avalue, double amove, Units_Dimensions adimensions)

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_RectangularTrimmedSurface
 	//---------------------------------------------------------------------
-	public  sealed class Geom_RectangularTrimmedSurface : CascadeSharp.Geom_BoundedSurface
+	public  sealed class Geom_RectangularTrimmedSurface : Geom_BoundedSurface
 	{
 
 		public Geom_RectangularTrimmedSurface(Geom_Surface S, double U1, double U2, double V1, double V2, bool USense, bool VSense)
@@ -109,7 +111,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}

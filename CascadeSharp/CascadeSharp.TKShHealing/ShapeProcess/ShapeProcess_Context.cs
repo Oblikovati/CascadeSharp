@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKShHealing.ShapeProcess
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeProcess_Context

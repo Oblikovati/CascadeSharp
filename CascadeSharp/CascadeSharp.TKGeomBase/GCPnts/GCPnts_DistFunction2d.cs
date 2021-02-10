@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.GCPnts
 {
 	//---------------------------------------------------------------------
 	//  Class  GCPnts_DistFunction2d
 	//---------------------------------------------------------------------
-	public  sealed class GCPnts_DistFunction2d : CascadeSharp.math_Function
+	public  sealed class GCPnts_DistFunction2d : math_Function
 	{
 
 		public GCPnts_DistFunction2d(Adaptor2d_Curve2d theCurve, double U1, double U2)

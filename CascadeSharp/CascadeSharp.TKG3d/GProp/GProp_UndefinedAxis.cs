@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKG3d.GProp
 {
 	//---------------------------------------------------------------------
 	//  Class  GProp_UndefinedAxis
 	//---------------------------------------------------------------------
-	public  sealed class GProp_UndefinedAxis : CascadeSharp.Standard_DomainError
+	public  sealed class GProp_UndefinedAxis : Standard_DomainError
 	{
 
 		public GProp_UndefinedAxis()

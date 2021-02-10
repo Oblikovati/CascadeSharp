@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_makeTransition
@@ -55,22 +58,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool MkT2donE( ref CascadeSharp.TopAbs_State stb,  ref CascadeSharp.TopAbs_State sta)
+		public bool MkT2donE( ref TopAbs_State stb,  ref TopAbs_State sta)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool MkT3onE( ref CascadeSharp.TopAbs_State stb,  ref CascadeSharp.TopAbs_State sta)
+		public bool MkT3onE( ref TopAbs_State stb,  ref TopAbs_State sta)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool MkT3dproj( ref CascadeSharp.TopAbs_State stb,  ref CascadeSharp.TopAbs_State sta)
+		public bool MkT3dproj( ref TopAbs_State stb,  ref TopAbs_State sta)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool MkTonE( ref CascadeSharp.TopAbs_State stb,  ref CascadeSharp.TopAbs_State sta)
+		public bool MkTonE( ref TopAbs_State stb,  ref TopAbs_State sta)
 		{
 			throw new NotImplementedException();
 		}

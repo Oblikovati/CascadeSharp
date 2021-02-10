@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKGeomAlgo.GeomFill;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_DraftLaw
 	//---------------------------------------------------------------------
-	public  sealed class BRepFill_DraftLaw : CascadeSharp.BRepFill_Edge3DLaw
+	public  sealed class BRepFill_DraftLaw : BRepFill_Edge3DLaw
 	{
 
 		public BRepFill_DraftLaw(TopoDS_Wire Path, GeomFill_LocationDraft Law)

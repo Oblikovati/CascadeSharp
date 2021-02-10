@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_SurfaceOfRevolution
 	//---------------------------------------------------------------------
-	public  sealed class Geom_SurfaceOfRevolution : CascadeSharp.Geom_SweptSurface
+	public  sealed class Geom_SurfaceOfRevolution : Geom_SweptSurface
 	{
 
 		public Geom_SurfaceOfRevolution(Geom_Curve C, gp_Ax1 A1)

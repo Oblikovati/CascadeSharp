@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKBO.BOPAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPAlgo_ToolsProvider
 	//---------------------------------------------------------------------
-	public  class BOPAlgo_ToolsProvider : CascadeSharp.BOPAlgo_Builder
+	public  class BOPAlgo_ToolsProvider : BOPAlgo_Builder
 	{
 
 		public BOPAlgo_ToolsProvider()

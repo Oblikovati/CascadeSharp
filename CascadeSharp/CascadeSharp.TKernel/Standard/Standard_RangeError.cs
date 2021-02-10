@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_RangeError
 	//---------------------------------------------------------------------
-	public  class Standard_RangeError : CascadeSharp.Standard_DomainError
+	public  class Standard_RangeError : Standard_DomainError
 	{
 
 		public Standard_RangeError()

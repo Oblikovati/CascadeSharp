@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_Parabola
 	//---------------------------------------------------------------------
-	public  sealed class Geom_Parabola : CascadeSharp.Geom_Conic
+	public  sealed class Geom_Parabola : Geom_Conic
 	{
 
 		public Geom_Parabola(gp_Parab Prb)

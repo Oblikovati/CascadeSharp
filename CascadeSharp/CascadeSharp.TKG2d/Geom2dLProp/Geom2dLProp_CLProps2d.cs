@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG2d.Geom2dLProp
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dLProp_CLProps2d

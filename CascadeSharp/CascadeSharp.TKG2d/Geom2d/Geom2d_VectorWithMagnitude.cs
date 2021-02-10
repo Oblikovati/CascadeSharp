@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_VectorWithMagnitude
 	//---------------------------------------------------------------------
-	public  sealed class Geom2d_VectorWithMagnitude : CascadeSharp.Geom2d_Vector
+	public  sealed class Geom2d_VectorWithMagnitude : Geom2d_Vector
 	{
 
 		public Geom2d_VectorWithMagnitude(gp_Vec2d V)

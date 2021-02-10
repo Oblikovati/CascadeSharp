@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKGeomAlgo.GeomFill;
+using CascadeSharp.TKGeomAlgo.Law;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_PipeShell
@@ -60,7 +66,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Set(TopoDS_Wire AuxiliarySpine, bool CurvilinearEquivalence, CascadeSharp.BRepFill_TypeOfContact KeepContact)
+		public void Set(TopoDS_Wire AuxiliarySpine, bool CurvilinearEquivalence, BRepFill_TypeOfContact KeepContact)
 		{
 			throw new NotImplementedException();
 		}
@@ -160,7 +166,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomFill_PipeError GetStatus()
+		public GeomFill_PipeError GetStatus()
 		{
 			throw new NotImplementedException();
 		}
@@ -185,17 +191,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetTransition(CascadeSharp.BRepFill_TransitionStyle Mode, double Angmin, double Angmax)
+		public void SetTransition(BRepFill_TransitionStyle Mode, double Angmin, double Angmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTransition(CascadeSharp.BRepFill_TransitionStyle Mode, double Angmin)
+		public void SetTransition(BRepFill_TransitionStyle Mode, double Angmin)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTransition(CascadeSharp.BRepFill_TransitionStyle Mode)
+		public void SetTransition(BRepFill_TransitionStyle Mode)
 		{
 			throw new NotImplementedException();
 		}

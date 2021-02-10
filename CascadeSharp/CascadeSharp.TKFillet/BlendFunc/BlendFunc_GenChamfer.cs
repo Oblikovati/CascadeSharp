@@ -2,15 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKFillet.Blend;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKFillet.BlendFunc
 {
 	//---------------------------------------------------------------------
 	//  Class  BlendFunc_GenChamfer
 	//---------------------------------------------------------------------
-	public  abstract class BlendFunc_GenChamfer : CascadeSharp.Blend_Function
+	public  abstract class BlendFunc_GenChamfer : Blend_Function
 	{
 
 		public BlendFunc_GenChamfer(Adaptor3d_HSurface S1, Adaptor3d_HSurface S2, Adaptor3d_HCurve CG)
@@ -80,12 +87,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

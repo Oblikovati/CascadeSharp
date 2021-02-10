@@ -2,10 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeAnalysis
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeAnalysis_Edge
@@ -190,7 +197,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Status(CascadeSharp.ShapeExtend_Status status)
+		public bool Status(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

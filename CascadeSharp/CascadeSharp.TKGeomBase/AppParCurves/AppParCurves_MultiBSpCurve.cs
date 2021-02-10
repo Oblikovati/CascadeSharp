@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.AppParCurves
 {
 	//---------------------------------------------------------------------
 	//  Class  AppParCurves_MultiBSpCurve
 	//---------------------------------------------------------------------
-	public  sealed class AppParCurves_MultiBSpCurve : CascadeSharp.AppParCurves_MultiCurve
+	public  sealed class AppParCurves_MultiBSpCurve : AppParCurves_MultiCurve
 	{
 
 		public AppParCurves_MultiBSpCurve()

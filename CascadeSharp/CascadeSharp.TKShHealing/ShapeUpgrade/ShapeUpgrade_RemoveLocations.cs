@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_RemoveLocations
@@ -35,12 +38,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetRemoveLevel(CascadeSharp.TopAbs_ShapeEnum theLevel)
+		public void SetRemoveLevel(TopAbs_ShapeEnum theLevel)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum RemoveLevel()
+		public TopAbs_ShapeEnum RemoveLevel()
 		{
 			throw new NotImplementedException();
 		}

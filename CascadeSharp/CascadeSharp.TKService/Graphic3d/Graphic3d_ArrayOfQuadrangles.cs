@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_ArrayOfQuadrangles
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_ArrayOfQuadrangles : CascadeSharp.Graphic3d_ArrayOfPrimitives
+	public  sealed class Graphic3d_ArrayOfQuadrangles : Graphic3d_ArrayOfPrimitives
 	{
 
 		public Graphic3d_ArrayOfQuadrangles(int theMaxVertexs, int theMaxEdges, int theArrayFlags)

@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_LightSet
@@ -70,7 +72,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbLightsOfType(CascadeSharp.Graphic3d_TypeOfLightSource theType)
+		public int NbLightsOfType(Graphic3d_TypeOfLightSource theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -90,7 +92,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbEnabledLightsOfType(CascadeSharp.Graphic3d_TypeOfLightSource theType)
+		public int NbEnabledLightsOfType(Graphic3d_TypeOfLightSource theType)
 		{
 			throw new NotImplementedException();
 		}

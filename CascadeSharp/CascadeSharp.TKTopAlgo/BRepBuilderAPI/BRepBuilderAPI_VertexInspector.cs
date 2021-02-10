@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepBuilderAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepBuilderAPI_VertexInspector
@@ -50,7 +53,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.NCollection_CellFilter_Action Inspect(int theTarget)
+		public NCollection_CellFilter_Action Inspect(int theTarget)
 		{
 			throw new NotImplementedException();
 		}

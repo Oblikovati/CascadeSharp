@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.Intf;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntCurveSurface
 {
 	//---------------------------------------------------------------------
 	//  Class  IntCurveSurface_TheInterferenceOfHInter
 	//---------------------------------------------------------------------
-	public  sealed class IntCurveSurface_TheInterferenceOfHInter : CascadeSharp.Intf_Interference
+	public  sealed class IntCurveSurface_TheInterferenceOfHInter : Intf_Interference
 	{
 
 		public IntCurveSurface_TheInterferenceOfHInter()

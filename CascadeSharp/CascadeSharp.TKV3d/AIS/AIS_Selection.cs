@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_Selection
@@ -35,12 +37,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_SelectStatus Select(SelectMgr_EntityOwner theObject)
+		public AIS_SelectStatus Select(SelectMgr_EntityOwner theObject)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_SelectStatus AddSelect(SelectMgr_EntityOwner theObject)
+		public AIS_SelectStatus AddSelect(SelectMgr_EntityOwner theObject)
 		{
 			throw new NotImplementedException();
 		}

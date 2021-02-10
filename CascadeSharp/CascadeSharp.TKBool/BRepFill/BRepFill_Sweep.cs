@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKGeomAlgo.GeomFill;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_Sweep
@@ -75,27 +79,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, CascadeSharp.BRepFill_TransitionStyle Transition, CascadeSharp.GeomAbs_Shape Continuity, CascadeSharp.GeomFill_ApproxStyle Approx, int Degmax, int Segmax)
+		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, BRepFill_TransitionStyle Transition, GeomAbs_Shape Continuity, GeomFill_ApproxStyle Approx, int Degmax, int Segmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, CascadeSharp.BRepFill_TransitionStyle Transition, CascadeSharp.GeomAbs_Shape Continuity, CascadeSharp.GeomFill_ApproxStyle Approx, int Degmax)
+		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, BRepFill_TransitionStyle Transition, GeomAbs_Shape Continuity, GeomFill_ApproxStyle Approx, int Degmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, CascadeSharp.BRepFill_TransitionStyle Transition, CascadeSharp.GeomAbs_Shape Continuity, CascadeSharp.GeomFill_ApproxStyle Approx)
+		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, BRepFill_TransitionStyle Transition, GeomAbs_Shape Continuity, GeomFill_ApproxStyle Approx)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, CascadeSharp.BRepFill_TransitionStyle Transition, CascadeSharp.GeomAbs_Shape Continuity)
+		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, BRepFill_TransitionStyle Transition, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, CascadeSharp.BRepFill_TransitionStyle Transition)
+		public void Build(TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, BRepFill_TransitionStyle Transition)
 		{
 			throw new NotImplementedException();
 		}
@@ -145,32 +149,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool BuildWire(CascadeSharp.BRepFill_TransitionStyle Transition)
+		public bool BuildWire(BRepFill_TransitionStyle Transition)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildShell(CascadeSharp.BRepFill_TransitionStyle Transition, int Vf, int Vl, TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, double ExtendFirst, double ExtendLast)
+		public bool BuildShell(BRepFill_TransitionStyle Transition, int Vf, int Vl, TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, double ExtendFirst, double ExtendLast)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildShell(CascadeSharp.BRepFill_TransitionStyle Transition, int Vf, int Vl, TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, double ExtendFirst)
+		public bool BuildShell(BRepFill_TransitionStyle Transition, int Vf, int Vl, TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails, double ExtendFirst)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildShell(CascadeSharp.BRepFill_TransitionStyle Transition, int Vf, int Vl, TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails)
+		public bool BuildShell(BRepFill_TransitionStyle Transition, int Vf, int Vl, TopTools_MapOfShape ReversedEdges, BRepFill_DataMapOfShapeHArray2OfShape Tapes, BRepFill_DataMapOfShapeHArray2OfShape Rails)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool PerformCorner(int Index, CascadeSharp.BRepFill_TransitionStyle Transition, TopTools_HArray2OfShape Bounds)
+		public bool PerformCorner(int Index, BRepFill_TransitionStyle Transition, TopTools_HArray2OfShape Bounds)
 		{
 			throw new NotImplementedException();
 		}
 
-		public double EvalExtrapol(int Index, CascadeSharp.BRepFill_TransitionStyle Transition)
+		public double EvalExtrapol(int Index, BRepFill_TransitionStyle Transition)
 		{
 			throw new NotImplementedException();
 		}

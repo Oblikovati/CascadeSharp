@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_Stripe
@@ -40,12 +43,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation OrientationOnFace1()
+		public TopAbs_Orientation OrientationOnFace1()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation OrientationOnFace2()
+		public TopAbs_Orientation OrientationOnFace2()
 		{
 			throw new NotImplementedException();
 		}
@@ -65,12 +68,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void OrientationOnFace1(CascadeSharp.TopAbs_Orientation Or1)
+		public void OrientationOnFace1(TopAbs_Orientation Or1)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void OrientationOnFace2(CascadeSharp.TopAbs_Orientation Or2)
+		public void OrientationOnFace2(TopAbs_Orientation Or2)
 		{
 			throw new NotImplementedException();
 		}
@@ -140,22 +143,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation FirstPCurveOrientation()
+		public TopAbs_Orientation FirstPCurveOrientation()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation LastPCurveOrientation()
+		public TopAbs_Orientation LastPCurveOrientation()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void FirstPCurveOrientation(CascadeSharp.TopAbs_Orientation O)
+		public void FirstPCurveOrientation(TopAbs_Orientation O)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void LastPCurveOrientation(CascadeSharp.TopAbs_Orientation O)
+		public void LastPCurveOrientation(TopAbs_Orientation O)
 		{
 			throw new NotImplementedException();
 		}
@@ -230,22 +233,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(int OnS)
+		public TopAbs_Orientation Orientation(int OnS)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetOrientation(CascadeSharp.TopAbs_Orientation Or, int OnS)
+		public void SetOrientation(TopAbs_Orientation Or, int OnS)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(bool First)
+		public TopAbs_Orientation Orientation(bool First)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetOrientation(CascadeSharp.TopAbs_Orientation Or, bool First)
+		public void SetOrientation(TopAbs_Orientation Or, bool First)
 		{
 			throw new NotImplementedException();
 		}

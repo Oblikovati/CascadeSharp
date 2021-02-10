@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_AbortiveTransaction
 	//---------------------------------------------------------------------
-	public  sealed class Standard_AbortiveTransaction : CascadeSharp.Standard_Failure
+	public  sealed class Standard_AbortiveTransaction : Standard_Failure
 	{
 
 		public Standard_AbortiveTransaction()

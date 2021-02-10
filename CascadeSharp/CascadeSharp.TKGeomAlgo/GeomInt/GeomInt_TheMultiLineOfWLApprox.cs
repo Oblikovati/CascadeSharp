@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.IntPatch;
+using CascadeSharp.TKGeomBase.Approx;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_TheMultiLineOfWLApprox
@@ -81,7 +84,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Approx_Status WhatStatus()
+		public Approx_Status WhatStatus()
 		{
 			throw new NotImplementedException();
 		}

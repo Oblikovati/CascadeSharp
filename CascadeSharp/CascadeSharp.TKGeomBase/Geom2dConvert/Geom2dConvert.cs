@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG2d.TColGeom2d;
+using CascadeSharp.TKMath.Convert;
+
+namespace CascadeSharp.TKGeomBase.Geom2dConvert
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dConvert
@@ -45,7 +49,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Geom2d_BSplineCurve CurveToBSplineCurve(Geom2d_Curve C, CascadeSharp.Convert_ParameterisationType Parameter_isation)
+		public Geom2d_BSplineCurve CurveToBSplineCurve(Geom2d_Curve C, Convert_ParameterisationType Parameter_isation)
 		{
 			throw new NotImplementedException();
 		}

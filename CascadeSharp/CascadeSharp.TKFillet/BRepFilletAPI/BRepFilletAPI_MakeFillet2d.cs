@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKFillet.ChFi2d;
+using CascadeSharp.TKTopAlgo.BRepBuilderAPI;
+
+namespace CascadeSharp.TKFillet.BRepFilletAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFilletAPI_MakeFillet2d
 	//---------------------------------------------------------------------
-	public  sealed class BRepFilletAPI_MakeFillet2d : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  sealed class BRepFilletAPI_MakeFillet2d : BRepBuilderAPI_MakeShape
 	{
 
 		public BRepFilletAPI_MakeFillet2d()
@@ -136,7 +140,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFi2d_ConstructionError Status()
+		public ChFi2d_ConstructionError Status()
 		{
 			throw new NotImplementedException();
 		}

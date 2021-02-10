@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKMath.Convert
 {
 	//---------------------------------------------------------------------
 	//  Class  Convert_ParabolaToBSplineCurve
 	//---------------------------------------------------------------------
-	public  sealed class Convert_ParabolaToBSplineCurve : CascadeSharp.Convert_ConicToBSplineCurve
+	public  sealed class Convert_ParabolaToBSplineCurve : Convert_ConicToBSplineCurve
 	{
 
 		public Convert_ParabolaToBSplineCurve(gp_Parab2d Prb, double U1, double U2)

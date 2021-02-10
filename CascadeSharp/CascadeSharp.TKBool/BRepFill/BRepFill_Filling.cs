@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_Filling
@@ -154,27 +158,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int Add(TopoDS_Edge anEdge, CascadeSharp.GeomAbs_Shape Order, bool IsBound)
+		public int Add(TopoDS_Edge anEdge, GeomAbs_Shape Order, bool IsBound)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int Add(TopoDS_Edge anEdge, CascadeSharp.GeomAbs_Shape Order)
+		public int Add(TopoDS_Edge anEdge, GeomAbs_Shape Order)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int Add(TopoDS_Edge anEdge, TopoDS_Face Support, CascadeSharp.GeomAbs_Shape Order, bool IsBound)
+		public int Add(TopoDS_Edge anEdge, TopoDS_Face Support, GeomAbs_Shape Order, bool IsBound)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int Add(TopoDS_Edge anEdge, TopoDS_Face Support, CascadeSharp.GeomAbs_Shape Order)
+		public int Add(TopoDS_Edge anEdge, TopoDS_Face Support, GeomAbs_Shape Order)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int Add(TopoDS_Face Support, CascadeSharp.GeomAbs_Shape Order)
+		public int Add(TopoDS_Face Support, GeomAbs_Shape Order)
 		{
 			throw new NotImplementedException();
 		}
@@ -184,7 +188,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int Add(double U, double V, TopoDS_Face Support, CascadeSharp.GeomAbs_Shape Order)
+		public int Add(double U, double V, TopoDS_Face Support, GeomAbs_Shape Order)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.BOPDS;
+using CascadeSharp.TKBO.IntTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBO.BOPAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPAlgo_Builder
 	//---------------------------------------------------------------------
-	public  class BOPAlgo_Builder : CascadeSharp.BOPAlgo_BuilderShape
+	public  class BOPAlgo_Builder : BOPAlgo_BuilderShape
 	{
 
 		public BOPAlgo_Builder()
@@ -71,12 +78,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetGlue(CascadeSharp.BOPAlgo_GlueEnum theGlue)
+		public void SetGlue(BOPAlgo_GlueEnum theGlue)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BOPAlgo_GlueEnum Glue()
+		public BOPAlgo_GlueEnum Glue()
 		{
 			throw new NotImplementedException();
 		}
@@ -96,22 +103,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public void BuildBOP(TopTools_ListOfShape theObjects, CascadeSharp.TopAbs_State theObjState, TopTools_ListOfShape theTools, CascadeSharp.TopAbs_State theToolsState, Message_Report theReport)
+				public void BuildBOP(TopTools_ListOfShape theObjects, TopAbs_State theObjState, TopTools_ListOfShape theTools, TopAbs_State theToolsState, Message_Report theReport)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void BuildBOP(TopTools_ListOfShape theObjects, CascadeSharp.TopAbs_State theObjState, TopTools_ListOfShape theTools, CascadeSharp.TopAbs_State theToolsState)
+		public void BuildBOP(TopTools_ListOfShape theObjects, TopAbs_State theObjState, TopTools_ListOfShape theTools, TopAbs_State theToolsState)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void BuildBOP(TopTools_ListOfShape theObjects, TopTools_ListOfShape theTools, CascadeSharp.BOPAlgo_Operation theOperation, Message_Report theReport)
+		public void BuildBOP(TopTools_ListOfShape theObjects, TopTools_ListOfShape theTools, BOPAlgo_Operation theOperation, Message_Report theReport)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void BuildBOP(TopTools_ListOfShape theObjects, TopTools_ListOfShape theTools, CascadeSharp.BOPAlgo_Operation theOperation)
+		public void BuildBOP(TopTools_ListOfShape theObjects, TopTools_ListOfShape theTools, BOPAlgo_Operation theOperation)
 		{
 			throw new NotImplementedException();
 		}
@@ -146,7 +153,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public void BuildResult(CascadeSharp.TopAbs_ShapeEnum theType)
+						public void BuildResult(TopAbs_ShapeEnum theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -176,12 +183,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void FillImagesContainers(CascadeSharp.TopAbs_ShapeEnum theType)
+		public void FillImagesContainers(TopAbs_ShapeEnum theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void FillImagesContainer(TopoDS_Shape theS, CascadeSharp.TopAbs_ShapeEnum theType)
+		public void FillImagesContainer(TopoDS_Shape theS, TopAbs_ShapeEnum theType)
 		{
 			throw new NotImplementedException();
 		}

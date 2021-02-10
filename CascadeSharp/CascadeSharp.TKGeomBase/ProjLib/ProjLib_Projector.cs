@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.ProjLib
 {
 	//---------------------------------------------------------------------
 	//  Class  ProjLib_Projector
@@ -35,7 +38,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_CurveType GetGeomType()
+		public GeomAbs_CurveType GetGeomType()
 		{
 			throw new NotImplementedException();
 		}
@@ -50,7 +53,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetType(CascadeSharp.GeomAbs_CurveType Type)
+		public void SetType(GeomAbs_CurveType Type)
 		{
 			throw new NotImplementedException();
 		}

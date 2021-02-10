@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKShHealing.ShapeExtend
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeExtend_Explorer
@@ -50,12 +53,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum ShapeType(TopoDS_Shape shape, bool compound)
+		public TopAbs_ShapeEnum ShapeType(TopoDS_Shape shape, bool compound)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape SortedCompound(TopoDS_Shape shape, CascadeSharp.TopAbs_ShapeEnum type, bool explore, bool compound)
+		public TopoDS_Shape SortedCompound(TopoDS_Shape shape, TopAbs_ShapeEnum type, bool explore, bool compound)
 		{
 			throw new NotImplementedException();
 		}

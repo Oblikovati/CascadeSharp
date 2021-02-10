@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_EdgeBuilder
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepBuild_EdgeBuilder : CascadeSharp.TopOpeBRepBuild_Area1dBuilder
+	public  sealed class TopOpeBRepBuild_EdgeBuilder : TopOpeBRepBuild_Area1dBuilder
 	{
 
 		public TopOpeBRepBuild_EdgeBuilder()

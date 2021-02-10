@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_PaveSet
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepBuild_PaveSet : CascadeSharp.TopOpeBRepBuild_LoopSet
+	public  sealed class TopOpeBRepBuild_PaveSet : TopOpeBRepBuild_LoopSet
 	{
 
 		public TopOpeBRepBuild_PaveSet(TopoDS_Shape E)

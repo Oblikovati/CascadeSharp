@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKBO.BOPAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPAlgo_Algo
 	//---------------------------------------------------------------------
-	public  abstract class BOPAlgo_Algo : CascadeSharp.BOPAlgo_Options
+	public  abstract class BOPAlgo_Algo : BOPAlgo_Options
 	{
 
 		public BOPAlgo_Algo()

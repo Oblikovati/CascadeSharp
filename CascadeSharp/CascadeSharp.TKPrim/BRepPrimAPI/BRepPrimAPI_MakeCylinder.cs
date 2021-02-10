@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKPrim.BRepPrim;
+
+namespace CascadeSharp.TKPrim.BRepPrimAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepPrimAPI_MakeCylinder
 	//---------------------------------------------------------------------
-	public  sealed class BRepPrimAPI_MakeCylinder : CascadeSharp.BRepPrimAPI_MakeOneAxis
+	public  sealed class BRepPrimAPI_MakeCylinder : BRepPrimAPI_MakeOneAxis
 	{
 
 		public BRepPrimAPI_MakeCylinder(double R, double H)

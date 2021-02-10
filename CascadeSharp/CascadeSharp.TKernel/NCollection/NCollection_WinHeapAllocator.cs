@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.NCollection
 {
 	//---------------------------------------------------------------------
 	//  Class  NCollection_WinHeapAllocator
 	//---------------------------------------------------------------------
-	public  sealed class NCollection_WinHeapAllocator : CascadeSharp.NCollection_BaseAllocator
+	public  sealed class NCollection_WinHeapAllocator : NCollection_BaseAllocator
 	{
 
 		public NCollection_WinHeapAllocator(UInt64 theInitSizeBytes)

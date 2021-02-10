@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeFix
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeFix_WireSegment
@@ -19,7 +22,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public ShapeFix_WireSegment(ShapeExtend_WireData wire, CascadeSharp.TopAbs_Orientation ori)
+		public ShapeFix_WireSegment(ShapeExtend_WireData wire, TopAbs_Orientation ori)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -31,7 +34,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public ShapeFix_WireSegment(TopoDS_Wire wire, CascadeSharp.TopAbs_Orientation ori)
+		public ShapeFix_WireSegment(TopoDS_Wire wire, TopAbs_Orientation ori)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -64,12 +67,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Orientation(CascadeSharp.TopAbs_Orientation ori)
+		public void Orientation(TopAbs_Orientation ori)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation()
+		public TopAbs_Orientation Orientation()
 		{
 			throw new NotImplementedException();
 		}

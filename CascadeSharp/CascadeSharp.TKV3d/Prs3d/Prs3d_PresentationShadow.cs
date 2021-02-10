@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_PresentationShadow
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_PresentationShadow : CascadeSharp.Graphic3d_Structure
+	public  sealed class Prs3d_PresentationShadow : Graphic3d_Structure
 	{
 
 		public Prs3d_PresentationShadow(Graphic3d_StructureManager theViewer, Graphic3d_Structure thePrs)

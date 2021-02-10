@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.FairCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  FairCurve_Energy
 	//---------------------------------------------------------------------
-	public  abstract class FairCurve_Energy : CascadeSharp.math_MultipleVarFunctionWithHessian
+	public  abstract class FairCurve_Energy : math_MultipleVarFunctionWithHessian
 	{
 
 		public FairCurve_Energy(TColgp_HArray1OfPnt2d Poles, int ConstrOrder1, int ConstrOrder2, bool WithAuxValue, double Angle1, double Angle2, int Degree, double Curvature1, double Curvature2)

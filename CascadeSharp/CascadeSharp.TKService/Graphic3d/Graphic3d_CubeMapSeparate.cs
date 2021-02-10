@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_CubeMapSeparate
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_CubeMapSeparate : CascadeSharp.Graphic3d_CubeMap
+	public  sealed class Graphic3d_CubeMapSeparate : Graphic3d_CubeMap
 	{
 
 						public Graphic3d_CubeMapSeparate(Graphic3d_CubeMapSeparate parameter1)

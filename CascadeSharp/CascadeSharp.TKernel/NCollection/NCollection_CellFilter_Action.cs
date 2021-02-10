@@ -2,10 +2,8 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+namespace CascadeSharp.TKernel.NCollection
 {
 	//---------------------------------------------------------------------
 	//  Enum  NCollection_CellFilter_Action

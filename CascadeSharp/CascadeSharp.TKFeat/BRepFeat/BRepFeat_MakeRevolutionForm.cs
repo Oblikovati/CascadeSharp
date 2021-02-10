@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat_MakeRevolutionForm
 	//---------------------------------------------------------------------
-	public  sealed class BRepFeat_MakeRevolutionForm : CascadeSharp.BRepFeat_RibSlot
+	public  sealed class BRepFeat_MakeRevolutionForm : BRepFeat_RibSlot
 	{
 
 		public BRepFeat_MakeRevolutionForm()

@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKGeomBase.AppParCurves;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox
@@ -13,25 +16,25 @@ namespace CascadeSharp
 	public  sealed class GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox
 	{
 
-		public GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint, int LastPoint, CascadeSharp.AppParCurves_Constraint FirstCons, CascadeSharp.AppParCurves_Constraint LastCons, math_Vector Parameters, int NbPol)
+		public GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint, int LastPoint, AppParCurves_Constraint FirstCons, AppParCurves_Constraint LastCons, math_Vector Parameters, int NbPol)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint, int LastPoint, CascadeSharp.AppParCurves_Constraint FirstCons, CascadeSharp.AppParCurves_Constraint LastCons, int NbPol)
+		public GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint, int LastPoint, AppParCurves_Constraint FirstCons, AppParCurves_Constraint LastCons, int NbPol)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int FirstPoint, int LastPoint, CascadeSharp.AppParCurves_Constraint FirstCons, CascadeSharp.AppParCurves_Constraint LastCons, math_Vector Parameters, int NbPol)
+		public GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int FirstPoint, int LastPoint, AppParCurves_Constraint FirstCons, AppParCurves_Constraint LastCons, math_Vector Parameters, int NbPol)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int FirstPoint, int LastPoint, CascadeSharp.AppParCurves_Constraint FirstCons, CascadeSharp.AppParCurves_Constraint LastCons, int NbPol)
+		public GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int FirstPoint, int LastPoint, AppParCurves_Constraint FirstCons, AppParCurves_Constraint LastCons, int NbPol)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -143,17 +146,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int TheFirstPoint(CascadeSharp.AppParCurves_Constraint FirstCons, int FirstPoint)
+		public int TheFirstPoint(AppParCurves_Constraint FirstCons, int FirstPoint)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int TheLastPoint(CascadeSharp.AppParCurves_Constraint LastCons, int LastPoint)
+		public int TheLastPoint(AppParCurves_Constraint LastCons, int LastPoint)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Affect(GeomInt_TheMultiLineOfWLApprox SSP, int Index,  ref CascadeSharp.AppParCurves_Constraint Cons, math_Vector Vt, math_Vector Vc)
+		public void Affect(GeomInt_TheMultiLineOfWLApprox SSP, int Index,  ref AppParCurves_Constraint Cons, math_Vector Vt, math_Vector Vc)
 		{
 			throw new NotImplementedException();
 		}

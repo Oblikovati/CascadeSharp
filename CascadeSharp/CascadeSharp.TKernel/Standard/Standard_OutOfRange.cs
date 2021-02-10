@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_OutOfRange
 	//---------------------------------------------------------------------
-	public  class Standard_OutOfRange : CascadeSharp.Standard_RangeError
+	public  class Standard_OutOfRange : Standard_RangeError
 	{
 
 		public Standard_OutOfRange()

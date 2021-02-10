@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.Bnd;
+
+namespace CascadeSharp.TKBO.IntTools
 {
 	//---------------------------------------------------------------------
 	//  Class  IntTools_EdgeEdge
@@ -152,7 +156,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddSolution(double aT11, double aT12, double aT21, double aT22, CascadeSharp.TopAbs_ShapeEnum theType)
+		public void AddSolution(double aT11, double aT12, double aT21, double aT22, TopAbs_ShapeEnum theType)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRepTools
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepTools_TrsfModification
 	//---------------------------------------------------------------------
-	public  class BRepTools_TrsfModification : CascadeSharp.BRepTools_Modification
+	public  class BRepTools_TrsfModification : BRepTools_Modification
 	{
 
 		public BRepTools_TrsfModification(gp_Trsf T)
@@ -60,7 +66,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2, TopoDS_Edge NewE, TopoDS_Face NewF1, TopoDS_Face NewF2)
+		public GeomAbs_Shape Continuity(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2, TopoDS_Edge NewE, TopoDS_Face NewF1, TopoDS_Face NewF2)
 		{
 			throw new NotImplementedException();
 		}

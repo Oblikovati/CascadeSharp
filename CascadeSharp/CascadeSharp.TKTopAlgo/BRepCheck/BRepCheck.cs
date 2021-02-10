@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.Adaptor3d;
+
+namespace CascadeSharp.TKTopAlgo.BRepCheck
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepCheck
@@ -25,7 +27,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Add(BRepCheck_ListOfStatus L_ist, CascadeSharp.BRepCheck_Status Stat)
+		public void Add(BRepCheck_ListOfStatus L_ist, BRepCheck_Status Stat)
 		{
 			throw new NotImplementedException();
 		}

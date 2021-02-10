@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.NCollection
 {
 	//---------------------------------------------------------------------
 	//  Class  NCollection_IncAllocator
 	//---------------------------------------------------------------------
-	public  sealed class NCollection_IncAllocator : CascadeSharp.NCollection_BaseAllocator
+	public  sealed class NCollection_IncAllocator : NCollection_BaseAllocator
 	{
 
 		public NCollection_IncAllocator(UInt64 theBlockSize)

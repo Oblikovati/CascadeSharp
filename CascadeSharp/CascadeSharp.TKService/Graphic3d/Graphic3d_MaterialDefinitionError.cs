@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_MaterialDefinitionError
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_MaterialDefinitionError : CascadeSharp.Standard_OutOfRange
+	public  sealed class Graphic3d_MaterialDefinitionError : Standard_OutOfRange
 	{
 
 		public Graphic3d_MaterialDefinitionError()

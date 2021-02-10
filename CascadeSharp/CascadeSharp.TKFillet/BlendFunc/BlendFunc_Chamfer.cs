@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKFillet.BlendFunc
 {
 	//---------------------------------------------------------------------
 	//  Class  BlendFunc_Chamfer
 	//---------------------------------------------------------------------
-	public  sealed class BlendFunc_Chamfer : CascadeSharp.BlendFunc_GenChamfer
+	public  sealed class BlendFunc_Chamfer : BlendFunc_GenChamfer
 	{
 
 		public BlendFunc_Chamfer(Adaptor3d_HSurface S1, Adaptor3d_HSurface S2, Adaptor3d_HCurve CG)

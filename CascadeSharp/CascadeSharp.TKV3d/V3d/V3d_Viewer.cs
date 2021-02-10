@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d_Viewer
@@ -19,37 +25,37 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, CascadeSharp.V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground, CascadeSharp.V3d_TypeOfVisualization theV_isualization, CascadeSharp.Graphic3d_TypeOfShadingModel theShadingModel, bool theComputedMode, bool theDefaultComputedMode)
+		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground, V3d_TypeOfVisualization theV_isualization, Graphic3d_TypeOfShadingModel theShadingModel, bool theComputedMode, bool theDefaultComputedMode)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, CascadeSharp.V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground, CascadeSharp.V3d_TypeOfVisualization theV_isualization, CascadeSharp.Graphic3d_TypeOfShadingModel theShadingModel, bool theComputedMode)
+		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground, V3d_TypeOfVisualization theV_isualization, Graphic3d_TypeOfShadingModel theShadingModel, bool theComputedMode)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, CascadeSharp.V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground, CascadeSharp.V3d_TypeOfVisualization theV_isualization, CascadeSharp.Graphic3d_TypeOfShadingModel theShadingModel)
+		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground, V3d_TypeOfVisualization theV_isualization, Graphic3d_TypeOfShadingModel theShadingModel)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, CascadeSharp.V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground, CascadeSharp.V3d_TypeOfVisualization theV_isualization)
+		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground, V3d_TypeOfVisualization theV_isualization)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, CascadeSharp.V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground)
+		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, V3d_TypeOfOrientation theViewProj, Quantity_Color theViewBackground)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, CascadeSharp.V3d_TypeOfOrientation theViewProj)
+		public V3d_Viewer(Graphic3d_GraphicDriver theDriver, string theName, string theDomain, double theViewSize, V3d_TypeOfOrientation theViewProj)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -174,7 +180,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetDefaultBgGradientColors(Quantity_Color theColor1, Quantity_Color theColor2, CascadeSharp.Aspect_GradientFillMethod theFillStyle)
+		public void SetDefaultBgGradientColors(Quantity_Color theColor1, Quantity_Color theColor2, Aspect_GradientFillMethod theFillStyle)
 		{
 			throw new NotImplementedException();
 		}
@@ -194,42 +200,42 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.V3d_TypeOfOrientation DefaultViewProj()
+		public V3d_TypeOfOrientation DefaultViewProj()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetDefaultViewProj(CascadeSharp.V3d_TypeOfOrientation theOrientation)
+		public void SetDefaultViewProj(V3d_TypeOfOrientation theOrientation)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.V3d_TypeOfVisualization DefaultVisualization()
+		public V3d_TypeOfVisualization DefaultVisualization()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetDefaultVisualization(CascadeSharp.V3d_TypeOfVisualization theType)
+		public void SetDefaultVisualization(V3d_TypeOfVisualization theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfShadingModel DefaultShadingModel()
+		public Graphic3d_TypeOfShadingModel DefaultShadingModel()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetDefaultShadingModel(CascadeSharp.Graphic3d_TypeOfShadingModel theType)
+		public void SetDefaultShadingModel(Graphic3d_TypeOfShadingModel theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.V3d_TypeOfView DefaultTypeOfView()
+		public V3d_TypeOfView DefaultTypeOfView()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetDefaultTypeOfView(CascadeSharp.V3d_TypeOfView theType)
+		public void SetDefaultTypeOfView(V3d_TypeOfView theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -404,7 +410,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ActivateGrid(CascadeSharp.Aspect_GridType aGridType, CascadeSharp.Aspect_GridDrawMode aGridDrawMode)
+		public void ActivateGrid(Aspect_GridType aGridType, Aspect_GridDrawMode aGridDrawMode)
 		{
 			throw new NotImplementedException();
 		}
@@ -444,12 +450,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_GridType GridType()
+		public Aspect_GridType GridType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_GridDrawMode GridDrawMode()
+		public Aspect_GridDrawMode GridDrawMode()
 		{
 			throw new NotImplementedException();
 		}
@@ -499,12 +505,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetDefaultBackgroundColor(CascadeSharp.Quantity_TypeOfColor theType, double theV1, double theV2, double theV3)
+		public void SetDefaultBackgroundColor(Quantity_TypeOfColor theType, double theV1, double theV2, double theV3)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void DefaultBackgroundColor(CascadeSharp.Quantity_TypeOfColor theType, ref double theV1, ref double theV2, ref double theV3)
+		public void DefaultBackgroundColor(Quantity_TypeOfColor theType, ref double theV1, ref double theV2, ref double theV3)
 		{
 			throw new NotImplementedException();
 		}

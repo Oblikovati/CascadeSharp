@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.PLib;
+
+namespace CascadeSharp.TKGeomBase.FEmTool
 {
 	//---------------------------------------------------------------------
 	//  Class  FEmTool_Curve

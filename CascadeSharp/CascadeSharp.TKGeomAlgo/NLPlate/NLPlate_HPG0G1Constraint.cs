@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.Plate;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.NLPlate
 {
 	//---------------------------------------------------------------------
 	//  Class  NLPlate_HPG0G1Constraint
 	//---------------------------------------------------------------------
-	public  class NLPlate_HPG0G1Constraint : CascadeSharp.NLPlate_HPG0Constraint
+	public  class NLPlate_HPG0G1Constraint : NLPlate_HPG0Constraint
 	{
 
 		public NLPlate_HPG0G1Constraint(gp_XY UV, gp_XYZ Value, Plate_D1 D1T)

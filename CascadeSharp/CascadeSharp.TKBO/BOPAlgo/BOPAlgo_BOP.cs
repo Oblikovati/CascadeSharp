@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBO.BOPAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPAlgo_BOP
 	//---------------------------------------------------------------------
-	public  class BOPAlgo_BOP : CascadeSharp.BOPAlgo_ToolsProvider
+	public  class BOPAlgo_BOP : BOPAlgo_ToolsProvider
 	{
 
 		public BOPAlgo_BOP()
@@ -36,12 +38,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetOperation(CascadeSharp.BOPAlgo_Operation theOperation)
+		public void SetOperation(BOPAlgo_Operation theOperation)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BOPAlgo_Operation Operation()
+		public BOPAlgo_Operation Operation()
 		{
 			throw new NotImplementedException();
 		}
@@ -56,7 +58,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public void BuildResult(CascadeSharp.TopAbs_ShapeEnum theType)
+				public void BuildResult(TopAbs_ShapeEnum theType)
 		{
 			throw new NotImplementedException();
 		}

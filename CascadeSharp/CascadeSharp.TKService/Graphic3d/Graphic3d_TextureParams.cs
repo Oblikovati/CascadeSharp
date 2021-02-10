@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_TextureParams
@@ -30,12 +31,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.Graphic3d_TextureUnit TextureUnit()
+						public Graphic3d_TextureUnit TextureUnit()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTextureUnit(CascadeSharp.Graphic3d_TextureUnit theUnit)
+		public void SetTextureUnit(Graphic3d_TextureUnit theUnit)
 		{
 			throw new NotImplementedException();
 		}
@@ -60,22 +61,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfTextureFilter Filter()
+		public Graphic3d_TypeOfTextureFilter Filter()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetFilter(CascadeSharp.Graphic3d_TypeOfTextureFilter theFilter)
+		public void SetFilter(Graphic3d_TypeOfTextureFilter theFilter)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_LevelOfTextureAnisotropy AnisoFilter()
+		public Graphic3d_LevelOfTextureAnisotropy AnisoFilter()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetAnisoFilter(CascadeSharp.Graphic3d_LevelOfTextureAnisotropy theLevel)
+		public void SetAnisoFilter(Graphic3d_LevelOfTextureAnisotropy theLevel)
 		{
 			throw new NotImplementedException();
 		}
@@ -110,7 +111,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfTextureMode GenMode()
+		public Graphic3d_TypeOfTextureMode GenMode()
 		{
 			throw new NotImplementedException();
 		}

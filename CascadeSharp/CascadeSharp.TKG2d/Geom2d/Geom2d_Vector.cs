@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_Vector
 	//---------------------------------------------------------------------
-	public  abstract class Geom2d_Vector : CascadeSharp.Geom2d_Geometry
+	public  abstract class Geom2d_Vector : Geom2d_Geometry
 	{
 
 		public Geom2d_Vector()

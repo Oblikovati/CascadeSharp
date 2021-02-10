@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.gce
 {
 	//---------------------------------------------------------------------
 	//  Class  gce_MakePln
 	//---------------------------------------------------------------------
-	public  sealed class gce_MakePln : CascadeSharp.gce_Root
+	public  sealed class gce_MakePln : gce_Root
 	{
 
 		public gce_MakePln(gp_Ax2 A2)

@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_PresentationAttributes
@@ -30,12 +33,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.Aspect_TypeOfHighlightMethod Method()
+						public Aspect_TypeOfHighlightMethod Method()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetMethod(CascadeSharp.Aspect_TypeOfHighlightMethod theMethod)
+		public void SetMethod(Aspect_TypeOfHighlightMethod theMethod)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKGeomAlgo.Law
 {
 	//---------------------------------------------------------------------
 	//  Class  Law_S
 	//---------------------------------------------------------------------
-	public  sealed class Law_S : CascadeSharp.Law_BSpFunc
+	public  sealed class Law_S : Law_BSpFunc
 	{
 
 		public Law_S()

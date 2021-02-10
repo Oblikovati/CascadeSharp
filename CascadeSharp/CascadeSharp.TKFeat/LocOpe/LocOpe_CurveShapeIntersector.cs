@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFeat.LocOpe
 {
 	//---------------------------------------------------------------------
 	//  Class  LocOpe_CurveShapeIntersector
@@ -62,22 +65,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool LocalizeAfter(double From,  ref CascadeSharp.TopAbs_Orientation Or, ref int IndFrom, ref int IndTo)
+		public bool LocalizeAfter(double From,  ref TopAbs_Orientation Or, ref int IndFrom, ref int IndTo)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool LocalizeBefore(double From,  ref CascadeSharp.TopAbs_Orientation Or, ref int IndFrom, ref int IndTo)
+		public bool LocalizeBefore(double From,  ref TopAbs_Orientation Or, ref int IndFrom, ref int IndTo)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool LocalizeAfter(int FromInd,  ref CascadeSharp.TopAbs_Orientation Or, ref int IndFrom, ref int IndTo)
+		public bool LocalizeAfter(int FromInd,  ref TopAbs_Orientation Or, ref int IndFrom, ref int IndTo)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool LocalizeBefore(int FromInd,  ref CascadeSharp.TopAbs_Orientation Or, ref int IndFrom, ref int IndTo)
+		public bool LocalizeBefore(int FromInd,  ref TopAbs_Orientation Or, ref int IndFrom, ref int IndTo)
 		{
 			throw new NotImplementedException();
 		}

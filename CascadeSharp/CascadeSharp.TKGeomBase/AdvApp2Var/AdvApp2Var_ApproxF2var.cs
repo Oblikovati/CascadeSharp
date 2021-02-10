@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKGeomBase.AdvApp2Var
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApp2Var_ApproxF2var

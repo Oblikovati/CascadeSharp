@@ -2,15 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.BRepAlgoAPI;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKFeat.LocOpe;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKTopAlgo.BRepBuilderAPI;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat_RibSlot
 	//---------------------------------------------------------------------
-	public  class BRepFeat_RibSlot : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  class BRepFeat_RibSlot : BRepBuilderAPI_MakeShape
 	{
 
 		public BRepFeat_RibSlot()
@@ -75,7 +82,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepFeat_StatusError CurrentStatusError()
+		public BRepFeat_StatusError CurrentStatusError()
 		{
 			throw new NotImplementedException();
 		}

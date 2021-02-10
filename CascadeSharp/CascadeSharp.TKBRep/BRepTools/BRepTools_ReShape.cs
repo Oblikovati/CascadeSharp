@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBRep.BRepTools
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepTools_ReShape
@@ -60,7 +64,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape Apply(TopoDS_Shape shape, CascadeSharp.TopAbs_ShapeEnum until)
+		public TopoDS_Shape Apply(TopoDS_Shape shape, TopAbs_ShapeEnum until)
 		{
 			throw new NotImplementedException();
 		}
@@ -105,12 +109,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public void replace(TopoDS_Shape shape, TopoDS_Shape newshape, CascadeSharp.BRepTools_ReShape.TReplacementKind theKind)
+						public void replace(TopoDS_Shape shape, TopoDS_Shape newshape, TReplacementKind theKind)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool isOrdinaryMerged(CascadeSharp.BRepTools_ReShape.TReplacementKind theKind)
+		public bool isOrdinaryMerged(TReplacementKind theKind)
 		{
 			throw new NotImplementedException();
 		}

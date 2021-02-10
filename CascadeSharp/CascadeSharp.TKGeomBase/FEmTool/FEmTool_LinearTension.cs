@@ -2,18 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.FEmTool
 {
 	//---------------------------------------------------------------------
 	//  Class  FEmTool_LinearTension
 	//---------------------------------------------------------------------
-	public  sealed class FEmTool_LinearTension : CascadeSharp.FEmTool_ElementaryCriterion
+	public  sealed class FEmTool_LinearTension : FEmTool_ElementaryCriterion
 	{
 
-		public FEmTool_LinearTension(int WorkDegree, CascadeSharp.GeomAbs_Shape ConstraintOrder)
+		public FEmTool_LinearTension(int WorkDegree, GeomAbs_Shape ConstraintOrder)
 			: base()
 		{
 			throw new NotImplementedException();

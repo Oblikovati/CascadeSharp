@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_FaceInterference
@@ -25,12 +27,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetInterference(int LineIndex, CascadeSharp.TopAbs_Orientation Trans, Geom2d_Curve PCurv1, Geom2d_Curve PCurv2)
+		public void SetInterference(int LineIndex, TopAbs_Orientation Trans, Geom2d_Curve PCurv1, Geom2d_Curve PCurv2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTransition(CascadeSharp.TopAbs_Orientation Trans)
+		public void SetTransition(TopAbs_Orientation Trans)
 		{
 			throw new NotImplementedException();
 		}
@@ -60,7 +62,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Transition()
+		public TopAbs_Orientation Transition()
 		{
 			throw new NotImplementedException();
 		}

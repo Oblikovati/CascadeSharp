@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_PointCloudOwner
 	//---------------------------------------------------------------------
-	public  sealed class AIS_PointCloudOwner : CascadeSharp.SelectMgr_EntityOwner
+	public  sealed class AIS_PointCloudOwner : SelectMgr_EntityOwner
 	{
 
 		public AIS_PointCloudOwner(AIS_PointCloud theOrigin)

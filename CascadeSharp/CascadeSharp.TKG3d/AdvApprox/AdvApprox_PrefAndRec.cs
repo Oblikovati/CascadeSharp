@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+
+namespace CascadeSharp.TKG3d.AdvApprox
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApprox_PrefAndRec
 	//---------------------------------------------------------------------
-	public  sealed class AdvApprox_PrefAndRec : CascadeSharp.AdvApprox_Cutting
+	public  sealed class AdvApprox_PrefAndRec : AdvApprox_Cutting
 	{
 
 		public AdvApprox_PrefAndRec(TColStd_Array1OfReal RecomendedCut, TColStd_Array1OfReal P_refferedCut, double Weight)

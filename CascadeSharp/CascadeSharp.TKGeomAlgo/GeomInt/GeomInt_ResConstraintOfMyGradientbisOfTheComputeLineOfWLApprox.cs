@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomBase.AppParCurves;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox

@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepExtrema
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepExtrema_DistShapeShape
@@ -87,12 +91,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepExtrema_SupportType SupportTypeShape1(int N)
+		public BRepExtrema_SupportType SupportTypeShape1(int N)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepExtrema_SupportType SupportTypeShape2(int N)
+		public BRepExtrema_SupportType SupportTypeShape2(int N)
 		{
 			throw new NotImplementedException();
 		}

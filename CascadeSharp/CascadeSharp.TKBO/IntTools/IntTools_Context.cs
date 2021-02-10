@@ -2,10 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKGeomAlgo.Geom2dHatch;
+using CascadeSharp.TKGeomAlgo.GeomAPI;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKTopAlgo.BRepClass3d;
+
+namespace CascadeSharp.TKBO.IntTools
 {
 	//---------------------------------------------------------------------
 	//  Class  IntTools_Context
@@ -111,7 +122,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StatePointFace(TopoDS_Face aF, gp_Pnt2d aP2D)
+		public TopAbs_State StatePointFace(TopoDS_Face aF, gp_Pnt2d aP2D)
 		{
 			throw new NotImplementedException();
 		}

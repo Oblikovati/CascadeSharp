@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_SplitSurfaceAngle
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_SplitSurfaceAngle : CascadeSharp.ShapeUpgrade_SplitSurface
+	public  sealed class ShapeUpgrade_SplitSurfaceAngle : ShapeUpgrade_SplitSurface
 	{
 
 		public ShapeUpgrade_SplitSurfaceAngle(double MaxAngle)

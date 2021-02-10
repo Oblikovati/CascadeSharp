@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKFeat.LocOpe
 {
 	//---------------------------------------------------------------------
 	//  Class  LocOpe_Gluer
@@ -46,7 +48,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LocOpe_Operation OpeType()
+		public LocOpe_Operation OpeType()
 		{
 			throw new NotImplementedException();
 		}

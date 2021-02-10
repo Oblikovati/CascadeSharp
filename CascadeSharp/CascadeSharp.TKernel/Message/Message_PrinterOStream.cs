@@ -2,24 +2,25 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_PrinterOStream
 	//---------------------------------------------------------------------
-	public  sealed class Message_PrinterOStream : CascadeSharp.Message_Printer
+	public  sealed class Message_PrinterOStream : Message_Printer
 	{
 
-		public Message_PrinterOStream(CascadeSharp.Message_Gravity theTraceLevel)
+		public Message_PrinterOStream(Message_Gravity theTraceLevel)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Message_PrinterOStream(string theFileName, bool theDoAppend, CascadeSharp.Message_Gravity theTraceLevel)
+		public Message_PrinterOStream(string theFileName, bool theDoAppend, Message_Gravity theTraceLevel)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -62,7 +63,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void send(TCollection_AsciiString theString, CascadeSharp.Message_Gravity theGravity)
+		public void send(TCollection_AsciiString theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}

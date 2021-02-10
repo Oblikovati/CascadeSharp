@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKGeomAlgo.GccEnt
 {
 	//---------------------------------------------------------------------
 	//  Class  GccEnt_BadQualifier
 	//---------------------------------------------------------------------
-	public  sealed class GccEnt_BadQualifier : CascadeSharp.Standard_DomainError
+	public  sealed class GccEnt_BadQualifier : Standard_DomainError
 	{
 
 		public GccEnt_BadQualifier()

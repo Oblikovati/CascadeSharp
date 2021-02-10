@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.PLib;
+
+namespace CascadeSharp.TKG3d.AdvApprox
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApprox_SimpleApprox
@@ -13,7 +16,7 @@ namespace CascadeSharp
 	public  sealed class AdvApprox_SimpleApprox
 	{
 
-		public AdvApprox_SimpleApprox(int TotalDimension, int TotalNumSS, CascadeSharp.GeomAbs_Shape Continuity, int WorkDegree, int NbGaussPoints, PLib_JacobiPolynomial JacobiBase, AdvApprox_EvaluatorFunction Func)
+		public AdvApprox_SimpleApprox(int TotalDimension, int TotalNumSS, GeomAbs_Shape Continuity, int WorkDegree, int NbGaussPoints, PLib_JacobiPolynomial JacobiBase, AdvApprox_EvaluatorFunction Func)
 			: base()
 		{
 			throw new NotImplementedException();

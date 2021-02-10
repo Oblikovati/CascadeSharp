@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.Convert;
+
+namespace CascadeSharp.TKGeomBase.GeomConvert
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomConvert_CompCurveToBSplineCurve
@@ -13,13 +15,13 @@ namespace CascadeSharp
 	public  sealed class GeomConvert_CompCurveToBSplineCurve
 	{
 
-		public GeomConvert_CompCurveToBSplineCurve(CascadeSharp.Convert_ParameterisationType Parameter_isation)
+		public GeomConvert_CompCurveToBSplineCurve(Convert_ParameterisationType Parameter_isation)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomConvert_CompCurveToBSplineCurve(Geom_BoundedCurve Bas_isCurve, CascadeSharp.Convert_ParameterisationType Parameter_isation)
+		public GeomConvert_CompCurveToBSplineCurve(Geom_BoundedCurve Bas_isCurve, Convert_ParameterisationType Parameter_isation)
 			: base()
 		{
 			throw new NotImplementedException();

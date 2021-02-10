@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKGeomBase.AppParCurves;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox
 	//---------------------------------------------------------------------
-	public  sealed class GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox : CascadeSharp.math_MultipleVarFunctionWithGradient
+	public  sealed class GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox : math_MultipleVarFunctionWithGradient
 	{
 
 		public GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int NbPol)
@@ -90,12 +93,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AppParCurves_Constraint FirstConstraint(AppParCurves_HArray1OfConstraintCouple TheConstraints, int FirstPoint)
+		public AppParCurves_Constraint FirstConstraint(AppParCurves_HArray1OfConstraintCouple TheConstraints, int FirstPoint)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AppParCurves_Constraint LastConstraint(AppParCurves_HArray1OfConstraintCouple TheConstraints, int LastPoint)
+		public AppParCurves_Constraint LastConstraint(AppParCurves_HArray1OfConstraintCouple TheConstraints, int LastPoint)
 		{
 			throw new NotImplementedException();
 		}

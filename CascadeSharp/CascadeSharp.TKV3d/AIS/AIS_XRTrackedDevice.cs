@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKService.Image;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_XRTrackedDevice
 	//---------------------------------------------------------------------
-	public  sealed class AIS_XRTrackedDevice : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_XRTrackedDevice : AIS_InteractiveObject
 	{
 
 		public AIS_XRTrackedDevice(Graphic3d_ArrayOfTriangles theTr_is, Image_Texture theTexture)
@@ -36,12 +41,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.Aspect_XRTrackedDeviceRole Role()
+						public Aspect_XRTrackedDeviceRole Role()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetRole(CascadeSharp.Aspect_XRTrackedDeviceRole theRole)
+		public void SetRole(Aspect_XRTrackedDeviceRole theRole)
 		{
 			throw new NotImplementedException();
 		}

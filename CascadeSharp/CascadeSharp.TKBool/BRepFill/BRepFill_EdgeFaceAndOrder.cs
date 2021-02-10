@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_EdgeFaceAndOrder
@@ -19,7 +21,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_EdgeFaceAndOrder(TopoDS_Edge anEdge, TopoDS_Face aFace, CascadeSharp.GeomAbs_Shape anOrder)
+		public BRepFill_EdgeFaceAndOrder(TopoDS_Edge anEdge, TopoDS_Face aFace, GeomAbs_Shape anOrder)
 			: base()
 		{
 			throw new NotImplementedException();

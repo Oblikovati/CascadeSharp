@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.StdSelect
 {
 	//---------------------------------------------------------------------
 	//  Class  StdSelect_BRepSelectionTool
@@ -25,57 +28,57 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority, int NbPOnEdge, double MaximalParameter)
+		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority, int NbPOnEdge, double MaximalParameter)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority, int NbPOnEdge)
+		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority, int NbPOnEdge)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority)
+		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation)
+		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle)
+		public void Load(SelectMgr_Selection aSelection, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority, int NbPOnEdge, double MaximalParameter)
+		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority, int NbPOnEdge, double MaximalParameter)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority, int NbPOnEdge)
+		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority, int NbPOnEdge)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority)
+		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation, int aPriority)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation)
+		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle, bool AutoTriangulation)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, CascadeSharp.TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle)
+		public void Load(SelectMgr_Selection aSelection, SelectMgr_SelectableObject Origin, TopoDS_Shape aShape, TopAbs_ShapeEnum aType, double theDeflection, double theDeviationAngle)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int GetStandardPriority(TopoDS_Shape theShape, CascadeSharp.TopAbs_ShapeEnum theType)
+		public int GetStandardPriority(TopoDS_Shape theShape, TopAbs_ShapeEnum theType)
 		{
 			throw new NotImplementedException();
 		}

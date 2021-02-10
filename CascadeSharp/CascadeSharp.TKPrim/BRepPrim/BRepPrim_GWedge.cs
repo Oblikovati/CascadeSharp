@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKPrim.BRepPrim
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepPrim_GWedge
@@ -98,17 +100,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Open(CascadeSharp.BRepPrim_Direction d1)
+		public void Open(BRepPrim_Direction d1)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Close(CascadeSharp.BRepPrim_Direction d1)
+		public void Close(BRepPrim_Direction d1)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsInfinite(CascadeSharp.BRepPrim_Direction d1)
+		public bool IsInfinite(BRepPrim_Direction d1)
 		{
 			throw new NotImplementedException();
 		}
@@ -118,57 +120,57 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool HasFace(CascadeSharp.BRepPrim_Direction d1)
+		public bool HasFace(BRepPrim_Direction d1)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Face Face(CascadeSharp.BRepPrim_Direction d1)
+		public TopoDS_Face Face(BRepPrim_Direction d1)
 		{
 			throw new NotImplementedException();
 		}
 
-		public gp_Pln Plane(CascadeSharp.BRepPrim_Direction d1)
+		public gp_Pln Plane(BRepPrim_Direction d1)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool HasWire(CascadeSharp.BRepPrim_Direction d1)
+		public bool HasWire(BRepPrim_Direction d1)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Wire Wire(CascadeSharp.BRepPrim_Direction d1)
+		public TopoDS_Wire Wire(BRepPrim_Direction d1)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool HasEdge(CascadeSharp.BRepPrim_Direction d1, CascadeSharp.BRepPrim_Direction d2)
+		public bool HasEdge(BRepPrim_Direction d1, BRepPrim_Direction d2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Edge Edge(CascadeSharp.BRepPrim_Direction d1, CascadeSharp.BRepPrim_Direction d2)
+		public TopoDS_Edge Edge(BRepPrim_Direction d1, BRepPrim_Direction d2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public gp_Lin Line(CascadeSharp.BRepPrim_Direction d1, CascadeSharp.BRepPrim_Direction d2)
+		public gp_Lin Line(BRepPrim_Direction d1, BRepPrim_Direction d2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool HasVertex(CascadeSharp.BRepPrim_Direction d1, CascadeSharp.BRepPrim_Direction d2, CascadeSharp.BRepPrim_Direction d3)
+		public bool HasVertex(BRepPrim_Direction d1, BRepPrim_Direction d2, BRepPrim_Direction d3)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Vertex Vertex(CascadeSharp.BRepPrim_Direction d1, CascadeSharp.BRepPrim_Direction d2, CascadeSharp.BRepPrim_Direction d3)
+		public TopoDS_Vertex Vertex(BRepPrim_Direction d1, BRepPrim_Direction d2, BRepPrim_Direction d3)
 		{
 			throw new NotImplementedException();
 		}
 
-		public gp_Pnt Point(CascadeSharp.BRepPrim_Direction d1, CascadeSharp.BRepPrim_Direction d2, CascadeSharp.BRepPrim_Direction d3)
+		public gp_Pnt Point(BRepPrim_Direction d1, BRepPrim_Direction d2, BRepPrim_Direction d3)
 		{
 			throw new NotImplementedException();
 		}

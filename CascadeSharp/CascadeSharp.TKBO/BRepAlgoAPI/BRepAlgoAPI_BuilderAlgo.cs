@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.BOPAlgo;
+using CascadeSharp.TKBRep.BRepTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKBO.BRepAlgoAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgoAPI_BuilderAlgo
 	//---------------------------------------------------------------------
-	public  class BRepAlgoAPI_BuilderAlgo : CascadeSharp.BRepAlgoAPI_Algo
+	public  class BRepAlgoAPI_BuilderAlgo : BRepAlgoAPI_Algo
 	{
 
 		public BRepAlgoAPI_BuilderAlgo()
@@ -45,12 +49,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetGlue(CascadeSharp.BOPAlgo_GlueEnum theGlue)
+		public void SetGlue(BOPAlgo_GlueEnum theGlue)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BOPAlgo_GlueEnum Glue()
+		public BOPAlgo_GlueEnum Glue()
 		{
 			throw new NotImplementedException();
 		}

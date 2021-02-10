@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.TColStd;
+
+namespace CascadeSharp.TKShHealing.ShapeAnalysis
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeAnalysis_TransferParametersProj
 	//---------------------------------------------------------------------
-	public  sealed class ShapeAnalysis_TransferParametersProj : CascadeSharp.ShapeAnalysis_TransferParameters
+	public  sealed class ShapeAnalysis_TransferParametersProj : ShapeAnalysis_TransferParameters
 	{
 
 		public ShapeAnalysis_TransferParametersProj()

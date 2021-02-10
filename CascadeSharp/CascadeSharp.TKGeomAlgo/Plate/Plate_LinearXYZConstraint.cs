@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+
+namespace CascadeSharp.TKGeomAlgo.Plate
 {
 	//---------------------------------------------------------------------
 	//  Class  Plate_LinearXYZConstraint

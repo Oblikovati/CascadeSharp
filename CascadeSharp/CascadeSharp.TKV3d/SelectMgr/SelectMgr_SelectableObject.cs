@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKV3d.PrsMgr;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_SelectableObject
 	//---------------------------------------------------------------------
-	public  abstract class SelectMgr_SelectableObject : CascadeSharp.PrsMgr_PresentableObject
+	public  abstract class SelectMgr_SelectableObject : PrsMgr_PresentableObject
 	{
 
 				public SelectMgr_SelectableObject(SelectMgr_SelectableObject parameter1)

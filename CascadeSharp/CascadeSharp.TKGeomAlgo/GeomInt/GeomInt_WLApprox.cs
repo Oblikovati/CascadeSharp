@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.IntPatch;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKGeomBase.AppParCurves;
+using CascadeSharp.TKGeomBase.Approx;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_WLApprox
@@ -85,7 +90,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetParameters(double Tol3d, double Tol2d, int DegMin, int DegMax, int NbIterMax, int NbPntMax, bool ApproxWithTangency, CascadeSharp.Approx_ParametrizationType Parametrization)
+		public void SetParameters(double Tol3d, double Tol2d, int DegMin, int DegMax, int NbIterMax, int NbPntMax, bool ApproxWithTangency, Approx_ParametrizationType Parametrization)
 		{
 			throw new NotImplementedException();
 		}

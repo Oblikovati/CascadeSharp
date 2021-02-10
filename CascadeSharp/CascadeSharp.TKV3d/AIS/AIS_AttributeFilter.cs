@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_AttributeFilter
 	//---------------------------------------------------------------------
-	public  sealed class AIS_AttributeFilter : CascadeSharp.SelectMgr_Filter
+	public  sealed class AIS_AttributeFilter : SelectMgr_Filter
 	{
 
 		public AIS_AttributeFilter()
@@ -19,7 +21,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AIS_AttributeFilter(CascadeSharp.Quantity_NameOfColor aCol)
+		public AIS_AttributeFilter(Quantity_NameOfColor aCol)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -47,7 +49,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetColor(CascadeSharp.Quantity_NameOfColor aCol)
+		public void SetColor(Quantity_NameOfColor aCol)
 		{
 			throw new NotImplementedException();
 		}

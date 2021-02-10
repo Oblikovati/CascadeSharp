@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_NullValue
 	//---------------------------------------------------------------------
-	public  sealed class Standard_NullValue : CascadeSharp.Standard_RangeError
+	public  sealed class Standard_NullValue : Standard_RangeError
 	{
 
 		public Standard_NullValue()

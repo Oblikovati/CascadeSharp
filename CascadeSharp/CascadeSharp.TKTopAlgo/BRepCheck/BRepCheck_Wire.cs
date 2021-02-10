@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKTopAlgo.BRepCheck
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepCheck_Wire
 	//---------------------------------------------------------------------
-	public  sealed class BRepCheck_Wire : CascadeSharp.BRepCheck_Result
+	public  sealed class BRepCheck_Wire : BRepCheck_Result
 	{
 
 		public BRepCheck_Wire(TopoDS_Wire W)
@@ -45,42 +46,42 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Closed(bool Update)
+		public BRepCheck_Status Closed(bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Closed()
+		public BRepCheck_Status Closed()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Closed2d(TopoDS_Face F, bool Update)
+		public BRepCheck_Status Closed2d(TopoDS_Face F, bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Closed2d(TopoDS_Face F)
+		public BRepCheck_Status Closed2d(TopoDS_Face F)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Orientation(TopoDS_Face F, bool Update)
+		public BRepCheck_Status Orientation(TopoDS_Face F, bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Orientation(TopoDS_Face F)
+		public BRepCheck_Status Orientation(TopoDS_Face F)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status SelfIntersect(TopoDS_Face F, TopoDS_Edge E1, TopoDS_Edge E2, bool Update)
+		public BRepCheck_Status SelfIntersect(TopoDS_Face F, TopoDS_Edge E1, TopoDS_Edge E2, bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status SelfIntersect(TopoDS_Face F, TopoDS_Edge E1, TopoDS_Edge E2)
+		public BRepCheck_Status SelfIntersect(TopoDS_Face F, TopoDS_Edge E1, TopoDS_Edge E2)
 		{
 			throw new NotImplementedException();
 		}
@@ -95,7 +96,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus(CascadeSharp.BRepCheck_Status theStatus)
+		public void SetStatus(BRepCheck_Status theStatus)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_InterferenceTool
@@ -25,12 +26,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Interference MakeEdgeInterference(TopOpeBRepDS_Transition T, CascadeSharp.TopOpeBRepDS_Kind SK, int SI, CascadeSharp.TopOpeBRepDS_Kind GK, int GI, double P)
+		public TopOpeBRepDS_Interference MakeEdgeInterference(TopOpeBRepDS_Transition T, TopOpeBRepDS_Kind SK, int SI, TopOpeBRepDS_Kind GK, int GI, double P)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Interference MakeCurveInterference(TopOpeBRepDS_Transition T, CascadeSharp.TopOpeBRepDS_Kind SK, int SI, CascadeSharp.TopOpeBRepDS_Kind GK, int GI, double P)
+		public TopOpeBRepDS_Interference MakeCurveInterference(TopOpeBRepDS_Transition T, TopOpeBRepDS_Kind SK, int SI, TopOpeBRepDS_Kind GK, int GI, double P)
 		{
 			throw new NotImplementedException();
 		}
@@ -50,12 +51,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Interference MakeEdgeVertexInterference(TopOpeBRepDS_Transition Transition, int EdgeI, int VertexI, bool VertexIsBound, CascadeSharp.TopOpeBRepDS_Config Config, double param)
+		public TopOpeBRepDS_Interference MakeEdgeVertexInterference(TopOpeBRepDS_Transition Transition, int EdgeI, int VertexI, bool VertexIsBound, TopOpeBRepDS_Config Config, double param)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Interference MakeFaceEdgeInterference(TopOpeBRepDS_Transition Transition, int FaceI, int EdgeI, bool EdgeIsBound, CascadeSharp.TopOpeBRepDS_Config Config)
+		public TopOpeBRepDS_Interference MakeFaceEdgeInterference(TopOpeBRepDS_Transition Transition, int FaceI, int EdgeI, bool EdgeIsBound, TopOpeBRepDS_Config Config)
 		{
 			throw new NotImplementedException();
 		}

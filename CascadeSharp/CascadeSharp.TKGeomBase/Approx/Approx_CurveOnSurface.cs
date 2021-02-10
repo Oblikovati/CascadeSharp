@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomBase.Approx
 {
 	//---------------------------------------------------------------------
 	//  Class  Approx_CurveOnSurface
@@ -13,19 +18,19 @@ namespace CascadeSharp
 	public  sealed class Approx_CurveOnSurface
 	{
 
-		public Approx_CurveOnSurface(Adaptor2d_HCurve2d C2D, Adaptor3d_HSurface Surf, double First, double Last, double Tol, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree, int MaxSegments, bool Only3d, bool Only2d)
+		public Approx_CurveOnSurface(Adaptor2d_HCurve2d C2D, Adaptor3d_HSurface Surf, double First, double Last, double Tol, GeomAbs_Shape Continuity, int MaxDegree, int MaxSegments, bool Only3d, bool Only2d)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Approx_CurveOnSurface(Adaptor2d_HCurve2d C2D, Adaptor3d_HSurface Surf, double First, double Last, double Tol, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree, int MaxSegments, bool Only3d)
+		public Approx_CurveOnSurface(Adaptor2d_HCurve2d C2D, Adaptor3d_HSurface Surf, double First, double Last, double Tol, GeomAbs_Shape Continuity, int MaxDegree, int MaxSegments, bool Only3d)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Approx_CurveOnSurface(Adaptor2d_HCurve2d C2D, Adaptor3d_HSurface Surf, double First, double Last, double Tol, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree, int MaxSegments)
+		public Approx_CurveOnSurface(Adaptor2d_HCurve2d C2D, Adaptor3d_HSurface Surf, double First, double Last, double Tol, GeomAbs_Shape Continuity, int MaxDegree, int MaxSegments)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -83,17 +88,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(int theMaxSegments, int theMaxDegree, CascadeSharp.GeomAbs_Shape theContinuity, bool theOnly3d, bool theOnly2d)
+		public void Perform(int theMaxSegments, int theMaxDegree, GeomAbs_Shape theContinuity, bool theOnly3d, bool theOnly2d)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(int theMaxSegments, int theMaxDegree, CascadeSharp.GeomAbs_Shape theContinuity, bool theOnly3d)
+		public void Perform(int theMaxSegments, int theMaxDegree, GeomAbs_Shape theContinuity, bool theOnly3d)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(int theMaxSegments, int theMaxDegree, CascadeSharp.GeomAbs_Shape theContinuity)
+		public void Perform(int theMaxSegments, int theMaxDegree, GeomAbs_Shape theContinuity)
 		{
 			throw new NotImplementedException();
 		}

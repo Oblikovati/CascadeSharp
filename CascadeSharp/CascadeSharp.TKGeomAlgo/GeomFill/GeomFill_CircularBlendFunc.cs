@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomBase.Approx;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_CircularBlendFunc
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_CircularBlendFunc : CascadeSharp.Approx_SweepFunction
+	public  sealed class GeomFill_CircularBlendFunc : Approx_SweepFunction
 	{
 
 		public GeomFill_CircularBlendFunc(Adaptor3d_HCurve Path, Adaptor3d_HCurve Curve1, Adaptor3d_HCurve Curve2, double Radius, bool Polynomial)
@@ -76,12 +82,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

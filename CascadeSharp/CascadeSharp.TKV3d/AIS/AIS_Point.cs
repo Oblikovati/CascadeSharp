@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKV3d.Prs3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_Point
 	//---------------------------------------------------------------------
-	public  class AIS_Point : CascadeSharp.AIS_InteractiveObject
+	public  class AIS_Point : AIS_InteractiveObject
 	{
 
 		public AIS_Point(Geom_Point aComponent)
@@ -40,7 +46,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_KindOfInteractive Type()
+		public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -70,7 +76,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetMarker(CascadeSharp.Aspect_TypeOfMarker aType)
+		public void SetMarker(Aspect_TypeOfMarker aType)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_AnimationObject
 	//---------------------------------------------------------------------
-	public  sealed class AIS_AnimationObject : CascadeSharp.AIS_Animation
+	public  sealed class AIS_AnimationObject : AIS_Animation
 	{
 
 		public AIS_AnimationObject(TCollection_AsciiString theAnimationName, AIS_InteractiveContext theContext, AIS_InteractiveObject theObject, gp_Trsf theTrsfStart, gp_Trsf theTrsfEnd)

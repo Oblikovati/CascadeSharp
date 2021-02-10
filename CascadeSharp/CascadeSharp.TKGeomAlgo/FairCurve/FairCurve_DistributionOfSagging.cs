@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.FairCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  FairCurve_DistributionOfSagging
 	//---------------------------------------------------------------------
-	public  sealed class FairCurve_DistributionOfSagging : CascadeSharp.FairCurve_DistributionOfEnergy
+	public  sealed class FairCurve_DistributionOfSagging : FairCurve_DistributionOfEnergy
 	{
 
 		public FairCurve_DistributionOfSagging(int BSplOrder, TColStd_HArray1OfReal FlatKnots, TColgp_HArray1OfPnt2d Poles, int DerivativeOrder, FairCurve_BattenLaw Law, int NbValAux)

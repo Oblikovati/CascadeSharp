@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Font;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_GraduatedTrihedron
@@ -13,55 +16,55 @@ namespace CascadeSharp
 	public  sealed class Graphic3d_GraduatedTrihedron
 	{
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref CascadeSharp.Font_FontAspect theValuesStyle, int theValuesSize, float theArrowsLength, Quantity_Color theGridColor, bool theToDrawGrid, bool theToDrawAxes)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref Font_FontAspect theValuesStyle, int theValuesSize, float theArrowsLength, Quantity_Color theGridColor, bool theToDrawGrid, bool theToDrawAxes)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref CascadeSharp.Font_FontAspect theValuesStyle, int theValuesSize, float theArrowsLength, Quantity_Color theGridColor, bool theToDrawGrid)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref Font_FontAspect theValuesStyle, int theValuesSize, float theArrowsLength, Quantity_Color theGridColor, bool theToDrawGrid)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref CascadeSharp.Font_FontAspect theValuesStyle, int theValuesSize, float theArrowsLength, Quantity_Color theGridColor)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref Font_FontAspect theValuesStyle, int theValuesSize, float theArrowsLength, Quantity_Color theGridColor)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref CascadeSharp.Font_FontAspect theValuesStyle, int theValuesSize, float theArrowsLength)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref Font_FontAspect theValuesStyle, int theValuesSize, float theArrowsLength)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref CascadeSharp.Font_FontAspect theValuesStyle, int theValuesSize)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref Font_FontAspect theValuesStyle, int theValuesSize)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref CascadeSharp.Font_FontAspect theValuesStyle)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont,  ref Font_FontAspect theValuesStyle)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle, int theNamesSize, TCollection_AsciiString theValuesFont)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle, int theNamesSize)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle, int theNamesSize)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref CascadeSharp.Font_FontAspect theNamesStyle)
+		public Graphic3d_GraduatedTrihedron(TCollection_AsciiString theNamesFont,  ref Font_FontAspect theNamesStyle)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -174,12 +177,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Font_FontAspect NamesFontAspect()
+		public Font_FontAspect NamesFontAspect()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetNamesFontAspect(CascadeSharp.Font_FontAspect theAspect)
+		public void SetNamesFontAspect(Font_FontAspect theAspect)
 		{
 			throw new NotImplementedException();
 		}
@@ -204,12 +207,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Font_FontAspect ValuesFontAspect()
+		public Font_FontAspect ValuesFontAspect()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetValuesFontAspect(CascadeSharp.Font_FontAspect theAspect)
+		public void SetValuesFontAspect(Font_FontAspect theAspect)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKGeomAlgo.IntCurve;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dInt
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter : CascadeSharp.IntRes2d_Intersection
+	public  sealed class Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter : IntRes2d_Intersection
 	{
 
 		public Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter()

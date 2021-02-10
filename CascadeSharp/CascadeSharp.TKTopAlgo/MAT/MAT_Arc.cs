@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKTopAlgo.MAT
 {
 	//---------------------------------------------------------------------
 	//  Class  MAT_Arc
@@ -65,12 +66,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool HasNeighbour(MAT_Node aNode, CascadeSharp.MAT_Side aSide)
+		public bool HasNeighbour(MAT_Node aNode, MAT_Side aSide)
 		{
 			throw new NotImplementedException();
 		}
 
-		public MAT_Arc Neighbour(MAT_Node aNode, CascadeSharp.MAT_Side aSide)
+		public MAT_Arc Neighbour(MAT_Node aNode, MAT_Side aSide)
 		{
 			throw new NotImplementedException();
 		}
@@ -105,17 +106,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetFirstArc(CascadeSharp.MAT_Side aSide, MAT_Arc anArc)
+		public void SetFirstArc(MAT_Side aSide, MAT_Arc anArc)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetSecondArc(CascadeSharp.MAT_Side aSide, MAT_Arc anArc)
+		public void SetSecondArc(MAT_Side aSide, MAT_Arc anArc)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetNeighbour(CascadeSharp.MAT_Side aSide, MAT_Node aNode, MAT_Arc anArc)
+		public void SetNeighbour(MAT_Side aSide, MAT_Node aNode, MAT_Arc anArc)
 		{
 			throw new NotImplementedException();
 		}

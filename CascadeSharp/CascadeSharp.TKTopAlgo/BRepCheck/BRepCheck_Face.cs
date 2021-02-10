@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKTopAlgo.BRepCheck
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepCheck_Face
 	//---------------------------------------------------------------------
-	public  sealed class BRepCheck_Face : CascadeSharp.BRepCheck_Result
+	public  sealed class BRepCheck_Face : BRepCheck_Result
 	{
 
 		public BRepCheck_Face(TopoDS_Face F)
@@ -45,32 +46,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status IntersectWires(bool Update)
+		public BRepCheck_Status IntersectWires(bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status IntersectWires()
+		public BRepCheck_Status IntersectWires()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status ClassifyWires(bool Update)
+		public BRepCheck_Status ClassifyWires(bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status ClassifyWires()
+		public BRepCheck_Status ClassifyWires()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status OrientationOfWires(bool Update)
+		public BRepCheck_Status OrientationOfWires(bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status OrientationOfWires()
+		public BRepCheck_Status OrientationOfWires()
 		{
 			throw new NotImplementedException();
 		}
@@ -80,7 +81,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus(CascadeSharp.BRepCheck_Status theStatus)
+		public void SetStatus(BRepCheck_Status theStatus)
 		{
 			throw new NotImplementedException();
 		}

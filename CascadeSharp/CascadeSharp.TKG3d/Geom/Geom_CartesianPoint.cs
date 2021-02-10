@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_CartesianPoint
 	//---------------------------------------------------------------------
-	public  sealed class Geom_CartesianPoint : CascadeSharp.Geom_Point
+	public  sealed class Geom_CartesianPoint : Geom_Point
 	{
 
 		public Geom_CartesianPoint(gp_Pnt P)

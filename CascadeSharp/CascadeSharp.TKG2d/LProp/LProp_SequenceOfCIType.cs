@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKG2d.LProp
 {
 	//---------------------------------------------------------------------
 	//  Class  LProp_SequenceOfCIType
@@ -91,7 +92,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Append( ref CascadeSharp.LProp_CIType theItem)
+		public void Append( ref LProp_CIType theItem)
 		{
 			throw new NotImplementedException();
 		}
@@ -101,7 +102,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Prepend( ref CascadeSharp.LProp_CIType theItem)
+		public void Prepend( ref LProp_CIType theItem)
 		{
 			throw new NotImplementedException();
 		}
@@ -111,7 +112,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void InsertBefore(int theIndex,  ref CascadeSharp.LProp_CIType theItem)
+		public void InsertBefore(int theIndex,  ref LProp_CIType theItem)
 		{
 			throw new NotImplementedException();
 		}
@@ -126,7 +127,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void InsertAfter(int theIndex,  ref CascadeSharp.LProp_CIType theItem)
+		public void InsertAfter(int theIndex,  ref LProp_CIType theItem)
 		{
 			throw new NotImplementedException();
 		}
@@ -136,37 +137,37 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LProp_CIType First()
+		public LProp_CIType First()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LProp_CIType ChangeFirst()
+		public LProp_CIType ChangeFirst()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LProp_CIType Last()
+		public LProp_CIType Last()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LProp_CIType ChangeLast()
+		public LProp_CIType ChangeLast()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LProp_CIType Value(int theIndex)
+		public LProp_CIType Value(int theIndex)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LProp_CIType ChangeValue(int theIndex)
+		public LProp_CIType ChangeValue(int theIndex)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetValue(int theIndex,  ref CascadeSharp.LProp_CIType theItem)
+		public void SetValue(int theIndex,  ref LProp_CIType theItem)
 		{
 			throw new NotImplementedException();
 		}

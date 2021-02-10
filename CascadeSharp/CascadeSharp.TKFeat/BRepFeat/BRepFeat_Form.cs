@@ -2,15 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.BRepAlgoAPI;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKFeat.LocOpe;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TColGeom;
+using CascadeSharp.TKTopAlgo.BRepBuilderAPI;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat_Form
 	//---------------------------------------------------------------------
-	public  abstract class BRepFeat_Form : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  abstract class BRepFeat_Form : BRepBuilderAPI_MakeShape
 	{
 
 		public BRepFeat_Form()
@@ -105,7 +112,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepFeat_StatusError CurrentStatusError()
+		public BRepFeat_StatusError CurrentStatusError()
 		{
 			throw new NotImplementedException();
 		}

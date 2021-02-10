@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_OffsetSurface
 	//---------------------------------------------------------------------
-	public  sealed class Geom_OffsetSurface : CascadeSharp.Geom_Surface
+	public  sealed class Geom_OffsetSurface : Geom_Surface
 	{
 
 		public Geom_OffsetSurface(Geom_Surface S, double Offset, bool _isNotCheckC0)
@@ -91,7 +93,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
@@ -206,7 +208,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape GetBasisSurfContinuity()
+		public GeomAbs_Shape GetBasisSurfContinuity()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKShHealing.ShapeAnalysis
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeAnalysis_ShapeTolerance
@@ -25,7 +28,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public double Tolerance(TopoDS_Shape shape, int mode, CascadeSharp.TopAbs_ShapeEnum type)
+		public double Tolerance(TopoDS_Shape shape, int mode, TopAbs_ShapeEnum type)
 		{
 			throw new NotImplementedException();
 		}
@@ -35,7 +38,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopTools_HSequenceOfShape OverTolerance(TopoDS_Shape shape, double value, CascadeSharp.TopAbs_ShapeEnum type)
+		public TopTools_HSequenceOfShape OverTolerance(TopoDS_Shape shape, double value, TopAbs_ShapeEnum type)
 		{
 			throw new NotImplementedException();
 		}
@@ -45,7 +48,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopTools_HSequenceOfShape InTolerance(TopoDS_Shape shape, double valmin, double valmax, CascadeSharp.TopAbs_ShapeEnum type)
+		public TopTools_HSequenceOfShape InTolerance(TopoDS_Shape shape, double valmin, double valmax, TopAbs_ShapeEnum type)
 		{
 			throw new NotImplementedException();
 		}
@@ -60,7 +63,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddTolerance(TopoDS_Shape shape, CascadeSharp.TopAbs_ShapeEnum type)
+		public void AddTolerance(TopoDS_Shape shape, TopAbs_ShapeEnum type)
 		{
 			throw new NotImplementedException();
 		}

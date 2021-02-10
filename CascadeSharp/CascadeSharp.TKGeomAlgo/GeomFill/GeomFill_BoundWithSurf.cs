@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_BoundWithSurf
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_BoundWithSurf : CascadeSharp.GeomFill_Boundary
+	public  sealed class GeomFill_BoundWithSurf : GeomFill_Boundary
 	{
 
 		public GeomFill_BoundWithSurf(Adaptor3d_CurveOnSurface CurveOnSurf, double Tol3d, double Tolang)

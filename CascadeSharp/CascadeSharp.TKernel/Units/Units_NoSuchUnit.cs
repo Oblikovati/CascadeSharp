@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKernel.Units
 {
 	//---------------------------------------------------------------------
 	//  Class  Units_NoSuchUnit
 	//---------------------------------------------------------------------
-	public  sealed class Units_NoSuchUnit : CascadeSharp.Standard_NoSuchObject
+	public  sealed class Units_NoSuchUnit : Standard_NoSuchObject
 	{
 
 		public Units_NoSuchUnit()

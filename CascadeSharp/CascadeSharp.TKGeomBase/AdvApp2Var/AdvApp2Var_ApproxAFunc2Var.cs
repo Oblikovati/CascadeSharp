@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.AdvApprox;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomBase.AdvApp2Var
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApp2Var_ApproxAFunc2Var
@@ -13,13 +17,13 @@ namespace CascadeSharp
 	public  sealed class AdvApp2Var_ApproxAFunc2Var
 	{
 
-		public AdvApp2Var_ApproxAFunc2Var(int Num1DSS, int Num2DSS, int Num3DSS, TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, TColStd_HArray2OfReal OneDTolFr, TColStd_HArray2OfReal TwoDTolFr, TColStd_HArray2OfReal ThreeDTolFr, double FirstInU, double LastInU, double FirstInV, double LastInV, CascadeSharp.GeomAbs_IsoType FavorIso, CascadeSharp.GeomAbs_Shape ContInU, CascadeSharp.GeomAbs_Shape ContInV, int Prec_isCode, int MaxDegInU, int MaxDegInV, int MaxPatch, AdvApp2Var_EvaluatorFunc2Var Func, AdvApprox_Cutting UChoice, AdvApprox_Cutting VChoice)
+		public AdvApp2Var_ApproxAFunc2Var(int Num1DSS, int Num2DSS, int Num3DSS, TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, TColStd_HArray2OfReal OneDTolFr, TColStd_HArray2OfReal TwoDTolFr, TColStd_HArray2OfReal ThreeDTolFr, double FirstInU, double LastInU, double FirstInV, double LastInV, GeomAbs_IsoType FavorIso, GeomAbs_Shape ContInU, GeomAbs_Shape ContInV, int Prec_isCode, int MaxDegInU, int MaxDegInV, int MaxPatch, AdvApp2Var_EvaluatorFunc2Var Func, AdvApprox_Cutting UChoice, AdvApprox_Cutting VChoice)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AdvApp2Var_ApproxAFunc2Var(int Num1DSS, int Num2DSS, int Num3DSS, TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, TColStd_HArray2OfReal OneDTolFr, TColStd_HArray2OfReal TwoDTolFr, TColStd_HArray2OfReal ThreeDTolFr, double FirstInU, double LastInU, double FirstInV, double LastInV, CascadeSharp.GeomAbs_IsoType FavorIso, CascadeSharp.GeomAbs_Shape ContInU, CascadeSharp.GeomAbs_Shape ContInV, int Prec_isCode, int MaxDegInU, int MaxDegInV, int MaxPatch, AdvApp2Var_EvaluatorFunc2Var Func, AdvApp2Var_Criterion Crit, AdvApprox_Cutting UChoice, AdvApprox_Cutting VChoice)
+		public AdvApp2Var_ApproxAFunc2Var(int Num1DSS, int Num2DSS, int Num3DSS, TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, TColStd_HArray2OfReal OneDTolFr, TColStd_HArray2OfReal TwoDTolFr, TColStd_HArray2OfReal ThreeDTolFr, double FirstInU, double LastInU, double FirstInV, double LastInV, GeomAbs_IsoType FavorIso, GeomAbs_Shape ContInU, GeomAbs_Shape ContInV, int Prec_isCode, int MaxDegInU, int MaxDegInV, int MaxPatch, AdvApp2Var_EvaluatorFunc2Var Func, AdvApp2Var_Criterion Crit, AdvApprox_Cutting UChoice, AdvApprox_Cutting VChoice)
 			: base()
 		{
 			throw new NotImplementedException();

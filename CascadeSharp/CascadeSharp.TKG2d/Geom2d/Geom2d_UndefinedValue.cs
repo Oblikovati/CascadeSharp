@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_UndefinedValue
 	//---------------------------------------------------------------------
-	public  sealed class Geom2d_UndefinedValue : CascadeSharp.Standard_DomainError
+	public  sealed class Geom2d_UndefinedValue : Standard_DomainError
 	{
 
 		public Geom2d_UndefinedValue()

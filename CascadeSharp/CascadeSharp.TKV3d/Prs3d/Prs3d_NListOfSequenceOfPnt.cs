@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_NListOfSequenceOfPnt

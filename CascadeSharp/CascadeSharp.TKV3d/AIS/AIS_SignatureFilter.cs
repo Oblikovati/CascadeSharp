@@ -2,18 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_SignatureFilter
 	//---------------------------------------------------------------------
-	public  sealed class AIS_SignatureFilter : CascadeSharp.AIS_TypeFilter
+	public  sealed class AIS_SignatureFilter : AIS_TypeFilter
 	{
 
-		public AIS_SignatureFilter(CascadeSharp.AIS_KindOfInteractive aGivenKind, int aGivenSignature)
+		public AIS_SignatureFilter(AIS_KindOfInteractive aGivenKind, int aGivenSignature)
 			: base()
 		{
 			throw new NotImplementedException();

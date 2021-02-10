@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.FEmTool
 {
 	//---------------------------------------------------------------------
 	//  Class  FEmTool_ProfileMatrix
 	//---------------------------------------------------------------------
-	public  sealed class FEmTool_ProfileMatrix : CascadeSharp.FEmTool_SparseMatrix
+	public  sealed class FEmTool_ProfileMatrix : FEmTool_SparseMatrix
 	{
 
 		public FEmTool_ProfileMatrix(TColStd_Array1OfInteger FirstIndexes)

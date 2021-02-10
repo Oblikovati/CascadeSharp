@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_WireEdgeClassifier
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepBuild_WireEdgeClassifier : CascadeSharp.TopOpeBRepBuild_CompositeClassifier
+	public  sealed class TopOpeBRepBuild_WireEdgeClassifier : TopOpeBRepBuild_CompositeClassifier
 	{
 
 		public TopOpeBRepBuild_WireEdgeClassifier(TopoDS_Shape F, TopOpeBRepBuild_BlockBuilder BB)
@@ -30,7 +32,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Compare(TopOpeBRepBuild_Loop L1, TopOpeBRepBuild_Loop L2)
+		public TopAbs_State Compare(TopOpeBRepBuild_Loop L1, TopOpeBRepBuild_Loop L2)
 		{
 			throw new NotImplementedException();
 		}
@@ -40,12 +42,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State CompareShapes(TopoDS_Shape B1, TopoDS_Shape B2)
+		public TopAbs_State CompareShapes(TopoDS_Shape B1, TopoDS_Shape B2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State CompareElementToShape(TopoDS_Shape E, TopoDS_Shape B)
+		public TopAbs_State CompareElementToShape(TopoDS_Shape E, TopoDS_Shape B)
 		{
 			throw new NotImplementedException();
 		}
@@ -65,7 +67,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State()
+		public TopAbs_State State()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GCPnts
 {
 	//---------------------------------------------------------------------
 	//  Class  GCPnts_QuasiUniformDeflection
@@ -19,7 +23,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GCPnts_QuasiUniformDeflection(Adaptor3d_Curve C, double Deflection, CascadeSharp.GeomAbs_Shape Continuity)
+		public GCPnts_QuasiUniformDeflection(Adaptor3d_Curve C, double Deflection, GeomAbs_Shape Continuity)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -31,7 +35,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GCPnts_QuasiUniformDeflection(Adaptor2d_Curve2d C, double Deflection, CascadeSharp.GeomAbs_Shape Continuity)
+		public GCPnts_QuasiUniformDeflection(Adaptor2d_Curve2d C, double Deflection, GeomAbs_Shape Continuity)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -43,7 +47,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GCPnts_QuasiUniformDeflection(Adaptor3d_Curve C, double Deflection, double U1, double U2, CascadeSharp.GeomAbs_Shape Continuity)
+		public GCPnts_QuasiUniformDeflection(Adaptor3d_Curve C, double Deflection, double U1, double U2, GeomAbs_Shape Continuity)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -55,7 +59,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GCPnts_QuasiUniformDeflection(Adaptor2d_Curve2d C, double Deflection, double U1, double U2, CascadeSharp.GeomAbs_Shape Continuity)
+		public GCPnts_QuasiUniformDeflection(Adaptor2d_Curve2d C, double Deflection, double U1, double U2, GeomAbs_Shape Continuity)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -73,7 +77,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Initialize(Adaptor3d_Curve C, double Deflection, CascadeSharp.GeomAbs_Shape Continuity)
+		public void Initialize(Adaptor3d_Curve C, double Deflection, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}
@@ -83,7 +87,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Initialize(Adaptor2d_Curve2d C, double Deflection, CascadeSharp.GeomAbs_Shape Continuity)
+		public void Initialize(Adaptor2d_Curve2d C, double Deflection, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}
@@ -93,7 +97,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Initialize(Adaptor3d_Curve C, double Deflection, double U1, double U2, CascadeSharp.GeomAbs_Shape Continuity)
+		public void Initialize(Adaptor3d_Curve C, double Deflection, double U1, double U2, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}
@@ -103,7 +107,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Initialize(Adaptor2d_Curve2d C, double Deflection, double U1, double U2, CascadeSharp.GeomAbs_Shape Continuity)
+		public void Initialize(Adaptor2d_Curve2d C, double Deflection, double U1, double U2, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepLib
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepLib_MakeEdge2d
 	//---------------------------------------------------------------------
-	public  sealed class BRepLib_MakeEdge2d : CascadeSharp.BRepLib_MakeShape
+	public  sealed class BRepLib_MakeEdge2d : BRepLib_MakeShape
 	{
 
 		public BRepLib_MakeEdge2d(TopoDS_Vertex V1, TopoDS_Vertex V2)
@@ -222,7 +225,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepLib_EdgeError Error()
+		public BRepLib_EdgeError Error()
 		{
 			throw new NotImplementedException();
 		}

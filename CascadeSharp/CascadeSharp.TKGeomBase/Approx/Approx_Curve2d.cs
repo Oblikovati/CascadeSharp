@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomBase.Approx
 {
 	//---------------------------------------------------------------------
 	//  Class  Approx_Curve2d
@@ -13,7 +16,7 @@ namespace CascadeSharp
 	public  sealed class Approx_Curve2d
 	{
 
-		public Approx_Curve2d(Adaptor2d_HCurve2d C2D, double First, double Last, double TolU, double TolV, CascadeSharp.GeomAbs_Shape Continuity, int MaxDegree, int MaxSegments)
+		public Approx_Curve2d(Adaptor2d_HCurve2d C2D, double First, double Last, double TolU, double TolV, GeomAbs_Shape Continuity, int MaxDegree, int MaxSegments)
 			: base()
 		{
 			throw new NotImplementedException();

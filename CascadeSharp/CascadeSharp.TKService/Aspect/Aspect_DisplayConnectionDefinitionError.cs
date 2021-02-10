@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_DisplayConnectionDefinitionError
 	//---------------------------------------------------------------------
-	public  sealed class Aspect_DisplayConnectionDefinitionError : CascadeSharp.Standard_OutOfRange
+	public  sealed class Aspect_DisplayConnectionDefinitionError : Standard_OutOfRange
 	{
 
 		public Aspect_DisplayConnectionDefinitionError()

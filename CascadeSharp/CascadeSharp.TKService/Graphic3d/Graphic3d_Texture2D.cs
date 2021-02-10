@@ -2,30 +2,32 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Texture2D
 	//---------------------------------------------------------------------
-	public  class Graphic3d_Texture2D : CascadeSharp.Graphic3d_TextureMap
+	public  class Graphic3d_Texture2D : Graphic3d_TextureMap
 	{
 
-		public Graphic3d_Texture2D(TCollection_AsciiString theFileName, CascadeSharp.Graphic3d_TypeOfTexture theType)
+		public Graphic3d_Texture2D(TCollection_AsciiString theFileName, Graphic3d_TypeOfTexture theType)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_Texture2D(CascadeSharp.Graphic3d_NameOfTexture2D theName, CascadeSharp.Graphic3d_TypeOfTexture theType)
+		public Graphic3d_Texture2D(Graphic3d_NameOfTexture2D theName, Graphic3d_TypeOfTexture theType)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_Texture2D(Image_PixMap thePixMap, CascadeSharp.Graphic3d_TypeOfTexture theType)
+		public Graphic3d_Texture2D(Image_PixMap thePixMap, Graphic3d_TypeOfTexture theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -57,7 +59,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_NameOfTexture2D Name()
+		public Graphic3d_NameOfTexture2D Name()
 		{
 			throw new NotImplementedException();
 		}

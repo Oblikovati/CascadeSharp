@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKTopAlgo.Bisector;
+using CascadeSharp.TKTopAlgo.MAT;
+
+namespace CascadeSharp.TKTopAlgo.BRepMAT2d
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepMAT2d_BisectingLocus
@@ -25,17 +30,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Compute(BRepMAT2d_Explorer anExplo, int LineIndex, CascadeSharp.MAT_Side aSide, CascadeSharp.GeomAbs_JoinType aJoinType, bool IsOpenResult)
+		public void Compute(BRepMAT2d_Explorer anExplo, int LineIndex, MAT_Side aSide, GeomAbs_JoinType aJoinType, bool IsOpenResult)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Compute(BRepMAT2d_Explorer anExplo, int LineIndex, CascadeSharp.MAT_Side aSide, CascadeSharp.GeomAbs_JoinType aJoinType)
+		public void Compute(BRepMAT2d_Explorer anExplo, int LineIndex, MAT_Side aSide, GeomAbs_JoinType aJoinType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Compute(BRepMAT2d_Explorer anExplo, int LineIndex, CascadeSharp.MAT_Side aSide)
+		public void Compute(BRepMAT2d_Explorer anExplo, int LineIndex, MAT_Side aSide)
 		{
 			throw new NotImplementedException();
 		}

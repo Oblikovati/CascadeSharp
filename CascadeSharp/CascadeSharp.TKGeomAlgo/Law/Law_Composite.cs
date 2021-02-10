@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomAlgo.Law
 {
 	//---------------------------------------------------------------------
 	//  Class  Law_Composite
 	//---------------------------------------------------------------------
-	public  sealed class Law_Composite : CascadeSharp.Law_Function
+	public  sealed class Law_Composite : Law_Function
 	{
 
 		public Law_Composite()
@@ -31,17 +33,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

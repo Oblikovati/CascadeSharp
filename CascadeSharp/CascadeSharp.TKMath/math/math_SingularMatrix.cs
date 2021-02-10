@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKMath.math
 {
 	//---------------------------------------------------------------------
 	//  Class  math_SingularMatrix
 	//---------------------------------------------------------------------
-	public  sealed class math_SingularMatrix : CascadeSharp.Standard_Failure
+	public  sealed class math_SingularMatrix : Standard_Failure
 	{
 
 		public math_SingularMatrix()

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_MMgrTBBalloc
 	//---------------------------------------------------------------------
-	public  sealed class Standard_MMgrTBBalloc : CascadeSharp.Standard_MMgrRoot
+	public  sealed class Standard_MMgrTBBalloc : Standard_MMgrRoot
 	{
 
 		public Standard_MMgrTBBalloc(bool aClear)

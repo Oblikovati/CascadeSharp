@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_ShapeDivideContinuity
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_ShapeDivideContinuity : CascadeSharp.ShapeUpgrade_ShapeDivide
+	public  sealed class ShapeUpgrade_ShapeDivideContinuity : ShapeUpgrade_ShapeDivide
 	{
 
 		public ShapeUpgrade_ShapeDivideContinuity()
@@ -41,7 +43,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBoundaryCriterion(CascadeSharp.GeomAbs_Shape Criterion)
+		public void SetBoundaryCriterion(GeomAbs_Shape Criterion)
 		{
 			throw new NotImplementedException();
 		}
@@ -51,7 +53,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetPCurveCriterion(CascadeSharp.GeomAbs_Shape Criterion)
+		public void SetPCurveCriterion(GeomAbs_Shape Criterion)
 		{
 			throw new NotImplementedException();
 		}
@@ -61,7 +63,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetSurfaceCriterion(CascadeSharp.GeomAbs_Shape Criterion)
+		public void SetSurfaceCriterion(GeomAbs_Shape Criterion)
 		{
 			throw new NotImplementedException();
 		}

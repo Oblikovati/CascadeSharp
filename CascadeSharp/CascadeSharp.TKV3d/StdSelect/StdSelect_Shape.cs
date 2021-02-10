@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKV3d.Prs3d;
+using CascadeSharp.TKV3d.PrsMgr;
+
+namespace CascadeSharp.TKV3d.StdSelect
 {
 	//---------------------------------------------------------------------
 	//  Class  StdSelect_Shape
 	//---------------------------------------------------------------------
-	public  sealed class StdSelect_Shape : CascadeSharp.PrsMgr_PresentableObject
+	public  sealed class StdSelect_Shape : PrsMgr_PresentableObject
 	{
 
 		public StdSelect_Shape(TopoDS_Shape theShape, Prs3d_Drawer theDrawer)

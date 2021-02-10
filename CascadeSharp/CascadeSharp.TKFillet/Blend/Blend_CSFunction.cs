@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKFillet.Blend
 {
 	//---------------------------------------------------------------------
 	//  Class  Blend_CSFunction
 	//---------------------------------------------------------------------
-	public  abstract class Blend_CSFunction : CascadeSharp.Blend_AppFunction
+	public  abstract class Blend_CSFunction : Blend_AppFunction
 	{
 
 		public Blend_CSFunction()

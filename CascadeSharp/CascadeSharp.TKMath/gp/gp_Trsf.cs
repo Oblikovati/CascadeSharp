@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKMath.gp
 {
 	//---------------------------------------------------------------------
 	//  Class  gp_Trsf
@@ -106,7 +106,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetForm(CascadeSharp.gp_TrsfForm P)
+		public void SetForm(gp_TrsfForm P)
 		{
 			throw new NotImplementedException();
 		}
@@ -121,7 +121,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.gp_TrsfForm Form()
+		public gp_TrsfForm Form()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_TextAspect
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_TextAspect : CascadeSharp.Prs3d_BasicAspect
+	public  sealed class Prs3d_TextAspect : Prs3d_BasicAspect
 	{
 
 		public Prs3d_TextAspect()
@@ -66,32 +68,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetHorizontalJustification(CascadeSharp.Graphic3d_HorizontalTextAlignment theJustification)
+		public void SetHorizontalJustification(Graphic3d_HorizontalTextAlignment theJustification)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetVerticalJustification(CascadeSharp.Graphic3d_VerticalTextAlignment theJustification)
+		public void SetVerticalJustification(Graphic3d_VerticalTextAlignment theJustification)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetOrientation(CascadeSharp.Graphic3d_TextPath theOrientation)
+		public void SetOrientation(Graphic3d_TextPath theOrientation)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_HorizontalTextAlignment HorizontalJustification()
+		public Graphic3d_HorizontalTextAlignment HorizontalJustification()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_VerticalTextAlignment VerticalJustification()
+		public Graphic3d_VerticalTextAlignment VerticalJustification()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TextPath Orientation()
+		public Graphic3d_TextPath Orientation()
 		{
 			throw new NotImplementedException();
 		}

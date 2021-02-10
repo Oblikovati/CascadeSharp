@@ -2,10 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_Tool
@@ -175,7 +182,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2)
+		public GeomAbs_Shape Continuity(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2)
 		{
 			throw new NotImplementedException();
 		}
@@ -185,7 +192,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity(TopoDS_Edge E, Geom_Surface S1, Geom_Surface S2, TopLoc_Location L1, TopLoc_Location L2)
+		public GeomAbs_Shape Continuity(TopoDS_Edge E, Geom_Surface S1, Geom_Surface S2, TopLoc_Location L1, TopLoc_Location L2)
 		{
 			throw new NotImplementedException();
 		}
@@ -195,7 +202,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape MaxContinuity(TopoDS_Edge theEdge)
+		public GeomAbs_Shape MaxContinuity(TopoDS_Edge theEdge)
 		{
 			throw new NotImplementedException();
 		}
@@ -235,7 +242,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public double MaxTolerance(TopoDS_Shape theShape, CascadeSharp.TopAbs_ShapeEnum theSubShape)
+		public double MaxTolerance(TopoDS_Shape theShape, TopAbs_ShapeEnum theSubShape)
 		{
 			throw new NotImplementedException();
 		}

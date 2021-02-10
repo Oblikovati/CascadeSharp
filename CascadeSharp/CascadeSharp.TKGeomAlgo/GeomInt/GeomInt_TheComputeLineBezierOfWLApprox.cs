@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKGeomBase.AppParCurves;
+using CascadeSharp.TKGeomBase.Approx;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_TheComputeLineBezierOfWLApprox
@@ -13,13 +17,13 @@ namespace CascadeSharp
 	public  sealed class GeomInt_TheComputeLineBezierOfWLApprox
 	{
 
-		public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, CascadeSharp.Approx_ParametrizationType parametrization, bool Squares)
+		public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, Approx_ParametrizationType parametrization, bool Squares)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, CascadeSharp.Approx_ParametrizationType parametrization)
+		public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, Approx_ParametrizationType parametrization)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -163,13 +167,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GeomInt_TheComputeLineBezierOfWLApprox(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, CascadeSharp.Approx_ParametrizationType parametrization, bool Squares)
+		public GeomInt_TheComputeLineBezierOfWLApprox(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, Approx_ParametrizationType parametrization, bool Squares)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomInt_TheComputeLineBezierOfWLApprox(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, CascadeSharp.Approx_ParametrizationType parametrization)
+		public GeomInt_TheComputeLineBezierOfWLApprox(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, Approx_ParametrizationType parametrization)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -222,12 +226,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Init(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, CascadeSharp.Approx_ParametrizationType parametrization, bool Squares)
+		public void Init(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, Approx_ParametrizationType parametrization, bool Squares)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, CascadeSharp.Approx_ParametrizationType parametrization)
+		public void Init(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, Approx_ParametrizationType parametrization)
 		{
 			throw new NotImplementedException();
 		}
@@ -282,7 +286,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetConstraints(CascadeSharp.AppParCurves_Constraint firstC, CascadeSharp.AppParCurves_Constraint lastC)
+		public void SetConstraints(AppParCurves_Constraint firstC, AppParCurves_Constraint lastC)
 		{
 			throw new NotImplementedException();
 		}
@@ -332,7 +336,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Approx_ParametrizationType Parametrization()
+		public Approx_ParametrizationType Parametrization()
 		{
 			throw new NotImplementedException();
 		}

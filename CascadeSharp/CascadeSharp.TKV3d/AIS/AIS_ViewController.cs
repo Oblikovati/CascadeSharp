@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKService.WNT;
+using CascadeSharp.TKV3d.V3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_ViewController
@@ -19,12 +24,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AIS_ViewInputBuffer InputBuffer(CascadeSharp.AIS_ViewInputBufferType theType)
+		public AIS_ViewInputBuffer InputBuffer(AIS_ViewInputBufferType theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_ViewInputBuffer ChangeInputBuffer(CascadeSharp.AIS_ViewInputBufferType theType)
+		public AIS_ViewInputBuffer ChangeInputBuffer(AIS_ViewInputBufferType theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -44,22 +49,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_RotationMode RotationMode()
+		public AIS_RotationMode RotationMode()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetRotationMode(CascadeSharp.AIS_RotationMode theMode)
+		public void SetRotationMode(AIS_RotationMode theMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_NavigationMode NavigationMode()
+		public AIS_NavigationMode NavigationMode()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetNavigationMode(CascadeSharp.AIS_NavigationMode theMode)
+		public void SetNavigationMode(AIS_NavigationMode theMode)
 		{
 			throw new NotImplementedException();
 		}
@@ -504,7 +509,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void UpdateViewOrientation(CascadeSharp.V3d_TypeOfOrientation theOrientation, bool theToFitAll)
+		public void UpdateViewOrientation(V3d_TypeOfOrientation theOrientation, bool theToFitAll)
 		{
 			throw new NotImplementedException();
 		}
@@ -529,7 +534,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void OnObjectDragged(AIS_InteractiveContext theCtx, V3d_View theView, CascadeSharp.AIS_DragAction theAction)
+		public void OnObjectDragged(AIS_InteractiveContext theCtx, V3d_View theView, AIS_DragAction theAction)
 		{
 			throw new NotImplementedException();
 		}

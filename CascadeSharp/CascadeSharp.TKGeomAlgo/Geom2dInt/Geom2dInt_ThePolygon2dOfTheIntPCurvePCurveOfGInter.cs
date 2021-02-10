@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKGeomAlgo.Intf;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dInt
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dInt_ThePolygon2dOfTheIntPCurvePCurveOfGInter
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dInt_ThePolygon2dOfTheIntPCurvePCurveOfGInter : CascadeSharp.Intf_Polygon2d
+	public  sealed class Geom2dInt_ThePolygon2dOfTheIntPCurvePCurveOfGInter : Intf_Polygon2d
 	{
 
 		public Geom2dInt_ThePolygon2dOfTheIntPCurvePCurveOfGInter(Adaptor2d_Curve2d Curve, int NbPnt, IntRes2d_Domain Domain, double Tol)

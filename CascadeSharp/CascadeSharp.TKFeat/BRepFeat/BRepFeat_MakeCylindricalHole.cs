@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat_MakeCylindricalHole
 	//---------------------------------------------------------------------
-	public  sealed class BRepFeat_MakeCylindricalHole : CascadeSharp.BRepFeat_Builder
+	public  sealed class BRepFeat_MakeCylindricalHole : BRepFeat_Builder
 	{
 
 		public BRepFeat_MakeCylindricalHole()
@@ -80,7 +82,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepFeat_Status Status()
+		public BRepFeat_Status Status()
 		{
 			throw new NotImplementedException();
 		}
@@ -90,7 +92,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepFeat_Status Validate()
+		public BRepFeat_Status Validate()
 		{
 			throw new NotImplementedException();
 		}

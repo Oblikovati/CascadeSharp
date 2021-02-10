@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_DivideByZero
 	//---------------------------------------------------------------------
-	public  sealed class Standard_DivideByZero : CascadeSharp.Standard_NumericError
+	public  sealed class Standard_DivideByZero : Standard_NumericError
 	{
 
 		public Standard_DivideByZero()

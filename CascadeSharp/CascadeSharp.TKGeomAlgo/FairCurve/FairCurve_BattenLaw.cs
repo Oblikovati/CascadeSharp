@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.FairCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  FairCurve_BattenLaw
 	//---------------------------------------------------------------------
-	public  sealed class FairCurve_BattenLaw : CascadeSharp.math_Function
+	public  sealed class FairCurve_BattenLaw : math_Function
 	{
 
 		public FairCurve_BattenLaw(double Heigth, double Slope, double Sliding)

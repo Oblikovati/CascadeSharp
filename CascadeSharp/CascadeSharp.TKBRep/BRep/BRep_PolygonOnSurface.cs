@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_PolygonOnSurface
 	//---------------------------------------------------------------------
-	public  class BRep_PolygonOnSurface : CascadeSharp.BRep_CurveRepresentation
+	public  class BRep_PolygonOnSurface : BRep_CurveRepresentation
 	{
 
 				public BRep_PolygonOnSurface(BRep_PolygonOnSurface parameter1)

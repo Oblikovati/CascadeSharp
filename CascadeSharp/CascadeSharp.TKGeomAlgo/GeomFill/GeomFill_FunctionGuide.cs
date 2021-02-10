@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_FunctionGuide
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_FunctionGuide : CascadeSharp.math_FunctionSetWithDerivatives
+	public  sealed class GeomFill_FunctionGuide : math_FunctionSetWithDerivatives
 	{
 
 		public GeomFill_FunctionGuide(GeomFill_SectionLaw S, Adaptor3d_HCurve Guide, double ParamOnLaw)

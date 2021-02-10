@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+
+namespace CascadeSharp.TKTopAlgo.Bisector
 {
 	//---------------------------------------------------------------------
 	//  Class  Bisector_Inter
 	//---------------------------------------------------------------------
-	public  sealed class Bisector_Inter : CascadeSharp.IntRes2d_Intersection
+	public  sealed class Bisector_Inter : IntRes2d_Intersection
 	{
 
 		public Bisector_Inter()

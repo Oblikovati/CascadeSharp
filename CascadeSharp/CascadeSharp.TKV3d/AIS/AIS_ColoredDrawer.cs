@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKV3d.Prs3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_ColoredDrawer
 	//---------------------------------------------------------------------
-	public  sealed class AIS_ColoredDrawer : CascadeSharp.Prs3d_Drawer
+	public  sealed class AIS_ColoredDrawer : Prs3d_Drawer
 	{
 
 		public AIS_ColoredDrawer(Prs3d_Drawer theLink)

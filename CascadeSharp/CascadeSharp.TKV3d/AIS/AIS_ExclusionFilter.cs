@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_ExclusionFilter
 	//---------------------------------------------------------------------
-	public  sealed class AIS_ExclusionFilter : CascadeSharp.SelectMgr_Filter
+	public  sealed class AIS_ExclusionFilter : SelectMgr_Filter
 	{
 
 		public AIS_ExclusionFilter(bool ExclusionFlagOn)
@@ -19,25 +21,25 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AIS_ExclusionFilter(CascadeSharp.AIS_KindOfInteractive TypeToExclude, bool ExclusionFlagOn)
+		public AIS_ExclusionFilter(AIS_KindOfInteractive TypeToExclude, bool ExclusionFlagOn)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_ExclusionFilter(CascadeSharp.AIS_KindOfInteractive TypeToExclude)
+		public AIS_ExclusionFilter(AIS_KindOfInteractive TypeToExclude)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_ExclusionFilter(CascadeSharp.AIS_KindOfInteractive TypeToExclude, int SignatureInType, bool ExclusionFlagOn)
+		public AIS_ExclusionFilter(AIS_KindOfInteractive TypeToExclude, int SignatureInType, bool ExclusionFlagOn)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_ExclusionFilter(CascadeSharp.AIS_KindOfInteractive TypeToExclude, int SignatureInType)
+		public AIS_ExclusionFilter(AIS_KindOfInteractive TypeToExclude, int SignatureInType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -59,22 +61,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Add(CascadeSharp.AIS_KindOfInteractive TypeToExclude)
+		public bool Add(AIS_KindOfInteractive TypeToExclude)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Add(CascadeSharp.AIS_KindOfInteractive TypeToExclude, int SignatureInType)
+		public bool Add(AIS_KindOfInteractive TypeToExclude, int SignatureInType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Remove(CascadeSharp.AIS_KindOfInteractive TypeToExclude)
+		public bool Remove(AIS_KindOfInteractive TypeToExclude)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Remove(CascadeSharp.AIS_KindOfInteractive TypeToExclude, int SignatureInType)
+		public bool Remove(AIS_KindOfInteractive TypeToExclude, int SignatureInType)
 		{
 			throw new NotImplementedException();
 		}
@@ -94,7 +96,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsStored(CascadeSharp.AIS_KindOfInteractive aType)
+		public bool IsStored(AIS_KindOfInteractive aType)
 		{
 			throw new NotImplementedException();
 		}
@@ -104,7 +106,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ListOfSignature(CascadeSharp.AIS_KindOfInteractive aType, TColStd_ListOfInteger TheStoredL_ist)
+		public void ListOfSignature(AIS_KindOfInteractive aType, TColStd_ListOfInteger TheStoredL_ist)
 		{
 			throw new NotImplementedException();
 		}
@@ -114,7 +116,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public bool IsSignatureIn(CascadeSharp.AIS_KindOfInteractive aType, int aSignature)
+						public bool IsSignatureIn(AIS_KindOfInteractive aType, int aSignature)
 		{
 			throw new NotImplementedException();
 		}

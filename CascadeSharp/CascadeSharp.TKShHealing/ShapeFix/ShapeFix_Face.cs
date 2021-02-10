@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKShHealing.ShapeAnalysis;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeFix
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeFix_Face
 	//---------------------------------------------------------------------
-	public  sealed class ShapeFix_Face : CascadeSharp.ShapeFix_Root
+	public  sealed class ShapeFix_Face : ShapeFix_Root
 	{
 
 		public ShapeFix_Face()
@@ -206,7 +211,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Status(CascadeSharp.ShapeExtend_Status status)
+		public bool Status(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,18 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_TypeFilter
 	//---------------------------------------------------------------------
-	public  class AIS_TypeFilter : CascadeSharp.SelectMgr_Filter
+	public  class AIS_TypeFilter : SelectMgr_Filter
 	{
 
-		public AIS_TypeFilter(CascadeSharp.AIS_KindOfInteractive aGivenKind)
+		public AIS_TypeFilter(AIS_KindOfInteractive aGivenKind)
 			: base()
 		{
 			throw new NotImplementedException();

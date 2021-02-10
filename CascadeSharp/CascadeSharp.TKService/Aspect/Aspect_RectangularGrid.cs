@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_RectangularGrid
 	//---------------------------------------------------------------------
-	public  abstract class Aspect_RectangularGrid : CascadeSharp.Aspect_Grid
+	public  abstract class Aspect_RectangularGrid : Aspect_Grid
 	{
 
 		public Aspect_RectangularGrid(double aXStep, double aYStep, double anXOrigin, double anYOrigin, double aFirstAngle, double aSecondAngle, double aRotationAngle)

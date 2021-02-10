@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_VPointInterClassifier
@@ -25,7 +27,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State VPointPosition(TopoDS_Shape F, TopOpeBRep_VPointInter VP, int ShapeIndex, TopOpeBRep_PointClassifier PC, bool AssumeINON, double Tol)
+		public TopAbs_State VPointPosition(TopoDS_Shape F, TopOpeBRep_VPointInter VP, int ShapeIndex, TopOpeBRep_PointClassifier PC, bool AssumeINON, double Tol)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_GCurve
 	//---------------------------------------------------------------------
-	public  abstract class BRep_GCurve : CascadeSharp.BRep_CurveRepresentation
+	public  abstract class BRep_GCurve : BRep_CurveRepresentation
 	{
 
 		public BRep_GCurve(TopLoc_Location L, double First, double Last)

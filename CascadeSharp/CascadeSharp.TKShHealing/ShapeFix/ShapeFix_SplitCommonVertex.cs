@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKShHealing.ShapeFix
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeFix_SplitCommonVertex
 	//---------------------------------------------------------------------
-	public  sealed class ShapeFix_SplitCommonVertex : CascadeSharp.ShapeFix_Root
+	public  sealed class ShapeFix_SplitCommonVertex : ShapeFix_Root
 	{
 
 		public ShapeFix_SplitCommonVertex()

@@ -2,18 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.StdSelect
 {
 	//---------------------------------------------------------------------
 	//  Class  StdSelect_ShapeTypeFilter
 	//---------------------------------------------------------------------
-	public  sealed class StdSelect_ShapeTypeFilter : CascadeSharp.SelectMgr_Filter
+	public  sealed class StdSelect_ShapeTypeFilter : SelectMgr_Filter
 	{
 
-		public StdSelect_ShapeTypeFilter(CascadeSharp.TopAbs_ShapeEnum aType)
+		public StdSelect_ShapeTypeFilter(TopAbs_ShapeEnum aType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -35,7 +37,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.TopAbs_ShapeEnum Type()
+						public TopAbs_ShapeEnum Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -45,7 +47,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ActsOn(CascadeSharp.TopAbs_ShapeEnum aStandardMode)
+		public bool ActsOn(TopAbs_ShapeEnum aStandardMode)
 		{
 			throw new NotImplementedException();
 		}

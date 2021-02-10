@@ -2,24 +2,27 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_PointLine
 	//---------------------------------------------------------------------
-	public  abstract class IntPatch_PointLine : CascadeSharp.IntPatch_Line
+	public  abstract class IntPatch_PointLine : IntPatch_Line
 	{
 
-		public IntPatch_PointLine(bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_PointLine(bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException("Native class is abstract");
 		}
 
-		public IntPatch_PointLine(bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_PointLine(bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException("Native class is abstract");

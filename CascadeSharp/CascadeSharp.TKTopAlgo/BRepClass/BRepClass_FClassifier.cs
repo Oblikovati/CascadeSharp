@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepClass
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepClass_FClassifier
@@ -36,7 +39,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State()
+		public TopAbs_State State()
 		{
 			throw new NotImplementedException();
 		}
@@ -61,7 +64,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntRes2d_Position Position()
+		public IntRes2d_Position Position()
 		{
 			throw new NotImplementedException();
 		}

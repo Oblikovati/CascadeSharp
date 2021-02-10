@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_InterferenceIterator
@@ -36,7 +36,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void GeometryKind(CascadeSharp.TopOpeBRepDS_Kind GK)
+		public void GeometryKind(TopOpeBRepDS_Kind GK)
 		{
 			throw new NotImplementedException();
 		}
@@ -46,7 +46,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SupportKind(CascadeSharp.TopOpeBRepDS_Kind ST)
+		public void SupportKind(TopOpeBRepDS_Kind ST)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_Point
 	//---------------------------------------------------------------------
-	public  abstract class Geom_Point : CascadeSharp.Geom_Geometry
+	public  abstract class Geom_Point : Geom_Geometry
 	{
 
 		public Geom_Point()

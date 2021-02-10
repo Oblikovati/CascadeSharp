@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKMath.Bnd;
+
+namespace CascadeSharp.TKBRep.TopTools
 {
 	//---------------------------------------------------------------------
 	//  Class  TopTools_DataMapOfShapeBox

@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKBool.BRepAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgo_NormalProjection
@@ -41,7 +45,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetParams(double Tol3D, double Tol2D, CascadeSharp.GeomAbs_Shape InternalContinuity, int MaxDegree, int MaxSeg)
+		public void SetParams(double Tol3D, double Tol2D, GeomAbs_Shape InternalContinuity, int MaxDegree, int MaxSeg)
 		{
 			throw new NotImplementedException();
 		}

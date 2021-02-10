@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKShHealing.ShapeAnalysis;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_WireDivide
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_WireDivide : CascadeSharp.ShapeUpgrade_Tool
+	public  sealed class ShapeUpgrade_WireDivide : ShapeUpgrade_Tool
 	{
 
 		public ShapeUpgrade_WireDivide()
@@ -70,7 +75,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Status(CascadeSharp.ShapeExtend_Status status)
+		public bool Status(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

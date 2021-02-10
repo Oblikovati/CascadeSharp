@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.AdvApprox;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomBase.Approx
 {
 	//---------------------------------------------------------------------
 	//  Class  Approx_SweepApproximation
@@ -30,17 +34,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(double First, double Last, double Tol3d, double BoundTol, double Tol2d, double TolAngular, CascadeSharp.GeomAbs_Shape Continuity, int Degmax, int Segmax)
+		public void Perform(double First, double Last, double Tol3d, double BoundTol, double Tol2d, double TolAngular, GeomAbs_Shape Continuity, int Degmax, int Segmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(double First, double Last, double Tol3d, double BoundTol, double Tol2d, double TolAngular, CascadeSharp.GeomAbs_Shape Continuity, int Degmax)
+		public void Perform(double First, double Last, double Tol3d, double BoundTol, double Tol2d, double TolAngular, GeomAbs_Shape Continuity, int Degmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(double First, double Last, double Tol3d, double BoundTol, double Tol2d, double TolAngular, CascadeSharp.GeomAbs_Shape Continuity)
+		public void Perform(double First, double Last, double Tol3d, double BoundTol, double Tol2d, double TolAngular, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}
@@ -170,7 +174,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public void Approximation(TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, double BounTol, double First, double Last, CascadeSharp.GeomAbs_Shape Continuity, int Degmax, int Segmax, AdvApprox_EvaluatorFunction TheApproxFunction, AdvApprox_Cutting TheCuttingTool)
+				public void Approximation(TColStd_HArray1OfReal OneDTol, TColStd_HArray1OfReal TwoDTol, TColStd_HArray1OfReal ThreeDTol, double BounTol, double First, double Last, GeomAbs_Shape Continuity, int Degmax, int Segmax, AdvApprox_EvaluatorFunction TheApproxFunction, AdvApprox_Cutting TheCuttingTool)
 		{
 			throw new NotImplementedException();
 		}

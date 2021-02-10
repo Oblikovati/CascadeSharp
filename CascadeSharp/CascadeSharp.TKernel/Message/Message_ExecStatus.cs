@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_ExecStatus
@@ -19,7 +19,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Message_ExecStatus(CascadeSharp.Message_Status status)
+		public Message_ExecStatus(Message_Status status)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -36,17 +36,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Set(CascadeSharp.Message_Status status)
+		public void Set(Message_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsSet(CascadeSharp.Message_Status status)
+		public bool IsSet(Message_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Clear(CascadeSharp.Message_Status status)
+		public void Clear(Message_Status status)
 		{
 			throw new NotImplementedException();
 		}
@@ -126,22 +126,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int StatusIndex(CascadeSharp.Message_Status status)
+		public int StatusIndex(Message_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int LocalStatusIndex(CascadeSharp.Message_Status status)
+		public int LocalStatusIndex(Message_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Message_StatusType TypeOfStatus(CascadeSharp.Message_Status status)
+		public Message_StatusType TypeOfStatus(Message_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Message_Status StatusByIndex(int theIndex)
+		public Message_Status StatusByIndex(int theIndex)
 		{
 			throw new NotImplementedException();
 		}

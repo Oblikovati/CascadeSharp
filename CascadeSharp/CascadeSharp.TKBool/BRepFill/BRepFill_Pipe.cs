@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKGeomAlgo.GeomFill;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_Pipe
@@ -19,19 +23,19 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_Pipe(TopoDS_Wire Spine, TopoDS_Shape Profile, CascadeSharp.GeomFill_Trihedron aMode, bool ForceApproxC1, bool GeneratePartCase)
+		public BRepFill_Pipe(TopoDS_Wire Spine, TopoDS_Shape Profile, GeomFill_Trihedron aMode, bool ForceApproxC1, bool GeneratePartCase)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_Pipe(TopoDS_Wire Spine, TopoDS_Shape Profile, CascadeSharp.GeomFill_Trihedron aMode, bool ForceApproxC1)
+		public BRepFill_Pipe(TopoDS_Wire Spine, TopoDS_Shape Profile, GeomFill_Trihedron aMode, bool ForceApproxC1)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_Pipe(TopoDS_Wire Spine, TopoDS_Shape Profile, CascadeSharp.GeomFill_Trihedron aMode)
+		public BRepFill_Pipe(TopoDS_Wire Spine, TopoDS_Shape Profile, GeomFill_Trihedron aMode)
 			: base()
 		{
 			throw new NotImplementedException();

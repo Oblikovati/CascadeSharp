@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.IntImp;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox
@@ -36,12 +42,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntImp_ConstIsoparametric Perform(TColStd_Array1OfReal Param, math_FunctionSetRoot Rsnld)
+		public IntImp_ConstIsoparametric Perform(TColStd_Array1OfReal Param, math_FunctionSetRoot Rsnld)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntImp_ConstIsoparametric Perform(TColStd_Array1OfReal Param, math_FunctionSetRoot Rsnld, CascadeSharp.IntImp_ConstIsoparametric ChoixIso)
+		public IntImp_ConstIsoparametric Perform(TColStd_Array1OfReal Param, math_FunctionSetRoot Rsnld, IntImp_ConstIsoparametric ChoixIso)
 		{
 			throw new NotImplementedException();
 		}

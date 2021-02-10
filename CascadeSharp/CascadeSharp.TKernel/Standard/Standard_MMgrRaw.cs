@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_MMgrRaw
 	//---------------------------------------------------------------------
-	public  sealed class Standard_MMgrRaw : CascadeSharp.Standard_MMgrRoot
+	public  sealed class Standard_MMgrRaw : Standard_MMgrRoot
 	{
 
 		public Standard_MMgrRaw(bool aClear)

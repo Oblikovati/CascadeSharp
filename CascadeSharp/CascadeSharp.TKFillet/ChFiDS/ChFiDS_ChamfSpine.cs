@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_ChamfSpine
 	//---------------------------------------------------------------------
-	public  sealed class ChFiDS_ChamfSpine : CascadeSharp.ChFiDS_Spine
+	public  sealed class ChFiDS_ChamfSpine : ChFiDS_Spine
 	{
 
 		public ChFiDS_ChamfSpine()
@@ -61,12 +61,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetMode(CascadeSharp.ChFiDS_ChamfMode theMode)
+		public void SetMode(ChFiDS_ChamfMode theMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFiDS_ChamfMethod IsChamfer()
+		public ChFiDS_ChamfMethod IsChamfer()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_ToolCylinder
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_ToolCylinder : CascadeSharp.Prs3d_ToolQuadric
+	public  sealed class Prs3d_ToolCylinder : Prs3d_ToolQuadric
 	{
 
 		public Prs3d_ToolCylinder(double theBottomRad, double theTopRad, double theHeight, int theNbSlices, int theNbStacks)

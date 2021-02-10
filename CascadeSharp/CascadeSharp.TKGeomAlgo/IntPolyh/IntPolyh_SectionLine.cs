@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKGeomAlgo.IntPolyh
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPolyh_SectionLine

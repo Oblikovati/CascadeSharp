@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_Interference
@@ -19,7 +20,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Interference(TopOpeBRepDS_Transition Transition, CascadeSharp.TopOpeBRepDS_Kind SupportType, int Support, CascadeSharp.TopOpeBRepDS_Kind GeometryType, int Geometry)
+		public TopOpeBRepDS_Interference(TopOpeBRepDS_Transition Transition, TopOpeBRepDS_Kind SupportType, int Support, TopOpeBRepDS_Kind GeometryType, int Geometry)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -46,12 +47,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void GKGSKS( ref CascadeSharp.TopOpeBRepDS_Kind GK, ref int G,  ref CascadeSharp.TopOpeBRepDS_Kind SK, ref int S)
+		public void GKGSKS( ref TopOpeBRepDS_Kind GK, ref int G,  ref TopOpeBRepDS_Kind SK, ref int S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Kind SupportType()
+		public TopOpeBRepDS_Kind SupportType()
 		{
 			throw new NotImplementedException();
 		}
@@ -61,7 +62,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Kind GeometryType()
+		public TopOpeBRepDS_Kind GeometryType()
 		{
 			throw new NotImplementedException();
 		}
@@ -76,7 +77,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SupportType(CascadeSharp.TopOpeBRepDS_Kind ST)
+		public void SupportType(TopOpeBRepDS_Kind ST)
 		{
 			throw new NotImplementedException();
 		}
@@ -86,7 +87,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void GeometryType(CascadeSharp.TopOpeBRepDS_Kind GT)
+		public void GeometryType(TopOpeBRepDS_Kind GT)
 		{
 			throw new NotImplementedException();
 		}

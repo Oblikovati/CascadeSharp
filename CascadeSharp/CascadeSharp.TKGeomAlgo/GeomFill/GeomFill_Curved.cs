@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_Curved
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_Curved : CascadeSharp.GeomFill_Filling
+	public  sealed class GeomFill_Curved : GeomFill_Filling
 	{
 
 		public GeomFill_Curved()

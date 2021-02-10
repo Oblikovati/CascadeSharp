@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.IntTools;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKBO.BOPDS
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPDS_IteratorSI
 	//---------------------------------------------------------------------
-	public  sealed class BOPDS_IteratorSI : CascadeSharp.BOPDS_Iterator
+	public  sealed class BOPDS_IteratorSI : BOPDS_Iterator
 	{
 
 		public BOPDS_IteratorSI()

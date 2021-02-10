@@ -1,4 +1,4 @@
-﻿namespace CascadeSharp
+﻿namespace CascadeSharp.TKernel
 {
     public abstract class Standard_Transient
     {

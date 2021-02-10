@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKMath.Convert
 {
 	//---------------------------------------------------------------------
 	//  Class  Convert_ConicToBSplineCurve
@@ -70,12 +72,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void BuildCosAndSin(CascadeSharp.Convert_ParameterisationType Parametr_isation, TColStd_HArray1OfReal CosNumerator, TColStd_HArray1OfReal SinNumerator, TColStd_HArray1OfReal Denominator, ref int Degree, TColStd_HArray1OfReal Knots, TColStd_HArray1OfInteger Mults)
+		public void BuildCosAndSin(Convert_ParameterisationType Parametr_isation, TColStd_HArray1OfReal CosNumerator, TColStd_HArray1OfReal SinNumerator, TColStd_HArray1OfReal Denominator, ref int Degree, TColStd_HArray1OfReal Knots, TColStd_HArray1OfInteger Mults)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void BuildCosAndSin(CascadeSharp.Convert_ParameterisationType Parametr_isation, double UFirst, double ULast, TColStd_HArray1OfReal CosNumerator, TColStd_HArray1OfReal SinNumerator, TColStd_HArray1OfReal Denominator, ref int Degree, TColStd_HArray1OfReal Knots, TColStd_HArray1OfInteger Mults)
+		public void BuildCosAndSin(Convert_ParameterisationType Parametr_isation, double UFirst, double ULast, TColStd_HArray1OfReal CosNumerator, TColStd_HArray1OfReal SinNumerator, TColStd_HArray1OfReal Denominator, ref int Degree, TColStd_HArray1OfReal Knots, TColStd_HArray1OfInteger Mults)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepTool;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_ShapeScanner
@@ -30,12 +33,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddBoxesMakeCOB(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA)
+		public void AddBoxesMakeCOB(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void AddBoxesMakeCOB(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS)
+		public void AddBoxesMakeCOB(TopoDS_Shape S, TopAbs_ShapeEnum TS)
 		{
 			throw new NotImplementedException();
 		}

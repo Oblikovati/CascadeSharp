@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKTopAlgo.MAT;
+
+namespace CascadeSharp.TKTopAlgo.BRepMAT2d
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepMAT2d_LinkTopoBilo

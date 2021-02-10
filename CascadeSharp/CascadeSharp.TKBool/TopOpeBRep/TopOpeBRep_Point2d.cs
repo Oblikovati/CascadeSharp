@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_Point2d
@@ -120,12 +124,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus(CascadeSharp.TopOpeBRep_P2Dstatus S)
+		public void SetStatus(TopOpeBRep_P2Dstatus S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRep_P2Dstatus Status()
+		public TopOpeBRep_P2Dstatus Status()
 		{
 			throw new NotImplementedException();
 		}
@@ -170,12 +174,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetEdgesConfig(CascadeSharp.TopOpeBRepDS_Config C)
+		public void SetEdgesConfig(TopOpeBRepDS_Config C)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Config EdgesConfig()
+		public TopOpeBRepDS_Config EdgesConfig()
 		{
 			throw new NotImplementedException();
 		}

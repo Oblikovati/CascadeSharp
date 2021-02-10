@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRep;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKPrim.BRepSweep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepSweep_Builder
@@ -60,7 +63,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Add(TopoDS_Shape aShape1, TopoDS_Shape aShape2, CascadeSharp.TopAbs_Orientation Orient)
+		public void Add(TopoDS_Shape aShape1, TopoDS_Shape aShape2, TopAbs_Orientation Orient)
 		{
 			throw new NotImplementedException();
 		}

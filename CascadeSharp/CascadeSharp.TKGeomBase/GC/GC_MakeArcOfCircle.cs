@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GC
 {
 	//---------------------------------------------------------------------
 	//  Class  GC_MakeArcOfCircle
 	//---------------------------------------------------------------------
-	public  sealed class GC_MakeArcOfCircle : CascadeSharp.GC_Root
+	public  sealed class GC_MakeArcOfCircle : GC_Root
 	{
 
 		public GC_MakeArcOfCircle(gp_Circ Circ, double Alpha1, double Alpha2, bool Sense)

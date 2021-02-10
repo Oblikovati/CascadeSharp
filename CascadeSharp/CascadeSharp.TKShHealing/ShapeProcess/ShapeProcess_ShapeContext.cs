@@ -2,15 +2,23 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKShHealing.ShapeBuild;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeProcess
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeProcess_ShapeContext
 	//---------------------------------------------------------------------
-	public  sealed class ShapeProcess_ShapeContext : CascadeSharp.ShapeProcess_Context
+	public  sealed class ShapeProcess_ShapeContext : ShapeProcess_Context
 	{
 
 		public ShapeProcess_ShapeContext(string file, string seq)
@@ -73,12 +81,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetDetalisation(CascadeSharp.TopAbs_ShapeEnum level)
+		public void SetDetalisation(TopAbs_ShapeEnum level)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum GetDetalisation()
+		public TopAbs_ShapeEnum GetDetalisation()
 		{
 			throw new NotImplementedException();
 		}
@@ -118,7 +126,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddMessage(TopoDS_Shape S, Message_Msg msg, CascadeSharp.Message_Gravity gravity)
+		public void AddMessage(TopoDS_Shape S, Message_Msg msg, Message_Gravity gravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -128,12 +136,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool GetContinuity(string param,  ref CascadeSharp.GeomAbs_Shape val)
+		public bool GetContinuity(string param,  ref GeomAbs_Shape val)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape ContinuityVal(string param, CascadeSharp.GeomAbs_Shape def)
+		public GeomAbs_Shape ContinuityVal(string param, GeomAbs_Shape def)
 		{
 			throw new NotImplementedException();
 		}

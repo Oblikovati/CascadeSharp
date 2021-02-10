@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.GeomLProp;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomAlgo.LocalAnalysis
 {
 	//---------------------------------------------------------------------
 	//  Class  LocalAnalysis_CurveContinuity
@@ -13,55 +16,55 @@ namespace CascadeSharp
 	public  sealed class LocalAnalysis_CurveContinuity
 	{
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2, double EpsG1, double EpsG2, double Percent, double Maxlen)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2, double EpsG1, double EpsG2, double Percent, double Maxlen)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2, double EpsG1, double EpsG2, double Percent)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2, double EpsG1, double EpsG2, double Percent)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2, double EpsG1, double EpsG2)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2, double EpsG1, double EpsG2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2, double EpsG1)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2, double EpsG1)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1, double EpsC2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order, double EpsNul, double EpsC0, double EpsC1)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order, double EpsNul, double EpsC0)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order, double EpsNul, double EpsC0)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order, double EpsNul)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order, double EpsNul)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, CascadeSharp.GeomAbs_Shape Order)
+		public LocalAnalysis_CurveContinuity(Geom_Curve Curv1, double u1, Geom_Curve Curv2, double u2, GeomAbs_Shape Order)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -83,12 +86,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LocalAnalysis_StatusErrorType StatusError()
+		public LocalAnalysis_StatusErrorType StatusError()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape ContinuityStatus()
+		public GeomAbs_Shape ContinuityStatus()
 		{
 			throw new NotImplementedException();
 		}

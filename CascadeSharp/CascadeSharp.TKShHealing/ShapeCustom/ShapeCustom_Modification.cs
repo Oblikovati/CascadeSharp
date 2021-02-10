@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeCustom
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeCustom_Modification
 	//---------------------------------------------------------------------
-	public  abstract class ShapeCustom_Modification : CascadeSharp.BRepTools_Modification
+	public  abstract class ShapeCustom_Modification : BRepTools_Modification
 	{
 
 		public ShapeCustom_Modification(ShapeCustom_Modification parameter1)
@@ -35,7 +39,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SendMsg(TopoDS_Shape shape, Message_Msg message, CascadeSharp.Message_Gravity gravity)
+		public void SendMsg(TopoDS_Shape shape, Message_Msg message, Message_Gravity gravity)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Message;
+
+namespace CascadeSharp.TKBRep.TopoDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopoDS_AlertWithShape
 	//---------------------------------------------------------------------
-	public  sealed class TopoDS_AlertWithShape : CascadeSharp.Message_Alert
+	public  sealed class TopoDS_AlertWithShape : Message_Alert
 	{
 
 		public TopoDS_AlertWithShape(TopoDS_Shape theShape)

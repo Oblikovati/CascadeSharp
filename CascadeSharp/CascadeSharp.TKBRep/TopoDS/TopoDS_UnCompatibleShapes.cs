@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKBRep.TopoDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopoDS_UnCompatibleShapes
 	//---------------------------------------------------------------------
-	public  sealed class TopoDS_UnCompatibleShapes : CascadeSharp.Standard_DomainError
+	public  sealed class TopoDS_UnCompatibleShapes : Standard_DomainError
 	{
 
 		public TopoDS_UnCompatibleShapes()

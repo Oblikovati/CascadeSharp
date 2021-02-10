@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomBase.GeomLib
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomLib_Interpolate
@@ -35,7 +38,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomLib_InterpolationErrors Error()
+		public GeomLib_InterpolationErrors Error()
 		{
 			throw new NotImplementedException();
 		}

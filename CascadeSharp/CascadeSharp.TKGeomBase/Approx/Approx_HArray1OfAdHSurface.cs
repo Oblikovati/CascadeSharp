@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG3d.Adaptor3d;
+
+namespace CascadeSharp.TKGeomBase.Approx
 {
 	//---------------------------------------------------------------------
 	//  Class  Approx_HArray1OfAdHSurface

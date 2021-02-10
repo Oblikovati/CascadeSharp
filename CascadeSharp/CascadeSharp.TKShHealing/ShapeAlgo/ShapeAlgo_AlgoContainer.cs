@@ -2,10 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG2d.TColGeom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TColGeom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKShHealing.ShapeAnalysis;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeAlgo_AlgoContainer
@@ -90,7 +99,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Geom_BSplineCurve ConvertCurveToBSpline(Geom_Curve C3D, double First, double Last, double Tol3d, CascadeSharp.GeomAbs_Shape Continuity, int MaxSegments, int MaxDegree)
+		public Geom_BSplineCurve ConvertCurveToBSpline(Geom_Curve C3D, double First, double Last, double Tol3d, GeomAbs_Shape Continuity, int MaxSegments, int MaxDegree)
 		{
 			throw new NotImplementedException();
 		}

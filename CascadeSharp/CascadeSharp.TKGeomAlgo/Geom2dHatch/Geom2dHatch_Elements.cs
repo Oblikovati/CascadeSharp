@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dHatch
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dHatch_Elements
@@ -115,7 +118,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void CurrentEdge(Geom2dAdaptor_Curve E,  ref CascadeSharp.TopAbs_Orientation Or)
+		public void CurrentEdge(Geom2dAdaptor_Curve E,  ref TopAbs_Orientation Or)
 		{
 			throw new NotImplementedException();
 		}

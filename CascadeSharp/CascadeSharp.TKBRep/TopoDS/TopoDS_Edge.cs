@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBRep.TopoDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopoDS_Edge
 	//---------------------------------------------------------------------
-	public  sealed class TopoDS_Edge : CascadeSharp.TopoDS_Shape
+	public  sealed class TopoDS_Edge : TopoDS_Shape
 	{
 
 		public TopoDS_Edge()

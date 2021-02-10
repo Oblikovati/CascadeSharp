@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_Underflow
 	//---------------------------------------------------------------------
-	public  sealed class Standard_Underflow : CascadeSharp.Standard_NumericError
+	public  sealed class Standard_Underflow : Standard_NumericError
 	{
 
 		public Standard_Underflow()

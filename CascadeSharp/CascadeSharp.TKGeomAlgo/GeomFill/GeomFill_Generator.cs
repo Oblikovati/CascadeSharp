@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_Generator
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_Generator : CascadeSharp.GeomFill_Profiler
+	public  sealed class GeomFill_Generator : GeomFill_Profiler
 	{
 
 		public GeomFill_Generator()

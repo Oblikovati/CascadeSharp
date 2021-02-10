@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_GTool
@@ -25,47 +26,47 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GFusUnsh(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GFusUnsh(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GFusSame(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GFusSame(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GFusDiff(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GFusDiff(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GCutUnsh(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GCutUnsh(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GCutSame(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GCutSame(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GCutDiff(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GCutDiff(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GComUnsh(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GComUnsh(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GComSame(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GComSame(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepBuild_GTopo GComDiff(CascadeSharp.TopAbs_ShapeEnum s1, CascadeSharp.TopAbs_ShapeEnum s2)
+		public TopOpeBRepBuild_GTopo GComDiff(TopAbs_ShapeEnum s1, TopAbs_ShapeEnum s2)
 		{
 			throw new NotImplementedException();
 		}

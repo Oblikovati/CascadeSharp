@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.FairCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  FairCurve_Newton
 	//---------------------------------------------------------------------
-	public  sealed class FairCurve_Newton : CascadeSharp.math_NewtonMinimum
+	public  sealed class FairCurve_Newton : math_NewtonMinimum
 	{
 
 		public FairCurve_Newton(math_MultipleVarFunctionWithHessian theFunction, double theSpatialTolerance, double theCriteriumTolerance, int theNbIterations, double theConvexity, bool theWithSingularity)

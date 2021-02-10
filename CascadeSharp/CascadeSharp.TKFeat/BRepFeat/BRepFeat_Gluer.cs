@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKFeat.LocOpe;
+using CascadeSharp.TKTopAlgo.BRepBuilderAPI;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat_Gluer
 	//---------------------------------------------------------------------
-	public  sealed class BRepFeat_Gluer : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  sealed class BRepFeat_Gluer : BRepBuilderAPI_MakeShape
 	{
 
 		public BRepFeat_Gluer()
@@ -46,7 +50,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LocOpe_Operation OpeType()
+		public LocOpe_Operation OpeType()
 		{
 			throw new NotImplementedException();
 		}

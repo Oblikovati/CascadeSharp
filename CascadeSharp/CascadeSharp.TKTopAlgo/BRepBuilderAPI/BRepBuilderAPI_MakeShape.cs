@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKTopAlgo.BRepBuilderAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepBuilderAPI_MakeShape
 	//---------------------------------------------------------------------
-	public  class BRepBuilderAPI_MakeShape : CascadeSharp.BRepBuilderAPI_Command
+	public  class BRepBuilderAPI_MakeShape : BRepBuilderAPI_Command
 	{
 
 		public BRepBuilderAPI_MakeShape()

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKFillet.Blend
 {
 	//---------------------------------------------------------------------
 	//  Class  Blend_SurfPointFuncInv
 	//---------------------------------------------------------------------
-	public  abstract class Blend_SurfPointFuncInv : CascadeSharp.math_FunctionSetWithDerivatives
+	public  abstract class Blend_SurfPointFuncInv : math_FunctionSetWithDerivatives
 	{
 
 		public Blend_SurfPointFuncInv()

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKTopAlgo.BRepCheck
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepCheck_Edge
 	//---------------------------------------------------------------------
-	public  sealed class BRepCheck_Edge : CascadeSharp.BRepCheck_Result
+	public  sealed class BRepCheck_Edge : BRepCheck_Result
 	{
 
 		public BRepCheck_Edge(TopoDS_Edge E)
@@ -60,12 +61,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus(CascadeSharp.BRepCheck_Status theStatus)
+		public void SetStatus(BRepCheck_Status theStatus)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status CheckPolygonOnTriangulation(TopoDS_Edge theEdge)
+		public BRepCheck_Status CheckPolygonOnTriangulation(TopoDS_Edge theEdge)
 		{
 			throw new NotImplementedException();
 		}

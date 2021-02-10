@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKGeomBase.AppParCurves
 {
 	//---------------------------------------------------------------------
 	//  Class  AppParCurves_ConstraintCouple
@@ -19,7 +19,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AppParCurves_ConstraintCouple(int TheIndex, CascadeSharp.AppParCurves_Constraint Cons)
+		public AppParCurves_ConstraintCouple(int TheIndex, AppParCurves_Constraint Cons)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -36,7 +36,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AppParCurves_Constraint Constraint()
+		public AppParCurves_Constraint Constraint()
 		{
 			throw new NotImplementedException();
 		}
@@ -46,7 +46,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetConstraint(CascadeSharp.AppParCurves_Constraint Cons)
+		public void SetConstraint(AppParCurves_Constraint Cons)
 		{
 			throw new NotImplementedException();
 		}

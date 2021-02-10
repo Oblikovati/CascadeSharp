@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomBase.gce;
+
+namespace CascadeSharp.TKGeomBase.GCE2d
 {
 	//---------------------------------------------------------------------
 	//  Class  GCE2d_Root
@@ -30,7 +31,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.gce_ErrorType Status()
+		public gce_ErrorType Status()
 		{
 			throw new NotImplementedException();
 		}

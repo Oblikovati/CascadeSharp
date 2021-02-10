@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d_AmbientLight
 	//---------------------------------------------------------------------
-	public  sealed class V3d_AmbientLight : CascadeSharp.Graphic3d_CLight
+	public  sealed class V3d_AmbientLight : Graphic3d_CLight
 	{
 
 		public V3d_AmbientLight(Quantity_Color theColor)

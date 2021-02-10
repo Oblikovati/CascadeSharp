@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepClass
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepClass_FaceClassifier
 	//---------------------------------------------------------------------
-	public  sealed class BRepClass_FaceClassifier : CascadeSharp.BRepClass_FClassifier
+	public  sealed class BRepClass_FaceClassifier : BRepClass_FClassifier
 	{
 
 		public BRepClass_FaceClassifier()

@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_FaceEdgeIntersector
@@ -85,12 +89,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State()
+		public TopAbs_State State()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition Transition(int Index, CascadeSharp.TopAbs_Orientation FaceOrientation)
+		public TopOpeBRepDS_Transition Transition(int Index, TopAbs_Orientation FaceOrientation)
 		{
 			throw new NotImplementedException();
 		}
@@ -120,7 +124,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public double ToleranceMax(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T)
+		public double ToleranceMax(TopoDS_Shape S, TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}

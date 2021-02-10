@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKPrim.BRepPrim
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepPrim_Wedge
 	//---------------------------------------------------------------------
-	public  sealed class BRepPrim_Wedge : CascadeSharp.BRepPrim_GWedge
+	public  sealed class BRepPrim_Wedge : BRepPrim_GWedge
 	{
 
 		public BRepPrim_Wedge()

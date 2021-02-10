@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_ArcFunction
 	//---------------------------------------------------------------------
-	public  sealed class IntPatch_ArcFunction : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class IntPatch_ArcFunction : math_FunctionWithDerivative
 	{
 
 		public IntPatch_ArcFunction()

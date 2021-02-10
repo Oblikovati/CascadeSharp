@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Adaptor3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Adaptor3d_HVertex
@@ -19,7 +23,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Adaptor3d_HVertex(gp_Pnt2d P, CascadeSharp.TopAbs_Orientation Ori, double Resolution)
+		public Adaptor3d_HVertex(gp_Pnt2d P, TopAbs_Orientation Ori, double Resolution)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -46,7 +50,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation()
+		public TopAbs_Orientation Orientation()
 		{
 			throw new NotImplementedException();
 		}

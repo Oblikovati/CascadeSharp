@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Quantity
 {
 	//---------------------------------------------------------------------
 	//  Class  Quantity_Color
@@ -19,13 +20,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Quantity_Color(CascadeSharp.Quantity_NameOfColor theName)
+		public Quantity_Color(Quantity_NameOfColor theName)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Quantity_Color(double theC1, double theC2, double theC3, CascadeSharp.Quantity_TypeOfColor theType)
+		public Quantity_Color(double theC1, double theC2, double theC3, Quantity_TypeOfColor theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -37,22 +38,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Quantity_NameOfColor Name()
+		public Quantity_NameOfColor Name()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetValues(CascadeSharp.Quantity_NameOfColor theName)
+		public void SetValues(Quantity_NameOfColor theName)
 		{
 			throw new NotImplementedException();
 		}
 
-				public void Values(ref double theC1, ref double theC2, ref double theC3, CascadeSharp.Quantity_TypeOfColor theType)
+				public void Values(ref double theC1, ref double theC2, ref double theC3, Quantity_TypeOfColor theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetValues(double theC1, double theC2, double theC3, CascadeSharp.Quantity_TypeOfColor theType)
+		public void SetValues(double theC1, double theC2, double theC3, Quantity_TypeOfColor theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -127,17 +128,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Quantity_NameOfColor Name(double theR, double theG, double theB)
+		public Quantity_NameOfColor Name(double theR, double theG, double theB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public string StringName(CascadeSharp.Quantity_NameOfColor theColor)
+		public string StringName(Quantity_NameOfColor theColor)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool ColorFromName(string theName,  ref CascadeSharp.Quantity_NameOfColor theColor)
+		public bool ColorFromName(string theName,  ref Quantity_NameOfColor theColor)
 		{
 			throw new NotImplementedException();
 		}

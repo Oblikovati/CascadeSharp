@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKMath.math
 {
 	//---------------------------------------------------------------------
 	//  Class  math_FunctionSetWithDerivatives
 	//---------------------------------------------------------------------
-	public  abstract class math_FunctionSetWithDerivatives : CascadeSharp.math_FunctionSet
+	public  abstract class math_FunctionSetWithDerivatives : math_FunctionSet
 	{
 
 		public math_FunctionSetWithDerivatives(math_FunctionSetWithDerivatives parameter1)

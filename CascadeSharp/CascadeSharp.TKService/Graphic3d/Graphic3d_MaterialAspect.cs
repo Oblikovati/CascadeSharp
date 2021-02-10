@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_MaterialAspect
@@ -19,7 +21,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_MaterialAspect(CascadeSharp.Graphic3d_NameOfMaterial theName)
+		public Graphic3d_MaterialAspect(Graphic3d_NameOfMaterial theName)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -41,27 +43,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfMaterial MaterialType(int theRank)
+		public Graphic3d_TypeOfMaterial MaterialType(int theRank)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool MaterialFromName(string theName,  ref CascadeSharp.Graphic3d_NameOfMaterial theMat)
+		public bool MaterialFromName(string theName,  ref Graphic3d_NameOfMaterial theMat)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_NameOfMaterial MaterialFromName(string theName)
+		public Graphic3d_NameOfMaterial MaterialFromName(string theName)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_NameOfMaterial Name()
+		public Graphic3d_NameOfMaterial Name()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_NameOfMaterial RequestedName()
+		public Graphic3d_NameOfMaterial RequestedName()
 		{
 			throw new NotImplementedException();
 		}
@@ -201,22 +203,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ReflectionMode(CascadeSharp.Graphic3d_TypeOfReflection theType)
+		public bool ReflectionMode(Graphic3d_TypeOfReflection theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfMaterial MaterialType()
+		public Graphic3d_TypeOfMaterial MaterialType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool MaterialType(CascadeSharp.Graphic3d_TypeOfMaterial theType)
+		public bool MaterialType(Graphic3d_TypeOfMaterial theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetMaterialType(CascadeSharp.Graphic3d_TypeOfMaterial theType)
+		public void SetMaterialType(Graphic3d_TypeOfMaterial theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -231,12 +233,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public void SetReflectionModeOff(CascadeSharp.Graphic3d_TypeOfReflection theType)
+						public void SetReflectionModeOff(Graphic3d_TypeOfReflection theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void init(CascadeSharp.Graphic3d_NameOfMaterial theName)
+		public void init(Graphic3d_NameOfMaterial theName)
 		{
 			throw new NotImplementedException();
 		}

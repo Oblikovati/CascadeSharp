@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomBase.AppParCurves;
+
+namespace CascadeSharp.TKGeomBase.ProjLib
 {
 	//---------------------------------------------------------------------
 	//  Class  ProjLib_ComputeApproxOnPolarSurface
@@ -59,7 +63,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetBndPnt(CascadeSharp.AppParCurves_Constraint theBndPnt)
+		public void SetBndPnt(AppParCurves_Constraint theBndPnt)
 		{
 			throw new NotImplementedException();
 		}

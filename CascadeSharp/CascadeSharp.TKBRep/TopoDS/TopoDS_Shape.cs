@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.TopoDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopoDS_Shape
@@ -50,17 +52,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation()
+		public TopAbs_Orientation Orientation()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Orientation(CascadeSharp.TopAbs_Orientation theOrient)
+		public void Orientation(TopAbs_Orientation theOrient)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape Oriented(CascadeSharp.TopAbs_Orientation theOrient)
+		public TopoDS_Shape Oriented(TopAbs_Orientation theOrient)
 		{
 			throw new NotImplementedException();
 		}
@@ -70,7 +72,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum ShapeType()
+		public TopAbs_ShapeEnum ShapeType()
 		{
 			throw new NotImplementedException();
 		}
@@ -185,12 +187,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Compose(CascadeSharp.TopAbs_Orientation theOrient)
+		public void Compose(TopAbs_Orientation theOrient)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape Composed(CascadeSharp.TopAbs_Orientation theOrient)
+		public TopoDS_Shape Composed(TopAbs_Orientation theOrient)
 		{
 			throw new NotImplementedException();
 		}

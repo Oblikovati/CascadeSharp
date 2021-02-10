@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKG3d.Adaptor3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Adaptor3d_HIsoCurve
 	//---------------------------------------------------------------------
-	public  sealed class Adaptor3d_HIsoCurve : CascadeSharp.Adaptor3d_HCurve
+	public  sealed class Adaptor3d_HIsoCurve : Adaptor3d_HCurve
 	{
 
 		public Adaptor3d_HIsoCurve()

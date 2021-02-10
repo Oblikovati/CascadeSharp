@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_MediaTexture
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_MediaTexture : CascadeSharp.Graphic3d_Texture2D
+	public  sealed class Graphic3d_MediaTexture : Graphic3d_Texture2D
 	{
 
 						public Graphic3d_MediaTexture(Graphic3d_MediaTexture parameter1)

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+
+namespace CascadeSharp.TKBRep.BRepAdaptor
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAdaptor_HSurface
 	//---------------------------------------------------------------------
-	public  sealed class BRepAdaptor_HSurface : CascadeSharp.Adaptor3d_HSurface
+	public  sealed class BRepAdaptor_HSurface : Adaptor3d_HSurface
 	{
 
 		public BRepAdaptor_HSurface()

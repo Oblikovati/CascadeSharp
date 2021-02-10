@@ -2,10 +2,24 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.Prs3d;
+using CascadeSharp.TKV3d.SelectMgr;
+using CascadeSharp.TKV3d.V3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_InteractiveContext
@@ -35,7 +49,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.AIS_DisplayStatus DisplayStatus(AIS_InteractiveObject anIobj)
+						public AIS_DisplayStatus DisplayStatus(AIS_InteractiveObject anIobj)
 		{
 			throw new NotImplementedException();
 		}
@@ -70,7 +84,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Display(AIS_InteractiveObject theIObj, int theD_ispMode, int theSelectionMode, bool theToUpdateViewer, CascadeSharp.AIS_DisplayStatus theD_ispStatus)
+		public void Display(AIS_InteractiveObject theIObj, int theD_ispMode, int theSelectionMode, bool theToUpdateViewer, AIS_DisplayStatus theD_ispStatus)
 		{
 			throw new NotImplementedException();
 		}
@@ -90,7 +104,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Display(AIS_InteractiveObject theIObj, int theD_ispMode, int theSelectionMode, bool theToUpdateViewer, bool theToAllowDecomposition, CascadeSharp.AIS_DisplayStatus theD_ispStatus)
+		public void Display(AIS_InteractiveObject theIObj, int theD_ispMode, int theSelectionMode, bool theToUpdateViewer, bool theToAllowDecomposition, AIS_DisplayStatus theD_ispStatus)
 		{
 			throw new NotImplementedException();
 		}
@@ -155,7 +169,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Redisplay(CascadeSharp.AIS_KindOfInteractive theTypeOfObject, int theSignature, bool theToUpdateViewer)
+		public void Redisplay(AIS_KindOfInteractive theTypeOfObject, int theSignature, bool theToUpdateViewer)
 		{
 			throw new NotImplementedException();
 		}
@@ -180,12 +194,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Prs3d_Drawer HighlightStyle(CascadeSharp.Prs3d_TypeOfHighlight theStyleType)
+		public Prs3d_Drawer HighlightStyle(Prs3d_TypeOfHighlight theStyleType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetHighlightStyle(CascadeSharp.Prs3d_TypeOfHighlight theStyleType, Prs3d_Drawer theStyle)
+		public void SetHighlightStyle(Prs3d_TypeOfHighlight theStyleType, Prs3d_Drawer theStyle)
 		{
 			throw new NotImplementedException();
 		}
@@ -315,12 +329,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetTransformPersistence(AIS_InteractiveObject theObj,  ref CascadeSharp.Graphic3d_TransModeFlags theFlag, gp_Pnt thePoint)
+		public void SetTransformPersistence(AIS_InteractiveObject theObj,  ref Graphic3d_TransModeFlags theFlag, gp_Pnt thePoint)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTransformPersistence(AIS_InteractiveObject theObj,  ref CascadeSharp.Graphic3d_TransModeFlags theFlag)
+		public void SetTransformPersistence(AIS_InteractiveObject theObj,  ref Graphic3d_TransModeFlags theFlag)
 		{
 			throw new NotImplementedException();
 		}
@@ -350,7 +364,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfDetection MoveTo(int theXPix, int theYPix, V3d_View theView, bool theToRedrawOnUpdate)
+		public AIS_StatusOfDetection MoveTo(int theXPix, int theYPix, V3d_View theView, bool theToRedrawOnUpdate)
 		{
 			throw new NotImplementedException();
 		}
@@ -440,42 +454,42 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfPick AddSelect(SelectMgr_EntityOwner theObject)
+		public AIS_StatusOfPick AddSelect(SelectMgr_EntityOwner theObject)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfPick AddSelect(AIS_InteractiveObject theObject)
+		public AIS_StatusOfPick AddSelect(AIS_InteractiveObject theObject)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfPick Select(int theXPMin, int theYPMin, int theXPMax, int theYPMax, V3d_View theView, bool theToUpdateViewer)
+		public AIS_StatusOfPick Select(int theXPMin, int theYPMin, int theXPMax, int theYPMax, V3d_View theView, bool theToUpdateViewer)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfPick Select(TColgp_Array1OfPnt2d thePolyline, V3d_View theView, bool theToUpdateViewer)
+		public AIS_StatusOfPick Select(TColgp_Array1OfPnt2d thePolyline, V3d_View theView, bool theToUpdateViewer)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfPick Select(bool theToUpdateViewer)
+		public AIS_StatusOfPick Select(bool theToUpdateViewer)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfPick ShiftSelect(bool theToUpdateViewer)
+		public AIS_StatusOfPick ShiftSelect(bool theToUpdateViewer)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfPick ShiftSelect(TColgp_Array1OfPnt2d thePolyline, V3d_View theView, bool theToUpdateViewer)
+		public AIS_StatusOfPick ShiftSelect(TColgp_Array1OfPnt2d thePolyline, V3d_View theView, bool theToUpdateViewer)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_StatusOfPick ShiftSelect(int theXPMin, int theYPMin, int theXPMax, int theYPMax, V3d_View theView, bool theToUpdateViewer)
+		public AIS_StatusOfPick ShiftSelect(int theXPMin, int theYPMin, int theXPMax, int theYPMax, V3d_View theView, bool theToUpdateViewer)
 		{
 			throw new NotImplementedException();
 		}
@@ -660,12 +674,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetSelectionModeActive(AIS_InteractiveObject theObj, int theMode, bool theToActivate, CascadeSharp.AIS_SelectionModesConcurrency theConcurrency, bool theIsForce)
+		public void SetSelectionModeActive(AIS_InteractiveObject theObj, int theMode, bool theToActivate, AIS_SelectionModesConcurrency theConcurrency, bool theIsForce)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetSelectionModeActive(AIS_InteractiveObject theObj, int theMode, bool theToActivate, CascadeSharp.AIS_SelectionModesConcurrency theConcurrency)
+		public void SetSelectionModeActive(AIS_InteractiveObject theObj, int theMode, bool theToActivate, AIS_SelectionModesConcurrency theConcurrency)
 		{
 			throw new NotImplementedException();
 		}
@@ -725,12 +739,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public CascadeSharp.SelectMgr_FilterType FilterType()
+						public SelectMgr_FilterType FilterType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetFilterType(CascadeSharp.SelectMgr_FilterType theFilterType)
+		public void SetFilterType(SelectMgr_FilterType theFilterType)
 		{
 			throw new NotImplementedException();
 		}
@@ -755,12 +769,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.SelectMgr_PickingStrategy PickingStrategy()
+		public SelectMgr_PickingStrategy PickingStrategy()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetPickingStrategy(CascadeSharp.SelectMgr_PickingStrategy theStrategy)
+		public void SetPickingStrategy(SelectMgr_PickingStrategy theStrategy)
 		{
 			throw new NotImplementedException();
 		}
@@ -795,7 +809,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void DisplayedObjects(CascadeSharp.AIS_KindOfInteractive theWhichKind, int theWhichSignature, AIS_ListOfInteractive theL_istOfIO)
+		public void DisplayedObjects(AIS_KindOfInteractive theWhichKind, int theWhichSignature, AIS_ListOfInteractive theL_istOfIO)
 		{
 			throw new NotImplementedException();
 		}
@@ -805,27 +819,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ErasedObjects(CascadeSharp.AIS_KindOfInteractive theWhichKind, int theWhichSignature, AIS_ListOfInteractive theL_istOfIO)
+		public void ErasedObjects(AIS_KindOfInteractive theWhichKind, int theWhichSignature, AIS_ListOfInteractive theL_istOfIO)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void ObjectsByDisplayStatus(CascadeSharp.AIS_DisplayStatus theStatus, AIS_ListOfInteractive theL_istOfIO)
+		public void ObjectsByDisplayStatus(AIS_DisplayStatus theStatus, AIS_ListOfInteractive theL_istOfIO)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void ObjectsByDisplayStatus(CascadeSharp.AIS_KindOfInteractive WhichKind, int WhichSignature, CascadeSharp.AIS_DisplayStatus theStatus, AIS_ListOfInteractive theL_istOfIO)
+		public void ObjectsByDisplayStatus(AIS_KindOfInteractive WhichKind, int WhichSignature, AIS_DisplayStatus theStatus, AIS_ListOfInteractive theL_istOfIO)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void ObjectsInside(AIS_ListOfInteractive aL_istOfIO, CascadeSharp.AIS_KindOfInteractive WhichKind, int WhichSignature)
+		public void ObjectsInside(AIS_ListOfInteractive aL_istOfIO, AIS_KindOfInteractive WhichKind, int WhichSignature)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void ObjectsInside(AIS_ListOfInteractive aL_istOfIO, CascadeSharp.AIS_KindOfInteractive WhichKind)
+		public void ObjectsInside(AIS_ListOfInteractive aL_istOfIO, AIS_KindOfInteractive WhichKind)
 		{
 			throw new NotImplementedException();
 		}
@@ -850,7 +864,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ObjectsForView(AIS_ListOfInteractive theL_istOfIO, V3d_View theView, bool theIsV_isibleInView, CascadeSharp.AIS_DisplayStatus theStatus)
+		public void ObjectsForView(AIS_ListOfInteractive theL_istOfIO, V3d_View theView, bool theIsV_isibleInView, AIS_DisplayStatus theStatus)
 		{
 			throw new NotImplementedException();
 		}
@@ -895,7 +909,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetCurrentFacingModel(AIS_InteractiveObject aniobj, CascadeSharp.Aspect_TypeOfFacingModel aModel)
+		public void SetCurrentFacingModel(AIS_InteractiveObject aniobj, Aspect_TypeOfFacingModel aModel)
 		{
 			throw new NotImplementedException();
 		}
@@ -1060,7 +1074,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetIsoNumber(int NbIsos, CascadeSharp.AIS_TypeOfIso WhichIsos)
+		public void SetIsoNumber(int NbIsos, AIS_TypeOfIso WhichIsos)
 		{
 			throw new NotImplementedException();
 		}
@@ -1070,7 +1084,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int IsoNumber(CascadeSharp.AIS_TypeOfIso WhichIsos)
+		public int IsoNumber(AIS_TypeOfIso WhichIsos)
 		{
 			throw new NotImplementedException();
 		}
@@ -1350,7 +1364,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void setObjectStatus(AIS_InteractiveObject theIObj, CascadeSharp.AIS_DisplayStatus theStatus, int theD_ispyMode, int theSelectionMode)
+		public void setObjectStatus(AIS_InteractiveObject theIObj, AIS_DisplayStatus theStatus, int theD_ispyMode, int theSelectionMode)
 		{
 			throw new NotImplementedException();
 		}

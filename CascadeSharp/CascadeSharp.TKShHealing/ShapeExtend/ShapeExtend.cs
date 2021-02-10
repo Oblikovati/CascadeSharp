@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKShHealing.ShapeExtend
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeExtend
@@ -30,12 +30,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int EncodeStatus(CascadeSharp.ShapeExtend_Status status)
+		public int EncodeStatus(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool DecodeStatus(int flag, CascadeSharp.ShapeExtend_Status status)
+		public bool DecodeStatus(int flag, ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

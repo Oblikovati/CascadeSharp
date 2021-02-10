@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepBuilderAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepBuilderAPI_MakeFace
 	//---------------------------------------------------------------------
-	public  sealed class BRepBuilderAPI_MakeFace : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  sealed class BRepBuilderAPI_MakeFace : BRepBuilderAPI_MakeShape
 	{
 
 		public BRepBuilderAPI_MakeFace()
@@ -218,7 +221,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepBuilderAPI_FaceError Error()
+		public BRepBuilderAPI_FaceError Error()
 		{
 			throw new NotImplementedException();
 		}

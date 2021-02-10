@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_HDataStructure
@@ -30,7 +34,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddAncestors(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T1, CascadeSharp.TopAbs_ShapeEnum T2)
+		public void AddAncestors(TopoDS_Shape S, TopAbs_ShapeEnum T1, TopAbs_ShapeEnum T2)
 		{
 			throw new NotImplementedException();
 		}
@@ -145,7 +149,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public CascadeSharp.TopOpeBRepDS_Config SameDomainOrientation(TopoDS_Shape S)
+				public TopOpeBRepDS_Config SameDomainOrientation(TopoDS_Shape S)
 		{
 			throw new NotImplementedException();
 		}
@@ -190,12 +194,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbGeometry(CascadeSharp.TopOpeBRepDS_Kind K)
+		public int NbGeometry(TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int NbTopology(CascadeSharp.TopOpeBRepDS_Kind K)
+		public int NbTopology(TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}

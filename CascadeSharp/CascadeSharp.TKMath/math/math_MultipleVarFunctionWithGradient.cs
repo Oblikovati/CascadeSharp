@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKMath.math
 {
 	//---------------------------------------------------------------------
 	//  Class  math_MultipleVarFunctionWithGradient
 	//---------------------------------------------------------------------
-	public  abstract class math_MultipleVarFunctionWithGradient : CascadeSharp.math_MultipleVarFunction
+	public  abstract class math_MultipleVarFunctionWithGradient : math_MultipleVarFunction
 	{
 
 		public math_MultipleVarFunctionWithGradient(math_MultipleVarFunctionWithGradient parameter1)

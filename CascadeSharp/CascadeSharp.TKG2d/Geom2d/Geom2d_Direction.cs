@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_Direction
 	//---------------------------------------------------------------------
-	public  sealed class Geom2d_Direction : CascadeSharp.Geom2d_Vector
+	public  sealed class Geom2d_Direction : Geom2d_Vector
 	{
 
 		public Geom2d_Direction(double X, double Y)

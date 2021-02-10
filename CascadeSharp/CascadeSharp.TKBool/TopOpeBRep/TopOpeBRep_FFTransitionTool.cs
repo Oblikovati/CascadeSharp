@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_FFTransitionTool
@@ -25,7 +28,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition ProcessLineTransition(TopOpeBRep_VPointInter P, int Index, CascadeSharp.TopAbs_Orientation EdgeOrientation)
+		public TopOpeBRepDS_Transition ProcessLineTransition(TopOpeBRep_VPointInter P, int Index, TopAbs_Orientation EdgeOrientation)
 		{
 			throw new NotImplementedException();
 		}
@@ -35,12 +38,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition ProcessEdgeTransition(TopOpeBRep_VPointInter P, int Index, CascadeSharp.TopAbs_Orientation LineOrientation)
+		public TopOpeBRepDS_Transition ProcessEdgeTransition(TopOpeBRep_VPointInter P, int Index, TopAbs_Orientation LineOrientation)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition ProcessFaceTransition(TopOpeBRep_LineInter L, int Index, CascadeSharp.TopAbs_Orientation FaceOrientation)
+		public TopOpeBRepDS_Transition ProcessFaceTransition(TopOpeBRep_LineInter L, int Index, TopAbs_Orientation FaceOrientation)
 		{
 			throw new NotImplementedException();
 		}

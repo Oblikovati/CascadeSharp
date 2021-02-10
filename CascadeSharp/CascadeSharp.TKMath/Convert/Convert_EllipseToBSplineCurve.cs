@@ -2,18 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKMath.Convert
 {
 	//---------------------------------------------------------------------
 	//  Class  Convert_EllipseToBSplineCurve
 	//---------------------------------------------------------------------
-	public  sealed class Convert_EllipseToBSplineCurve : CascadeSharp.Convert_ConicToBSplineCurve
+	public  sealed class Convert_EllipseToBSplineCurve : Convert_ConicToBSplineCurve
 	{
 
-		public Convert_EllipseToBSplineCurve(gp_Elips2d E, CascadeSharp.Convert_ParameterisationType Parameter_isation)
+		public Convert_EllipseToBSplineCurve(gp_Elips2d E, Convert_ParameterisationType Parameter_isation)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -25,7 +26,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Convert_EllipseToBSplineCurve(gp_Elips2d E, double U1, double U2, CascadeSharp.Convert_ParameterisationType Parameter_isation)
+		public Convert_EllipseToBSplineCurve(gp_Elips2d E, double U1, double U2, Convert_ParameterisationType Parameter_isation)
 			: base()
 		{
 			throw new NotImplementedException();

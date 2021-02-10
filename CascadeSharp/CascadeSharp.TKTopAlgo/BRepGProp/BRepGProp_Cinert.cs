@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKG3d.GProp;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepGProp
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepGProp_Cinert
 	//---------------------------------------------------------------------
-	public  sealed class BRepGProp_Cinert : CascadeSharp.GProp_GProps
+	public  sealed class BRepGProp_Cinert : GProp_GProps
 	{
 
 		public BRepGProp_Cinert()

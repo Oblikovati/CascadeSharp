@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKService.Image;
+using CascadeSharp.TKV3d.StdSelect;
+using CascadeSharp.TKV3d.V3d;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_ViewerSelector3d
 	//---------------------------------------------------------------------
-	public  sealed class SelectMgr_ViewerSelector3d : CascadeSharp.SelectMgr_ViewerSelector
+	public  sealed class SelectMgr_ViewerSelector3d : SelectMgr_ViewerSelector
 	{
 
 		public SelectMgr_ViewerSelector3d()
@@ -45,12 +50,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ToPixMap(Image_PixMap theImage, V3d_View theView, CascadeSharp.StdSelect_TypeOfSelectionImage theType, int thePickedIndex)
+		public bool ToPixMap(Image_PixMap theImage, V3d_View theView, StdSelect_TypeOfSelectionImage theType, int thePickedIndex)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool ToPixMap(Image_PixMap theImage, V3d_View theView, CascadeSharp.StdSelect_TypeOfSelectionImage theType)
+		public bool ToPixMap(Image_PixMap theImage, V3d_View theView, StdSelect_TypeOfSelectionImage theType)
 		{
 			throw new NotImplementedException();
 		}

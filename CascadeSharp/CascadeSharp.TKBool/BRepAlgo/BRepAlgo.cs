@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKBool.BRepAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgo
@@ -25,12 +28,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Wire ConcatenateWire(TopoDS_Wire Wire, CascadeSharp.GeomAbs_Shape Option, double AngularTolerance)
+		public TopoDS_Wire ConcatenateWire(TopoDS_Wire Wire, GeomAbs_Shape Option, double AngularTolerance)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Wire ConcatenateWire(TopoDS_Wire Wire, CascadeSharp.GeomAbs_Shape Option)
+		public TopoDS_Wire ConcatenateWire(TopoDS_Wire Wire, GeomAbs_Shape Option)
 		{
 			throw new NotImplementedException();
 		}

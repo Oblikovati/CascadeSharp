@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKFillet.BlendFunc
 {
 	//---------------------------------------------------------------------
 	//  Class  BlendFunc_ConstThroatWithPenetrationInv
 	//---------------------------------------------------------------------
-	public  sealed class BlendFunc_ConstThroatWithPenetrationInv : CascadeSharp.BlendFunc_ConstThroatInv
+	public  sealed class BlendFunc_ConstThroatWithPenetrationInv : BlendFunc_ConstThroatInv
 	{
 
 		public BlendFunc_ConstThroatWithPenetrationInv(Adaptor3d_HSurface S1, Adaptor3d_HSurface S2, Adaptor3d_HCurve C)

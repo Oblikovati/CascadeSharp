@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_AspectFillArea3d
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_AspectFillArea3d : CascadeSharp.Graphic3d_Aspects
+	public  sealed class Graphic3d_AspectFillArea3d : Graphic3d_Aspects
 	{
 
 		public Graphic3d_AspectFillArea3d()
@@ -19,7 +21,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_AspectFillArea3d(CascadeSharp.Aspect_InteriorStyle theInterior, Quantity_Color theInteriorColor, Quantity_Color theEdgeColor, CascadeSharp.Aspect_TypeOfLine theEdgeLineType, double theEdgeWidth, Graphic3d_MaterialAspect theFrontMaterial, Graphic3d_MaterialAspect theBackMaterial)
+		public Graphic3d_AspectFillArea3d(Aspect_InteriorStyle theInterior, Quantity_Color theInteriorColor, Quantity_Color theEdgeColor, Aspect_TypeOfLine theEdgeLineType, double theEdgeWidth, Graphic3d_MaterialAspect theFrontMaterial, Graphic3d_MaterialAspect theBackMaterial)
 			: base()
 		{
 			throw new NotImplementedException();

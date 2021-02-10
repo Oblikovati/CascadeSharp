@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_ShapeDivideAngle
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_ShapeDivideAngle : CascadeSharp.ShapeUpgrade_ShapeDivide
+	public  sealed class ShapeUpgrade_ShapeDivideAngle : ShapeUpgrade_ShapeDivide
 	{
 
 		public ShapeUpgrade_ShapeDivideAngle(double MaxAngle)

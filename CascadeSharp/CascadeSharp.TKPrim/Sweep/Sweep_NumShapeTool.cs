@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKPrim.Sweep
 {
 	//---------------------------------------------------------------------
 	//  Class  Sweep_NumShapeTool
@@ -45,12 +46,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum Type(Sweep_NumShape aShape)
+		public TopAbs_ShapeEnum Type(Sweep_NumShape aShape)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(Sweep_NumShape aShape)
+		public TopAbs_Orientation Orientation(Sweep_NumShape aShape)
 		{
 			throw new NotImplementedException();
 		}

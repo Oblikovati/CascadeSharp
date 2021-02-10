@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG2d.TColGeom2d;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKTopAlgo.MAT2d
 {
 	//---------------------------------------------------------------------
 	//  Class  MAT2d_Circuit
@@ -13,13 +18,13 @@ namespace CascadeSharp
 	public  sealed class MAT2d_Circuit : Standard_Transient
 	{
 
-		public MAT2d_Circuit(CascadeSharp.GeomAbs_JoinType aJoinType, bool IsOpenResult)
+		public MAT2d_Circuit(GeomAbs_JoinType aJoinType, bool IsOpenResult)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public MAT2d_Circuit(CascadeSharp.GeomAbs_JoinType aJoinType)
+		public MAT2d_Circuit(GeomAbs_JoinType aJoinType)
 			: base()
 		{
 			throw new NotImplementedException();

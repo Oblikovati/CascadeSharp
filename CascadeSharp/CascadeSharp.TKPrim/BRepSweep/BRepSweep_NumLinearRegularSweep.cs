@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKPrim.Sweep;
+
+namespace CascadeSharp.TKPrim.BRepSweep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepSweep_NumLinearRegularSweep
@@ -65,22 +68,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetPCurve(TopoDS_Shape aNewFace, TopoDS_Shape aNewEdge, TopoDS_Shape aGenF, TopoDS_Shape aGenE, Sweep_NumShape aDirV, CascadeSharp.TopAbs_Orientation orien)
+		public void SetPCurve(TopoDS_Shape aNewFace, TopoDS_Shape aNewEdge, TopoDS_Shape aGenF, TopoDS_Shape aGenE, Sweep_NumShape aDirV, TopAbs_Orientation orien)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetGeneratingPCurve(TopoDS_Shape aNewFace, TopoDS_Shape aNewEdge, TopoDS_Shape aGenE, Sweep_NumShape aDirE, Sweep_NumShape aDirV, CascadeSharp.TopAbs_Orientation orien)
+		public void SetGeneratingPCurve(TopoDS_Shape aNewFace, TopoDS_Shape aNewEdge, TopoDS_Shape aGenE, Sweep_NumShape aDirE, Sweep_NumShape aDirV, TopAbs_Orientation orien)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetDirectingPCurve(TopoDS_Shape aNewFace, TopoDS_Shape aNewEdge, TopoDS_Shape aGenE, TopoDS_Shape aGenV, Sweep_NumShape aDirE, CascadeSharp.TopAbs_Orientation orien)
+		public void SetDirectingPCurve(TopoDS_Shape aNewFace, TopoDS_Shape aNewEdge, TopoDS_Shape aGenE, TopoDS_Shape aGenV, Sweep_NumShape aDirE, TopAbs_Orientation orien)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation DirectSolid(TopoDS_Shape aGenS, Sweep_NumShape aDirS)
+		public TopAbs_Orientation DirectSolid(TopoDS_Shape aGenS, Sweep_NumShape aDirS)
 		{
 			throw new NotImplementedException();
 		}

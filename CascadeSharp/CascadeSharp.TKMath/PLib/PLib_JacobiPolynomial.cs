@@ -2,18 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKMath.PLib
 {
 	//---------------------------------------------------------------------
 	//  Class  PLib_JacobiPolynomial
 	//---------------------------------------------------------------------
-	public  sealed class PLib_JacobiPolynomial : CascadeSharp.PLib_Base
+	public  sealed class PLib_JacobiPolynomial : PLib_Base
 	{
 
-		public PLib_JacobiPolynomial(int WorkDegree, CascadeSharp.GeomAbs_Shape ConstraintOrder)
+		public PLib_JacobiPolynomial(int WorkDegree, GeomAbs_Shape ConstraintOrder)
 			: base()
 		{
 			throw new NotImplementedException();

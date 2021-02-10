@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_AttributeStream
 	//---------------------------------------------------------------------
-	public  class Message_AttributeStream : CascadeSharp.Message_Attribute
+	public  class Message_AttributeStream : Message_Attribute
 	{
 
 						public Message_AttributeStream()

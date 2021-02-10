@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.Bnd;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_BoxSort
@@ -46,22 +49,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddBoxes(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA)
+		public void AddBoxes(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void AddBoxes(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS)
+		public void AddBoxes(TopoDS_Shape S, TopAbs_ShapeEnum TS)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MakeHAB(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA)
+		public void MakeHAB(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MakeHAB(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS)
+		public void MakeHAB(TopoDS_Shape S, TopAbs_ShapeEnum TS)
 		{
 			throw new NotImplementedException();
 		}
@@ -81,22 +84,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MakeCOB(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA)
+		public void MakeCOB(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MakeCOB(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS)
+		public void MakeCOB(TopoDS_Shape S, TopAbs_ShapeEnum TS)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void AddBoxesMakeCOB(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA)
+		public void AddBoxesMakeCOB(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void AddBoxesMakeCOB(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS)
+		public void AddBoxesMakeCOB(TopoDS_Shape S, TopAbs_ShapeEnum TS)
 		{
 			throw new NotImplementedException();
 		}

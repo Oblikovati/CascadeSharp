@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_Plane
 	//---------------------------------------------------------------------
-	public  sealed class Geom_Plane : CascadeSharp.Geom_ElementarySurface
+	public  sealed class Geom_Plane : Geom_ElementarySurface
 	{
 
 		public Geom_Plane(gp_Ax3 A3)

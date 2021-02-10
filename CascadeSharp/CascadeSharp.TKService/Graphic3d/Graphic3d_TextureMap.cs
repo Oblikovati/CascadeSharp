@@ -2,24 +2,26 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_TextureMap
 	//---------------------------------------------------------------------
-	public  class Graphic3d_TextureMap : CascadeSharp.Graphic3d_TextureRoot
+	public  class Graphic3d_TextureMap : Graphic3d_TextureRoot
 	{
 
-		public Graphic3d_TextureMap(TCollection_AsciiString theFileName, CascadeSharp.Graphic3d_TypeOfTexture theType)
+		public Graphic3d_TextureMap(TCollection_AsciiString theFileName, Graphic3d_TypeOfTexture theType)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_TextureMap(Image_PixMap thePixMap, CascadeSharp.Graphic3d_TypeOfTexture theType)
+		public Graphic3d_TextureMap(Image_PixMap thePixMap, Graphic3d_TypeOfTexture theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -86,12 +88,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_LevelOfTextureAnisotropy AnisoFilter()
+		public Graphic3d_LevelOfTextureAnisotropy AnisoFilter()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetAnisoFilter(CascadeSharp.Graphic3d_LevelOfTextureAnisotropy theLevel)
+		public void SetAnisoFilter(Graphic3d_LevelOfTextureAnisotropy theLevel)
 		{
 			throw new NotImplementedException();
 		}

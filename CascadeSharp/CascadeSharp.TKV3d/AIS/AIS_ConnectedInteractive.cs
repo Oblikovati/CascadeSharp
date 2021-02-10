@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_ConnectedInteractive
 	//---------------------------------------------------------------------
-	public  sealed class AIS_ConnectedInteractive : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_ConnectedInteractive : AIS_InteractiveObject
 	{
 
 				public AIS_ConnectedInteractive(AIS_ConnectedInteractive parameter1)
@@ -29,7 +33,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.AIS_KindOfInteractive Type()
+						public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}

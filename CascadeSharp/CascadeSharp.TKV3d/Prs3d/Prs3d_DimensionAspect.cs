@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_DimensionAspect
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_DimensionAspect : CascadeSharp.Prs3d_BasicAspect
+	public  sealed class Prs3d_DimensionAspect : Prs3d_BasicAspect
 	{
 
 		public Prs3d_DimensionAspect()
@@ -90,32 +92,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetArrowOrientation(CascadeSharp.Prs3d_DimensionArrowOrientation theArrowOrient)
+		public void SetArrowOrientation(Prs3d_DimensionArrowOrientation theArrowOrient)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_DimensionArrowOrientation ArrowOrientation()
+		public Prs3d_DimensionArrowOrientation ArrowOrientation()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTextVerticalPosition(CascadeSharp.Prs3d_DimensionTextVerticalPosition thePosition)
+		public void SetTextVerticalPosition(Prs3d_DimensionTextVerticalPosition thePosition)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_DimensionTextVerticalPosition TextVerticalPosition()
+		public Prs3d_DimensionTextVerticalPosition TextVerticalPosition()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTextHorizontalPosition(CascadeSharp.Prs3d_DimensionTextHorizontalPosition thePosition)
+		public void SetTextHorizontalPosition(Prs3d_DimensionTextHorizontalPosition thePosition)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_DimensionTextHorizontalPosition TextHorizontalPosition()
+		public Prs3d_DimensionTextHorizontalPosition TextHorizontalPosition()
 		{
 			throw new NotImplementedException();
 		}

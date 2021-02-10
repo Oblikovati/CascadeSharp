@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.CPnts
 {
 	//---------------------------------------------------------------------
 	//  Class  CPnts_MyRootFunction
 	//---------------------------------------------------------------------
-	public  sealed class CPnts_MyRootFunction : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class CPnts_MyRootFunction : math_FunctionWithDerivative
 	{
 
 		public CPnts_MyRootFunction()

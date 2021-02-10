@@ -2,10 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBool.TopOpeBRepTool;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_Builder
@@ -60,52 +67,52 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MergeEdges(TopTools_ListOfShape L1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape L2, CascadeSharp.TopAbs_State TB2, bool onA, bool onB, bool onAB)
+		public void MergeEdges(TopTools_ListOfShape L1, TopAbs_State TB1, TopTools_ListOfShape L2, TopAbs_State TB2, bool onA, bool onB, bool onAB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeEdges(TopTools_ListOfShape L1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape L2, CascadeSharp.TopAbs_State TB2, bool onA, bool onB)
+		public void MergeEdges(TopTools_ListOfShape L1, TopAbs_State TB1, TopTools_ListOfShape L2, TopAbs_State TB2, bool onA, bool onB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeEdges(TopTools_ListOfShape L1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape L2, CascadeSharp.TopAbs_State TB2, bool onA)
+		public void MergeEdges(TopTools_ListOfShape L1, TopAbs_State TB1, TopTools_ListOfShape L2, TopAbs_State TB2, bool onA)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeEdges(TopTools_ListOfShape L1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape L2, CascadeSharp.TopAbs_State TB2)
+		public void MergeEdges(TopTools_ListOfShape L1, TopAbs_State TB1, TopTools_ListOfShape L2, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeFaces(TopTools_ListOfShape S1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape S2, CascadeSharp.TopAbs_State TB2, bool onA, bool onB, bool onAB)
+		public void MergeFaces(TopTools_ListOfShape S1, TopAbs_State TB1, TopTools_ListOfShape S2, TopAbs_State TB2, bool onA, bool onB, bool onAB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeFaces(TopTools_ListOfShape S1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape S2, CascadeSharp.TopAbs_State TB2, bool onA, bool onB)
+		public void MergeFaces(TopTools_ListOfShape S1, TopAbs_State TB1, TopTools_ListOfShape S2, TopAbs_State TB2, bool onA, bool onB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeFaces(TopTools_ListOfShape S1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape S2, CascadeSharp.TopAbs_State TB2, bool onA)
+		public void MergeFaces(TopTools_ListOfShape S1, TopAbs_State TB1, TopTools_ListOfShape S2, TopAbs_State TB2, bool onA)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeFaces(TopTools_ListOfShape S1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape S2, CascadeSharp.TopAbs_State TB2)
+		public void MergeFaces(TopTools_ListOfShape S1, TopAbs_State TB1, TopTools_ListOfShape S2, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeSolids(TopoDS_Shape S1, CascadeSharp.TopAbs_State TB1, TopoDS_Shape S2, CascadeSharp.TopAbs_State TB2)
+		public void MergeSolids(TopoDS_Shape S1, TopAbs_State TB1, TopoDS_Shape S2, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MergeShapes(TopoDS_Shape S1, CascadeSharp.TopAbs_State TB1, TopoDS_Shape S2, CascadeSharp.TopAbs_State TB2)
+		public void MergeShapes(TopoDS_Shape S1, TopAbs_State TB1, TopoDS_Shape S2, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
@@ -125,7 +132,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MergeSolid(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public void MergeSolid(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
@@ -145,22 +152,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsSplit(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public bool IsSplit(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopTools_ListOfShape Splits(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public TopTools_ListOfShape Splits(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsMerged(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public bool IsMerged(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopTools_ListOfShape Merged(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public TopTools_ListOfShape Merged(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
@@ -215,12 +222,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State MSplit(CascadeSharp.TopAbs_State s)
+		public TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State MSplit(TopAbs_State s)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State ChangeMSplit(CascadeSharp.TopAbs_State s)
+		public TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State ChangeMSplit(TopAbs_State s)
 		{
 			throw new NotImplementedException();
 		}
@@ -245,7 +252,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopTools_ListOfShape ChangeSplit(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public TopTools_ListOfShape ChangeSplit(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
@@ -270,27 +277,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State ShapePosition(TopoDS_Shape S, TopTools_ListOfShape LS)
+		public TopAbs_State ShapePosition(TopoDS_Shape S, TopTools_ListOfShape LS)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool KeepShape(TopoDS_Shape S, TopTools_ListOfShape LS, CascadeSharp.TopAbs_State T)
+		public bool KeepShape(TopoDS_Shape S, TopTools_ListOfShape LS, TopAbs_State T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum TopType(TopoDS_Shape S)
+		public TopAbs_ShapeEnum TopType(TopoDS_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Reverse(CascadeSharp.TopAbs_State T1, CascadeSharp.TopAbs_State T2)
+		public bool Reverse(TopAbs_State T1, TopAbs_State T2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orient(CascadeSharp.TopAbs_Orientation O, bool R)
+		public TopAbs_Orientation Orient(TopAbs_Orientation O, bool R)
 		{
 			throw new NotImplementedException();
 		}
@@ -350,7 +357,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MergeKPart(CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void MergeKPart(TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
@@ -410,37 +417,37 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int KPlhg(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T, TopTools_ListOfShape L)
+		public int KPlhg(TopoDS_Shape S, TopAbs_ShapeEnum T, TopTools_ListOfShape L)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int KPlhg(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T)
+		public int KPlhg(TopoDS_Shape S, TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int KPlhsd(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T, TopTools_ListOfShape L)
+		public int KPlhsd(TopoDS_Shape S, TopAbs_ShapeEnum T, TopTools_ListOfShape L)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int KPlhsd(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T)
+		public int KPlhsd(TopoDS_Shape S, TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State KPclasSS(TopoDS_Shape S1, TopTools_ListOfShape exceptLS1, TopoDS_Shape S2)
+		public TopAbs_State KPclasSS(TopoDS_Shape S1, TopTools_ListOfShape exceptLS1, TopoDS_Shape S2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State KPclasSS(TopoDS_Shape S1, TopoDS_Shape exceptS1, TopoDS_Shape S2)
+		public TopAbs_State KPclasSS(TopoDS_Shape S1, TopoDS_Shape exceptS1, TopoDS_Shape S2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State KPclasSS(TopoDS_Shape S1, TopoDS_Shape S2)
+		public TopAbs_State KPclasSS(TopoDS_Shape S1, TopoDS_Shape S2)
 		{
 			throw new NotImplementedException();
 		}
@@ -475,42 +482,42 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void KPiskoleanalyse(CascadeSharp.TopAbs_State FT1, CascadeSharp.TopAbs_State FT2, CascadeSharp.TopAbs_State ST1, CascadeSharp.TopAbs_State ST2, ref int I, ref int I1, ref int I2)
+		public void KPiskoleanalyse(TopAbs_State FT1, TopAbs_State FT2, TopAbs_State ST1, TopAbs_State ST2, ref int I, ref int I1, ref int I2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void KPiskoletgeanalyse(CascadeSharp.TopOpeBRepDS_Config Conf, CascadeSharp.TopAbs_State ST1, CascadeSharp.TopAbs_State ST2, ref int I)
+		public void KPiskoletgeanalyse(TopOpeBRepDS_Config Conf, TopAbs_State ST1, TopAbs_State ST2, ref int I)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void KPisdisjanalyse(CascadeSharp.TopAbs_State ST1, CascadeSharp.TopAbs_State ST2, ref int I, ref int IC1, ref int IC2)
+		public void KPisdisjanalyse(TopAbs_State ST1, TopAbs_State ST2, ref int I, ref int IC1, ref int IC2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int KPls(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T, TopTools_ListOfShape L)
+		public int KPls(TopoDS_Shape S, TopAbs_ShapeEnum T, TopTools_ListOfShape L)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int KPls(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T)
+		public int KPls(TopoDS_Shape S, TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State KPclassF(TopoDS_Shape F1, TopoDS_Shape F2)
+		public TopAbs_State KPclassF(TopoDS_Shape F1, TopoDS_Shape F2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void KPclassFF(TopoDS_Shape F1, TopoDS_Shape F2,  ref CascadeSharp.TopAbs_State T1,  ref CascadeSharp.TopAbs_State T2)
+		public void KPclassFF(TopoDS_Shape F1, TopoDS_Shape F2,  ref TopAbs_State T1,  ref TopAbs_State T2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool KPiskoleFF(TopoDS_Shape F1, TopoDS_Shape F2,  ref CascadeSharp.TopAbs_State T1,  ref CascadeSharp.TopAbs_State T2)
+		public bool KPiskoleFF(TopoDS_Shape F1, TopoDS_Shape F2,  ref TopAbs_State T1,  ref TopAbs_State T2)
 		{
 			throw new NotImplementedException();
 		}
@@ -520,7 +527,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape KPmakeface(TopoDS_Shape F1, TopTools_ListOfShape LF2, CascadeSharp.TopAbs_State T1, CascadeSharp.TopAbs_State T2, bool R1, bool R2)
+		public TopoDS_Shape KPmakeface(TopoDS_Shape F1, TopTools_ListOfShape LF2, TopAbs_State T1, TopAbs_State T2, bool R1, bool R2)
 		{
 			throw new NotImplementedException();
 		}
@@ -695,17 +702,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool GKeepShape(TopoDS_Shape S, TopTools_ListOfShape L_ref, CascadeSharp.TopAbs_State T)
+		public bool GKeepShape(TopoDS_Shape S, TopTools_ListOfShape L_ref, TopAbs_State T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool GKeepShape1(TopoDS_Shape S, TopTools_ListOfShape L_ref, CascadeSharp.TopAbs_State T,  ref CascadeSharp.TopAbs_State pos)
+		public bool GKeepShape1(TopoDS_Shape S, TopTools_ListOfShape L_ref, TopAbs_State T,  ref TopAbs_State pos)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GKeepShapes(TopoDS_Shape S, TopTools_ListOfShape L_ref, CascadeSharp.TopAbs_State T, TopTools_ListOfShape Lin, TopTools_ListOfShape Lou)
+		public void GKeepShapes(TopoDS_Shape S, TopTools_ListOfShape L_ref, TopAbs_State T, TopTools_ListOfShape Lin, TopTools_ListOfShape Lou)
 		{
 			throw new NotImplementedException();
 		}
@@ -760,7 +767,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool GToSplit(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public bool GToSplit(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
@@ -850,7 +857,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void GdumpORIPARPNT(CascadeSharp.TopAbs_Orientation o, double p, gp_Pnt Pnt)
+		public void GdumpORIPARPNT(TopAbs_Orientation o, double p, gp_Pnt Pnt)
 		{
 			throw new NotImplementedException();
 		}
@@ -885,52 +892,52 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(int iS, CascadeSharp.TopAbs_State T, TCollection_AsciiString a, TCollection_AsciiString b)
+		public void GdumpSHASTA(int iS, TopAbs_State T, TCollection_AsciiString a, TCollection_AsciiString b)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(int iS, CascadeSharp.TopAbs_State T, TCollection_AsciiString a)
+		public void GdumpSHASTA(int iS, TopAbs_State T, TCollection_AsciiString a)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(int iS, CascadeSharp.TopAbs_State T)
+		public void GdumpSHASTA(int iS, TopAbs_State T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(TopoDS_Shape S, CascadeSharp.TopAbs_State T, TCollection_AsciiString a, TCollection_AsciiString b)
+		public void GdumpSHASTA(TopoDS_Shape S, TopAbs_State T, TCollection_AsciiString a, TCollection_AsciiString b)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(TopoDS_Shape S, CascadeSharp.TopAbs_State T, TCollection_AsciiString a)
+		public void GdumpSHASTA(TopoDS_Shape S, TopAbs_State T, TCollection_AsciiString a)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(TopoDS_Shape S, CascadeSharp.TopAbs_State T)
+		public void GdumpSHASTA(TopoDS_Shape S, TopAbs_State T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(int iS, CascadeSharp.TopAbs_State T, TopOpeBRepBuild_ShapeSet SS, TCollection_AsciiString a, TCollection_AsciiString b, TCollection_AsciiString c)
+		public void GdumpSHASTA(int iS, TopAbs_State T, TopOpeBRepBuild_ShapeSet SS, TCollection_AsciiString a, TCollection_AsciiString b, TCollection_AsciiString c)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(int iS, CascadeSharp.TopAbs_State T, TopOpeBRepBuild_ShapeSet SS, TCollection_AsciiString a, TCollection_AsciiString b)
+		public void GdumpSHASTA(int iS, TopAbs_State T, TopOpeBRepBuild_ShapeSet SS, TCollection_AsciiString a, TCollection_AsciiString b)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(int iS, CascadeSharp.TopAbs_State T, TopOpeBRepBuild_ShapeSet SS, TCollection_AsciiString a)
+		public void GdumpSHASTA(int iS, TopAbs_State T, TopOpeBRepBuild_ShapeSet SS, TCollection_AsciiString a)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GdumpSHASTA(int iS, CascadeSharp.TopAbs_State T, TopOpeBRepBuild_ShapeSet SS)
+		public void GdumpSHASTA(int iS, TopAbs_State T, TopOpeBRepBuild_ShapeSet SS)
 		{
 			throw new NotImplementedException();
 		}
@@ -1040,7 +1047,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString StringState(CascadeSharp.TopAbs_State S)
+		public TCollection_AsciiString StringState(TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}
@@ -1065,87 +1072,87 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SplitEdge(TopoDS_Shape E1, CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void SplitEdge(TopoDS_Shape E1, TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SplitEdge1(TopoDS_Shape E1, CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void SplitEdge1(TopoDS_Shape E1, TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SplitEdge2(TopoDS_Shape E1, CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void SplitEdge2(TopoDS_Shape E1, TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SplitFace(TopoDS_Shape F1, CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void SplitFace(TopoDS_Shape F1, TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SplitFace1(TopoDS_Shape F1, CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void SplitFace1(TopoDS_Shape F1, TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SplitFace2(TopoDS_Shape F1, CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void SplitFace2(TopoDS_Shape F1, TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SplitSolid(TopoDS_Shape S1, CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void SplitSolid(TopoDS_Shape S1, TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SplitShapes(TopOpeBRepTool_ShapeExplorer Ex, CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2, TopOpeBRepBuild_ShapeSet SS, bool RevOri)
+		public void SplitShapes(TopOpeBRepTool_ShapeExplorer Ex, TopAbs_State TB1, TopAbs_State TB2, TopOpeBRepBuild_ShapeSet SS, bool RevOri)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void FillFace(TopoDS_Shape F1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape LF2, CascadeSharp.TopAbs_State TB2, TopOpeBRepBuild_WireEdgeSet WES, bool RevOri)
+		public void FillFace(TopoDS_Shape F1, TopAbs_State TB1, TopTools_ListOfShape LF2, TopAbs_State TB2, TopOpeBRepBuild_WireEdgeSet WES, bool RevOri)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void FillSolid(TopoDS_Shape S1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape LS2, CascadeSharp.TopAbs_State TB2, TopOpeBRepBuild_ShapeSet SS, bool RevOri)
+		public void FillSolid(TopoDS_Shape S1, TopAbs_State TB1, TopTools_ListOfShape LS2, TopAbs_State TB2, TopOpeBRepBuild_ShapeSet SS, bool RevOri)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void FillShape(TopoDS_Shape S1, CascadeSharp.TopAbs_State TB1, TopTools_ListOfShape LS2, CascadeSharp.TopAbs_State TB2, TopOpeBRepBuild_ShapeSet SS, bool RevOri)
+		public void FillShape(TopoDS_Shape S1, TopAbs_State TB1, TopTools_ListOfShape LS2, TopAbs_State TB2, TopOpeBRepBuild_ShapeSet SS, bool RevOri)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void FillVertexSet(TopOpeBRepDS_PointIterator IT, CascadeSharp.TopAbs_State TB, TopOpeBRepBuild_PaveSet PVS)
+		public void FillVertexSet(TopOpeBRepDS_PointIterator IT, TopAbs_State TB, TopOpeBRepBuild_PaveSet PVS)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void FillVertexSetOnValue(TopOpeBRepDS_PointIterator IT, CascadeSharp.TopAbs_State TB, TopOpeBRepBuild_PaveSet PVS)
+		public void FillVertexSetOnValue(TopOpeBRepDS_PointIterator IT, TopAbs_State TB, TopOpeBRepBuild_PaveSet PVS)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool ToSplit(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public bool ToSplit(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MarkSplit(TopoDS_Shape S, CascadeSharp.TopAbs_State TB, bool B)
+		public void MarkSplit(TopoDS_Shape S, TopAbs_State TB, bool B)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void MarkSplit(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public void MarkSplit(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopTools_ListOfShape ChangeMerged(TopoDS_Shape S, CascadeSharp.TopAbs_State TB)
+		public TopTools_ListOfShape ChangeMerged(TopoDS_Shape S, TopAbs_State TB)
 		{
 			throw new NotImplementedException();
 		}
@@ -1165,12 +1172,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddIntersectionEdges(TopoDS_Shape F, CascadeSharp.TopAbs_State TB, bool RevOri, TopOpeBRepBuild_ShapeSet ES)
+		public void AddIntersectionEdges(TopoDS_Shape F, TopAbs_State TB, bool RevOri, TopOpeBRepBuild_ShapeSet ES)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void UpdateSplitAndMerged(TopTools_DataMapOfIntegerListOfShape mle, TopTools_DataMapOfIntegerShape mre, TopTools_DataMapOfShapeShape mlf, CascadeSharp.TopAbs_State state)
+		public void UpdateSplitAndMerged(TopTools_DataMapOfIntegerListOfShape mle, TopTools_DataMapOfIntegerShape mre, TopTools_DataMapOfShapeShape mlf, TopAbs_State state)
 		{
 			throw new NotImplementedException();
 		}

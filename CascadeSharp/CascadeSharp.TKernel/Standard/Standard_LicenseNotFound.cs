@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_LicenseNotFound
 	//---------------------------------------------------------------------
-	public  sealed class Standard_LicenseNotFound : CascadeSharp.Standard_LicenseError
+	public  sealed class Standard_LicenseNotFound : Standard_LicenseError
 	{
 
 		public Standard_LicenseNotFound()

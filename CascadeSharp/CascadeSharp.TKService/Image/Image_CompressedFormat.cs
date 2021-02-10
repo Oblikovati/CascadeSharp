@@ -2,10 +2,8 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+namespace CascadeSharp.TKService.Image
 {
 	//---------------------------------------------------------------------
 	//  Enum  Image_CompressedFormat

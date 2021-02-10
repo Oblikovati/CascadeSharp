@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBO.IntTools
 {
 	//---------------------------------------------------------------------
 	//  Class  IntTools_Root
@@ -41,12 +42,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetStateBefore(CascadeSharp.TopAbs_State aState)
+		public void SetStateBefore(TopAbs_State aState)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStateAfter(CascadeSharp.TopAbs_State aState)
+		public void SetStateAfter(TopAbs_State aState)
 		{
 			throw new NotImplementedException();
 		}
@@ -71,12 +72,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateBefore()
+		public TopAbs_State StateBefore()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateAfter()
+		public TopAbs_State StateAfter()
 		{
 			throw new NotImplementedException();
 		}

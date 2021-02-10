@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKFillet.Blend
 {
 	//---------------------------------------------------------------------
 	//  Class  Blend_RstRstFunction
 	//---------------------------------------------------------------------
-	public  abstract class Blend_RstRstFunction : CascadeSharp.Blend_AppFunction
+	public  abstract class Blend_RstRstFunction : Blend_AppFunction
 	{
 
 		public Blend_RstRstFunction()
@@ -145,7 +150,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Blend_DecrochStatus Decroch(math_Vector Sol, gp_Vec NRst1, gp_Vec TgRst1, gp_Vec NRst2, gp_Vec TgRst2)
+		public Blend_DecrochStatus Decroch(math_Vector Sol, gp_Vec NRst1, gp_Vec TgRst1, gp_Vec NRst2, gp_Vec TgRst2)
 		{
 			throw new NotImplementedException();
 		}
@@ -165,12 +170,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

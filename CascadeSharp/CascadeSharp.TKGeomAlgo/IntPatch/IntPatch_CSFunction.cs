@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_CSFunction
 	//---------------------------------------------------------------------
-	public  sealed class IntPatch_CSFunction : CascadeSharp.math_FunctionSetWithDerivatives
+	public  sealed class IntPatch_CSFunction : math_FunctionSetWithDerivatives
 	{
 
 		public IntPatch_CSFunction(Adaptor3d_HSurface S1, Adaptor2d_HCurve2d C, Adaptor3d_HSurface S2)

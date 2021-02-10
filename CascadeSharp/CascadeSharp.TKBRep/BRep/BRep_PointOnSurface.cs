@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_PointOnSurface
 	//---------------------------------------------------------------------
-	public  sealed class BRep_PointOnSurface : CascadeSharp.BRep_PointsOnSurface
+	public  sealed class BRep_PointOnSurface : BRep_PointsOnSurface
 	{
 
 		public BRep_PointOnSurface(double P1, double P2, Geom_Surface S, TopLoc_Location L)

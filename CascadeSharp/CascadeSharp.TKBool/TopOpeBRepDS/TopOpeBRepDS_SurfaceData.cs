@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_SurfaceData
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepDS_SurfaceData : CascadeSharp.TopOpeBRepDS_GeometryData
+	public  sealed class TopOpeBRepDS_SurfaceData : TopOpeBRepDS_GeometryData
 	{
 
 		public TopOpeBRepDS_SurfaceData()

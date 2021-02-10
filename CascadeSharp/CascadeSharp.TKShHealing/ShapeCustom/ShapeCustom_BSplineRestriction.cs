@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKShHealing.ShapeCustom
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeCustom_BSplineRestriction
 	//---------------------------------------------------------------------
-	public  sealed class ShapeCustom_BSplineRestriction : CascadeSharp.ShapeCustom_Modification
+	public  sealed class ShapeCustom_BSplineRestriction : ShapeCustom_Modification
 	{
 
 		public ShapeCustom_BSplineRestriction()
@@ -19,13 +25,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public ShapeCustom_BSplineRestriction(bool anApproxSurfaceFlag, bool anApproxCurve3dFlag, bool anApproxCurve2dFlag, double aTol3d, double aTol2d, CascadeSharp.GeomAbs_Shape aContinuity3d, CascadeSharp.GeomAbs_Shape aContinuity2d, int aMaxDegree, int aNbMaxSeg, bool Degree, bool Rational)
+		public ShapeCustom_BSplineRestriction(bool anApproxSurfaceFlag, bool anApproxCurve3dFlag, bool anApproxCurve2dFlag, double aTol3d, double aTol2d, GeomAbs_Shape aContinuity3d, GeomAbs_Shape aContinuity2d, int aMaxDegree, int aNbMaxSeg, bool Degree, bool Rational)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public ShapeCustom_BSplineRestriction(bool anApproxSurfaceFlag, bool anApproxCurve3dFlag, bool anApproxCurve2dFlag, double aTol3d, double aTol2d, CascadeSharp.GeomAbs_Shape aContinuity3d, CascadeSharp.GeomAbs_Shape aContinuity2d, int aMaxDegree, int aNbMaxSeg, bool Degree, bool Rational, ShapeCustom_RestrictionParameters aModes)
+		public ShapeCustom_BSplineRestriction(bool anApproxSurfaceFlag, bool anApproxCurve3dFlag, bool anApproxCurve2dFlag, double aTol3d, double aTol2d, GeomAbs_Shape aContinuity3d, GeomAbs_Shape aContinuity2d, int aMaxDegree, int aNbMaxSeg, bool Degree, bool Rational, ShapeCustom_RestrictionParameters aModes)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -107,12 +113,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetContinuity3d(CascadeSharp.GeomAbs_Shape Continuity3d)
+		public void SetContinuity3d(GeomAbs_Shape Continuity3d)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetContinuity2d(CascadeSharp.GeomAbs_Shape Continuity2d)
+		public void SetContinuity2d(GeomAbs_Shape Continuity2d)
 		{
 			throw new NotImplementedException();
 		}
@@ -172,7 +178,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2, TopoDS_Edge NewE, TopoDS_Face NewF1, TopoDS_Face NewF2)
+		public GeomAbs_Shape Continuity(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2, TopoDS_Edge NewE, TopoDS_Face NewF1, TopoDS_Face NewF2)
 		{
 			throw new NotImplementedException();
 		}

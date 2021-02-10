@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG2d.TColGeom2d;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_SplitCurve2d
 	//---------------------------------------------------------------------
-	public  class ShapeUpgrade_SplitCurve2d : CascadeSharp.ShapeUpgrade_SplitCurve
+	public  class ShapeUpgrade_SplitCurve2d : ShapeUpgrade_SplitCurve
 	{
 
 		public ShapeUpgrade_SplitCurve2d()

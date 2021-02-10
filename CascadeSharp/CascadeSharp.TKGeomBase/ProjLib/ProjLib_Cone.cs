@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.ProjLib
 {
 	//---------------------------------------------------------------------
 	//  Class  ProjLib_Cone
 	//---------------------------------------------------------------------
-	public  sealed class ProjLib_Cone : CascadeSharp.ProjLib_Projector
+	public  sealed class ProjLib_Cone : ProjLib_Projector
 	{
 
 		public ProjLib_Cone()

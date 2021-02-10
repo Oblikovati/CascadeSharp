@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.Message;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_ShapeConvertToBezier
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_ShapeConvertToBezier : CascadeSharp.ShapeUpgrade_ShapeDivide
+	public  sealed class ShapeUpgrade_ShapeConvertToBezier : ShapeUpgrade_ShapeDivide
 	{
 
 		public ShapeUpgrade_ShapeConvertToBezier()

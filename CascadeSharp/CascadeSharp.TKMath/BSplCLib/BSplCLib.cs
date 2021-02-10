@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKMath.BSplCLib
 {
 	//---------------------------------------------------------------------
 	//  Class  BSplCLib
@@ -115,17 +120,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BSplCLib_KnotDistribution KnotForm(TColStd_Array1OfReal Knots, int FromK1, int ToK2)
+		public BSplCLib_KnotDistribution KnotForm(TColStd_Array1OfReal Knots, int FromK1, int ToK2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BSplCLib_MultDistribution MultForm(TColStd_Array1OfInteger Mults, int FromK1, int ToK2)
+		public BSplCLib_MultDistribution MultForm(TColStd_Array1OfInteger Mults, int FromK1, int ToK2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void KnotAnalysis(int Degree, bool Periodic, TColStd_Array1OfReal CKnots, TColStd_Array1OfInteger CMults,  ref CascadeSharp.GeomAbs_BSplKnotDistribution KnotForm, ref int MaxKnotMult)
+		public void KnotAnalysis(int Degree, bool Periodic, TColStd_Array1OfReal CKnots, TColStd_Array1OfInteger CMults,  ref GeomAbs_BSplKnotDistribution KnotForm, ref int MaxKnotMult)
 		{
 			throw new NotImplementedException();
 		}

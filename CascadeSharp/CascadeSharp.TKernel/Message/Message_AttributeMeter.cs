@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_AttributeMeter
 	//---------------------------------------------------------------------
-	public  sealed class Message_AttributeMeter : CascadeSharp.Message_Attribute
+	public  sealed class Message_AttributeMeter : Message_Attribute
 	{
 
 		public Message_AttributeMeter(TCollection_AsciiString theName)
@@ -35,32 +36,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool HasMetric( ref CascadeSharp.Message_MetricType theMetric)
+		public bool HasMetric( ref Message_MetricType theMetric)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool IsMetricValid( ref CascadeSharp.Message_MetricType theMetric)
+		public bool IsMetricValid( ref Message_MetricType theMetric)
 		{
 			throw new NotImplementedException();
 		}
 
-		public double StartValue( ref CascadeSharp.Message_MetricType theMetric)
+		public double StartValue( ref Message_MetricType theMetric)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStartValue( ref CascadeSharp.Message_MetricType theMetric, double theValue)
+		public void SetStartValue( ref Message_MetricType theMetric, double theValue)
 		{
 			throw new NotImplementedException();
 		}
 
-		public double StopValue( ref CascadeSharp.Message_MetricType theMetric)
+		public double StopValue( ref Message_MetricType theMetric)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStopValue( ref CascadeSharp.Message_MetricType theMetric, double theValue)
+		public void SetStopValue( ref Message_MetricType theMetric, double theValue)
 		{
 			throw new NotImplementedException();
 		}

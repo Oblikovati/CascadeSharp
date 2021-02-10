@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.gce
 {
 	//---------------------------------------------------------------------
 	//  Class  gce_MakeHypr
 	//---------------------------------------------------------------------
-	public  sealed class gce_MakeHypr : CascadeSharp.gce_Root
+	public  sealed class gce_MakeHypr : gce_Root
 	{
 
 		public gce_MakeHypr(gp_Ax2 A2, double MajorRadius, double MinorRadius)

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBRep.TopoDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopoDS_CompSolid
 	//---------------------------------------------------------------------
-	public  sealed class TopoDS_CompSolid : CascadeSharp.TopoDS_Shape
+	public  sealed class TopoDS_CompSolid : TopoDS_Shape
 	{
 
 		public TopoDS_CompSolid()

@@ -2,36 +2,39 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKService.WNT
 {
 	//---------------------------------------------------------------------
 	//  Class  WNT_Window
 	//---------------------------------------------------------------------
-	public  sealed class WNT_Window : CascadeSharp.Aspect_Window
+	public  sealed class WNT_Window : Aspect_Window
 	{
 
-		public WNT_Window(string theTitle, WNT_WClass theClass, uint theStyle, int thePxLeft, int thePxTop, int thePxWidth, int thePxHeight, CascadeSharp.Quantity_NameOfColor theBackColor, IntPtr theParent, IntPtr theMenu, IntPtr theClientStruct)
+		public WNT_Window(string theTitle, WNT_WClass theClass, uint theStyle, int thePxLeft, int thePxTop, int thePxWidth, int thePxHeight, Quantity_NameOfColor theBackColor, IntPtr theParent, IntPtr theMenu, IntPtr theClientStruct)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public WNT_Window(string theTitle, WNT_WClass theClass, uint theStyle, int thePxLeft, int thePxTop, int thePxWidth, int thePxHeight, CascadeSharp.Quantity_NameOfColor theBackColor, IntPtr theParent, IntPtr theMenu)
+		public WNT_Window(string theTitle, WNT_WClass theClass, uint theStyle, int thePxLeft, int thePxTop, int thePxWidth, int thePxHeight, Quantity_NameOfColor theBackColor, IntPtr theParent, IntPtr theMenu)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public WNT_Window(string theTitle, WNT_WClass theClass, uint theStyle, int thePxLeft, int thePxTop, int thePxWidth, int thePxHeight, CascadeSharp.Quantity_NameOfColor theBackColor, IntPtr theParent)
+		public WNT_Window(string theTitle, WNT_WClass theClass, uint theStyle, int thePxLeft, int thePxTop, int thePxWidth, int thePxHeight, Quantity_NameOfColor theBackColor, IntPtr theParent)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public WNT_Window(string theTitle, WNT_WClass theClass, uint theStyle, int thePxLeft, int thePxTop, int thePxWidth, int thePxHeight, CascadeSharp.Quantity_NameOfColor theBackColor)
+		public WNT_Window(string theTitle, WNT_WClass theClass, uint theStyle, int thePxLeft, int thePxTop, int thePxWidth, int thePxHeight, Quantity_NameOfColor theBackColor)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -43,7 +46,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public WNT_Window(IntPtr aHandle, CascadeSharp.Quantity_NameOfColor aBackColor)
+		public WNT_Window(IntPtr aHandle, Quantity_NameOfColor aBackColor)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -101,7 +104,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfResize DoResize()
+		public Aspect_TypeOfResize DoResize()
 		{
 			throw new NotImplementedException();
 		}

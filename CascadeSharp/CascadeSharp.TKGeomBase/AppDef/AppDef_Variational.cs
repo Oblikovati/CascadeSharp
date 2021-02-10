@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKGeomBase.AppParCurves;
+using CascadeSharp.TKGeomBase.FEmTool;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.PLib;
+
+namespace CascadeSharp.TKGeomBase.AppDef
 {
 	//---------------------------------------------------------------------
 	//  Class  AppDef_Variational
@@ -13,31 +19,31 @@ namespace CascadeSharp
 	public  sealed class AppDef_Variational
 	{
 
-		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, CascadeSharp.GeomAbs_Shape Continuity, bool WithMinMax, bool WithCutting, double Tolerance, int NbIterations)
+		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, GeomAbs_Shape Continuity, bool WithMinMax, bool WithCutting, double Tolerance, int NbIterations)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, CascadeSharp.GeomAbs_Shape Continuity, bool WithMinMax, bool WithCutting, double Tolerance)
+		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, GeomAbs_Shape Continuity, bool WithMinMax, bool WithCutting, double Tolerance)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, CascadeSharp.GeomAbs_Shape Continuity, bool WithMinMax, bool WithCutting)
+		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, GeomAbs_Shape Continuity, bool WithMinMax, bool WithCutting)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, CascadeSharp.GeomAbs_Shape Continuity, bool WithMinMax)
+		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, GeomAbs_Shape Continuity, bool WithMinMax)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, CascadeSharp.GeomAbs_Shape Continuity)
+		public AppDef_Variational(AppDef_MultiLine SSP, int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, int MaxDegree, int MaxSegment, GeomAbs_Shape Continuity)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -152,7 +158,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
@@ -202,7 +208,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool SetContinuity(CascadeSharp.GeomAbs_Shape C)
+		public bool SetContinuity(GeomAbs_Shape C)
 		{
 			throw new NotImplementedException();
 		}
@@ -312,7 +318,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool InitTthetaF(int ndimen, CascadeSharp.AppParCurves_Constraint typcon, int begin, int jndex)
+		public bool InitTthetaF(int ndimen, AppParCurves_Constraint typcon, int begin, int jndex)
 		{
 			throw new NotImplementedException();
 		}

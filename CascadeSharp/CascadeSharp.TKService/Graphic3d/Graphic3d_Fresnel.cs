@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Fresnel
@@ -40,7 +40,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public CascadeSharp.Graphic3d_FresnelModel FresnelType()
+						public Graphic3d_FresnelModel FresnelType()
 		{
 			throw new NotImplementedException();
 		}

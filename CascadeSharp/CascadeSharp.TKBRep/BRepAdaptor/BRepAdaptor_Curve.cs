@@ -2,15 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.GeomAdaptor;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBRep.BRepAdaptor
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAdaptor_Curve
 	//---------------------------------------------------------------------
-	public  sealed class BRepAdaptor_Curve : CascadeSharp.Adaptor3d_Curve
+	public  sealed class BRepAdaptor_Curve : Adaptor3d_Curve
 	{
 
 		public BRepAdaptor_Curve()
@@ -97,17 +104,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
@@ -167,7 +174,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_CurveType GetGeomType()
+		public GeomAbs_CurveType GetGeomType()
 		{
 			throw new NotImplementedException();
 		}

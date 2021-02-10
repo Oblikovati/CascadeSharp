@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_XRAction
@@ -13,7 +15,7 @@ namespace CascadeSharp
 	public  sealed class Aspect_XRAction : Standard_Transient
 	{
 
-		public Aspect_XRAction(TCollection_AsciiString theId, CascadeSharp.Aspect_XRActionType theType)
+		public Aspect_XRAction(TCollection_AsciiString theId, Aspect_XRActionType theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -40,7 +42,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_XRActionType Type()
+		public Aspect_XRActionType Type()
 		{
 			throw new NotImplementedException();
 		}

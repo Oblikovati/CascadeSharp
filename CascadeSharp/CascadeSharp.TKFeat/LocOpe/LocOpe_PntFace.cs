@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFeat.LocOpe
 {
 	//---------------------------------------------------------------------
 	//  Class  LocOpe_PntFace
@@ -19,7 +22,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public LocOpe_PntFace(gp_Pnt P, TopoDS_Face F, CascadeSharp.TopAbs_Orientation Or, double Param, double UPar, double VPar)
+		public LocOpe_PntFace(gp_Pnt P, TopoDS_Face F, TopAbs_Orientation Or, double Param, double UPar, double VPar)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -41,12 +44,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation()
+		public TopAbs_Orientation Orientation()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation ChangeOrientation()
+		public TopAbs_Orientation ChangeOrientation()
 		{
 			throw new NotImplementedException();
 		}

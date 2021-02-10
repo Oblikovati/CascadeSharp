@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.gce
 {
 	//---------------------------------------------------------------------
 	//  Class  gce_MakeHypr2d
 	//---------------------------------------------------------------------
-	public  sealed class gce_MakeHypr2d : CascadeSharp.gce_Root
+	public  sealed class gce_MakeHypr2d : gce_Root
 	{
 
 		public gce_MakeHypr2d(gp_Pnt2d S1, gp_Pnt2d S2, gp_Pnt2d Center)

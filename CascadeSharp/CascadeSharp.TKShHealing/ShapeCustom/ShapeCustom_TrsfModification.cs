@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKShHealing.ShapeCustom
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeCustom_TrsfModification
 	//---------------------------------------------------------------------
-	public  sealed class ShapeCustom_TrsfModification : CascadeSharp.BRepTools_TrsfModification
+	public  sealed class ShapeCustom_TrsfModification : BRepTools_TrsfModification
 	{
 
 		public ShapeCustom_TrsfModification(gp_Trsf T)

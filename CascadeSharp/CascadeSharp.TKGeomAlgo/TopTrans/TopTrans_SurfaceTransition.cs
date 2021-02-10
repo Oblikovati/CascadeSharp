@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.TopTrans
 {
 	//---------------------------------------------------------------------
 	//  Class  TopTrans_SurfaceTransition
@@ -35,42 +37,42 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Compare(double Tole, gp_Dir Norm, gp_Dir MaxD, gp_Dir MinD, double MaxCurv, double MinCurv, CascadeSharp.TopAbs_Orientation S, CascadeSharp.TopAbs_Orientation O)
+		public void Compare(double Tole, gp_Dir Norm, gp_Dir MaxD, gp_Dir MinD, double MaxCurv, double MinCurv, TopAbs_Orientation S, TopAbs_Orientation O)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Compare(double Tole, gp_Dir Norm, CascadeSharp.TopAbs_Orientation S, CascadeSharp.TopAbs_Orientation O)
+		public void Compare(double Tole, gp_Dir Norm, TopAbs_Orientation S, TopAbs_Orientation O)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateBefore()
+		public TopAbs_State StateBefore()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateAfter()
+		public TopAbs_State StateAfter()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State GetBefore(CascadeSharp.TopAbs_Orientation Tran)
+		public TopAbs_State GetBefore(TopAbs_Orientation Tran)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State GetAfter(CascadeSharp.TopAbs_Orientation Tran)
+		public TopAbs_State GetAfter(TopAbs_Orientation Tran)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void UpdateReference(double Tole, bool _isInfRef, ref double CosInf, ref double CosSup, CascadeSharp.TopAbs_Orientation Tran,  ref CascadeSharp.TopAbs_Orientation TranRef)
+		public void UpdateReference(double Tole, bool _isInfRef, ref double CosInf, ref double CosSup, TopAbs_Orientation Tran,  ref TopAbs_Orientation TranRef)
 		{
 			throw new NotImplementedException();
 		}
 
-		public double ComputeCos(double Tole, gp_Dir Norm, CascadeSharp.TopAbs_Orientation O, ref bool _isleft)
+		public double ComputeCos(double Tole, gp_Dir Norm, TopAbs_Orientation O, ref bool _isleft)
 		{
 			throw new NotImplementedException();
 		}

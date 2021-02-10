@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG2d.Geom2d;
+
+namespace CascadeSharp.TKG2d.Geom2dAdaptor
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dAdaptor

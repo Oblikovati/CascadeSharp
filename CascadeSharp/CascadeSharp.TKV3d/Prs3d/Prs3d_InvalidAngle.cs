@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_InvalidAngle
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_InvalidAngle : CascadeSharp.Standard_RangeError
+	public  sealed class Prs3d_InvalidAngle : Standard_RangeError
 	{
 
 		public Prs3d_InvalidAngle()

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_NoSuchObject
 	//---------------------------------------------------------------------
-	public  class Standard_NoSuchObject : CascadeSharp.Standard_DomainError
+	public  class Standard_NoSuchObject : Standard_DomainError
 	{
 
 		public Standard_NoSuchObject()

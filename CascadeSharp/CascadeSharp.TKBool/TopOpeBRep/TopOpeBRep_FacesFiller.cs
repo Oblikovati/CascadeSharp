@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBool.TopOpeBRepTool;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_FacesFiller
@@ -135,12 +141,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ProcessVPonclosingR(TopOpeBRep_VPointInter VP, TopoDS_Shape F1, int ShapeIndex, TopOpeBRepDS_Transition transEdge, CascadeSharp.TopOpeBRepDS_Kind PVKind, int PVIndex, bool EPIfound, TopOpeBRepDS_Interference IEPI)
+		public void ProcessVPonclosingR(TopOpeBRep_VPointInter VP, TopoDS_Shape F1, int ShapeIndex, TopOpeBRepDS_Transition transEdge, TopOpeBRepDS_Kind PVKind, int PVIndex, bool EPIfound, TopOpeBRepDS_Interference IEPI)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool ProcessVPondgE(TopOpeBRep_VPointInter VP, int ShapeIndex,  ref CascadeSharp.TopOpeBRepDS_Kind PVKind, ref int PVIndex, ref bool EPIfound, TopOpeBRepDS_Interference IEPI, ref bool CPIfound, TopOpeBRepDS_Interference ICPI)
+		public bool ProcessVPondgE(TopOpeBRep_VPointInter VP, int ShapeIndex,  ref TopOpeBRepDS_Kind PVKind, ref int PVIndex, ref bool EPIfound, TopOpeBRepDS_Interference IEPI, ref bool CPIfound, TopOpeBRepDS_Interference ICPI)
 		{
 			throw new NotImplementedException();
 		}
@@ -155,7 +161,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public int MakeGeometry(TopOpeBRep_VPointInter VP, int ShapeIndex,  ref CascadeSharp.TopOpeBRepDS_Kind K)
+				public int MakeGeometry(TopOpeBRep_VPointInter VP, int ShapeIndex,  ref TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
@@ -165,12 +171,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool GetFFGeometry(TopOpeBRepDS_Point DSP,  ref CascadeSharp.TopOpeBRepDS_Kind K, ref int G)
+		public bool GetFFGeometry(TopOpeBRepDS_Point DSP,  ref TopOpeBRepDS_Kind K, ref int G)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool GetFFGeometry(TopOpeBRep_VPointInter VP,  ref CascadeSharp.TopOpeBRepDS_Kind K, ref int G)
+		public bool GetFFGeometry(TopOpeBRep_VPointInter VP,  ref TopOpeBRepDS_Kind K, ref int G)
 		{
 			throw new NotImplementedException();
 		}
@@ -265,12 +271,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition GetEdgeTrans(TopOpeBRep_VPointInter VP, CascadeSharp.TopOpeBRepDS_Kind PVKind, int PVIndex, int Sind, TopoDS_Face F)
+		public TopOpeBRepDS_Transition GetEdgeTrans(TopOpeBRep_VPointInter VP, TopOpeBRepDS_Kind PVKind, int PVIndex, int Sind, TopoDS_Face F)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateVPonFace(TopOpeBRep_VPointInter VP)
+		public TopAbs_State StateVPonFace(TopOpeBRep_VPointInter VP)
 		{
 			throw new NotImplementedException();
 		}
@@ -280,7 +286,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StBipVPonF(TopOpeBRep_VPointInter IVPf, TopOpeBRep_VPointInter IVPl, TopOpeBRep_LineInter Lrest, bool _isonedge1)
+		public TopAbs_State StBipVPonF(TopOpeBRep_VPointInter IVPf, TopOpeBRep_VPointInter IVPl, TopOpeBRep_LineInter Lrest, bool _isonedge1)
 		{
 			throw new NotImplementedException();
 		}

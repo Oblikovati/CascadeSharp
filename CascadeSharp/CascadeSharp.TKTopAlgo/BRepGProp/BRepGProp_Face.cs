@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepGProp
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepGProp_Face
@@ -147,7 +151,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Load(bool IsFirstParam, CascadeSharp.GeomAbs_IsoType theIsoType)
+		public void Load(bool IsFirstParam, GeomAbs_IsoType theIsoType)
 		{
 			throw new NotImplementedException();
 		}

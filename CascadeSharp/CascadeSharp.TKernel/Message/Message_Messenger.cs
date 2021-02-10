@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_Messenger
@@ -56,7 +57,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Send(string theString, CascadeSharp.Message_Gravity theGravity)
+		public void Send(string theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -66,7 +67,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public void Send(TCollection_AsciiString theString, CascadeSharp.Message_Gravity theGravity)
+						public void Send(TCollection_AsciiString theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -76,7 +77,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Send(TCollection_ExtendedString theString, CascadeSharp.Message_Gravity theGravity)
+		public void Send(TCollection_ExtendedString theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -86,7 +87,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public void Send(Standard_Transient theObject, CascadeSharp.Message_Gravity theGravity)
+				public void Send(Standard_Transient theObject, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}

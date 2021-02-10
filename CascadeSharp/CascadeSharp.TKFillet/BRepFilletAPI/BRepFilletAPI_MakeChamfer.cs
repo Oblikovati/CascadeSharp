@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepBuild;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKFillet.ChFiDS;
+
+namespace CascadeSharp.TKFillet.BRepFilletAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFilletAPI_MakeChamfer
 	//---------------------------------------------------------------------
-	public  sealed class BRepFilletAPI_MakeChamfer : CascadeSharp.BRepFilletAPI_LocalOperation
+	public  sealed class BRepFilletAPI_MakeChamfer : BRepFilletAPI_LocalOperation
 	{
 
 		public BRepFilletAPI_MakeChamfer(TopoDS_Shape S)
@@ -80,7 +84,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetMode(CascadeSharp.ChFiDS_ChamfMode theMode)
+		public void SetMode(ChFiDS_ChamfMode theMode)
 		{
 			throw new NotImplementedException();
 		}

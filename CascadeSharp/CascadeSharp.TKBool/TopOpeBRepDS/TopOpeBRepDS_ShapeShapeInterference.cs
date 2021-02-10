@@ -2,18 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_ShapeShapeInterference
 	//---------------------------------------------------------------------
-	public  class TopOpeBRepDS_ShapeShapeInterference : CascadeSharp.TopOpeBRepDS_Interference
+	public  class TopOpeBRepDS_ShapeShapeInterference : TopOpeBRepDS_Interference
 	{
 
-		public TopOpeBRepDS_ShapeShapeInterference(TopOpeBRepDS_Transition T, CascadeSharp.TopOpeBRepDS_Kind ST, int S, CascadeSharp.TopOpeBRepDS_Kind GT, int G, bool GBound, CascadeSharp.TopOpeBRepDS_Config C)
+		public TopOpeBRepDS_ShapeShapeInterference(TopOpeBRepDS_Transition T, TopOpeBRepDS_Kind ST, int S, TopOpeBRepDS_Kind GT, int G, bool GBound, TopOpeBRepDS_Config C)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -30,7 +30,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Config Config()
+		public TopOpeBRepDS_Config Config()
 		{
 			throw new NotImplementedException();
 		}

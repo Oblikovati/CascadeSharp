@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GccInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GccInt_BLine
 	//---------------------------------------------------------------------
-	public  sealed class GccInt_BLine : CascadeSharp.GccInt_Bisec
+	public  sealed class GccInt_BLine : GccInt_Bisec
 	{
 
 		public GccInt_BLine(gp_Lin2d Line)
@@ -35,7 +36,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccInt_IType ArcType()
+		public GccInt_IType ArcType()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKShHealing.ShapeFix
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeFix_FixSmallFace
 	//---------------------------------------------------------------------
-	public  sealed class ShapeFix_FixSmallFace : CascadeSharp.ShapeFix_Root
+	public  sealed class ShapeFix_FixSmallFace : ShapeFix_Root
 	{
 
 		public ShapeFix_FixSmallFace()

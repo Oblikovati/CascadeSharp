@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+
+namespace CascadeSharp.TKFillet.ChFiDS
 {
 	//---------------------------------------------------------------------
 	//  Class  ChFiDS_HElSpine
 	//---------------------------------------------------------------------
-	public  sealed class ChFiDS_HElSpine : CascadeSharp.Adaptor3d_HCurve
+	public  sealed class ChFiDS_HElSpine : Adaptor3d_HCurve
 	{
 
 		public ChFiDS_HElSpine()

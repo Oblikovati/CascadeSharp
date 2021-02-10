@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKernel.TColStd;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_Algorithm
@@ -25,67 +27,67 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat)
+		public void SetStatus( ref Message_Status theStat)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, int theInt)
+		public void SetStatus( ref Message_Status theStat, int theInt)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, string theStr, bool noRepetitions)
+		public void SetStatus( ref Message_Status theStat, string theStr, bool noRepetitions)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, string theStr)
+		public void SetStatus( ref Message_Status theStat, string theStr)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, TCollection_AsciiString theStr, bool noRepetitions)
+		public void SetStatus( ref Message_Status theStat, TCollection_AsciiString theStr, bool noRepetitions)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, TCollection_AsciiString theStr)
+		public void SetStatus( ref Message_Status theStat, TCollection_AsciiString theStr)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, TCollection_HAsciiString theStr, bool noRepetitions)
+		public void SetStatus( ref Message_Status theStat, TCollection_HAsciiString theStr, bool noRepetitions)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, TCollection_HAsciiString theStr)
+		public void SetStatus( ref Message_Status theStat, TCollection_HAsciiString theStr)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, TCollection_ExtendedString theStr, bool noRepetitions)
+		public void SetStatus( ref Message_Status theStat, TCollection_ExtendedString theStr, bool noRepetitions)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, TCollection_ExtendedString theStr)
+		public void SetStatus( ref Message_Status theStat, TCollection_ExtendedString theStr)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, TCollection_HExtendedString theStr, bool noRepetitions)
+		public void SetStatus( ref Message_Status theStat, TCollection_HExtendedString theStr, bool noRepetitions)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, TCollection_HExtendedString theStr)
+		public void SetStatus( ref Message_Status theStat, TCollection_HExtendedString theStr)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStatus( ref CascadeSharp.Message_Status theStat, Message_Msg theMsg)
+		public void SetStatus( ref Message_Status theStat, Message_Msg theMsg)
 		{
 			throw new NotImplementedException();
 		}
@@ -115,12 +117,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SendStatusMessages(Message_ExecStatus theFilter, CascadeSharp.Message_Gravity theTraceLevel, int theMaxCount)
+		public void SendStatusMessages(Message_ExecStatus theFilter, Message_Gravity theTraceLevel, int theMaxCount)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SendStatusMessages(Message_ExecStatus theFilter, CascadeSharp.Message_Gravity theTraceLevel)
+		public void SendStatusMessages(Message_ExecStatus theFilter, Message_Gravity theTraceLevel)
 		{
 			throw new NotImplementedException();
 		}
@@ -130,12 +132,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SendMessages(CascadeSharp.Message_Gravity theTraceLevel, int theMaxCount)
+		public void SendMessages(Message_Gravity theTraceLevel, int theMaxCount)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SendMessages(CascadeSharp.Message_Gravity theTraceLevel)
+		public void SendMessages(Message_Gravity theTraceLevel)
 		{
 			throw new NotImplementedException();
 		}
@@ -155,12 +157,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TColStd_HPackedMapOfInteger GetMessageNumbers( ref CascadeSharp.Message_Status theStatus)
+		public TColStd_HPackedMapOfInteger GetMessageNumbers( ref Message_Status theStatus)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TColStd_HSequenceOfHExtendedString GetMessageStrings( ref CascadeSharp.Message_Status theStatus)
+		public TColStd_HSequenceOfHExtendedString GetMessageStrings( ref Message_Status theStatus)
 		{
 			throw new NotImplementedException();
 		}

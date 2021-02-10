@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_MediaPlayer
 	//---------------------------------------------------------------------
-	public  sealed class AIS_MediaPlayer : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_MediaPlayer : AIS_InteractiveObject
 	{
 
 		public AIS_MediaPlayer()

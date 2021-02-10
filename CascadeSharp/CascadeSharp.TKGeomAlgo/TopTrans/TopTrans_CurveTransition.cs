@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.TopTrans
 {
 	//---------------------------------------------------------------------
 	//  Class  TopTrans_CurveTransition
@@ -35,17 +37,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Compare(double Tole, gp_Dir Tang, gp_Dir Norm, double Curv, CascadeSharp.TopAbs_Orientation S, CascadeSharp.TopAbs_Orientation Or)
+		public void Compare(double Tole, gp_Dir Tang, gp_Dir Norm, double Curv, TopAbs_Orientation S, TopAbs_Orientation Or)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateBefore()
+		public TopAbs_State StateBefore()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State StateAfter()
+		public TopAbs_State StateAfter()
 		{
 			throw new NotImplementedException();
 		}

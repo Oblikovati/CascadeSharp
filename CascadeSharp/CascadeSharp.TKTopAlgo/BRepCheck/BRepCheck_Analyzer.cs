@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKTopAlgo.BRepCheck
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepCheck_Analyzer
@@ -71,7 +73,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ValidSub(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum SubType)
+		public bool ValidSub(TopoDS_Shape S, TopAbs_ShapeEnum SubType)
 		{
 			throw new NotImplementedException();
 		}

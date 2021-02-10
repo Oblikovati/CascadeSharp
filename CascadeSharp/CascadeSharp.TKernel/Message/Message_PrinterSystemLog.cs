@@ -2,18 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_PrinterSystemLog
 	//---------------------------------------------------------------------
-	public  sealed class Message_PrinterSystemLog : CascadeSharp.Message_Printer
+	public  sealed class Message_PrinterSystemLog : Message_Printer
 	{
 
-		public Message_PrinterSystemLog(TCollection_AsciiString theEventSourceName, CascadeSharp.Message_Gravity theTraceLevel)
+		public Message_PrinterSystemLog(TCollection_AsciiString theEventSourceName, Message_Gravity theTraceLevel)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -41,7 +42,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public void send(TCollection_AsciiString theString, CascadeSharp.Message_Gravity theGravity)
+						public void send(TCollection_AsciiString theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}

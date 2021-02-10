@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GC
 {
 	//---------------------------------------------------------------------
 	//  Class  GC_MakeArcOfParabola
 	//---------------------------------------------------------------------
-	public  sealed class GC_MakeArcOfParabola : CascadeSharp.GC_Root
+	public  sealed class GC_MakeArcOfParabola : GC_Root
 	{
 
 		public GC_MakeArcOfParabola(gp_Parab Parab, double Alpha1, double Alpha2, bool Sense)

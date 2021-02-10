@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBO.IntTools
 {
 	//---------------------------------------------------------------------
 	//  Class  IntTools_CommonPrt
@@ -40,7 +43,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetType(CascadeSharp.TopAbs_ShapeEnum aType)
+		public void SetType(TopAbs_ShapeEnum aType)
 		{
 			throw new NotImplementedException();
 		}
@@ -85,7 +88,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum Type()
+		public TopAbs_ShapeEnum Type()
 		{
 			throw new NotImplementedException();
 		}

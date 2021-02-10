@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomBase.AppCont;
+using CascadeSharp.TKGeomBase.AppParCurves;
+
+namespace CascadeSharp.TKGeomBase.Approx
 {
 	//---------------------------------------------------------------------
 	//  Class  Approx_FitAndDivide2d
@@ -13,13 +15,13 @@ namespace CascadeSharp
 	public  sealed class Approx_FitAndDivide2d
 	{
 
-		public Approx_FitAndDivide2d(AppCont_Function Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, CascadeSharp.AppParCurves_Constraint FirstC, CascadeSharp.AppParCurves_Constraint LastC)
+		public Approx_FitAndDivide2d(AppCont_Function Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, AppParCurves_Constraint FirstC, AppParCurves_Constraint LastC)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Approx_FitAndDivide2d(AppCont_Function Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, CascadeSharp.AppParCurves_Constraint FirstC)
+		public Approx_FitAndDivide2d(AppCont_Function Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, AppParCurves_Constraint FirstC)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -61,13 +63,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Approx_FitAndDivide2d(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, CascadeSharp.AppParCurves_Constraint FirstC, CascadeSharp.AppParCurves_Constraint LastC)
+		public Approx_FitAndDivide2d(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, AppParCurves_Constraint FirstC, AppParCurves_Constraint LastC)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Approx_FitAndDivide2d(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, CascadeSharp.AppParCurves_Constraint FirstC)
+		public Approx_FitAndDivide2d(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, AppParCurves_Constraint FirstC)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -129,7 +131,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetConstraints(CascadeSharp.AppParCurves_Constraint FirstC, CascadeSharp.AppParCurves_Constraint LastC)
+		public void SetConstraints(AppParCurves_Constraint FirstC, AppParCurves_Constraint LastC)
 		{
 			throw new NotImplementedException();
 		}

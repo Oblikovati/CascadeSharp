@@ -2,15 +2,24 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.Prs3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_Shape
 	//---------------------------------------------------------------------
-	public  class AIS_Shape : CascadeSharp.AIS_InteractiveObject
+	public  class AIS_Shape : AIS_InteractiveObject
 	{
 
 		public AIS_Shape(TopoDS_Shape shap)
@@ -40,7 +49,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_KindOfInteractive Type()
+		public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -110,12 +119,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetTypeOfHLR(CascadeSharp.Prs3d_TypeOfHLR theTypeOfHLR)
+		public void SetTypeOfHLR(Prs3d_TypeOfHLR theTypeOfHLR)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_TypeOfHLR TypeOfHLR()
+		public Prs3d_TypeOfHLR TypeOfHLR()
 		{
 			throw new NotImplementedException();
 		}
@@ -175,7 +184,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_NameOfMaterial Material()
+		public Graphic3d_NameOfMaterial Material()
 		{
 			throw new NotImplementedException();
 		}
@@ -185,12 +194,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum SelectionType(int theSelMode)
+		public TopAbs_ShapeEnum SelectionType(int theSelMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int SelectionMode(CascadeSharp.TopAbs_ShapeEnum theShapeType)
+		public int SelectionMode(TopAbs_ShapeEnum theShapeType)
 		{
 			throw new NotImplementedException();
 		}

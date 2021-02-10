@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_DatumAspect
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_DatumAspect : CascadeSharp.Prs3d_BasicAspect
+	public  sealed class Prs3d_DatumAspect : Prs3d_BasicAspect
 	{
 
 		public Prs3d_DatumAspect()
@@ -30,12 +30,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public Prs3d_LineAspect LineAspect(CascadeSharp.Prs3d_DatumParts thePart)
+						public Prs3d_LineAspect LineAspect(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Prs3d_ShadingAspect ShadingAspect(CascadeSharp.Prs3d_DatumParts thePart)
+		public Prs3d_ShadingAspect ShadingAspect(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}
@@ -105,27 +105,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool DrawDatumPart(CascadeSharp.Prs3d_DatumParts thePart)
+		public bool DrawDatumPart(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetDrawDatumAxes(CascadeSharp.Prs3d_DatumAxes theType)
+		public void SetDrawDatumAxes(Prs3d_DatumAxes theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_DatumAxes DatumAxes()
+		public Prs3d_DatumAxes DatumAxes()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetAttribute(CascadeSharp.Prs3d_DatumAttribute theType, double theValue)
+		public void SetAttribute(Prs3d_DatumAttribute theType, double theValue)
 		{
 			throw new NotImplementedException();
 		}
 
-		public double Attribute(CascadeSharp.Prs3d_DatumAttribute theType)
+		public double Attribute(Prs3d_DatumAttribute theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -135,7 +135,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public double AxisLength(CascadeSharp.Prs3d_DatumParts thePart)
+		public double AxisLength(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}
@@ -180,7 +180,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_DatumParts ArrowPartForAxis(CascadeSharp.Prs3d_DatumParts thePart)
+		public Prs3d_DatumParts ArrowPartForAxis(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}

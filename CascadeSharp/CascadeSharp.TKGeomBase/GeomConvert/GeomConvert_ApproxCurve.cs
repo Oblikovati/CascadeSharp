@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomBase.GeomConvert
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomConvert_ApproxCurve
@@ -13,13 +16,13 @@ namespace CascadeSharp
 	public  sealed class GeomConvert_ApproxCurve
 	{
 
-		public GeomConvert_ApproxCurve(Geom_Curve Curve, double Tol3d, CascadeSharp.GeomAbs_Shape Order, int MaxSegments, int MaxDegree)
+		public GeomConvert_ApproxCurve(Geom_Curve Curve, double Tol3d, GeomAbs_Shape Order, int MaxSegments, int MaxDegree)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomConvert_ApproxCurve(Adaptor3d_HCurve Curve, double Tol3d, CascadeSharp.GeomAbs_Shape Order, int MaxSegments, int MaxDegree)
+		public GeomConvert_ApproxCurve(Adaptor3d_HCurve Curve, double Tol3d, GeomAbs_Shape Order, int MaxSegments, int MaxDegree)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -56,7 +59,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public void Approximate(Adaptor3d_HCurve theCurve, double theTol3d, CascadeSharp.GeomAbs_Shape theOrder, int theMaxSegments, int theMaxDegree)
+				public void Approximate(Adaptor3d_HCurve theCurve, double theTol3d, GeomAbs_Shape theOrder, int theMaxSegments, int theMaxDegree)
 		{
 			throw new NotImplementedException();
 		}

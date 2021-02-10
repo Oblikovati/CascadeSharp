@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_SurfaceCurveInterference
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepDS_SurfaceCurveInterference : CascadeSharp.TopOpeBRepDS_Interference
+	public  sealed class TopOpeBRepDS_SurfaceCurveInterference : TopOpeBRepDS_Interference
 	{
 
 		public TopOpeBRepDS_SurfaceCurveInterference()
@@ -19,7 +20,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_SurfaceCurveInterference(TopOpeBRepDS_Transition Transition, CascadeSharp.TopOpeBRepDS_Kind SupportType, int Support, CascadeSharp.TopOpeBRepDS_Kind GeometryType, int Geometry, Geom2d_Curve PC)
+		public TopOpeBRepDS_SurfaceCurveInterference(TopOpeBRepDS_Transition Transition, TopOpeBRepDS_Kind SupportType, int Support, TopOpeBRepDS_Kind GeometryType, int Geometry, Geom2d_Curve PC)
 			: base()
 		{
 			throw new NotImplementedException();

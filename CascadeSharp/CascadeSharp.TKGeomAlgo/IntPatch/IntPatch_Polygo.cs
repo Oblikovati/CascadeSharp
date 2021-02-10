@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.Intf;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_Polygo
 	//---------------------------------------------------------------------
-	public  abstract class IntPatch_Polygo : CascadeSharp.Intf_Polygon2d
+	public  abstract class IntPatch_Polygo : Intf_Polygon2d
 	{
 
 		public IntPatch_Polygo(double theError)

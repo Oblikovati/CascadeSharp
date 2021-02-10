@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKTopAlgo.BRepCheck
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepCheck_ListOfStatus
@@ -51,17 +52,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status First()
+		public BRepCheck_Status First()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Last()
+		public BRepCheck_Status Last()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Append( ref CascadeSharp.BRepCheck_Status theItem)
+		public BRepCheck_Status Append( ref BRepCheck_Status theItem)
 		{
 			throw new NotImplementedException();
 		}
@@ -71,7 +72,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Prepend( ref CascadeSharp.BRepCheck_Status theItem)
+		public BRepCheck_Status Prepend( ref BRepCheck_Status theItem)
 		{
 			throw new NotImplementedException();
 		}

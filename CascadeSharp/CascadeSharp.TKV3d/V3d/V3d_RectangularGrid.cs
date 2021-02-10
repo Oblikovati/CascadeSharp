@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Aspect;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d_RectangularGrid
 	//---------------------------------------------------------------------
-	public  sealed class V3d_RectangularGrid : CascadeSharp.Aspect_RectangularGrid
+	public  sealed class V3d_RectangularGrid : Aspect_RectangularGrid
 	{
 
 		public V3d_RectangularGrid(V3d_Viewer aViewer, Quantity_Color aColor, Quantity_Color aTenthColor)

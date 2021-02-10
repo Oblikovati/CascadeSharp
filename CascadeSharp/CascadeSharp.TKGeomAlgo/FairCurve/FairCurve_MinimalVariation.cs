@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.FairCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  FairCurve_MinimalVariation
 	//---------------------------------------------------------------------
-	public  sealed class FairCurve_MinimalVariation : CascadeSharp.FairCurve_Batten
+	public  sealed class FairCurve_MinimalVariation : FairCurve_Batten
 	{
 
 		public FairCurve_MinimalVariation(gp_Pnt2d P1, gp_Pnt2d P2, double Heigth, double Slope, double PhysicalRatio)
@@ -57,17 +58,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Compute( ref CascadeSharp.FairCurve_AnalysisCode ACode, int NbIterations, double Tolerance)
+		public bool Compute( ref FairCurve_AnalysisCode ACode, int NbIterations, double Tolerance)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Compute( ref CascadeSharp.FairCurve_AnalysisCode ACode, int NbIterations)
+		public bool Compute( ref FairCurve_AnalysisCode ACode, int NbIterations)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Compute( ref CascadeSharp.FairCurve_AnalysisCode ACode)
+		public bool Compute( ref FairCurve_AnalysisCode ACode)
 		{
 			throw new NotImplementedException();
 		}
@@ -87,7 +88,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public bool Compute(gp_Vec2d DeltaP1, gp_Vec2d DeltaP2, double DeltaAngle1, double DeltaAngle2, double DeltaCurvature1, double DeltaCurvature2,  ref CascadeSharp.FairCurve_AnalysisCode ACode, int NbIterations, double Tolerance)
+				public bool Compute(gp_Vec2d DeltaP1, gp_Vec2d DeltaP2, double DeltaAngle1, double DeltaAngle2, double DeltaCurvature1, double DeltaCurvature2,  ref FairCurve_AnalysisCode ACode, int NbIterations, double Tolerance)
 		{
 			throw new NotImplementedException();
 		}

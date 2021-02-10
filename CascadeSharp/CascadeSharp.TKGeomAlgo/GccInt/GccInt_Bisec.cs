@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GccInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GccInt_Bisec
@@ -25,7 +27,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class is abstract");
 		}
 
-		public CascadeSharp.GccInt_IType ArcType()
+		public GccInt_IType ArcType()
 		{
 			throw new NotImplementedException();
 		}

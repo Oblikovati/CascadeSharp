@@ -2,18 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_PointAspect
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_PointAspect : CascadeSharp.Prs3d_BasicAspect
+	public  sealed class Prs3d_PointAspect : Prs3d_BasicAspect
 	{
 
-		public Prs3d_PointAspect(CascadeSharp.Aspect_TypeOfMarker theType, Quantity_Color theColor, double theScale)
+		public Prs3d_PointAspect(Aspect_TypeOfMarker theType, Quantity_Color theColor, double theScale)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -52,7 +56,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetTypeOfMarker(CascadeSharp.Aspect_TypeOfMarker theType)
+		public void SetTypeOfMarker(Aspect_TypeOfMarker theType)
 		{
 			throw new NotImplementedException();
 		}

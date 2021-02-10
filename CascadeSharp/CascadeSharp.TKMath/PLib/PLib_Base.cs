@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+
+namespace CascadeSharp.TKMath.PLib
 {
 	//---------------------------------------------------------------------
 	//  Class  PLib_Base

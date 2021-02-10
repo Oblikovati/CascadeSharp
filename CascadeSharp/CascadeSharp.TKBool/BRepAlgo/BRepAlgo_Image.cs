@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.BRepAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgo_Image
@@ -110,7 +113,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Filter(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum ShapeType)
+		public void Filter(TopoDS_Shape S, TopAbs_ShapeEnum ShapeType)
 		{
 			throw new NotImplementedException();
 		}

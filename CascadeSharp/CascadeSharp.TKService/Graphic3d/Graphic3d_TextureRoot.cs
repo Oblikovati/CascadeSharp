@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_TextureRoot
@@ -13,13 +16,13 @@ namespace CascadeSharp
 	public  class Graphic3d_TextureRoot : Standard_Transient
 	{
 
-		public Graphic3d_TextureRoot(TCollection_AsciiString theFileName, CascadeSharp.Graphic3d_TypeOfTexture theType)
+		public Graphic3d_TextureRoot(TCollection_AsciiString theFileName, Graphic3d_TypeOfTexture theType)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_TextureRoot(Image_PixMap thePixmap, CascadeSharp.Graphic3d_TypeOfTexture theType)
+		public Graphic3d_TextureRoot(Image_PixMap thePixmap, Graphic3d_TypeOfTexture theType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -51,7 +54,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public CascadeSharp.Graphic3d_TypeOfTexture Type()
+				public Graphic3d_TypeOfTexture Type()
 		{
 			throw new NotImplementedException();
 		}

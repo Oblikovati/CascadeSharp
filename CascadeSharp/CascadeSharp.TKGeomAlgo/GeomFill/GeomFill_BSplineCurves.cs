@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_BSplineCurves
@@ -19,19 +20,19 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GeomFill_BSplineCurves(Geom_BSplineCurve C1, Geom_BSplineCurve C2, Geom_BSplineCurve C3, Geom_BSplineCurve C4, CascadeSharp.GeomFill_FillingStyle Type)
+		public GeomFill_BSplineCurves(Geom_BSplineCurve C1, Geom_BSplineCurve C2, Geom_BSplineCurve C3, Geom_BSplineCurve C4, GeomFill_FillingStyle Type)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomFill_BSplineCurves(Geom_BSplineCurve C1, Geom_BSplineCurve C2, Geom_BSplineCurve C3, CascadeSharp.GeomFill_FillingStyle Type)
+		public GeomFill_BSplineCurves(Geom_BSplineCurve C1, Geom_BSplineCurve C2, Geom_BSplineCurve C3, GeomFill_FillingStyle Type)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public GeomFill_BSplineCurves(Geom_BSplineCurve C1, Geom_BSplineCurve C2, CascadeSharp.GeomFill_FillingStyle Type)
+		public GeomFill_BSplineCurves(Geom_BSplineCurve C1, Geom_BSplineCurve C2, GeomFill_FillingStyle Type)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -43,17 +44,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Init(Geom_BSplineCurve C1, Geom_BSplineCurve C2, Geom_BSplineCurve C3, Geom_BSplineCurve C4, CascadeSharp.GeomFill_FillingStyle Type)
+		public void Init(Geom_BSplineCurve C1, Geom_BSplineCurve C2, Geom_BSplineCurve C3, Geom_BSplineCurve C4, GeomFill_FillingStyle Type)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(Geom_BSplineCurve C1, Geom_BSplineCurve C2, Geom_BSplineCurve C3, CascadeSharp.GeomFill_FillingStyle Type)
+		public void Init(Geom_BSplineCurve C1, Geom_BSplineCurve C2, Geom_BSplineCurve C3, GeomFill_FillingStyle Type)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Init(Geom_BSplineCurve C1, Geom_BSplineCurve C2, CascadeSharp.GeomFill_FillingStyle Type)
+		public void Init(Geom_BSplineCurve C1, Geom_BSplineCurve C2, GeomFill_FillingStyle Type)
 		{
 			throw new NotImplementedException();
 		}

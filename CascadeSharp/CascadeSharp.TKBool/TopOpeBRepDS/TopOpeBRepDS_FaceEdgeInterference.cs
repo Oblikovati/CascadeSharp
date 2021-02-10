@@ -2,18 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_FaceEdgeInterference
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepDS_FaceEdgeInterference : CascadeSharp.TopOpeBRepDS_ShapeShapeInterference
+	public  sealed class TopOpeBRepDS_FaceEdgeInterference : TopOpeBRepDS_ShapeShapeInterference
 	{
 
-		public TopOpeBRepDS_FaceEdgeInterference(TopOpeBRepDS_Transition T, int S, int G, bool GIsBound, CascadeSharp.TopOpeBRepDS_Config C)
+		public TopOpeBRepDS_FaceEdgeInterference(TopOpeBRepDS_Transition T, int S, int G, bool GIsBound, TopOpeBRepDS_Config C)
 			: base()
 		{
 			throw new NotImplementedException();

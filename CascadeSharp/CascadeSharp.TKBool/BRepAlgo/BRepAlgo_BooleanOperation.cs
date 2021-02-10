@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepBuild;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKTopAlgo.BRepBuilderAPI;
+
+namespace CascadeSharp.TKBool.BRepAlgo
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgo_BooleanOperation
 	//---------------------------------------------------------------------
-	public  class BRepAlgo_BooleanOperation : CascadeSharp.BRepBuilderAPI_MakeShape
+	public  class BRepAlgo_BooleanOperation : BRepBuilderAPI_MakeShape
 	{
 
 		public BRepAlgo_BooleanOperation(TopoDS_Shape S1, TopoDS_Shape S2)
@@ -35,7 +40,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(CascadeSharp.TopAbs_State St1, CascadeSharp.TopAbs_State St2)
+		public void Perform(TopAbs_State St1, TopAbs_State St2)
 		{
 			throw new NotImplementedException();
 		}

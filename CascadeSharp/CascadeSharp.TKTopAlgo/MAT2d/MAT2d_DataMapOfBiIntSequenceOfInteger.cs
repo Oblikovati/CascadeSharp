@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKTopAlgo.MAT2d
 {
 	//---------------------------------------------------------------------
 	//  Class  MAT2d_DataMapOfBiIntSequenceOfInteger

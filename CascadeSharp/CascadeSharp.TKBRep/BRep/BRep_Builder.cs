@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_Builder
 	//---------------------------------------------------------------------
-	public  sealed class BRep_Builder : CascadeSharp.TopoDS_Builder
+	public  sealed class BRep_Builder : TopoDS_Builder
 	{
 
 		public BRep_Builder()
@@ -115,12 +121,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Continuity(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2, CascadeSharp.GeomAbs_Shape C)
+		public void Continuity(TopoDS_Edge E, TopoDS_Face F1, TopoDS_Face F2, GeomAbs_Shape C)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Continuity(TopoDS_Edge E, Geom_Surface S1, Geom_Surface S2, TopLoc_Location L1, TopLoc_Location L2, CascadeSharp.GeomAbs_Shape C)
+		public void Continuity(TopoDS_Edge E, Geom_Surface S1, Geom_Surface S2, TopLoc_Location L1, TopLoc_Location L2, GeomAbs_Shape C)
 		{
 			throw new NotImplementedException();
 		}

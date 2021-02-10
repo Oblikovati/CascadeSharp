@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GccEnt
 {
 	//---------------------------------------------------------------------
 	//  Class  GccEnt_QualifiedLin
@@ -13,7 +14,7 @@ namespace CascadeSharp
 	public  sealed class GccEnt_QualifiedLin
 	{
 
-		public GccEnt_QualifiedLin(gp_Lin2d Qualified, CascadeSharp.GccEnt_Position Qualifier)
+		public GccEnt_QualifiedLin(gp_Lin2d Qualified, GccEnt_Position Qualifier)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -35,7 +36,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position Qualifier()
+		public GccEnt_Position Qualifier()
 		{
 			throw new NotImplementedException();
 		}

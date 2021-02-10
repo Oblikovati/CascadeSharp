@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepGProp
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepGProp_EdgeTool
@@ -50,12 +54,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(BRepAdaptor_Curve C, CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(BRepAdaptor_Curve C, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(BRepAdaptor_Curve C, TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(BRepAdaptor_Curve C, TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

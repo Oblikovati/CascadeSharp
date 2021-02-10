@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepClass3d
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepClass3d_SolidClassifier
 	//---------------------------------------------------------------------
-	public  sealed class BRepClass3d_SolidClassifier : CascadeSharp.BRepClass3d_SClassifier
+	public  sealed class BRepClass3d_SolidClassifier : BRepClass3d_SClassifier
 	{
 
 		public BRepClass3d_SolidClassifier()

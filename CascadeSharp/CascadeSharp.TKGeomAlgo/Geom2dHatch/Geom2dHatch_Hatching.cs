@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKGeomAlgo.HatchGen;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dHatch
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dHatch_Hatching
@@ -71,12 +74,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Status(CascadeSharp.HatchGen_ErrorStatus theStatus)
+		public void Status(HatchGen_ErrorStatus theStatus)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.HatchGen_ErrorStatus Status()
+		public HatchGen_ErrorStatus Status()
 		{
 			throw new NotImplementedException();
 		}

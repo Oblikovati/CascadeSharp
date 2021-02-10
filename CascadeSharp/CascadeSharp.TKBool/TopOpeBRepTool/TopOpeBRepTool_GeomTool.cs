@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_GeomTool
@@ -13,25 +13,25 @@ namespace CascadeSharp
 	public  sealed class TopOpeBRepTool_GeomTool
 	{
 
-		public TopOpeBRepTool_GeomTool(CascadeSharp.TopOpeBRepTool_OutCurveType TypeC3D, bool CompC3D, bool CompPC1, bool CompPC2)
+		public TopOpeBRepTool_GeomTool(TopOpeBRepTool_OutCurveType TypeC3D, bool CompC3D, bool CompPC1, bool CompPC2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepTool_GeomTool(CascadeSharp.TopOpeBRepTool_OutCurveType TypeC3D, bool CompC3D, bool CompPC1)
+		public TopOpeBRepTool_GeomTool(TopOpeBRepTool_OutCurveType TypeC3D, bool CompC3D, bool CompPC1)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepTool_GeomTool(CascadeSharp.TopOpeBRepTool_OutCurveType TypeC3D, bool CompC3D)
+		public TopOpeBRepTool_GeomTool(TopOpeBRepTool_OutCurveType TypeC3D, bool CompC3D)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepTool_GeomTool(CascadeSharp.TopOpeBRepTool_OutCurveType TypeC3D)
+		public TopOpeBRepTool_GeomTool(TopOpeBRepTool_OutCurveType TypeC3D)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -48,12 +48,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Define(CascadeSharp.TopOpeBRepTool_OutCurveType TypeC3D, bool CompC3D, bool CompPC1, bool CompPC2)
+		public void Define(TopOpeBRepTool_OutCurveType TypeC3D, bool CompC3D, bool CompPC1, bool CompPC2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Define(CascadeSharp.TopOpeBRepTool_OutCurveType TypeC3D)
+		public void Define(TopOpeBRepTool_OutCurveType TypeC3D)
 		{
 			throw new NotImplementedException();
 		}
@@ -98,7 +98,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepTool_OutCurveType TypeC3D()
+		public TopOpeBRepTool_OutCurveType TypeC3D()
 		{
 			throw new NotImplementedException();
 		}

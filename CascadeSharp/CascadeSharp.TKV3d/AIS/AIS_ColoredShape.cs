@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+using CascadeSharp.TKV3d.StdSelect;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_ColoredShape
 	//---------------------------------------------------------------------
-	public  sealed class AIS_ColoredShape : CascadeSharp.AIS_Shape
+	public  sealed class AIS_ColoredShape : AIS_Shape
 	{
 
 		public AIS_ColoredShape(TopoDS_Shape theShape)
@@ -131,7 +137,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void computeSubshapeSelection(AIS_ColoredDrawer theParentDrawer, AIS_DataMapOfShapeDrawer theShapeDrawerMap, TopoDS_Shape theShape, StdSelect_BRepOwner theOwner, SelectMgr_Selection theSelection, CascadeSharp.TopAbs_ShapeEnum theTypOfSel, int thePriority, double theDeflection, double theDeflAngle)
+		public void computeSubshapeSelection(AIS_ColoredDrawer theParentDrawer, AIS_DataMapOfShapeDrawer theShapeDrawerMap, TopoDS_Shape theShape, StdSelect_BRepOwner theOwner, SelectMgr_Selection theSelection, TopAbs_ShapeEnum theTypOfSel, int thePriority, double theDeflection, double theDeflAngle)
 		{
 			throw new NotImplementedException();
 		}

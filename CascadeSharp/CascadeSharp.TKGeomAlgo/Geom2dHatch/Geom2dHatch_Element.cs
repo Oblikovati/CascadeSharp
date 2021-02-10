@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dHatch
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dHatch_Element
@@ -19,7 +21,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Geom2dHatch_Element(Geom2dAdaptor_Curve Curve, CascadeSharp.TopAbs_Orientation Orientation)
+		public Geom2dHatch_Element(Geom2dAdaptor_Curve Curve, TopAbs_Orientation Orientation)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -47,12 +49,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Orientation(CascadeSharp.TopAbs_Orientation Orientation)
+		public void Orientation(TopAbs_Orientation Orientation)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation()
+		public TopAbs_Orientation Orientation()
 		{
 			throw new NotImplementedException();
 		}

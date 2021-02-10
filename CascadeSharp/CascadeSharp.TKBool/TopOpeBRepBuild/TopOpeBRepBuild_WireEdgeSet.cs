@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_WireEdgeSet
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepBuild_WireEdgeSet : CascadeSharp.TopOpeBRepBuild_ShapeSet
+	public  sealed class TopOpeBRepBuild_WireEdgeSet : TopOpeBRepBuild_ShapeSet
 	{
 
 		public TopOpeBRepBuild_WireEdgeSet(TopoDS_Shape F, IntPtr Addr)
@@ -141,7 +146,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool VertexConnectsEdges(TopoDS_Shape V, TopoDS_Shape E1, TopoDS_Shape E2,  ref CascadeSharp.TopAbs_Orientation O1,  ref CascadeSharp.TopAbs_Orientation O2)
+		public bool VertexConnectsEdges(TopoDS_Shape V, TopoDS_Shape E1, TopoDS_Shape E2,  ref TopAbs_Orientation O1,  ref TopAbs_Orientation O2)
 		{
 			throw new NotImplementedException();
 		}

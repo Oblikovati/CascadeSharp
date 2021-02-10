@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.math;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKMath.PLib
 {
 	//---------------------------------------------------------------------
 	//  Class  PLib
@@ -185,17 +189,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void JacobiParameters(CascadeSharp.GeomAbs_Shape ConstraintOrder, int MaxDegree, int Code, ref int NbGaussPoints, ref int WorkDegree)
+		public void JacobiParameters(GeomAbs_Shape ConstraintOrder, int MaxDegree, int Code, ref int NbGaussPoints, ref int WorkDegree)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int NivConstr(CascadeSharp.GeomAbs_Shape ConstraintOrder)
+		public int NivConstr(GeomAbs_Shape ConstraintOrder)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape ConstraintOrder(int NivConstr)
+		public GeomAbs_Shape ConstraintOrder(int NivConstr)
 		{
 			throw new NotImplementedException();
 		}

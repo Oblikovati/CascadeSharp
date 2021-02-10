@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_ToolTorus
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_ToolTorus : CascadeSharp.Prs3d_ToolQuadric
+	public  sealed class Prs3d_ToolTorus : Prs3d_ToolQuadric
 	{
 
 		public Prs3d_ToolTorus(double theMajorRad, double theMinorRad, int theNbSlices, int theNbStacks)

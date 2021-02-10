@@ -2,18 +2,27 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepBuild;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKFillet.ChFi3d;
+using CascadeSharp.TKFillet.ChFiDS;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKGeomAlgo.Law;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKFillet.BRepFilletAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFilletAPI_MakeFillet
 	//---------------------------------------------------------------------
-	public  sealed class BRepFilletAPI_MakeFillet : CascadeSharp.BRepFilletAPI_LocalOperation
+	public  sealed class BRepFilletAPI_MakeFillet : BRepFilletAPI_LocalOperation
 	{
 
-		public BRepFilletAPI_MakeFillet(TopoDS_Shape S, CascadeSharp.ChFi3d_FilletShape FShape)
+		public BRepFilletAPI_MakeFillet(TopoDS_Shape S, ChFi3d_FilletShape FShape)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -41,7 +50,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetContinuity(CascadeSharp.GeomAbs_Shape InternalContinuity, double AngularTolerance)
+		public void SetContinuity(GeomAbs_Shape InternalContinuity, double AngularTolerance)
 		{
 			throw new NotImplementedException();
 		}
@@ -141,12 +150,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetFilletShape(CascadeSharp.ChFi3d_FilletShape FShape)
+		public void SetFilletShape(ChFi3d_FilletShape FShape)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFi3d_FilletShape GetFilletShape()
+		public ChFi3d_FilletShape GetFilletShape()
 		{
 			throw new NotImplementedException();
 		}
@@ -306,7 +315,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.ChFiDS_ErrorStatus StripeStatus(int IC)
+		public ChFiDS_ErrorStatus StripeStatus(int IC)
 		{
 			throw new NotImplementedException();
 		}

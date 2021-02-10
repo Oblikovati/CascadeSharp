@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_SelectableObjectSet
@@ -55,12 +55,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsEmpty(CascadeSharp.SelectMgr_SelectableObjectSet.BVHSubset theSubset)
+		public bool IsEmpty(BVHSubset theSubset)
 		{
 			throw new NotImplementedException();
 		}
 
-		public SelectMgr_SelectableObject GetObjectById(CascadeSharp.SelectMgr_SelectableObjectSet.BVHSubset theSubset, int theIndex)
+		public SelectMgr_SelectableObject GetObjectById(BVHSubset theSubset, int theIndex)
 		{
 			throw new NotImplementedException();
 		}

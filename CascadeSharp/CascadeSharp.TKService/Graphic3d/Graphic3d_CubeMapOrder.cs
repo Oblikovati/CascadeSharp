@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_CubeMapOrder
@@ -47,7 +47,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_CubeMapOrder Set(CascadeSharp.Graphic3d_CubeMapSide theCubeMapSide, byte theValue)
+		public Graphic3d_CubeMapOrder Set(Graphic3d_CubeMapSide theCubeMapSide, byte theValue)
 		{
 			throw new NotImplementedException();
 		}
@@ -67,17 +67,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_CubeMapOrder Swap(CascadeSharp.Graphic3d_CubeMapSide theFirstSide, CascadeSharp.Graphic3d_CubeMapSide theSecondSide)
+		public Graphic3d_CubeMapOrder Swap(Graphic3d_CubeMapSide theFirstSide, Graphic3d_CubeMapSide theSecondSide)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_CubeMapOrder Swapped(CascadeSharp.Graphic3d_CubeMapSide theFirstSide, CascadeSharp.Graphic3d_CubeMapSide theSecondSide)
+		public Graphic3d_CubeMapOrder Swapped(Graphic3d_CubeMapSide theFirstSide, Graphic3d_CubeMapSide theSecondSide)
 		{
 			throw new NotImplementedException();
 		}
 
-		public byte Get(CascadeSharp.Graphic3d_CubeMapSide theCubeMapSide)
+		public byte Get(Graphic3d_CubeMapSide theCubeMapSide)
 		{
 			throw new NotImplementedException();
 		}
@@ -122,7 +122,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void set(CascadeSharp.Graphic3d_CubeMapSide theCubeMapSide, byte theValue)
+		public void set(Graphic3d_CubeMapSide theCubeMapSide, byte theValue)
 		{
 			throw new NotImplementedException();
 		}

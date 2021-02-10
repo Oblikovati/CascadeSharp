@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.IntAna
 {
 	//---------------------------------------------------------------------
 	//  Class  IntAna_QuadQuadGeo
@@ -206,7 +207,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntAna_ResultType TypeInter()
+		public IntAna_ResultType TypeInter()
 		{
 			throw new NotImplementedException();
 		}

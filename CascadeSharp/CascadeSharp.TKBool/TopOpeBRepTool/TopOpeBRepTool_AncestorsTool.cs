@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_AncestorsTool
@@ -25,7 +28,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MakeAncestors(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum TS, CascadeSharp.TopAbs_ShapeEnum TA, TopTools_IndexedDataMapOfShapeListOfShape M)
+		public void MakeAncestors(TopoDS_Shape S, TopAbs_ShapeEnum TS, TopAbs_ShapeEnum TA, TopTools_IndexedDataMapOfShapeListOfShape M)
 		{
 			throw new NotImplementedException();
 		}

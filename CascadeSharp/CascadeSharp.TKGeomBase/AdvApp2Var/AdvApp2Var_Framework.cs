@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomBase.AdvApp2Var
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApp2Var_Framework
@@ -36,12 +38,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int FirstNode(CascadeSharp.GeomAbs_IsoType Type, int IndexIso, int IndexStrip)
+		public int FirstNode(GeomAbs_IsoType Type, int IndexIso, int IndexStrip)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int LastNode(CascadeSharp.GeomAbs_IsoType Type, int IndexIso, int IndexStrip)
+		public int LastNode(GeomAbs_IsoType Type, int IndexIso, int IndexStrip)
 		{
 			throw new NotImplementedException();
 		}

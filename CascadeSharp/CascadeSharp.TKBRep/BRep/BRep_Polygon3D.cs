@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_Polygon3D
 	//---------------------------------------------------------------------
-	public  sealed class BRep_Polygon3D : CascadeSharp.BRep_CurveRepresentation
+	public  sealed class BRep_Polygon3D : BRep_CurveRepresentation
 	{
 
 				public BRep_Polygon3D(BRep_Polygon3D parameter1)

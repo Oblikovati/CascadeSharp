@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Message;
+
+namespace CascadeSharp.TKShHealing.ShapeExtend
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeExtend_BasicMsgRegistrator
@@ -25,17 +28,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Send(Standard_Transient obj, Message_Msg message, CascadeSharp.Message_Gravity gravity)
+		public void Send(Standard_Transient obj, Message_Msg message, Message_Gravity gravity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Send(TopoDS_Shape shape, Message_Msg message, CascadeSharp.Message_Gravity gravity)
+		public void Send(TopoDS_Shape shape, Message_Msg message, Message_Gravity gravity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Send(Message_Msg message, CascadeSharp.Message_Gravity gravity)
+		public void Send(Message_Msg message, Message_Gravity gravity)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntStart
 {
 	//---------------------------------------------------------------------
 	//  Class  IntStart_SITopolTool
@@ -25,7 +28,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class is abstract");
 		}
 
-		public CascadeSharp.TopAbs_State Classify(gp_Pnt2d P, double Tol)
+		public TopAbs_State Classify(gp_Pnt2d P, double Tol)
 		{
 			throw new NotImplementedException();
 		}

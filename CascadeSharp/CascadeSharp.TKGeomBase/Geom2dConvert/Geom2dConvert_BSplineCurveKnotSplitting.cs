@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Geom2d;
+
+namespace CascadeSharp.TKGeomBase.Geom2dConvert
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dConvert_BSplineCurveKnotSplitting

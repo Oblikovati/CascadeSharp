@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Font;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_AspectText3d
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_AspectText3d : CascadeSharp.Graphic3d_Aspects
+	public  sealed class Graphic3d_AspectText3d : Graphic3d_Aspects
 	{
 
 		public Graphic3d_AspectText3d()
@@ -19,13 +23,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_AspectText3d(Quantity_Color theColor, string theFont, double theExpansionFactor, double theSpace, CascadeSharp.Aspect_TypeOfStyleText theStyle, CascadeSharp.Aspect_TypeOfDisplayText theD_isplayType)
+		public Graphic3d_AspectText3d(Quantity_Color theColor, string theFont, double theExpansionFactor, double theSpace, Aspect_TypeOfStyleText theStyle, Aspect_TypeOfDisplayText theD_isplayType)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_AspectText3d(Quantity_Color theColor, string theFont, double theExpansionFactor, double theSpace, CascadeSharp.Aspect_TypeOfStyleText theStyle)
+		public Graphic3d_AspectText3d(Quantity_Color theColor, string theFont, double theExpansionFactor, double theSpace, Aspect_TypeOfStyleText theStyle)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -83,22 +87,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfStyleText Style()
+		public Aspect_TypeOfStyleText Style()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetStyle(CascadeSharp.Aspect_TypeOfStyleText theStyle)
+		public void SetStyle(Aspect_TypeOfStyleText theStyle)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfDisplayText DisplayType()
+		public Aspect_TypeOfDisplayText DisplayType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetDisplayType(CascadeSharp.Aspect_TypeOfDisplayText theD_isplayType)
+		public void SetDisplayType(Aspect_TypeOfDisplayText theD_isplayType)
 		{
 			throw new NotImplementedException();
 		}
@@ -118,7 +122,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Font_FontAspect GetTextFontAspect()
+		public Font_FontAspect GetTextFontAspect()
 		{
 			throw new NotImplementedException();
 		}

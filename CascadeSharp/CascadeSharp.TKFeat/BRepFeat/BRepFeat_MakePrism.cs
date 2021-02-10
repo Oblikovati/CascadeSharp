@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TColGeom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat_MakePrism
 	//---------------------------------------------------------------------
-	public  sealed class BRepFeat_MakePrism : CascadeSharp.BRepFeat_Form
+	public  sealed class BRepFeat_MakePrism : BRepFeat_Form
 	{
 
 		public BRepFeat_MakePrism()

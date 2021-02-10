@@ -2,10 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKTopAlgo.IntCurvesFace;
+
+namespace CascadeSharp.TKTopAlgo.BRepClass3d
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepClass3d_SolidExplorer
@@ -151,7 +158,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void DumpSegment(gp_Pnt P, gp_Lin L, double Par, CascadeSharp.TopAbs_State S)
+		public void DumpSegment(gp_Pnt P, gp_Lin L, double Par, TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}
@@ -181,7 +188,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State ClassifyUVPoint(IntCurvesFace_Intersector theIntersector, BRepAdaptor_HSurface theSurf, gp_Pnt2d theP2d)
+		public TopAbs_State ClassifyUVPoint(IntCurvesFace_Intersector theIntersector, BRepAdaptor_HSurface theSurf, gp_Pnt2d theP2d)
 		{
 			throw new NotImplementedException();
 		}

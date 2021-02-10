@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKG2d.LProp
 {
 	//---------------------------------------------------------------------
 	//  Class  LProp_AnalyticCurInf
@@ -25,7 +26,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(CascadeSharp.GeomAbs_CurveType T, double UFirst, double ULast, LProp_CurAndInf Result)
+		public void Perform(GeomAbs_CurveType T, double UFirst, double ULast, LProp_CurAndInf Result)
 		{
 			throw new NotImplementedException();
 		}

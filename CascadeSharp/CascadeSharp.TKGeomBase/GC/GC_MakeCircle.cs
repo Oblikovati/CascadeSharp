@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GC
 {
 	//---------------------------------------------------------------------
 	//  Class  GC_MakeCircle
 	//---------------------------------------------------------------------
-	public  sealed class GC_MakeCircle : CascadeSharp.GC_Root
+	public  sealed class GC_MakeCircle : GC_Root
 	{
 
 		public GC_MakeCircle(gp_Circ C)

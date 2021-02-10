@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_Builder1
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepBuild_Builder1 : CascadeSharp.TopOpeBRepBuild_Builder
+	public  sealed class TopOpeBRepBuild_Builder1 : TopOpeBRepBuild_Builder
 	{
 
 		public TopOpeBRepBuild_Builder1(TopOpeBRepDS_BuildTool BT)
@@ -50,7 +54,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void MergeKPart(CascadeSharp.TopAbs_State TB1, CascadeSharp.TopAbs_State TB2)
+		public void MergeKPart(TopAbs_State TB1, TopAbs_State TB2)
 		{
 			throw new NotImplementedException();
 		}

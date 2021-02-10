@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_NullObject
 	//---------------------------------------------------------------------
-	public  sealed class Standard_NullObject : CascadeSharp.Standard_DomainError
+	public  sealed class Standard_NullObject : Standard_DomainError
 	{
 
 		public Standard_NullObject()

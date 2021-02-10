@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Message;
+
+namespace CascadeSharp.TKShHealing.ShapeProcess
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeProcess_UOperator
 	//---------------------------------------------------------------------
-	public  sealed class ShapeProcess_UOperator : CascadeSharp.ShapeProcess_Operator
+	public  sealed class ShapeProcess_UOperator : ShapeProcess_Operator
 	{
 
 		public ShapeProcess_UOperator(ShapeProcess_UOperator parameter1)

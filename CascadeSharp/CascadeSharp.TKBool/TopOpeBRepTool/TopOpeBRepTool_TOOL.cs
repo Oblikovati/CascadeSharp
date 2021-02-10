@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_TOOL
@@ -270,7 +276,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Getstp3dF(gp_Pnt p, TopoDS_Face f, gp_Pnt2d uv,  ref CascadeSharp.TopAbs_State st)
+		public bool Getstp3dF(gp_Pnt p, TopoDS_Face f, gp_Pnt2d uv,  ref TopAbs_State st)
 		{
 			throw new NotImplementedException();
 		}

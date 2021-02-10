@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_BSplineCurve
 	//---------------------------------------------------------------------
-	public  sealed class Geom_BSplineCurve : CascadeSharp.Geom_BoundedCurve
+	public  sealed class Geom_BSplineCurve : Geom_BoundedCurve
 	{
 
 		public Geom_BSplineCurve(TColgp_Array1OfPnt Poles, TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Multiplicities, int Degree, bool Periodic)
@@ -224,7 +228,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
@@ -329,7 +333,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_BSplKnotDistribution KnotDistribution()
+		public GeomAbs_BSplKnotDistribution KnotDistribution()
 		{
 			throw new NotImplementedException();
 		}

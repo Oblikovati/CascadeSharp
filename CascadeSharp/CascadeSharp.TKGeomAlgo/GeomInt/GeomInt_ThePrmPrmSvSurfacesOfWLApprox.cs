@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.ApproxInt;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_ThePrmPrmSvSurfacesOfWLApprox
 	//---------------------------------------------------------------------
-	public  sealed class GeomInt_ThePrmPrmSvSurfacesOfWLApprox : CascadeSharp.ApproxInt_SvSurfaces
+	public  sealed class GeomInt_ThePrmPrmSvSurfacesOfWLApprox : ApproxInt_SvSurfaces
 	{
 
 		public GeomInt_ThePrmPrmSvSurfacesOfWLApprox(Adaptor3d_HSurface Surf1, Adaptor3d_HSurface Surf2)

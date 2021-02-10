@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKShHealing.ShapeProcess;
+
+namespace CascadeSharp.TKShHealing.ShapeProcessAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeProcessAPI_ApplySequence
@@ -41,12 +46,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape PrepareShape(TopoDS_Shape shape, bool fillmap, CascadeSharp.TopAbs_ShapeEnum until, Message_ProgressRange theProgress)
+		public TopoDS_Shape PrepareShape(TopoDS_Shape shape, bool fillmap, TopAbs_ShapeEnum until, Message_ProgressRange theProgress)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape PrepareShape(TopoDS_Shape shape, bool fillmap, CascadeSharp.TopAbs_ShapeEnum until)
+		public TopoDS_Shape PrepareShape(TopoDS_Shape shape, bool fillmap, TopAbs_ShapeEnum until)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKernel.StdFail
 {
 	//---------------------------------------------------------------------
 	//  Class  StdFail_Undefined
 	//---------------------------------------------------------------------
-	public  sealed class StdFail_Undefined : CascadeSharp.Standard_Failure
+	public  sealed class StdFail_Undefined : Standard_Failure
 	{
 
 		public StdFail_Undefined()

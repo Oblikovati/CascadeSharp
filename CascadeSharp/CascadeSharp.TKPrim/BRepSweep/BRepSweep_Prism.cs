@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKPrim.Sweep;
+
+namespace CascadeSharp.TKPrim.BRepSweep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepSweep_Prism

@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Units;
+
+namespace CascadeSharp.TKernel.UnitsAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  UnitsAPI
@@ -100,7 +101,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetLocalSystem(CascadeSharp.UnitsAPI_SystemUnits aSystemUnit)
+		public void SetLocalSystem(UnitsAPI_SystemUnits aSystemUnit)
 		{
 			throw new NotImplementedException();
 		}
@@ -110,7 +111,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.UnitsAPI_SystemUnits LocalSystem()
+		public UnitsAPI_SystemUnits LocalSystem()
 		{
 			throw new NotImplementedException();
 		}
@@ -195,7 +196,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void CheckLoading(CascadeSharp.UnitsAPI_SystemUnits aSystemUnit)
+		public void CheckLoading(UnitsAPI_SystemUnits aSystemUnit)
 		{
 			throw new NotImplementedException();
 		}

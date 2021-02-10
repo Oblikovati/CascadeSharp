@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GC
 {
 	//---------------------------------------------------------------------
 	//  Class  GC_MakeLine
 	//---------------------------------------------------------------------
-	public  sealed class GC_MakeLine : CascadeSharp.GC_Root
+	public  sealed class GC_MakeLine : GC_Root
 	{
 
 		public GC_MakeLine(gp_Ax1 A1)

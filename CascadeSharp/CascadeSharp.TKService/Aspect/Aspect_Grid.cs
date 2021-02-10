@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_Grid
@@ -134,12 +136,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetDrawMode(CascadeSharp.Aspect_GridDrawMode aDrawMode)
+		public void SetDrawMode(Aspect_GridDrawMode aDrawMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_GridDrawMode DrawMode()
+		public Aspect_GridDrawMode DrawMode()
 		{
 			throw new NotImplementedException();
 		}

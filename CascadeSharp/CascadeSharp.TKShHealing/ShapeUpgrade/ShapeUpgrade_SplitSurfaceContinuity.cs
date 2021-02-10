@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_SplitSurfaceContinuity
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_SplitSurfaceContinuity : CascadeSharp.ShapeUpgrade_SplitSurface
+	public  sealed class ShapeUpgrade_SplitSurfaceContinuity : ShapeUpgrade_SplitSurface
 	{
 
 		public ShapeUpgrade_SplitSurfaceContinuity()
@@ -25,7 +26,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetCriterion(CascadeSharp.GeomAbs_Shape Criterion)
+		public void SetCriterion(GeomAbs_Shape Criterion)
 		{
 			throw new NotImplementedException();
 		}

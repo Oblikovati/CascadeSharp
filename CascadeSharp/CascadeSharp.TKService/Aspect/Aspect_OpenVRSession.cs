@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_OpenVRSession
 	//---------------------------------------------------------------------
-	public  sealed class Aspect_OpenVRSession : CascadeSharp.Aspect_XRSession
+	public  sealed class Aspect_OpenVRSession : Aspect_XRSession
 	{
 
 		public Aspect_OpenVRSession()
@@ -65,12 +68,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool SubmitEye(IntPtr theTexture, CascadeSharp.Aspect_GraphicsLibrary theGraphicsLib, CascadeSharp.Aspect_ColorSpace theColorSpace, CascadeSharp.Aspect_Eye theEye)
+		public bool SubmitEye(IntPtr theTexture, Aspect_GraphicsLibrary theGraphicsLib, Aspect_ColorSpace theColorSpace, Aspect_Eye theEye)
 		{
 			throw new NotImplementedException();
 		}
 
-				public int NamedTrackedDevice(CascadeSharp.Aspect_XRTrackedDeviceRole theDevice)
+				public int NamedTrackedDevice(Aspect_XRTrackedDeviceRole theDevice)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_SweptSurface
 	//---------------------------------------------------------------------
-	public  abstract class Geom_SweptSurface : CascadeSharp.Geom_Surface
+	public  abstract class Geom_SweptSurface : Geom_Surface
 	{
 
 		public Geom_SweptSurface(Geom_SweptSurface parameter1)
@@ -25,7 +27,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class is abstract");
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}

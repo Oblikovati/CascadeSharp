@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TColGeom;
+
+namespace CascadeSharp.TKGeomBase.GeomConvert
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomConvert_BSplineSurfaceToBezierSurface

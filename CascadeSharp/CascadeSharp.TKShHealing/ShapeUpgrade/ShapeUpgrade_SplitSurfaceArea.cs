@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKShHealing.ShapeUpgrade
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeUpgrade_SplitSurfaceArea
 	//---------------------------------------------------------------------
-	public  sealed class ShapeUpgrade_SplitSurfaceArea : CascadeSharp.ShapeUpgrade_SplitSurface
+	public  sealed class ShapeUpgrade_SplitSurfaceArea : ShapeUpgrade_SplitSurface
 	{
 
 		public ShapeUpgrade_SplitSurfaceArea()

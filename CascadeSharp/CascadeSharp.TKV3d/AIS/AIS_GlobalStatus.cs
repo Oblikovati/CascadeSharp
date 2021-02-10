@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKV3d.Prs3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_GlobalStatus
@@ -19,19 +22,19 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AIS_GlobalStatus(CascadeSharp.AIS_DisplayStatus aStat, int aD_ispMode, int aSelMode, bool _ishilighted, int aLayerIndex)
+		public AIS_GlobalStatus(AIS_DisplayStatus aStat, int aD_ispMode, int aSelMode, bool _ishilighted, int aLayerIndex)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_GlobalStatus(CascadeSharp.AIS_DisplayStatus aStat, int aD_ispMode, int aSelMode, bool _ishilighted)
+		public AIS_GlobalStatus(AIS_DisplayStatus aStat, int aD_ispMode, int aSelMode, bool _ishilighted)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_GlobalStatus(CascadeSharp.AIS_DisplayStatus aStat, int aD_ispMode, int aSelMode)
+		public AIS_GlobalStatus(AIS_DisplayStatus aStat, int aD_ispMode, int aSelMode)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -48,7 +51,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public void SetGraphicStatus(CascadeSharp.AIS_DisplayStatus theStatus)
+						public void SetGraphicStatus(AIS_DisplayStatus theStatus)
 		{
 			throw new NotImplementedException();
 		}
@@ -113,7 +116,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_DisplayStatus GraphicStatus()
+		public AIS_DisplayStatus GraphicStatus()
 		{
 			throw new NotImplementedException();
 		}

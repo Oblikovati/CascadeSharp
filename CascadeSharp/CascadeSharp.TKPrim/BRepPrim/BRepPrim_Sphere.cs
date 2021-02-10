@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKPrim.BRepPrim
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepPrim_Sphere
 	//---------------------------------------------------------------------
-	public  sealed class BRepPrim_Sphere : CascadeSharp.BRepPrim_Revolution
+	public  sealed class BRepPrim_Sphere : BRepPrim_Revolution
 	{
 
 		public BRepPrim_Sphere(double Radius)

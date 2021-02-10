@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKService.Image
 {
 	//---------------------------------------------------------------------
 	//  Class  Image_AlienPixMap
 	//---------------------------------------------------------------------
-	public  sealed class Image_AlienPixMap : CascadeSharp.Image_PixMap
+	public  sealed class Image_AlienPixMap : Image_PixMap
 	{
 
 		public Image_AlienPixMap()
@@ -50,12 +51,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool InitTrash(CascadeSharp.Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
+		public bool InitTrash(Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool InitTrash(CascadeSharp.Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY)
+		public bool InitTrash(Image_Format thePixelFormat, ulong theSizeX, ulong theSizeY)
 		{
 			throw new NotImplementedException();
 		}
@@ -75,7 +76,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool InitWrapper(CascadeSharp.Image_Format thePixelFormat, ref byte theDataPtr, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
+		public bool InitWrapper(Image_Format thePixelFormat, ref byte theDataPtr, ulong theSizeX, ulong theSizeY, ulong theSizeRowBytes)
 		{
 			throw new NotImplementedException();
 		}

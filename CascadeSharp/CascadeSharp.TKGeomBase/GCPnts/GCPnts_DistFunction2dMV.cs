@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.GCPnts
 {
 	//---------------------------------------------------------------------
 	//  Class  GCPnts_DistFunction2dMV
 	//---------------------------------------------------------------------
-	public  sealed class GCPnts_DistFunction2dMV : CascadeSharp.math_MultipleVarFunction
+	public  sealed class GCPnts_DistFunction2dMV : math_MultipleVarFunction
 	{
 
 		public GCPnts_DistFunction2dMV(GCPnts_DistFunction2d theCurvLinD_ist)

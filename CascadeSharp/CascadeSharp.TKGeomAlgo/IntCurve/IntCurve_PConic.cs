@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  IntCurve_PConic
@@ -74,7 +76,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_CurveType TypeCurve()
+		public GeomAbs_CurveType TypeCurve()
 		{
 			throw new NotImplementedException();
 		}

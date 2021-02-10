@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_FFDumper
@@ -60,7 +63,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void DumpDSP(TopOpeBRep_VPointInter VP, CascadeSharp.TopOpeBRepDS_Kind GK, int G, bool newinDS)
+		public void DumpDSP(TopOpeBRep_VPointInter VP, TopOpeBRepDS_Kind GK, int G, bool newinDS)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Units
 {
 	//---------------------------------------------------------------------
 	//  Class  Units_MathSentence
 	//---------------------------------------------------------------------
-	public  sealed class Units_MathSentence : CascadeSharp.Units_Sentence
+	public  sealed class Units_MathSentence : Units_Sentence
 	{
 
 		public Units_MathSentence(string astring)

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_CompositionFilter
 	//---------------------------------------------------------------------
-	public  abstract class SelectMgr_CompositionFilter : CascadeSharp.SelectMgr_Filter
+	public  abstract class SelectMgr_CompositionFilter : SelectMgr_Filter
 	{
 
 		public SelectMgr_CompositionFilter(SelectMgr_CompositionFilter parameter1)
@@ -55,7 +56,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ActsOn(CascadeSharp.TopAbs_ShapeEnum aStandardMode)
+		public bool ActsOn(TopAbs_ShapeEnum aStandardMode)
 		{
 			throw new NotImplementedException();
 		}

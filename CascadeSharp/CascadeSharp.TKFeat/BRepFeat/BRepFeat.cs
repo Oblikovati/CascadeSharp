@@ -2,10 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKTopAlgo.BRepTopAdaptor;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat
@@ -65,7 +72,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Solid Tool(TopoDS_Shape SRef, TopoDS_Face Fac, CascadeSharp.TopAbs_Orientation Orf)
+		public TopoDS_Solid Tool(TopoDS_Shape SRef, TopoDS_Face Fac, TopAbs_Orientation Orf)
 		{
 			throw new NotImplementedException();
 		}

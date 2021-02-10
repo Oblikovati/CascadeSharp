@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.BOPAlgo;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKBO.BRepAlgoAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgoAPI_BooleanOperation
 	//---------------------------------------------------------------------
-	public  class BRepAlgoAPI_BooleanOperation : CascadeSharp.BRepAlgoAPI_BuilderAlgo
+	public  class BRepAlgoAPI_BooleanOperation : BRepAlgoAPI_BuilderAlgo
 	{
 
 		public BRepAlgoAPI_BooleanOperation()
@@ -19,7 +22,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public BRepAlgoAPI_BooleanOperation(TopoDS_Shape theS1, TopoDS_Shape theS2, CascadeSharp.BOPAlgo_Operation theOperation)
+				public BRepAlgoAPI_BooleanOperation(TopoDS_Shape theS1, TopoDS_Shape theS2, BOPAlgo_Operation theOperation)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -51,12 +54,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetOperation(CascadeSharp.BOPAlgo_Operation theBOP)
+		public void SetOperation(BOPAlgo_Operation theBOP)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BOPAlgo_Operation Operation()
+		public BOPAlgo_Operation Operation()
 		{
 			throw new NotImplementedException();
 		}

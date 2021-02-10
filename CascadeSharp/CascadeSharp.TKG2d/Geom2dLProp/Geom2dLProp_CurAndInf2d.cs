@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG2d.LProp;
+
+namespace CascadeSharp.TKG2d.Geom2dLProp
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dLProp_CurAndInf2d
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dLProp_CurAndInf2d : CascadeSharp.LProp_CurAndInf
+	public  sealed class Geom2dLProp_CurAndInf2d : LProp_CurAndInf
 	{
 
 		public Geom2dLProp_CurAndInf2d()

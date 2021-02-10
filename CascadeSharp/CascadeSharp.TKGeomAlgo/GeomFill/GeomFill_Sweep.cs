@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_Sweep
@@ -81,22 +84,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Build(GeomFill_SectionLaw Section, CascadeSharp.GeomFill_ApproxStyle Methode, CascadeSharp.GeomAbs_Shape Continuity, int Degmax, int Segmax)
+		public void Build(GeomFill_SectionLaw Section, GeomFill_ApproxStyle Methode, GeomAbs_Shape Continuity, int Degmax, int Segmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Build(GeomFill_SectionLaw Section, CascadeSharp.GeomFill_ApproxStyle Methode, CascadeSharp.GeomAbs_Shape Continuity, int Degmax)
+		public void Build(GeomFill_SectionLaw Section, GeomFill_ApproxStyle Methode, GeomAbs_Shape Continuity, int Degmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Build(GeomFill_SectionLaw Section, CascadeSharp.GeomFill_ApproxStyle Methode, CascadeSharp.GeomAbs_Shape Continuity)
+		public void Build(GeomFill_SectionLaw Section, GeomFill_ApproxStyle Methode, GeomAbs_Shape Continuity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Build(GeomFill_SectionLaw Section, CascadeSharp.GeomFill_ApproxStyle Methode)
+		public void Build(GeomFill_SectionLaw Section, GeomFill_ApproxStyle Methode)
 		{
 			throw new NotImplementedException();
 		}
@@ -146,17 +149,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Build2d(CascadeSharp.GeomAbs_Shape Continuity, int Degmax, int Segmax)
+		public bool Build2d(GeomAbs_Shape Continuity, int Degmax, int Segmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildAll(CascadeSharp.GeomAbs_Shape Continuity, int Degmax, int Segmax)
+		public bool BuildAll(GeomAbs_Shape Continuity, int Degmax, int Segmax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool BuildProduct(CascadeSharp.GeomAbs_Shape Continuity, int Degmax, int Segmax)
+		public bool BuildProduct(GeomAbs_Shape Continuity, int Degmax, int Segmax)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomBase.Approx
 {
 	//---------------------------------------------------------------------
 	//  Class  Approx_CurvilinearParameter
@@ -13,19 +18,19 @@ namespace CascadeSharp
 	public  sealed class Approx_CurvilinearParameter
 	{
 
-		public Approx_CurvilinearParameter(Adaptor3d_HCurve C3D, double Tol, CascadeSharp.GeomAbs_Shape Order, int MaxDegree, int MaxSegments)
+		public Approx_CurvilinearParameter(Adaptor3d_HCurve C3D, double Tol, GeomAbs_Shape Order, int MaxDegree, int MaxSegments)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Approx_CurvilinearParameter(Adaptor2d_HCurve2d C2D, Adaptor3d_HSurface Surf, double Tol, CascadeSharp.GeomAbs_Shape Order, int MaxDegree, int MaxSegments)
+		public Approx_CurvilinearParameter(Adaptor2d_HCurve2d C2D, Adaptor3d_HSurface Surf, double Tol, GeomAbs_Shape Order, int MaxDegree, int MaxSegments)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public Approx_CurvilinearParameter(Adaptor2d_HCurve2d C2D1, Adaptor3d_HSurface Surf1, Adaptor2d_HCurve2d C2D2, Adaptor3d_HSurface Surf2, double Tol, CascadeSharp.GeomAbs_Shape Order, int MaxDegree, int MaxSegments)
+		public Approx_CurvilinearParameter(Adaptor2d_HCurve2d C2D1, Adaptor3d_HSurface Surf1, Adaptor2d_HCurve2d C2D2, Adaptor3d_HSurface Surf2, double Tol, GeomAbs_Shape Order, int MaxDegree, int MaxSegments)
 			: base()
 		{
 			throw new NotImplementedException();

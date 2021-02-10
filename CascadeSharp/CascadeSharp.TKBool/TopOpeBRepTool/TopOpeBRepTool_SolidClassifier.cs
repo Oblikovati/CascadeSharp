@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.TopOpeBRepTool
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepTool_SolidClassifier
@@ -35,7 +38,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Classify(TopoDS_Solid S, gp_Pnt P, double Tol)
+		public TopAbs_State Classify(TopoDS_Solid S, gp_Pnt P, double Tol)
 		{
 			throw new NotImplementedException();
 		}
@@ -45,12 +48,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Classify(TopoDS_Shell S, gp_Pnt P, double Tol)
+		public TopAbs_State Classify(TopoDS_Shell S, gp_Pnt P, double Tol)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State()
+		public TopAbs_State State()
 		{
 			throw new NotImplementedException();
 		}

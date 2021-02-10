@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_GIter
@@ -51,7 +52,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Current( ref CascadeSharp.TopAbs_State s1,  ref CascadeSharp.TopAbs_State s2)
+		public void Current( ref TopAbs_State s1,  ref TopAbs_State s2)
 		{
 			throw new NotImplementedException();
 		}

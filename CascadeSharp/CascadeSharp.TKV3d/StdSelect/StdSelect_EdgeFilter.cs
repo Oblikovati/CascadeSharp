@@ -2,18 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.StdSelect
 {
 	//---------------------------------------------------------------------
 	//  Class  StdSelect_EdgeFilter
 	//---------------------------------------------------------------------
-	public  sealed class StdSelect_EdgeFilter : CascadeSharp.SelectMgr_Filter
+	public  sealed class StdSelect_EdgeFilter : SelectMgr_Filter
 	{
 
-		public StdSelect_EdgeFilter(CascadeSharp.StdSelect_TypeOfEdge Edge)
+		public StdSelect_EdgeFilter(StdSelect_TypeOfEdge Edge)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -30,12 +32,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetType(CascadeSharp.StdSelect_TypeOfEdge aNewType)
+		public void SetType(StdSelect_TypeOfEdge aNewType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.StdSelect_TypeOfEdge Type()
+		public StdSelect_TypeOfEdge Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -45,7 +47,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ActsOn(CascadeSharp.TopAbs_ShapeEnum aStandardMode)
+		public bool ActsOn(TopAbs_ShapeEnum aStandardMode)
 		{
 			throw new NotImplementedException();
 		}

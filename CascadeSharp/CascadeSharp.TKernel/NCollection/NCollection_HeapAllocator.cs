@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.NCollection
 {
 	//---------------------------------------------------------------------
 	//  Class  NCollection_HeapAllocator
 	//---------------------------------------------------------------------
-	public  sealed class NCollection_HeapAllocator : CascadeSharp.NCollection_BaseAllocator
+	public  sealed class NCollection_HeapAllocator : NCollection_BaseAllocator
 	{
 
 		public NCollection_HeapAllocator()

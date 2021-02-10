@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_SimpleBound
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_SimpleBound : CascadeSharp.GeomFill_Boundary
+	public  sealed class GeomFill_SimpleBound : GeomFill_Boundary
 	{
 
 		public GeomFill_SimpleBound(Adaptor3d_HCurve Curve, double Tol3d, double Tolang)

@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKG3d.TColGeom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKShHealing.ShapeExtend
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeExtend_CompositeSurface
 	//---------------------------------------------------------------------
-	public  sealed class ShapeExtend_CompositeSurface : CascadeSharp.Geom_Surface
+	public  sealed class ShapeExtend_CompositeSurface : Geom_Surface
 	{
 
 		public ShapeExtend_CompositeSurface()
@@ -19,7 +24,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public ShapeExtend_CompositeSurface(TColGeom_HArray2OfSurface GridSurf, CascadeSharp.ShapeExtend_Parametrisation param)
+		public ShapeExtend_CompositeSurface(TColGeom_HArray2OfSurface GridSurf, ShapeExtend_Parametrisation param)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -43,7 +48,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Init(TColGeom_HArray2OfSurface GridSurf, CascadeSharp.ShapeExtend_Parametrisation param)
+		public bool Init(TColGeom_HArray2OfSurface GridSurf, ShapeExtend_Parametrisation param)
 		{
 			throw new NotImplementedException();
 		}
@@ -243,7 +248,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
@@ -288,7 +293,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ComputeJointValues(CascadeSharp.ShapeExtend_Parametrisation param)
+		public void ComputeJointValues(ShapeExtend_Parametrisation param)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_TextureEnv
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_TextureEnv : CascadeSharp.Graphic3d_TextureRoot
+	public  sealed class Graphic3d_TextureEnv : Graphic3d_TextureRoot
 	{
 
 		public Graphic3d_TextureEnv(TCollection_AsciiString theFileName)
@@ -19,7 +21,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_TextureEnv(CascadeSharp.Graphic3d_NameOfTextureEnv theName)
+		public Graphic3d_TextureEnv(Graphic3d_NameOfTextureEnv theName)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -42,7 +44,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_NameOfTextureEnv Name()
+		public Graphic3d_NameOfTextureEnv Name()
 		{
 			throw new NotImplementedException();
 		}

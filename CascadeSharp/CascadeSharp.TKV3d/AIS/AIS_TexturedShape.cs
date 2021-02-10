@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_TexturedShape
 	//---------------------------------------------------------------------
-	public  sealed class AIS_TexturedShape : CascadeSharp.AIS_Shape
+	public  sealed class AIS_TexturedShape : AIS_Shape
 	{
 
 		public AIS_TexturedShape(TopoDS_Shape theShape)

@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_TFace
 	//---------------------------------------------------------------------
-	public  sealed class BRep_TFace : CascadeSharp.TopoDS_TFace
+	public  sealed class BRep_TFace : TopoDS_TFace
 	{
 
 		public BRep_TFace()

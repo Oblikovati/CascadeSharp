@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_ErrorHandler
@@ -60,7 +60,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Standard_ErrorHandler FindHandler(CascadeSharp.Standard_HandlerStatus theStatus, bool theUnlink)
+		public Standard_ErrorHandler FindHandler(Standard_HandlerStatus theStatus, bool theUnlink)
 		{
 			throw new NotImplementedException();
 		}

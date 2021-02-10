@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_AreaBuilder
@@ -112,12 +113,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State CompareLoopWithListOfLoop(TopOpeBRepBuild_LoopClassifier LC, TopOpeBRepBuild_Loop L, TopOpeBRepBuild_ListOfLoop LOL, CascadeSharp.TopOpeBRepBuild_LoopEnum le)
+		public TopAbs_State CompareLoopWithListOfLoop(TopOpeBRepBuild_LoopClassifier LC, TopOpeBRepBuild_Loop L, TopOpeBRepBuild_ListOfLoop LOL, TopOpeBRepBuild_LoopEnum le)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Atomize( ref CascadeSharp.TopAbs_State state, CascadeSharp.TopAbs_State newstate)
+		public void Atomize( ref TopAbs_State state, TopAbs_State newstate)
 		{
 			throw new NotImplementedException();
 		}

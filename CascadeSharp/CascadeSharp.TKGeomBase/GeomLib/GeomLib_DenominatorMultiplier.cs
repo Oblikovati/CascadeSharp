@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Geom;
+
+namespace CascadeSharp.TKGeomBase.GeomLib
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomLib_DenominatorMultiplier

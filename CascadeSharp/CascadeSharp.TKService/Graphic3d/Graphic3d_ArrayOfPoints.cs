@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_ArrayOfPoints
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_ArrayOfPoints : CascadeSharp.Graphic3d_ArrayOfPrimitives
+	public  sealed class Graphic3d_ArrayOfPoints : Graphic3d_ArrayOfPrimitives
 	{
 
 		public Graphic3d_ArrayOfPoints(int theMaxVertexs, int theArrayFlags)

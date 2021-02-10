@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKTopAlgo.BRepCheck
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepCheck_Shell
 	//---------------------------------------------------------------------
-	public  sealed class BRepCheck_Shell : CascadeSharp.BRepCheck_Result
+	public  sealed class BRepCheck_Shell : BRepCheck_Result
 	{
 
 		public BRepCheck_Shell(TopoDS_Shell S)
@@ -45,22 +47,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Closed(bool Update)
+		public BRepCheck_Status Closed(bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Closed()
+		public BRepCheck_Status Closed()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Orientation(bool Update)
+		public BRepCheck_Status Orientation(bool Update)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepCheck_Status Orientation()
+		public BRepCheck_Status Orientation()
 		{
 			throw new NotImplementedException();
 		}

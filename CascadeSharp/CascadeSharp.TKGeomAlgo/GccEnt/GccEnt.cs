@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GccEnt
 {
 	//---------------------------------------------------------------------
 	//  Class  GccEnt
@@ -25,17 +26,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public string PositionToString(CascadeSharp.GccEnt_Position thePosition)
+				public string PositionToString(GccEnt_Position thePosition)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position PositionFromString(string thePositionString)
+		public GccEnt_Position PositionFromString(string thePositionString)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool PositionFromString(string thePositionString,  ref CascadeSharp.GccEnt_Position thePosition)
+		public bool PositionFromString(string thePositionString,  ref GccEnt_Position thePosition)
 		{
 			throw new NotImplementedException();
 		}

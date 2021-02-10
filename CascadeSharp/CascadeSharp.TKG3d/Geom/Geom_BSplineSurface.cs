@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_BSplineSurface
 	//---------------------------------------------------------------------
-	public  sealed class Geom_BSplineSurface : CascadeSharp.Geom_BoundedSurface
+	public  sealed class Geom_BSplineSurface : Geom_BoundedSurface
 	{
 
 		public Geom_BSplineSurface(TColgp_Array2OfPnt Poles, TColStd_Array1OfReal UKnots, TColStd_Array1OfReal VKnots, TColStd_Array1OfInteger UMults, TColStd_Array1OfInteger VMults, int UDegree, int VDegree, bool UPeriodic, bool VPeriodic)
@@ -390,7 +394,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
@@ -460,7 +464,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_BSplKnotDistribution UKnotDistribution()
+		public GeomAbs_BSplKnotDistribution UKnotDistribution()
 		{
 			throw new NotImplementedException();
 		}
@@ -510,7 +514,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_BSplKnotDistribution VKnotDistribution()
+		public GeomAbs_BSplKnotDistribution VKnotDistribution()
 		{
 			throw new NotImplementedException();
 		}

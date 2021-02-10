@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepGProp
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepGProp_Gauss
@@ -13,7 +14,7 @@ namespace CascadeSharp
 	public  sealed class BRepGProp_Gauss
 	{
 
-		public BRepGProp_Gauss(CascadeSharp.BRepGProp_Gauss.BRepGProp_GaussType theType)
+		public BRepGProp_Gauss(BRepGProp_GaussType theType)
 			: base()
 		{
 			throw new NotImplementedException();

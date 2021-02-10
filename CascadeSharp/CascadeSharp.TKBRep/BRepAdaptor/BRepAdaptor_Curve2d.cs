@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+
+namespace CascadeSharp.TKBRep.BRepAdaptor
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAdaptor_Curve2d
 	//---------------------------------------------------------------------
-	public  sealed class BRepAdaptor_Curve2d : CascadeSharp.Geom2dAdaptor_Curve
+	public  sealed class BRepAdaptor_Curve2d : Geom2dAdaptor_Curve
 	{
 
 		public BRepAdaptor_Curve2d()

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKBO.BRepAlgoAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgoAPI_Splitter
 	//---------------------------------------------------------------------
-	public  sealed class BRepAlgoAPI_Splitter : CascadeSharp.BRepAlgoAPI_BuilderAlgo
+	public  sealed class BRepAlgoAPI_Splitter : BRepAlgoAPI_BuilderAlgo
 	{
 
 		public BRepAlgoAPI_Splitter()

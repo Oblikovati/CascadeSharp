@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_Intersection
@@ -142,17 +145,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ParamParamPerfom(Adaptor3d_HSurface S1, Adaptor3d_TopolTool D1, Adaptor3d_HSurface S2, Adaptor3d_TopolTool D2, double TolArc, double TolTang, IntSurf_ListOfPntOn2S LOfPnts, CascadeSharp.GeomAbs_SurfaceType typs1, CascadeSharp.GeomAbs_SurfaceType typs2)
+		public void ParamParamPerfom(Adaptor3d_HSurface S1, Adaptor3d_TopolTool D1, Adaptor3d_HSurface S2, Adaptor3d_TopolTool D2, double TolArc, double TolTang, IntSurf_ListOfPntOn2S LOfPnts, GeomAbs_SurfaceType typs1, GeomAbs_SurfaceType typs2)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GeomGeomPerfom(Adaptor3d_HSurface S1, Adaptor3d_TopolTool D1, Adaptor3d_HSurface S2, Adaptor3d_TopolTool D2, double TolArc, double TolTang, IntSurf_ListOfPntOn2S LOfPnts, CascadeSharp.GeomAbs_SurfaceType typs1, CascadeSharp.GeomAbs_SurfaceType typs2, bool theIsReqToKeepRLine)
+		public void GeomGeomPerfom(Adaptor3d_HSurface S1, Adaptor3d_TopolTool D1, Adaptor3d_HSurface S2, Adaptor3d_TopolTool D2, double TolArc, double TolTang, IntSurf_ListOfPntOn2S LOfPnts, GeomAbs_SurfaceType typs1, GeomAbs_SurfaceType typs2, bool theIsReqToKeepRLine)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GeomParamPerfom(Adaptor3d_HSurface S1, Adaptor3d_TopolTool D1, Adaptor3d_HSurface S2, Adaptor3d_TopolTool D2, bool _isNotAnalitical, CascadeSharp.GeomAbs_SurfaceType typs1, CascadeSharp.GeomAbs_SurfaceType typs2)
+		public void GeomParamPerfom(Adaptor3d_HSurface S1, Adaptor3d_TopolTool D1, Adaptor3d_HSurface S2, Adaptor3d_TopolTool D2, bool _isNotAnalitical, GeomAbs_SurfaceType typs1, GeomAbs_SurfaceType typs2)
 		{
 			throw new NotImplementedException();
 		}

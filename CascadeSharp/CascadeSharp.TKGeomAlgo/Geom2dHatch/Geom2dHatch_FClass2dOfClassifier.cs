@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dHatch
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dHatch_FClass2dOfClassifier
@@ -30,7 +33,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Compare(Geom2dAdaptor_Curve E, CascadeSharp.TopAbs_Orientation Or)
+		public void Compare(Geom2dAdaptor_Curve E, TopAbs_Orientation Or)
 		{
 			throw new NotImplementedException();
 		}
@@ -50,7 +53,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State()
+		public TopAbs_State State()
 		{
 			throw new NotImplementedException();
 		}

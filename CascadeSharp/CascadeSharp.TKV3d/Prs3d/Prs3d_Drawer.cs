@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_Drawer
 	//---------------------------------------------------------------------
-	public  class Prs3d_Drawer : CascadeSharp.Graphic3d_PresentationAttributes
+	public  class Prs3d_Drawer : Graphic3d_PresentationAttributes
 	{
 
 		public Prs3d_Drawer()
@@ -30,12 +34,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public void SetTypeOfDeflection(CascadeSharp.Aspect_TypeOfDeflection theTypeOfDeflection)
+						public void SetTypeOfDeflection(Aspect_TypeOfDeflection theTypeOfDeflection)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfDeflection TypeOfDeflection()
+		public Aspect_TypeOfDeflection TypeOfDeflection()
 		{
 			throw new NotImplementedException();
 		}
@@ -60,12 +64,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetTypeOfHLR(CascadeSharp.Prs3d_TypeOfHLR theTypeOfHLR)
+		public void SetTypeOfHLR(Prs3d_TypeOfHLR theTypeOfHLR)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_TypeOfHLR TypeOfHLR()
+		public Prs3d_TypeOfHLR TypeOfHLR()
 		{
 			throw new NotImplementedException();
 		}
@@ -480,12 +484,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetVertexDrawMode(CascadeSharp.Prs3d_VertexDrawMode theMode)
+		public void SetVertexDrawMode(Prs3d_VertexDrawMode theMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_VertexDrawMode VertexDrawMode()
+		public Prs3d_VertexDrawMode VertexDrawMode()
 		{
 			throw new NotImplementedException();
 		}
@@ -630,12 +634,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape FaceBoundaryUpperContinuity()
+		public GeomAbs_Shape FaceBoundaryUpperContinuity()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetFaceBoundaryUpperContinuity(CascadeSharp.GeomAbs_Shape theMostAllowedEdgeClass)
+		public void SetFaceBoundaryUpperContinuity(GeomAbs_Shape theMostAllowedEdgeClass)
 		{
 			throw new NotImplementedException();
 		}
@@ -745,12 +749,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public bool SetShadingModel(CascadeSharp.Graphic3d_TypeOfShadingModel theModel, bool theToOverrideDefaults)
+						public bool SetShadingModel(Graphic3d_TypeOfShadingModel theModel, bool theToOverrideDefaults)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool SetShadingModel(CascadeSharp.Graphic3d_TypeOfShadingModel theModel)
+		public bool SetShadingModel(Graphic3d_TypeOfShadingModel theModel)
 		{
 			throw new NotImplementedException();
 		}

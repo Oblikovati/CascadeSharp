@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKShHealing.ShapeFix
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeFix_ShapeTolerance
@@ -25,7 +27,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool LimitTolerance(TopoDS_Shape shape, double tmin, double tmax, CascadeSharp.TopAbs_ShapeEnum styp)
+		public bool LimitTolerance(TopoDS_Shape shape, double tmin, double tmax, TopAbs_ShapeEnum styp)
 		{
 			throw new NotImplementedException();
 		}
@@ -40,7 +42,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetTolerance(TopoDS_Shape shape, double preci, CascadeSharp.TopAbs_ShapeEnum styp)
+		public void SetTolerance(TopoDS_Shape shape, double preci, TopAbs_ShapeEnum styp)
 		{
 			throw new NotImplementedException();
 		}

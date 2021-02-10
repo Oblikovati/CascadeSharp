@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_CameraFrustum
 	//---------------------------------------------------------------------
-	public  sealed class AIS_CameraFrustum : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_CameraFrustum : AIS_InteractiveObject
 	{
 
 		public AIS_CameraFrustum()

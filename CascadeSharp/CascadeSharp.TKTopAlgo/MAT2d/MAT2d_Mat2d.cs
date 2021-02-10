@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKTopAlgo.MAT;
+
+namespace CascadeSharp.TKTopAlgo.MAT2d
 {
 	//---------------------------------------------------------------------
 	//  Class  MAT2d_Mat2d

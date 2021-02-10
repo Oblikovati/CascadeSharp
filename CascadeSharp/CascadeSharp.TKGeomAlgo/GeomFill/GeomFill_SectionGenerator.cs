@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_SectionGenerator
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_SectionGenerator : CascadeSharp.GeomFill_Profiler
+	public  sealed class GeomFill_SectionGenerator : GeomFill_Profiler
 	{
 
 		public GeomFill_SectionGenerator()

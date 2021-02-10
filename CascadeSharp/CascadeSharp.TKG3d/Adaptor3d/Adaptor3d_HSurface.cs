@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Adaptor3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Adaptor3d_HSurface
@@ -50,32 +55,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape UContinuity()
+		public GeomAbs_Shape UContinuity()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape VContinuity()
+		public GeomAbs_Shape VContinuity()
 		{
 			throw new NotImplementedException();
 		}
 
-		public int NbUIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbUIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int NbVIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbVIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void UIntervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void UIntervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void VIntervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void VIntervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
@@ -160,7 +165,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_SurfaceType GetGeomType()
+		public GeomAbs_SurfaceType GetGeomType()
 		{
 			throw new NotImplementedException();
 		}

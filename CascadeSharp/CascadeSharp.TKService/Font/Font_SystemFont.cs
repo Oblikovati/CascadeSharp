@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKService.Font
 {
 	//---------------------------------------------------------------------
 	//  Class  Font_SystemFont
@@ -45,32 +47,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString FontPath(CascadeSharp.Font_FontAspect theAspect)
+		public TCollection_AsciiString FontPath(Font_FontAspect theAspect)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int FontFaceId(CascadeSharp.Font_FontAspect theAspect)
+		public int FontFaceId(Font_FontAspect theAspect)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetFontPath(CascadeSharp.Font_FontAspect theAspect, TCollection_AsciiString thePath, int theFaceId)
+		public void SetFontPath(Font_FontAspect theAspect, TCollection_AsciiString thePath, int theFaceId)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetFontPath(CascadeSharp.Font_FontAspect theAspect, TCollection_AsciiString thePath)
+		public void SetFontPath(Font_FontAspect theAspect, TCollection_AsciiString thePath)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool HasFontAspect(CascadeSharp.Font_FontAspect theAspect)
+		public bool HasFontAspect(Font_FontAspect theAspect)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString FontPathAny(CascadeSharp.Font_FontAspect theAspect, ref bool theToSynthesizeItalic, ref int theFaceId)
+		public TCollection_AsciiString FontPathAny(Font_FontAspect theAspect, ref bool theToSynthesizeItalic, ref int theFaceId)
 		{
 			throw new NotImplementedException();
 		}

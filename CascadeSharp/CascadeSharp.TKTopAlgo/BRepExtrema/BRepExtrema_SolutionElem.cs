@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepExtrema
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepExtrema_SolutionElem
@@ -19,19 +21,19 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public BRepExtrema_SolutionElem(double theD_ist, gp_Pnt thePoint, CascadeSharp.BRepExtrema_SupportType theSolType, TopoDS_Vertex theVertex)
+		public BRepExtrema_SolutionElem(double theD_ist, gp_Pnt thePoint, BRepExtrema_SupportType theSolType, TopoDS_Vertex theVertex)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepExtrema_SolutionElem(double theD_ist, gp_Pnt thePoint, CascadeSharp.BRepExtrema_SupportType theSolType, TopoDS_Edge theEdge, double theParam)
+		public BRepExtrema_SolutionElem(double theD_ist, gp_Pnt thePoint, BRepExtrema_SupportType theSolType, TopoDS_Edge theEdge, double theParam)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepExtrema_SolutionElem(double theD_ist, gp_Pnt thePoint, CascadeSharp.BRepExtrema_SupportType theSolType, TopoDS_Face theFace, double theU, double theV)
+		public BRepExtrema_SolutionElem(double theD_ist, gp_Pnt thePoint, BRepExtrema_SupportType theSolType, TopoDS_Face theFace, double theU, double theV)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -53,7 +55,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.BRepExtrema_SupportType SupportKind()
+		public BRepExtrema_SupportType SupportKind()
 		{
 			throw new NotImplementedException();
 		}

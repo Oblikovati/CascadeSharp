@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKShHealing.ShapeAnalysis;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeFix
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeFix_Wire
 	//---------------------------------------------------------------------
-	public  sealed class ShapeFix_Wire : CascadeSharp.ShapeFix_Root
+	public  sealed class ShapeFix_Wire : ShapeFix_Root
 	{
 
 		public ShapeFix_Wire()
@@ -421,57 +426,57 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool StatusReorder(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusReorder(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusSmall(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusSmall(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusConnected(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusConnected(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusEdgeCurves(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusEdgeCurves(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusDegenerated(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusDegenerated(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusSelfIntersection(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusSelfIntersection(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusLacking(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusLacking(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusClosed(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusClosed(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusGaps3d(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusGaps3d(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusGaps2d(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusGaps2d(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusNotches(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusNotches(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
@@ -481,12 +486,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool StatusFixTails(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusFixTails(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool LastFixStatus(CascadeSharp.ShapeExtend_Status status)
+		public bool LastFixStatus(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

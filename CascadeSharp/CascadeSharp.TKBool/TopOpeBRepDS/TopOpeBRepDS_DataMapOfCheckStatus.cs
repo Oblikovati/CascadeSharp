@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_DataMapOfCheckStatus
@@ -47,7 +48,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_CheckStatus Bound(int theKey,  ref CascadeSharp.TopOpeBRepDS_CheckStatus theItem)
+		public TopOpeBRepDS_CheckStatus Bound(int theKey,  ref TopOpeBRepDS_CheckStatus theItem)
 		{
 			throw new NotImplementedException();
 		}
@@ -62,27 +63,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_CheckStatus Seek(int theKey)
+		public TopOpeBRepDS_CheckStatus Seek(int theKey)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_CheckStatus Find(int theKey)
+		public TopOpeBRepDS_CheckStatus Find(int theKey)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool Find(int theKey,  ref CascadeSharp.TopOpeBRepDS_CheckStatus theValue)
+		public bool Find(int theKey,  ref TopOpeBRepDS_CheckStatus theValue)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_CheckStatus ChangeSeek(int theKey)
+		public TopOpeBRepDS_CheckStatus ChangeSeek(int theKey)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_CheckStatus ChangeFind(int theKey)
+		public TopOpeBRepDS_CheckStatus ChangeFind(int theKey)
 		{
 			throw new NotImplementedException();
 		}

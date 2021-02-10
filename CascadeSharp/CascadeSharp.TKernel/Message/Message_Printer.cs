@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_Printer
@@ -30,37 +31,37 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.Message_Gravity GetTraceLevel()
+						public Message_Gravity GetTraceLevel()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTraceLevel(CascadeSharp.Message_Gravity theTraceLevel)
+		public void SetTraceLevel(Message_Gravity theTraceLevel)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Send(TCollection_ExtendedString theString, CascadeSharp.Message_Gravity theGravity)
+		public void Send(TCollection_ExtendedString theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Send(string theString, CascadeSharp.Message_Gravity theGravity)
+		public void Send(string theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Send(TCollection_AsciiString theString, CascadeSharp.Message_Gravity theGravity)
+		public void Send(TCollection_AsciiString theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
 
-				public void SendObject(Standard_Transient theObject, CascadeSharp.Message_Gravity theGravity)
+				public void SendObject(Standard_Transient theObject, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void send(TCollection_AsciiString theString, CascadeSharp.Message_Gravity theGravity)
+		public void send(TCollection_AsciiString theString, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}

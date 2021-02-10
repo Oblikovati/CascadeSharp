@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.ProjLib
 {
 	//---------------------------------------------------------------------
 	//  Class  ProjLib_CompProjectedCurve
 	//---------------------------------------------------------------------
-	public  sealed class ProjLib_CompProjectedCurve : CascadeSharp.Adaptor2d_Curve2d
+	public  sealed class ProjLib_CompProjectedCurve : Adaptor2d_Curve2d
 	{
 
 		public ProjLib_CompProjectedCurve()
@@ -127,7 +132,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
@@ -137,7 +142,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
@@ -152,7 +157,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_CurveType GetGeomType()
+		public GeomAbs_CurveType GetGeomType()
 		{
 			throw new NotImplementedException();
 		}
@@ -162,7 +167,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void BuildIntervals(CascadeSharp.GeomAbs_Shape S)
+		public void BuildIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

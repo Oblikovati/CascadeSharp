@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBO.BRepAlgoAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepAlgoAPI_Fuse
 	//---------------------------------------------------------------------
-	public  sealed class BRepAlgoAPI_Fuse : CascadeSharp.BRepAlgoAPI_BooleanOperation
+	public  sealed class BRepAlgoAPI_Fuse : BRepAlgoAPI_BooleanOperation
 	{
 
 		public BRepAlgoAPI_Fuse()

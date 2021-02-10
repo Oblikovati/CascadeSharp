@@ -2,24 +2,27 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_WLine
 	//---------------------------------------------------------------------
-	public  sealed class IntPatch_WLine : CascadeSharp.IntPatch_PointLine
+	public  sealed class IntPatch_WLine : IntPatch_PointLine
 	{
 
-		public IntPatch_WLine(IntSurf_LineOn2S Line, bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_WLine(IntSurf_LineOn2S Line, bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_WLine(IntSurf_LineOn2S Line, bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_WLine(IntSurf_LineOn2S Line, bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -237,12 +240,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntPatch_WLine.IntPatch_WLType GetCreatingWay()
+		public IntPatch_WLType GetCreatingWay()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetCreatingWayInfo(CascadeSharp.IntPatch_WLine.IntPatch_WLType theAlgo)
+		public void SetCreatingWayInfo(IntPatch_WLType theAlgo)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+
+namespace CascadeSharp.TKGeomBase.ProjLib
 {
 	//---------------------------------------------------------------------
 	//  Class  ProjLib_HProjectedCurve
 	//---------------------------------------------------------------------
-	public  sealed class ProjLib_HProjectedCurve : CascadeSharp.Adaptor2d_HCurve2d
+	public  sealed class ProjLib_HProjectedCurve : Adaptor2d_HCurve2d
 	{
 
 		public ProjLib_HProjectedCurve()

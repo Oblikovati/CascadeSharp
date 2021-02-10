@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKTopAlgo.BRepBuilderAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepBuilderAPI_Copy
 	//---------------------------------------------------------------------
-	public  sealed class BRepBuilderAPI_Copy : CascadeSharp.BRepBuilderAPI_ModifyShape
+	public  sealed class BRepBuilderAPI_Copy : BRepBuilderAPI_ModifyShape
 	{
 
 		public BRepBuilderAPI_Copy()

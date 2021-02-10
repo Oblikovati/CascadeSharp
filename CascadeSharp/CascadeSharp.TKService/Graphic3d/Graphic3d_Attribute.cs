@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Attribute
@@ -30,7 +30,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int Stride(CascadeSharp.Graphic3d_TypeOfData theType)
+		public int Stride(Graphic3d_TypeOfData theType)
 		{
 			throw new NotImplementedException();
 		}

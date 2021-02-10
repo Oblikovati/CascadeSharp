@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_AndFilter
 	//---------------------------------------------------------------------
-	public  sealed class SelectMgr_AndFilter : CascadeSharp.SelectMgr_CompositionFilter
+	public  sealed class SelectMgr_AndFilter : SelectMgr_CompositionFilter
 	{
 
 		public SelectMgr_AndFilter()

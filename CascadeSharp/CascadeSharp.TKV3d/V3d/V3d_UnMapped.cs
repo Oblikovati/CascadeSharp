@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKV3d.V3d
 {
 	//---------------------------------------------------------------------
 	//  Class  V3d_UnMapped
 	//---------------------------------------------------------------------
-	public  sealed class V3d_UnMapped : CascadeSharp.Standard_DomainError
+	public  sealed class V3d_UnMapped : Standard_DomainError
 	{
 
 		public V3d_UnMapped()

@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKGeomAlgo.IntSurf
 {
 	//---------------------------------------------------------------------
 	//  Class  IntSurf_Transition
@@ -19,13 +19,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public IntSurf_Transition(bool Tangent, CascadeSharp.IntSurf_TypeTrans Type)
+		public IntSurf_Transition(bool Tangent, IntSurf_TypeTrans Type)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntSurf_Transition(bool Tangent, CascadeSharp.IntSurf_Situation Situ, bool Oppos)
+		public IntSurf_Transition(bool Tangent, IntSurf_Situation Situ, bool Oppos)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -37,12 +37,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetValue(bool Tangent, CascadeSharp.IntSurf_TypeTrans Type)
+		public void SetValue(bool Tangent, IntSurf_TypeTrans Type)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetValue(bool Tangent, CascadeSharp.IntSurf_Situation Situ, bool Oppos)
+		public void SetValue(bool Tangent, IntSurf_Situation Situ, bool Oppos)
 		{
 			throw new NotImplementedException();
 		}
@@ -52,7 +52,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_TypeTrans TransitionType()
+		public IntSurf_TypeTrans TransitionType()
 		{
 			throw new NotImplementedException();
 		}
@@ -62,7 +62,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntSurf_Situation Situation()
+		public IntSurf_Situation Situation()
 		{
 			throw new NotImplementedException();
 		}

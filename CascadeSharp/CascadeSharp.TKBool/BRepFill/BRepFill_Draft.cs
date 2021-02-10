@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_Draft
@@ -30,17 +35,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetOptions(CascadeSharp.BRepFill_TransitionStyle Style, double AngleMin, double AngleMax)
+		public void SetOptions(BRepFill_TransitionStyle Style, double AngleMin, double AngleMax)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetOptions(CascadeSharp.BRepFill_TransitionStyle Style, double AngleMin)
+		public void SetOptions(BRepFill_TransitionStyle Style, double AngleMin)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetOptions(CascadeSharp.BRepFill_TransitionStyle Style)
+		public void SetOptions(BRepFill_TransitionStyle Style)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_BoundedCurve
 	//---------------------------------------------------------------------
-	public  abstract class Geom_BoundedCurve : CascadeSharp.Geom_Curve
+	public  abstract class Geom_BoundedCurve : Geom_Curve
 	{
 
 		public Geom_BoundedCurve(Geom_BoundedCurve parameter1)

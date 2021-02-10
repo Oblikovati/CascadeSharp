@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.Geom;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_DataStructure
@@ -290,22 +293,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Config SameDomainOri(int I)
+		public TopOpeBRepDS_Config SameDomainOri(int I)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Config SameDomainOri(TopoDS_Shape S)
+		public TopOpeBRepDS_Config SameDomainOri(TopoDS_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SameDomainOri(int I, CascadeSharp.TopOpeBRepDS_Config Ori)
+		public void SameDomainOri(int I, TopOpeBRepDS_Config Ori)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SameDomainOri(TopoDS_Shape S, CascadeSharp.TopOpeBRepDS_Config Ori)
+		public void SameDomainOri(TopoDS_Shape S, TopOpeBRepDS_Config Ori)
 		{
 			throw new NotImplementedException();
 		}
@@ -370,12 +373,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void FillShapesSameDomain(TopoDS_Shape S1, TopoDS_Shape S2, CascadeSharp.TopOpeBRepDS_Config c1, CascadeSharp.TopOpeBRepDS_Config c2, bool _refFirst)
+		public void FillShapesSameDomain(TopoDS_Shape S1, TopoDS_Shape S2, TopOpeBRepDS_Config c1, TopOpeBRepDS_Config c2, bool _refFirst)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void FillShapesSameDomain(TopoDS_Shape S1, TopoDS_Shape S2, CascadeSharp.TopOpeBRepDS_Config c1, CascadeSharp.TopOpeBRepDS_Config c2)
+		public void FillShapesSameDomain(TopoDS_Shape S1, TopoDS_Shape S2, TopOpeBRepDS_Config c1, TopOpeBRepDS_Config c2)
 		{
 			throw new NotImplementedException();
 		}

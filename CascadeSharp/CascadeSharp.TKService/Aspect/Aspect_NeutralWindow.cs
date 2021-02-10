@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_NeutralWindow
 	//---------------------------------------------------------------------
-	public  sealed class Aspect_NeutralWindow : CascadeSharp.Aspect_Window
+	public  sealed class Aspect_NeutralWindow : Aspect_Window
 	{
 
 		public Aspect_NeutralWindow()
@@ -70,7 +70,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfResize DoResize()
+		public Aspect_TypeOfResize DoResize()
 		{
 			throw new NotImplementedException();
 		}

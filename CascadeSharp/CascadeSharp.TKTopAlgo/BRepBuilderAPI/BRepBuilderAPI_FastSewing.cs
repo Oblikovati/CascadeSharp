@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG3d.Geom;
+
+namespace CascadeSharp.TKTopAlgo.BRepBuilderAPI
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepBuilderAPI_FastSewing
@@ -90,7 +93,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public uint SetStatus(CascadeSharp.BRepBuilderAPI_FastSewing.FS_Statuses theStatus)
+		public uint SetStatus(FS_Statuses theStatus)
 		{
 			throw new NotImplementedException();
 		}

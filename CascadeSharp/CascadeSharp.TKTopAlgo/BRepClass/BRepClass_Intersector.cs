@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.Geom2dInt;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepClass
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepClass_Intersector
 	//---------------------------------------------------------------------
-	public  sealed class BRepClass_Intersector : CascadeSharp.Geom2dInt_IntConicCurveOfGInter
+	public  sealed class BRepClass_Intersector : Geom2dInt_IntConicCurveOfGInter
 	{
 
 		public BRepClass_Intersector()

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKService.Aspect
 {
 	//---------------------------------------------------------------------
 	//  Class  Aspect_CircularGrid
 	//---------------------------------------------------------------------
-	public  abstract class Aspect_CircularGrid : CascadeSharp.Aspect_Grid
+	public  abstract class Aspect_CircularGrid : Aspect_Grid
 	{
 
 		public Aspect_CircularGrid(double aRadiusStep, int aDiv_isionNumber, double XOrigin, double anYOrigin, double aRotationAngle)

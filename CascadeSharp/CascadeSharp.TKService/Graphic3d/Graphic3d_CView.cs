@@ -2,15 +2,23 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_CView
 	//---------------------------------------------------------------------
-	public  abstract class Graphic3d_CView : CascadeSharp.Graphic3d_DataStructureManager
+	public  abstract class Graphic3d_CView : Graphic3d_DataStructureManager
 	{
 
 		public Graphic3d_CView(Graphic3d_StructureManager theMgr)
@@ -75,22 +83,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfShadingModel ShadingModel()
+		public Graphic3d_TypeOfShadingModel ShadingModel()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetShadingModel(CascadeSharp.Graphic3d_TypeOfShadingModel theModel)
+		public void SetShadingModel(Graphic3d_TypeOfShadingModel theModel)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfVisualization VisualizationType()
+		public Graphic3d_TypeOfVisualization VisualizationType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetVisualizationType(CascadeSharp.Graphic3d_TypeOfVisualization theType)
+		public void SetVisualizationType(Graphic3d_TypeOfVisualization theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -175,7 +183,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfAnswer acceptDisplay(CascadeSharp.Graphic3d_TypeOfStructure theStructType)
+		public Graphic3d_TypeOfAnswer acceptDisplay(Graphic3d_TypeOfStructure theStructType)
 		{
 			throw new NotImplementedException();
 		}
@@ -295,7 +303,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool BufferDump(Image_PixMap theImage,  ref CascadeSharp.Graphic3d_BufferType theBufferType)
+		public bool BufferDump(Image_PixMap theImage,  ref Graphic3d_BufferType theBufferType)
 		{
 			throw new NotImplementedException();
 		}
@@ -420,12 +428,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_FillMethod BackgroundImageStyle()
+		public Aspect_FillMethod BackgroundImageStyle()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBackgroundImageStyle(CascadeSharp.Aspect_FillMethod theFillStyle)
+		public void SetBackgroundImageStyle(Aspect_FillMethod theFillStyle)
 		{
 			throw new NotImplementedException();
 		}
@@ -455,12 +463,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfBackfacingModel BackfacingModel()
+		public Graphic3d_TypeOfBackfacingModel BackfacingModel()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetBackfacingModel(CascadeSharp.Graphic3d_TypeOfBackfacingModel theModel)
+		public void SetBackfacingModel(Graphic3d_TypeOfBackfacingModel theModel)
 		{
 			throw new NotImplementedException();
 		}
@@ -485,7 +493,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void DiagnosticInformation(TColStd_IndexedDataMapOfStringString theDict, CascadeSharp.Graphic3d_DiagnosticInfo theFlags)
+		public void DiagnosticInformation(TColStd_IndexedDataMapOfStringString theDict, Graphic3d_DiagnosticInfo theFlags)
 		{
 			throw new NotImplementedException();
 		}

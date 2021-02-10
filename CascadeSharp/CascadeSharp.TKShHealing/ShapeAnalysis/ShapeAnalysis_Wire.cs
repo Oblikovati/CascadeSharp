@@ -2,10 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeAnalysis
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeAnalysis_Wire
@@ -387,67 +398,67 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool StatusOrder(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusOrder(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusConnected(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusConnected(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusEdgeCurves(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusEdgeCurves(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusDegenerated(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusDegenerated(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusClosed(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusClosed(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusSmall(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusSmall(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusSelfIntersection(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusSelfIntersection(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusLacking(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusLacking(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusGaps3d(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusGaps3d(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusGaps2d(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusGaps2d(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusCurveGaps(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusCurveGaps(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusLoop(CascadeSharp.ShapeExtend_Status Status)
+		public bool StatusLoop(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool LastCheckStatus(CascadeSharp.ShapeExtend_Status Status)
+		public bool LastCheckStatus(ShapeExtend_Status Status)
 		{
 			throw new NotImplementedException();
 		}

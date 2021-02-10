@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_Transition
@@ -19,25 +20,25 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition(CascadeSharp.TopAbs_State StateBefore, CascadeSharp.TopAbs_State StateAfter, CascadeSharp.TopAbs_ShapeEnum ShapeBefore, CascadeSharp.TopAbs_ShapeEnum ShapeAfter)
+		public TopOpeBRepDS_Transition(TopAbs_State StateBefore, TopAbs_State StateAfter, TopAbs_ShapeEnum ShapeBefore, TopAbs_ShapeEnum ShapeAfter)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition(CascadeSharp.TopAbs_State StateBefore, CascadeSharp.TopAbs_State StateAfter, CascadeSharp.TopAbs_ShapeEnum ShapeBefore)
+		public TopOpeBRepDS_Transition(TopAbs_State StateBefore, TopAbs_State StateAfter, TopAbs_ShapeEnum ShapeBefore)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition(CascadeSharp.TopAbs_State StateBefore, CascadeSharp.TopAbs_State StateAfter)
+		public TopOpeBRepDS_Transition(TopAbs_State StateBefore, TopAbs_State StateAfter)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Transition(CascadeSharp.TopAbs_Orientation O)
+		public TopOpeBRepDS_Transition(TopAbs_Orientation O)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -49,57 +50,57 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Set(CascadeSharp.TopAbs_State StateBefore, CascadeSharp.TopAbs_State StateAfter, CascadeSharp.TopAbs_ShapeEnum ShapeBefore, CascadeSharp.TopAbs_ShapeEnum ShapeAfter)
+		public void Set(TopAbs_State StateBefore, TopAbs_State StateAfter, TopAbs_ShapeEnum ShapeBefore, TopAbs_ShapeEnum ShapeAfter)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Set(CascadeSharp.TopAbs_State StateBefore, CascadeSharp.TopAbs_State StateAfter, CascadeSharp.TopAbs_ShapeEnum ShapeBefore)
+		public void Set(TopAbs_State StateBefore, TopAbs_State StateAfter, TopAbs_ShapeEnum ShapeBefore)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Set(CascadeSharp.TopAbs_State StateBefore, CascadeSharp.TopAbs_State StateAfter)
+		public void Set(TopAbs_State StateBefore, TopAbs_State StateAfter)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void StateBefore(CascadeSharp.TopAbs_State S)
+		public void StateBefore(TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void StateAfter(CascadeSharp.TopAbs_State S)
+		public void StateAfter(TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void ShapeBefore(CascadeSharp.TopAbs_ShapeEnum SE)
+		public void ShapeBefore(TopAbs_ShapeEnum SE)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void ShapeAfter(CascadeSharp.TopAbs_ShapeEnum SE)
+		public void ShapeAfter(TopAbs_ShapeEnum SE)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Before(CascadeSharp.TopAbs_State S, CascadeSharp.TopAbs_ShapeEnum ShapeBefore)
+		public void Before(TopAbs_State S, TopAbs_ShapeEnum ShapeBefore)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Before(CascadeSharp.TopAbs_State S)
+		public void Before(TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void After(CascadeSharp.TopAbs_State S, CascadeSharp.TopAbs_ShapeEnum ShapeAfter)
+		public void After(TopAbs_State S, TopAbs_ShapeEnum ShapeAfter)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void After(CascadeSharp.TopAbs_State S)
+		public void After(TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}
@@ -119,32 +120,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Before()
+		public TopAbs_State Before()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum ONBefore()
+		public TopAbs_ShapeEnum ONBefore()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State After()
+		public TopAbs_State After()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum ONAfter()
+		public TopAbs_ShapeEnum ONAfter()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum ShapeBefore()
+		public TopAbs_ShapeEnum ShapeBefore()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_ShapeEnum ShapeAfter()
+		public TopAbs_ShapeEnum ShapeAfter()
 		{
 			throw new NotImplementedException();
 		}
@@ -164,17 +165,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Set(CascadeSharp.TopAbs_Orientation O)
+		public void Set(TopAbs_Orientation O)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(CascadeSharp.TopAbs_State S, CascadeSharp.TopAbs_ShapeEnum T)
+		public TopAbs_Orientation Orientation(TopAbs_State S, TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(CascadeSharp.TopAbs_State S)
+		public TopAbs_Orientation Orientation(TopAbs_State S)
 		{
 			throw new NotImplementedException();
 		}
@@ -189,7 +190,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation OrientationON(CascadeSharp.TopAbs_State S, CascadeSharp.TopAbs_ShapeEnum T)
+		public TopAbs_Orientation OrientationON(TopAbs_State S, TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}

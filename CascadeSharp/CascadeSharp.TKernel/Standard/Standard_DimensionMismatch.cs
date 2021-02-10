@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_DimensionMismatch
 	//---------------------------------------------------------------------
-	public  sealed class Standard_DimensionMismatch : CascadeSharp.Standard_DimensionError
+	public  sealed class Standard_DimensionMismatch : Standard_DimensionError
 	{
 
 		public Standard_DimensionMismatch()

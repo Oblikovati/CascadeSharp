@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Font;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Text
@@ -105,22 +109,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_HorizontalTextAlignment HorizontalAlignment()
+		public Graphic3d_HorizontalTextAlignment HorizontalAlignment()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetHorizontalAlignment(CascadeSharp.Graphic3d_HorizontalTextAlignment theJustification)
+		public void SetHorizontalAlignment(Graphic3d_HorizontalTextAlignment theJustification)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_VerticalTextAlignment VerticalAlignment()
+		public Graphic3d_VerticalTextAlignment VerticalAlignment()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetVerticalAlignment(CascadeSharp.Graphic3d_VerticalTextAlignment theJustification)
+		public void SetVerticalAlignment(Graphic3d_VerticalTextAlignment theJustification)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.Hatch
 {
 	//---------------------------------------------------------------------
 	//  Class  Hatch_Hatcher
@@ -46,7 +47,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void AddLine(gp_Lin2d L, CascadeSharp.Hatch_LineForm T)
+		public void AddLine(gp_Lin2d L, Hatch_LineForm T)
 		{
 			throw new NotImplementedException();
 		}
@@ -116,7 +117,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Hatch_LineForm LineForm(int I)
+		public Hatch_LineForm LineForm(int I)
 		{
 			throw new NotImplementedException();
 		}

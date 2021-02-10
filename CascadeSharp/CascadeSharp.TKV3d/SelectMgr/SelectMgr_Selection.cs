@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_Selection
@@ -55,32 +56,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public CascadeSharp.SelectMgr_TypeOfUpdate UpdateStatus()
+						public SelectMgr_TypeOfUpdate UpdateStatus()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void UpdateStatus(CascadeSharp.SelectMgr_TypeOfUpdate theStatus)
+		public void UpdateStatus(SelectMgr_TypeOfUpdate theStatus)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void UpdateBVHStatus(CascadeSharp.SelectMgr_TypeOfBVHUpdate theStatus)
+		public void UpdateBVHStatus(SelectMgr_TypeOfBVHUpdate theStatus)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.SelectMgr_TypeOfBVHUpdate BVHUpdateStatus()
+		public SelectMgr_TypeOfBVHUpdate BVHUpdateStatus()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.SelectMgr_StateOfSelection GetSelectionState()
+		public SelectMgr_StateOfSelection GetSelectionState()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetSelectionState(CascadeSharp.SelectMgr_StateOfSelection theState)
+		public void SetSelectionState(SelectMgr_StateOfSelection theState)
 		{
 			throw new NotImplementedException();
 		}

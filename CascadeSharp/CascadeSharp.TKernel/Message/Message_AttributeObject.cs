@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_AttributeObject
 	//---------------------------------------------------------------------
-	public  sealed class Message_AttributeObject : CascadeSharp.Message_Attribute
+	public  sealed class Message_AttributeObject : Message_Attribute
 	{
 
 		public Message_AttributeObject(Standard_Transient theObject, TCollection_AsciiString theName)

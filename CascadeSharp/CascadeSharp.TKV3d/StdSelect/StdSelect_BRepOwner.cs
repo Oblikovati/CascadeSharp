@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.StdSelect
 {
 	//---------------------------------------------------------------------
 	//  Class  StdSelect_BRepOwner
 	//---------------------------------------------------------------------
-	public  sealed class StdSelect_BRepOwner : CascadeSharp.SelectMgr_EntityOwner
+	public  sealed class StdSelect_BRepOwner : SelectMgr_EntityOwner
 	{
 
 		public StdSelect_BRepOwner(int aPriority)

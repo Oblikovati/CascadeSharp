@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.NCollection
 {
 	//---------------------------------------------------------------------
 	//  Class  NCollection_AlignedAllocator
 	//---------------------------------------------------------------------
-	public  sealed class NCollection_AlignedAllocator : CascadeSharp.NCollection_BaseAllocator
+	public  sealed class NCollection_AlignedAllocator : NCollection_BaseAllocator
 	{
 
 		public NCollection_AlignedAllocator(UInt64 theAlignment)

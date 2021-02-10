@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKTopAlgo.Bisector
 {
 	//---------------------------------------------------------------------
 	//  Class  Bisector_FunctionInter
 	//---------------------------------------------------------------------
-	public  sealed class Bisector_FunctionInter : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class Bisector_FunctionInter : math_FunctionWithDerivative
 	{
 
 		public Bisector_FunctionInter()

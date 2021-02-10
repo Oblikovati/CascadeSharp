@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.Convert;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKFillet.BlendFunc
 {
 	//---------------------------------------------------------------------
 	//  Class  BlendFunc
@@ -25,27 +30,27 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void GetShape(CascadeSharp.BlendFunc_SectionShape SectShape, double MaxAng, ref int NbPoles, ref int NbKnots, ref int Degree,  ref CascadeSharp.Convert_ParameterisationType TypeConv)
+		public void GetShape(BlendFunc_SectionShape SectShape, double MaxAng, ref int NbPoles, ref int NbKnots, ref int Degree,  ref Convert_ParameterisationType TypeConv)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Knots(CascadeSharp.BlendFunc_SectionShape SectShape, TColStd_Array1OfReal TKnots)
+		public void Knots(BlendFunc_SectionShape SectShape, TColStd_Array1OfReal TKnots)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Mults(CascadeSharp.BlendFunc_SectionShape SectShape, TColStd_Array1OfInteger TMults)
+		public void Mults(BlendFunc_SectionShape SectShape, TColStd_Array1OfInteger TMults)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void GetMinimalWeights(CascadeSharp.BlendFunc_SectionShape SectShape, CascadeSharp.Convert_ParameterisationType TConv, double AngleMin, double AngleMax, TColStd_Array1OfReal Weigths)
+		public void GetMinimalWeights(BlendFunc_SectionShape SectShape, Convert_ParameterisationType TConv, double AngleMin, double AngleMax, TColStd_Array1OfReal Weigths)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape NextShape(CascadeSharp.GeomAbs_Shape S)
+		public GeomAbs_Shape NextShape(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

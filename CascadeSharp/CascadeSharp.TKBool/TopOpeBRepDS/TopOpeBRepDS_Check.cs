@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_Check
@@ -41,7 +43,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool CheckDS(int i, CascadeSharp.TopOpeBRepDS_Kind K)
+		public bool CheckDS(int i, TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.Bisector
 {
 	//---------------------------------------------------------------------
 	//  Class  Bisector_BisecCC
 	//---------------------------------------------------------------------
-	public  sealed class Bisector_BisecCC : CascadeSharp.Bisector_Curve
+	public  sealed class Bisector_BisecCC : Bisector_Curve
 	{
 
 		public Bisector_BisecCC()
@@ -97,7 +101,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
@@ -117,7 +121,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape IntervalContinuity()
+		public GeomAbs_Shape IntervalContinuity()
 		{
 			throw new NotImplementedException();
 		}

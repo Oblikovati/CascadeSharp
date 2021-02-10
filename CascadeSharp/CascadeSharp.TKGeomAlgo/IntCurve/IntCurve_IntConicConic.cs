@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntCurve
 {
 	//---------------------------------------------------------------------
 	//  Class  IntCurve_IntConicConic
 	//---------------------------------------------------------------------
-	public  sealed class IntCurve_IntConicConic : CascadeSharp.IntRes2d_Intersection
+	public  sealed class IntCurve_IntConicConic : IntRes2d_Intersection
 	{
 
 		public IntCurve_IntConicConic()

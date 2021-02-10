@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_EdgesFiller
@@ -40,7 +42,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public bool MakeGeometry(TopOpeBRep_Point2d P, ref int G,  ref CascadeSharp.TopOpeBRepDS_Kind K)
+				public bool MakeGeometry(TopOpeBRep_Point2d P, ref int G,  ref TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
@@ -55,7 +57,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_Interference StoreVI(TopOpeBRep_Point2d P, TopOpeBRepDS_Transition T, int EI, int VI, bool VB, CascadeSharp.TopOpeBRepDS_Config C, double p, int IE)
+		public TopOpeBRepDS_Interference StoreVI(TopOpeBRep_Point2d P, TopOpeBRepDS_Transition T, int EI, int VI, bool VB, TopOpeBRepDS_Config C, double p, int IE)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_Curve3D
 	//---------------------------------------------------------------------
-	public  sealed class BRep_Curve3D : CascadeSharp.BRep_GCurve
+	public  sealed class BRep_Curve3D : BRep_GCurve
 	{
 
 		public BRep_Curve3D(Geom_Curve C, TopLoc_Location L)

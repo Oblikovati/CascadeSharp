@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKG2d.LProp
 {
 	//---------------------------------------------------------------------
 	//  Class  LProp_CurAndInf
@@ -55,7 +55,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.LProp_CIType Type(int N)
+		public LProp_CIType Type(int N)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKTopAlgo.MAT;
+
+namespace CascadeSharp.TKTopAlgo.MAT2d
 {
 	//---------------------------------------------------------------------
 	//  Class  MAT2d_CutCurve
@@ -36,7 +38,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(Geom2d_Curve C, CascadeSharp.MAT_Side aSide)
+		public void Perform(Geom2d_Curve C, MAT_Side aSide)
 		{
 			throw new NotImplementedException();
 		}

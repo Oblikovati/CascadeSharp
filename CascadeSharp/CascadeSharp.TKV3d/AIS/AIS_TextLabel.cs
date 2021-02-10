@@ -2,15 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Font;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_TextLabel
 	//---------------------------------------------------------------------
-	public  sealed class AIS_TextLabel : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_TextLabel : AIS_InteractiveObject
 	{
 
 		public AIS_TextLabel()
@@ -60,12 +67,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetHJustification(CascadeSharp.Graphic3d_HorizontalTextAlignment theHJust)
+		public void SetHJustification(Graphic3d_HorizontalTextAlignment theHJust)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetVJustification(CascadeSharp.Graphic3d_VerticalTextAlignment theVJust)
+		public void SetVJustification(Graphic3d_VerticalTextAlignment theVJust)
 		{
 			throw new NotImplementedException();
 		}
@@ -85,7 +92,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetFontAspect(CascadeSharp.Font_FontAspect theFontAspect)
+		public void SetFontAspect(Font_FontAspect theFontAspect)
 		{
 			throw new NotImplementedException();
 		}
@@ -120,7 +127,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Font_FontAspect FontAspect()
+		public Font_FontAspect FontAspect()
 		{
 			throw new NotImplementedException();
 		}
@@ -155,7 +162,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetDisplayType(CascadeSharp.Aspect_TypeOfDisplayText theD_isplayType)
+		public void SetDisplayType(Aspect_TypeOfDisplayText theD_isplayType)
 		{
 			throw new NotImplementedException();
 		}

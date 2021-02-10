@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKMath.GeomAbs;
+
+namespace CascadeSharp.TKBRep.BRepLProp
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepLProp
@@ -25,12 +27,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity(BRepAdaptor_Curve C1, BRepAdaptor_Curve C2, double u1, double u2, double tl, double ta)
+		public GeomAbs_Shape Continuity(BRepAdaptor_Curve C1, BRepAdaptor_Curve C2, double u1, double u2, double tl, double ta)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity(BRepAdaptor_Curve C1, BRepAdaptor_Curve C2, double u1, double u2)
+		public GeomAbs_Shape Continuity(BRepAdaptor_Curve C1, BRepAdaptor_Curve C2, double u1, double u2)
 		{
 			throw new NotImplementedException();
 		}

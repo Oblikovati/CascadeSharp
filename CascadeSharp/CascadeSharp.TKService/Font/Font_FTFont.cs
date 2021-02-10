@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Font
 {
 	//---------------------------------------------------------------------
 	//  Class  Font_FTFont
@@ -29,12 +33,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public Font_FTFont FindAndCreate(TCollection_AsciiString theFontName, CascadeSharp.Font_FontAspect theFontAspect, Font_FTFontParams theParams, CascadeSharp.Font_StrictLevel theStrictLevel)
+						public Font_FTFont FindAndCreate(TCollection_AsciiString theFontName, Font_FontAspect theFontAspect, Font_FTFontParams theParams, Font_StrictLevel theStrictLevel)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Font_FTFont FindAndCreate(TCollection_AsciiString theFontName, CascadeSharp.Font_FontAspect theFontAspect, Font_FTFontParams theParams)
+		public Font_FTFont FindAndCreate(TCollection_AsciiString theFontName, Font_FontAspect theFontAspect, Font_FTFontParams theParams)
 		{
 			throw new NotImplementedException();
 		}
@@ -69,12 +73,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool FindAndInit(TCollection_AsciiString theFontName, CascadeSharp.Font_FontAspect theFontAspect, Font_FTFontParams theParams, CascadeSharp.Font_StrictLevel theStrictLevel)
+		public bool FindAndInit(TCollection_AsciiString theFontName, Font_FontAspect theFontAspect, Font_FTFontParams theParams, Font_StrictLevel theStrictLevel)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool FindAndInit(TCollection_AsciiString theFontName, CascadeSharp.Font_FontAspect theFontAspect, Font_FTFontParams theParams)
+		public bool FindAndInit(TCollection_AsciiString theFontName, Font_FontAspect theFontAspect, Font_FTFontParams theParams)
 		{
 			throw new NotImplementedException();
 		}
@@ -174,7 +178,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-														public bool findAndInitFallback(CascadeSharp.Font_UnicodeSubset theSubset)
+														public bool findAndInitFallback(Font_UnicodeSubset theSubset)
 		{
 			throw new NotImplementedException();
 		}

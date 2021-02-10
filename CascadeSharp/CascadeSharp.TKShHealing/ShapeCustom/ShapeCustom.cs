@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKShHealing.ShapeBuild;
+
+namespace CascadeSharp.TKShHealing.ShapeCustom
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeCustom
@@ -50,7 +56,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopoDS_Shape BSplineRestriction(TopoDS_Shape S, double Tol3d, double Tol2d, int MaxDegree, int MaxNbSegment, CascadeSharp.GeomAbs_Shape Continuity3d, CascadeSharp.GeomAbs_Shape Continuity2d, bool Degree, bool Rational, ShapeCustom_RestrictionParameters aParameters)
+		public TopoDS_Shape BSplineRestriction(TopoDS_Shape S, double Tol3d, double Tol2d, int MaxDegree, int MaxNbSegment, GeomAbs_Shape Continuity3d, GeomAbs_Shape Continuity2d, bool Degree, bool Rational, ShapeCustom_RestrictionParameters aParameters)
 		{
 			throw new NotImplementedException();
 		}

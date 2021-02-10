@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKBO.BOPTools
 {
 	//---------------------------------------------------------------------
 	//  Class  BOPTools_Set
@@ -41,7 +44,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Add(TopoDS_Shape theS, CascadeSharp.TopAbs_ShapeEnum theType)
+		public void Add(TopoDS_Shape theS, TopAbs_ShapeEnum theType)
 		{
 			throw new NotImplementedException();
 		}

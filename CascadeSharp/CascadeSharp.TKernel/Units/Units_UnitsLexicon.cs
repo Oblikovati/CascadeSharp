@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Units
 {
 	//---------------------------------------------------------------------
 	//  Class  Units_UnitsLexicon
 	//---------------------------------------------------------------------
-	public  sealed class Units_UnitsLexicon : CascadeSharp.Units_Lexicon
+	public  sealed class Units_UnitsLexicon : Units_Lexicon
 	{
 
 		public Units_UnitsLexicon()

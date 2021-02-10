@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_Dumper
@@ -30,7 +33,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TCollection_AsciiString SDumpRefOri(CascadeSharp.TopOpeBRepDS_Kind K, int I)
+		public TCollection_AsciiString SDumpRefOri(TopOpeBRepDS_Kind K, int I)
 		{
 			throw new NotImplementedException();
 		}

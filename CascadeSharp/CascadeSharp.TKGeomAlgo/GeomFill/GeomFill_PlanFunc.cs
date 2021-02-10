@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_PlanFunc
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_PlanFunc : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class GeomFill_PlanFunc : math_FunctionWithDerivative
 	{
 
 		public GeomFill_PlanFunc(gp_Pnt P, gp_Vec V, Adaptor3d_HCurve C)

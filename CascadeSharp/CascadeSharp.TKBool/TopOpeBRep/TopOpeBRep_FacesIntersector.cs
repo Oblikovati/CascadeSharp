@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.Bnd;
+
+namespace CascadeSharp.TKBool.TopOpeBRep
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRep_FacesIntersector
@@ -140,7 +144,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public double ToleranceMax(TopoDS_Shape S, CascadeSharp.TopAbs_ShapeEnum T)
+		public double ToleranceMax(TopoDS_Shape S, TopAbs_ShapeEnum T)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,18 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.FEmTool
 {
 	//---------------------------------------------------------------------
 	//  Class  FEmTool_LinearJerk
 	//---------------------------------------------------------------------
-	public  sealed class FEmTool_LinearJerk : CascadeSharp.FEmTool_ElementaryCriterion
+	public  sealed class FEmTool_LinearJerk : FEmTool_ElementaryCriterion
 	{
 
-		public FEmTool_LinearJerk(int WorkDegree, CascadeSharp.GeomAbs_Shape ConstraintOrder)
+		public FEmTool_LinearJerk(int WorkDegree, GeomAbs_Shape ConstraintOrder)
 			: base()
 		{
 			throw new NotImplementedException();

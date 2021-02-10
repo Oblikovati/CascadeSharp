@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKernel.Quantity
 {
 	//---------------------------------------------------------------------
 	//  Class  Quantity_PeriodDefinitionError
 	//---------------------------------------------------------------------
-	public  sealed class Quantity_PeriodDefinitionError : CascadeSharp.Standard_DomainError
+	public  sealed class Quantity_PeriodDefinitionError : Standard_DomainError
 	{
 
 		public Quantity_PeriodDefinitionError()

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBool.TopOpeBRepDS;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBool.TopOpeBRepBuild
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepBuild_Pave
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepBuild_Pave : CascadeSharp.TopOpeBRepBuild_Loop
+	public  sealed class TopOpeBRepBuild_Pave : TopOpeBRepBuild_Loop
 	{
 
 		public TopOpeBRepBuild_Pave(TopoDS_Shape V, double P, bool bound)
@@ -70,7 +72,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Kind InterferenceType()
+		public TopOpeBRepDS_Kind InterferenceType()
 		{
 			throw new NotImplementedException();
 		}

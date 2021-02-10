@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKMath.TColgp
 {
 	//---------------------------------------------------------------------
 	//  Class  TColgp_HArray2OfXY

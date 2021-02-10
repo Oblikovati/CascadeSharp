@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKV3d.SelectMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  SelectMgr_Filter
@@ -30,7 +32,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ActsOn(CascadeSharp.TopAbs_ShapeEnum aStandardMode)
+		public bool ActsOn(TopAbs_ShapeEnum aStandardMode)
 		{
 			throw new NotImplementedException();
 		}

@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Adaptor3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Adaptor3d_TopolTool
@@ -86,12 +91,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Classify(gp_Pnt2d P, double Tol, bool ReacdreOnPeriodic)
+		public TopAbs_State Classify(gp_Pnt2d P, double Tol, bool ReacdreOnPeriodic)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Classify(gp_Pnt2d P, double Tol)
+		public TopAbs_State Classify(gp_Pnt2d P, double Tol)
 		{
 			throw new NotImplementedException();
 		}
@@ -106,12 +111,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(Adaptor2d_HCurve2d C)
+		public TopAbs_Orientation Orientation(Adaptor2d_HCurve2d C)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation(Adaptor3d_HVertex V)
+		public TopAbs_Orientation Orientation(Adaptor3d_HVertex V)
 		{
 			throw new NotImplementedException();
 		}

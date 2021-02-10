@@ -2,10 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKTopAlgo.Bisector;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_TrimEdgeTool
@@ -31,7 +37,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void IntersectWith(TopoDS_Edge Edge1, TopoDS_Edge Edge2, TopoDS_Shape InitShape1, TopoDS_Shape InitShape2, TopoDS_Vertex End1, TopoDS_Vertex End2, CascadeSharp.GeomAbs_JoinType theJoinType, bool IsOpenResult, TColgp_SequenceOfPnt Params)
+		public void IntersectWith(TopoDS_Edge Edge1, TopoDS_Edge Edge2, TopoDS_Shape InitShape1, TopoDS_Shape InitShape2, TopoDS_Vertex End1, TopoDS_Vertex End2, GeomAbs_JoinType theJoinType, bool IsOpenResult, TColgp_SequenceOfPnt Params)
 		{
 			throw new NotImplementedException();
 		}

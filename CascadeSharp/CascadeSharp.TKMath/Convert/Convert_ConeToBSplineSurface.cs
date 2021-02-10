@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKMath.Convert
 {
 	//---------------------------------------------------------------------
 	//  Class  Convert_ConeToBSplineSurface
 	//---------------------------------------------------------------------
-	public  sealed class Convert_ConeToBSplineSurface : CascadeSharp.Convert_ElementarySurfaceToBSplineSurface
+	public  sealed class Convert_ConeToBSplineSurface : Convert_ElementarySurfaceToBSplineSurface
 	{
 
 		public Convert_ConeToBSplineSurface(gp_Cone C, double U1, double U2, double V1, double V2)

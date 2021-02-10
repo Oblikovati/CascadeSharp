@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_ArrayOfPrimitives
@@ -13,7 +16,7 @@ namespace CascadeSharp
 	public  class Graphic3d_ArrayOfPrimitives : Standard_Transient
 	{
 
-		public Graphic3d_ArrayOfPrimitives(CascadeSharp.Graphic3d_TypeOfPrimitiveArray theType, int theMaxVertexs, int theMaxBounds, int theMaxEdges, int theArrayFlags)
+		public Graphic3d_ArrayOfPrimitives(Graphic3d_TypeOfPrimitiveArray theType, int theMaxVertexs, int theMaxBounds, int theMaxEdges, int theArrayFlags)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -35,17 +38,17 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public Graphic3d_ArrayOfPrimitives CreateArray(CascadeSharp.Graphic3d_TypeOfPrimitiveArray theType, int theMaxVertexs, int theMaxEdges, int theArrayFlags)
+						public Graphic3d_ArrayOfPrimitives CreateArray(Graphic3d_TypeOfPrimitiveArray theType, int theMaxVertexs, int theMaxEdges, int theArrayFlags)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_ArrayOfPrimitives CreateArray(CascadeSharp.Graphic3d_TypeOfPrimitiveArray theType, int theMaxVertexs, int theMaxBounds, int theMaxEdges, int theArrayFlags)
+		public Graphic3d_ArrayOfPrimitives CreateArray(Graphic3d_TypeOfPrimitiveArray theType, int theMaxVertexs, int theMaxBounds, int theMaxEdges, int theArrayFlags)
 		{
 			throw new NotImplementedException();
 		}
 
-				public CascadeSharp.Graphic3d_TypeOfPrimitiveArray Type()
+				public Graphic3d_TypeOfPrimitiveArray Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -385,7 +388,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void init(CascadeSharp.Graphic3d_TypeOfPrimitiveArray theType, int theMaxVertexs, int theMaxBounds, int theMaxEdges, int theArrayFlags)
+		public void init(Graphic3d_TypeOfPrimitiveArray theType, int theMaxVertexs, int theMaxBounds, int theMaxEdges, int theArrayFlags)
 		{
 			throw new NotImplementedException();
 		}

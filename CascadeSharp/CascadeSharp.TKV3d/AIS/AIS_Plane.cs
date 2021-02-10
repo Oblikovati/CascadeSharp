@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_Plane
 	//---------------------------------------------------------------------
-	public  sealed class AIS_Plane : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_Plane : AIS_InteractiveObject
 	{
 
 		public AIS_Plane(Geom_Plane aComponent, bool aCurrentMode)
@@ -49,13 +53,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public AIS_Plane(Geom_Axis2Placement aComponent, CascadeSharp.AIS_TypeOfPlane aPlaneType, bool aCurrentMode)
+		public AIS_Plane(Geom_Axis2Placement aComponent, AIS_TypeOfPlane aPlaneType, bool aCurrentMode)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_Plane(Geom_Axis2Placement aComponent, CascadeSharp.AIS_TypeOfPlane aPlaneType)
+		public AIS_Plane(Geom_Axis2Placement aComponent, AIS_TypeOfPlane aPlaneType)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -107,7 +111,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_KindOfInteractive Type()
+		public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -142,7 +146,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetAxis2Placement(Geom_Axis2Placement aComponent, CascadeSharp.AIS_TypeOfPlane aPlaneType)
+		public void SetAxis2Placement(Geom_Axis2Placement aComponent, AIS_TypeOfPlane aPlaneType)
 		{
 			throw new NotImplementedException();
 		}
@@ -152,7 +156,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_TypeOfPlane TypeOfPlane()
+		public AIS_TypeOfPlane TypeOfPlane()
 		{
 			throw new NotImplementedException();
 		}

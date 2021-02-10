@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_TransformError
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_TransformError : CascadeSharp.Standard_OutOfRange
+	public  sealed class Graphic3d_TransformError : Standard_OutOfRange
 	{
 
 		public Graphic3d_TransformError()

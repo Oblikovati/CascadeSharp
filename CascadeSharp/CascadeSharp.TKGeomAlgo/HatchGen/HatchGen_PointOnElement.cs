@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.IntRes2d;
+
+namespace CascadeSharp.TKGeomAlgo.HatchGen
 {
 	//---------------------------------------------------------------------
 	//  Class  HatchGen_PointOnElement
 	//---------------------------------------------------------------------
-	public  sealed class HatchGen_PointOnElement : CascadeSharp.HatchGen_IntersectionPoint
+	public  sealed class HatchGen_PointOnElement : HatchGen_IntersectionPoint
 	{
 
 		public HatchGen_PointOnElement()
@@ -31,12 +32,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetIntersectionType(CascadeSharp.HatchGen_IntersectionType Type)
+		public void SetIntersectionType(HatchGen_IntersectionType Type)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.HatchGen_IntersectionType IntersectionType()
+		public HatchGen_IntersectionType IntersectionType()
 		{
 			throw new NotImplementedException();
 		}

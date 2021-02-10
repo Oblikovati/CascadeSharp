@@ -2,15 +2,21 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepAdaptor;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepTopAdaptor
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepTopAdaptor_HVertex
 	//---------------------------------------------------------------------
-	public  sealed class BRepTopAdaptor_HVertex : CascadeSharp.Adaptor3d_HVertex
+	public  sealed class BRepTopAdaptor_HVertex : Adaptor3d_HVertex
 	{
 
 		public BRepTopAdaptor_HVertex(TopoDS_Vertex Vtx, BRepAdaptor_HCurve2d Curve)
@@ -55,7 +61,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation()
+		public TopAbs_Orientation Orientation()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG2d.Geom2d
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2d_OffsetCurve
 	//---------------------------------------------------------------------
-	public  sealed class Geom2d_OffsetCurve : CascadeSharp.Geom2d_Curve
+	public  sealed class Geom2d_OffsetCurve : Geom2d_Curve
 	{
 
 		public Geom2d_OffsetCurve(Geom2d_Curve C, double Offset, bool _isNotCheckC0)
@@ -66,7 +68,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity()
+		public GeomAbs_Shape Continuity()
 		{
 			throw new NotImplementedException();
 		}
@@ -151,7 +153,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape GetBasisCurveContinuity()
+		public GeomAbs_Shape GetBasisCurveContinuity()
 		{
 			throw new NotImplementedException();
 		}

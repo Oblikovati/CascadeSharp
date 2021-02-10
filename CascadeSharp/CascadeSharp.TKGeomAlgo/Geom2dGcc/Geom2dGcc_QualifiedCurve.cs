@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2dAdaptor;
+using CascadeSharp.TKGeomAlgo.GccEnt;
+
+namespace CascadeSharp.TKGeomAlgo.Geom2dGcc
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dGcc_QualifiedCurve
@@ -13,7 +15,7 @@ namespace CascadeSharp
 	public  sealed class Geom2dGcc_QualifiedCurve
 	{
 
-		public Geom2dGcc_QualifiedCurve(Geom2dAdaptor_Curve Curve, CascadeSharp.GccEnt_Position Qualifier)
+		public Geom2dGcc_QualifiedCurve(Geom2dAdaptor_Curve Curve, GccEnt_Position Qualifier)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -35,7 +37,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GccEnt_Position Qualifier()
+		public GccEnt_Position Qualifier()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.CPnts
 {
 	//---------------------------------------------------------------------
 	//  Class  CPnts_MyGaussFunction
 	//---------------------------------------------------------------------
-	public  sealed class CPnts_MyGaussFunction : CascadeSharp.math_Function
+	public  sealed class CPnts_MyGaussFunction : math_Function
 	{
 
 		public CPnts_MyGaussFunction()

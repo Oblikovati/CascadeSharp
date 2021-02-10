@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.gce
 {
 	//---------------------------------------------------------------------
 	//  Class  gce_MakeCirc
 	//---------------------------------------------------------------------
-	public  sealed class gce_MakeCirc : CascadeSharp.gce_Root
+	public  sealed class gce_MakeCirc : gce_Root
 	{
 
 		public gce_MakeCirc(gp_Ax2 A2, double Radius)

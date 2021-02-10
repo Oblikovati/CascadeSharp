@@ -2,15 +2,22 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.Prs3d;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_Trihedron
 	//---------------------------------------------------------------------
-	public  sealed class AIS_Trihedron : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_Trihedron : AIS_InteractiveObject
 	{
 
 		public AIS_Trihedron(Geom_Axis2Placement theComponent)
@@ -35,12 +42,12 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public void SetDatumDisplayMode(CascadeSharp.Prs3d_DatumMode theMode)
+						public void SetDatumDisplayMode(Prs3d_DatumMode theMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Prs3d_DatumMode DatumDisplayMode()
+		public Prs3d_DatumMode DatumDisplayMode()
 		{
 			throw new NotImplementedException();
 		}
@@ -85,7 +92,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_KindOfInteractive Type()
+		public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -130,12 +137,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetDatumPartColor(CascadeSharp.Prs3d_DatumParts thePart, Quantity_Color theColor)
+		public void SetDatumPartColor(Prs3d_DatumParts thePart, Quantity_Color theColor)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Quantity_Color DatumPartColor(CascadeSharp.Prs3d_DatumParts thePart)
+		public Quantity_Color DatumPartColor(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}
@@ -170,22 +177,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetSelectionPriority(CascadeSharp.Prs3d_DatumParts thePart, int thePriority)
+		public void SetSelectionPriority(Prs3d_DatumParts thePart, int thePriority)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int SelectionPriority(CascadeSharp.Prs3d_DatumParts thePart)
+		public int SelectionPriority(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetLabel(CascadeSharp.Prs3d_DatumParts thePart, TCollection_ExtendedString thePriority)
+		public void SetLabel(Prs3d_DatumParts thePart, TCollection_ExtendedString thePriority)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TCollection_ExtendedString Label(CascadeSharp.Prs3d_DatumParts thePart)
+		public TCollection_ExtendedString Label(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}
@@ -205,12 +212,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public Graphic3d_ArrayOfPrimitives arrayOfPrimitives(CascadeSharp.Prs3d_DatumParts thePart)
+		public Graphic3d_ArrayOfPrimitives arrayOfPrimitives(Prs3d_DatumParts thePart)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void updatePrimitives(Prs3d_DatumAspect theAspect, CascadeSharp.Prs3d_DatumMode theMode, gp_Pnt theOrigin, gp_Dir theXDir, gp_Dir theYDir, gp_Dir theZDir)
+		public void updatePrimitives(Prs3d_DatumAspect theAspect, Prs3d_DatumMode theMode, gp_Pnt theOrigin, gp_Dir theXDir, gp_Dir theYDir, gp_Dir theZDir)
 		{
 			throw new NotImplementedException();
 		}

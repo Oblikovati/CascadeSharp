@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKFillet.Blend;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKFillet.BlendFunc
 {
 	//---------------------------------------------------------------------
 	//  Class  BlendFunc_ChAsymInv
 	//---------------------------------------------------------------------
-	public  sealed class BlendFunc_ChAsymInv : CascadeSharp.Blend_FuncInv
+	public  sealed class BlendFunc_ChAsymInv : Blend_FuncInv
 	{
 
 		public BlendFunc_ChAsymInv(Adaptor3d_HSurface S1, Adaptor3d_HSurface S2, Adaptor3d_HCurve C)

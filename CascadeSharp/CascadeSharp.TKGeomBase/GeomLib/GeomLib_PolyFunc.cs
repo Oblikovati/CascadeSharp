@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomBase.GeomLib
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomLib_PolyFunc
 	//---------------------------------------------------------------------
-	public  sealed class GeomLib_PolyFunc : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class GeomLib_PolyFunc : math_FunctionWithDerivative
 	{
 
 		public GeomLib_PolyFunc(math_Vector Coeffs)

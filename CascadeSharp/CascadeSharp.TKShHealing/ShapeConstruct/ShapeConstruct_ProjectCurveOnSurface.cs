@@ -2,10 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+using CascadeSharp.TKShHealing.ShapeAnalysis;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeConstruct
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeConstruct_ProjectCurveOnSurface
@@ -60,7 +69,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Status(CascadeSharp.ShapeExtend_Status theStatus)
+		public bool Status(ShapeExtend_Status theStatus)
 		{
 			throw new NotImplementedException();
 		}
@@ -80,17 +89,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool PerformByProjLib(Geom_Curve c3d, double First, double Last, Geom2d_Curve c2d, CascadeSharp.GeomAbs_Shape continuity, int maxdeg, int nbinterval)
+		public bool PerformByProjLib(Geom_Curve c3d, double First, double Last, Geom2d_Curve c2d, GeomAbs_Shape continuity, int maxdeg, int nbinterval)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool PerformByProjLib(Geom_Curve c3d, double First, double Last, Geom2d_Curve c2d, CascadeSharp.GeomAbs_Shape continuity, int maxdeg)
+		public bool PerformByProjLib(Geom_Curve c3d, double First, double Last, Geom2d_Curve c2d, GeomAbs_Shape continuity, int maxdeg)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool PerformByProjLib(Geom_Curve c3d, double First, double Last, Geom2d_Curve c2d, CascadeSharp.GeomAbs_Shape continuity)
+		public bool PerformByProjLib(Geom_Curve c3d, double First, double Last, Geom2d_Curve c2d, GeomAbs_Shape continuity)
 		{
 			throw new NotImplementedException();
 		}

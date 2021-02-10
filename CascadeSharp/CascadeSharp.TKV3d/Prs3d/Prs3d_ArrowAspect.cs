@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKService.Graphic3d;
+
+namespace CascadeSharp.TKV3d.Prs3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Prs3d_ArrowAspect
 	//---------------------------------------------------------------------
-	public  sealed class Prs3d_ArrowAspect : CascadeSharp.Prs3d_BasicAspect
+	public  sealed class Prs3d_ArrowAspect : Prs3d_BasicAspect
 	{
 
 		public Prs3d_ArrowAspect()

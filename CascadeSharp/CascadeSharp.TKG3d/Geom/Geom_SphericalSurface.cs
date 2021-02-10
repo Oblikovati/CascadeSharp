@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_SphericalSurface
 	//---------------------------------------------------------------------
-	public  sealed class Geom_SphericalSurface : CascadeSharp.Geom_ElementarySurface
+	public  sealed class Geom_SphericalSurface : Geom_ElementarySurface
 	{
 
 		public Geom_SphericalSurface(gp_Ax3 A3, double Radius)

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_NumericError
 	//---------------------------------------------------------------------
-	public  class Standard_NumericError : CascadeSharp.Standard_Failure
+	public  class Standard_NumericError : Standard_Failure
 	{
 
 		public Standard_NumericError()

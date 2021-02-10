@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepTopAdaptor
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepTopAdaptor_FClass2d
@@ -30,17 +33,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State PerformInfinitePoint()
+		public TopAbs_State PerformInfinitePoint()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Perform(gp_Pnt2d Puv, bool RecadreOnPeriodic)
+		public TopAbs_State Perform(gp_Pnt2d Puv, bool RecadreOnPeriodic)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State Perform(gp_Pnt2d Puv)
+		public TopAbs_State Perform(gp_Pnt2d Puv)
 		{
 			throw new NotImplementedException();
 		}
@@ -55,12 +58,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State TestOnRestriction(gp_Pnt2d Puv, double Tol, bool RecadreOnPeriodic)
+		public TopAbs_State TestOnRestriction(gp_Pnt2d Puv, double Tol, bool RecadreOnPeriodic)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State TestOnRestriction(gp_Pnt2d Puv, double Tol)
+		public TopAbs_State TestOnRestriction(gp_Pnt2d Puv, double Tol)
 		{
 			throw new NotImplementedException();
 		}

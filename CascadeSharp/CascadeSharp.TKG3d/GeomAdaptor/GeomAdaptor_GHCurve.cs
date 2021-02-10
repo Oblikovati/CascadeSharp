@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+
+namespace CascadeSharp.TKG3d.GeomAdaptor
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomAdaptor_GHCurve
 	//---------------------------------------------------------------------
-	public  class GeomAdaptor_GHCurve : CascadeSharp.Adaptor3d_HCurve
+	public  class GeomAdaptor_GHCurve : Adaptor3d_HCurve
 	{
 
 		public GeomAdaptor_GHCurve()

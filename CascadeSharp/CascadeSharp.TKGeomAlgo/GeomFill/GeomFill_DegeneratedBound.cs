@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_DegeneratedBound
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_DegeneratedBound : CascadeSharp.GeomFill_Boundary
+	public  sealed class GeomFill_DegeneratedBound : GeomFill_Boundary
 	{
 
 		public GeomFill_DegeneratedBound(gp_Pnt Point, double First, double Last, double Tol3d, double Tolang)

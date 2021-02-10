@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_Triangulation
 	//---------------------------------------------------------------------
-	public  sealed class AIS_Triangulation : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_Triangulation : AIS_InteractiveObject
 	{
 
 				public AIS_Triangulation(AIS_Triangulation parameter1)

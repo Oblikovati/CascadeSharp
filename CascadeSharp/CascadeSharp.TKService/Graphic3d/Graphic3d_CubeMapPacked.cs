@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Image;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_CubeMapPacked
 	//---------------------------------------------------------------------
-	public  sealed class Graphic3d_CubeMapPacked : CascadeSharp.Graphic3d_CubeMap
+	public  sealed class Graphic3d_CubeMapPacked : Graphic3d_CubeMap
 	{
 
 		public Graphic3d_CubeMapPacked(TCollection_AsciiString theFileName, Graphic3d_ValidatedCubeMapOrder theOrder)

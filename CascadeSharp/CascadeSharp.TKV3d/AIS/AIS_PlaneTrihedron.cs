@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_PlaneTrihedron
 	//---------------------------------------------------------------------
-	public  sealed class AIS_PlaneTrihedron : CascadeSharp.AIS_InteractiveObject
+	public  sealed class AIS_PlaneTrihedron : AIS_InteractiveObject
 	{
 
 		public AIS_PlaneTrihedron(Geom_Plane aPlane)
@@ -80,7 +84,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AIS_KindOfInteractive Type()
+		public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}

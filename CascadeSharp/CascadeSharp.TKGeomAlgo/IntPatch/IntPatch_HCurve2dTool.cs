@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_HCurve2dTool
@@ -35,17 +40,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_Shape Continuity(Adaptor2d_HCurve2d C)
+		public GeomAbs_Shape Continuity(Adaptor2d_HCurve2d C)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(Adaptor2d_HCurve2d C, CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(Adaptor2d_HCurve2d C, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(Adaptor2d_HCurve2d C, TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(Adaptor2d_HCurve2d C, TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
@@ -100,7 +105,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_CurveType GetGeomType(Adaptor2d_HCurve2d C)
+		public GeomAbs_CurveType GetGeomType(Adaptor2d_HCurve2d C)
 		{
 			throw new NotImplementedException();
 		}

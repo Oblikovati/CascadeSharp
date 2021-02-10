@@ -2,10 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.Bnd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.Prs3d;
+
+namespace CascadeSharp.TKV3d.PrsMgr
 {
 	//---------------------------------------------------------------------
 	//  Class  PrsMgr_PresentableObject
@@ -344,12 +353,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfFacingModel CurrentFacingModel()
+		public Aspect_TypeOfFacingModel CurrentFacingModel()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetCurrentFacingModel(CascadeSharp.Aspect_TypeOfFacingModel theModel)
+		public void SetCurrentFacingModel(Aspect_TypeOfFacingModel theModel)
 		{
 			throw new NotImplementedException();
 		}
@@ -404,7 +413,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_NameOfMaterial Material()
+		public Graphic3d_NameOfMaterial Material()
 		{
 			throw new NotImplementedException();
 		}
@@ -479,17 +488,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetTransformPersistence(CascadeSharp.Graphic3d_TransModeFlags theMode, gp_Pnt thePoint)
+		public void SetTransformPersistence(Graphic3d_TransModeFlags theMode, gp_Pnt thePoint)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTransformPersistence(CascadeSharp.Graphic3d_TransModeFlags theMode)
+		public void SetTransformPersistence(Graphic3d_TransModeFlags theMode)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TransModeFlags GetTransformPersistenceMode()
+		public Graphic3d_TransModeFlags GetTransformPersistenceMode()
 		{
 			throw new NotImplementedException();
 		}

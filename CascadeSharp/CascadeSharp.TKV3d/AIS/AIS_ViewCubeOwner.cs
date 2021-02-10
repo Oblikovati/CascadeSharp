@@ -2,24 +2,27 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.SelectMgr;
+using CascadeSharp.TKV3d.V3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_ViewCubeOwner
 	//---------------------------------------------------------------------
-	public  sealed class AIS_ViewCubeOwner : CascadeSharp.SelectMgr_EntityOwner
+	public  sealed class AIS_ViewCubeOwner : SelectMgr_EntityOwner
 	{
 
-		public AIS_ViewCubeOwner(AIS_ViewCube theObject, CascadeSharp.V3d_TypeOfOrientation theOrient, int thePriority)
+		public AIS_ViewCubeOwner(AIS_ViewCube theObject, V3d_TypeOfOrientation theOrient, int thePriority)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public AIS_ViewCubeOwner(AIS_ViewCube theObject, CascadeSharp.V3d_TypeOfOrientation theOrient)
+		public AIS_ViewCubeOwner(AIS_ViewCube theObject, V3d_TypeOfOrientation theOrient)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -46,7 +49,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.V3d_TypeOfOrientation MainOrientation()
+		public V3d_TypeOfOrientation MainOrientation()
 		{
 			throw new NotImplementedException();
 		}

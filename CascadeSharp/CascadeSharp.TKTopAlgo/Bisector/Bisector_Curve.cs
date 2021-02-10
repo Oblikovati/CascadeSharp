@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.Bisector
 {
 	//---------------------------------------------------------------------
 	//  Class  Bisector_Curve
 	//---------------------------------------------------------------------
-	public  abstract class Bisector_Curve : CascadeSharp.Geom2d_Curve
+	public  abstract class Bisector_Curve : Geom2d_Curve
 	{
 
 		public Bisector_Curve(Bisector_Curve parameter1)

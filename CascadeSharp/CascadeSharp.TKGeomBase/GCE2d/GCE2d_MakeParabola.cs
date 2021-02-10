@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GCE2d
 {
 	//---------------------------------------------------------------------
 	//  Class  GCE2d_MakeParabola
 	//---------------------------------------------------------------------
-	public  sealed class GCE2d_MakeParabola : CascadeSharp.GCE2d_Root
+	public  sealed class GCE2d_MakeParabola : GCE2d_Root
 	{
 
 		public GCE2d_MakeParabola(gp_Parab2d Prb)

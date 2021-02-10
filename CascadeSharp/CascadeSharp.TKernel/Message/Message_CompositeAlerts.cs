@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message_CompositeAlerts
@@ -30,17 +30,17 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public Message_ListOfAlert Alerts(CascadeSharp.Message_Gravity theGravity)
+						public Message_ListOfAlert Alerts(Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool AddAlert(CascadeSharp.Message_Gravity theGravity, Message_Alert theAlert)
+		public bool AddAlert(Message_Gravity theGravity, Message_Alert theAlert)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool RemoveAlert(CascadeSharp.Message_Gravity theGravity, Message_Alert theAlert)
+		public bool RemoveAlert(Message_Gravity theGravity, Message_Alert theAlert)
 		{
 			throw new NotImplementedException();
 		}
@@ -55,7 +55,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Clear(CascadeSharp.Message_Gravity theGravity)
+		public void Clear(Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}

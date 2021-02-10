@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_TgtOnCoons
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_TgtOnCoons : CascadeSharp.GeomFill_TgtField
+	public  sealed class GeomFill_TgtOnCoons : GeomFill_TgtField
 	{
 
 		public GeomFill_TgtOnCoons(GeomFill_CoonsAlgPatch K, int I)

@@ -2,15 +2,19 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.GeomFill
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomFill_GuideTrihedronPlan
 	//---------------------------------------------------------------------
-	public  sealed class GeomFill_GuideTrihedronPlan : CascadeSharp.GeomFill_TrihedronWithGuide
+	public  sealed class GeomFill_GuideTrihedronPlan : GeomFill_TrihedronWithGuide
 	{
 
 		public GeomFill_GuideTrihedronPlan(Adaptor3d_HCurve theGuide)
@@ -40,7 +44,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomFill_PipeError ErrorStatus()
+		public GeomFill_PipeError ErrorStatus()
 		{
 			throw new NotImplementedException();
 		}
@@ -70,12 +74,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int NbIntervals(CascadeSharp.GeomAbs_Shape S)
+		public int NbIntervals(GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Intervals(TColStd_Array1OfReal T, CascadeSharp.GeomAbs_Shape S)
+		public void Intervals(TColStd_Array1OfReal T, GeomAbs_Shape S)
 		{
 			throw new NotImplementedException();
 		}

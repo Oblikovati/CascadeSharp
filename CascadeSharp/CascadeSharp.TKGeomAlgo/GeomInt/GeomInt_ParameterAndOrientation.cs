@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+
+namespace CascadeSharp.TKGeomAlgo.GeomInt
 {
 	//---------------------------------------------------------------------
 	//  Class  GeomInt_ParameterAndOrientation
@@ -19,7 +20,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public GeomInt_ParameterAndOrientation(double P, CascadeSharp.TopAbs_Orientation Or1, CascadeSharp.TopAbs_Orientation Or2)
+		public GeomInt_ParameterAndOrientation(double P, TopAbs_Orientation Or1, TopAbs_Orientation Or2)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -31,12 +32,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetOrientation1(CascadeSharp.TopAbs_Orientation Or)
+		public void SetOrientation1(TopAbs_Orientation Or)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetOrientation2(CascadeSharp.TopAbs_Orientation Or)
+		public void SetOrientation2(TopAbs_Orientation Or)
 		{
 			throw new NotImplementedException();
 		}
@@ -46,12 +47,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation1()
+		public TopAbs_Orientation Orientation1()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_Orientation Orientation2()
+		public TopAbs_Orientation Orientation2()
 		{
 			throw new NotImplementedException();
 		}

@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKG3d.AdvApprox
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApprox_DichoCutting
 	//---------------------------------------------------------------------
-	public  sealed class AdvApprox_DichoCutting : CascadeSharp.AdvApprox_Cutting
+	public  sealed class AdvApprox_DichoCutting : AdvApprox_Cutting
 	{
 
 		public AdvApprox_DichoCutting()

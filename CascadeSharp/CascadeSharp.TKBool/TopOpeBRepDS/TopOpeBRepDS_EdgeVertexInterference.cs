@@ -2,24 +2,24 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_EdgeVertexInterference
 	//---------------------------------------------------------------------
-	public  sealed class TopOpeBRepDS_EdgeVertexInterference : CascadeSharp.TopOpeBRepDS_ShapeShapeInterference
+	public  sealed class TopOpeBRepDS_EdgeVertexInterference : TopOpeBRepDS_ShapeShapeInterference
 	{
 
-		public TopOpeBRepDS_EdgeVertexInterference(TopOpeBRepDS_Transition T, CascadeSharp.TopOpeBRepDS_Kind ST, int S, int G, bool GIsBound, CascadeSharp.TopOpeBRepDS_Config C, double P)
+		public TopOpeBRepDS_EdgeVertexInterference(TopOpeBRepDS_Transition T, TopOpeBRepDS_Kind ST, int S, int G, bool GIsBound, TopOpeBRepDS_Config C, double P)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_EdgeVertexInterference(TopOpeBRepDS_Transition T, int S, int G, bool GIsBound, CascadeSharp.TopOpeBRepDS_Config C, double P)
+		public TopOpeBRepDS_EdgeVertexInterference(TopOpeBRepDS_Transition T, int S, int G, bool GIsBound, TopOpeBRepDS_Config C, double P)
 			: base()
 		{
 			throw new NotImplementedException();

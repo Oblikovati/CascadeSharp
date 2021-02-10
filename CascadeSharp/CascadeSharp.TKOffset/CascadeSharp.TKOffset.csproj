@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CascadeSharp.TKBool\CascadeSharp.TKBool.csproj" />
+    <ProjectReference Include="..\CascadeSharp.TKBRep\CascadeSharp.TKBRep.csproj" />
     <ProjectReference Include="..\CascadeSharp.TKernel\CascadeSharp.TKernel.csproj" />
+    <ProjectReference Include="..\CascadeSharp.TKFillet\CascadeSharp.TKFillet.csproj" />
+    <ProjectReference Include="..\CascadeSharp.TKPrim\CascadeSharp.TKPrim.csproj" />
+    <ProjectReference Include="..\CascadeSharp.TKTopAlgo\CascadeSharp.TKTopAlgo.csproj" />
   </ItemGroup>
 
 </Project>

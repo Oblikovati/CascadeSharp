@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKG3d.Geom
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom_Circle
 	//---------------------------------------------------------------------
-	public  sealed class Geom_Circle : CascadeSharp.Geom_Conic
+	public  sealed class Geom_Circle : Geom_Conic
 	{
 
 		public Geom_Circle(gp_Circ C)

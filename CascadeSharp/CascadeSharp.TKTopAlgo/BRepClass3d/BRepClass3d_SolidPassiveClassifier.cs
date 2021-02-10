@@ -2,10 +2,13 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepClass3d
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepClass3d_SolidPassiveClassifier
@@ -30,7 +33,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Compare(TopoDS_Face F, CascadeSharp.TopAbs_Orientation Or)
+		public void Compare(TopoDS_Face F, TopAbs_Orientation Or)
 		{
 			throw new NotImplementedException();
 		}
@@ -50,7 +53,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State()
+		public TopAbs_State State()
 		{
 			throw new NotImplementedException();
 		}

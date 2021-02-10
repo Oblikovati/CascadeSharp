@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TColStd;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TColgp;
+
+namespace CascadeSharp.TKG3d.GProp
 {
 	//---------------------------------------------------------------------
 	//  Class  GProp_PGProps
 	//---------------------------------------------------------------------
-	public  sealed class GProp_PGProps : CascadeSharp.GProp_GProps
+	public  sealed class GProp_PGProps : GProp_GProps
 	{
 
 		public GProp_PGProps()

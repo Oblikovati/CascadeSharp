@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GC
 {
 	//---------------------------------------------------------------------
 	//  Class  GC_MakeArcOfHyperbola
 	//---------------------------------------------------------------------
-	public  sealed class GC_MakeArcOfHyperbola : CascadeSharp.GC_Root
+	public  sealed class GC_MakeArcOfHyperbola : GC_Root
 	{
 
 		public GC_MakeArcOfHyperbola(gp_Hypr Hypr, double Alpha1, double Alpha2, bool Sense)

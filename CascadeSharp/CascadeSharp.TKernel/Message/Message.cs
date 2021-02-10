@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Message
 {
 	//---------------------------------------------------------------------
 	//  Class  Message
@@ -30,7 +31,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public void Send(TCollection_AsciiString theMessage, CascadeSharp.Message_Gravity theGravity)
+				public void Send(TCollection_AsciiString theMessage, Message_Gravity theGravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -75,17 +76,17 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool MetricFromString(string theString,  ref CascadeSharp.Message_MetricType theType)
+		public bool MetricFromString(string theString,  ref Message_MetricType theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public string MetricToString(CascadeSharp.Message_MetricType theType)
+		public string MetricToString(Message_MetricType theType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Message_MetricType MetricFromString(string theString)
+		public Message_MetricType MetricFromString(string theString)
 		{
 			throw new NotImplementedException();
 		}

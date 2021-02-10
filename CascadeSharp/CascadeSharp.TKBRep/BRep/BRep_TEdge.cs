@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+
+namespace CascadeSharp.TKBRep.BRep
 {
 	//---------------------------------------------------------------------
 	//  Class  BRep_TEdge
 	//---------------------------------------------------------------------
-	public  sealed class BRep_TEdge : CascadeSharp.TopoDS_TEdge
+	public  sealed class BRep_TEdge : TopoDS_TEdge
 	{
 
 		public BRep_TEdge()

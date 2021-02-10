@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.Standard;
+
+namespace CascadeSharp.TKGeomAlgo.GccAna
 {
 	//---------------------------------------------------------------------
 	//  Class  GccAna_NoSolution
 	//---------------------------------------------------------------------
-	public  sealed class GccAna_NoSolution : CascadeSharp.Standard_Failure
+	public  sealed class GccAna_NoSolution : Standard_Failure
 	{
 
 		public GccAna_NoSolution()

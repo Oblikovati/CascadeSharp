@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomBase.AppParCurves;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_ComputeCLine
@@ -13,13 +14,13 @@ namespace CascadeSharp
 	public  sealed class BRepFill_ComputeCLine
 	{
 
-		public BRepFill_ComputeCLine(BRepFill_MultiLine Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, CascadeSharp.AppParCurves_Constraint FirstC, CascadeSharp.AppParCurves_Constraint LastC)
+		public BRepFill_ComputeCLine(BRepFill_MultiLine Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, AppParCurves_Constraint FirstC, AppParCurves_Constraint LastC)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_ComputeCLine(BRepFill_MultiLine Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, CascadeSharp.AppParCurves_Constraint FirstC)
+		public BRepFill_ComputeCLine(BRepFill_MultiLine Line, int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, AppParCurves_Constraint FirstC)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -61,13 +62,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_ComputeCLine(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, CascadeSharp.AppParCurves_Constraint FirstC, CascadeSharp.AppParCurves_Constraint LastC)
+		public BRepFill_ComputeCLine(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, AppParCurves_Constraint FirstC, AppParCurves_Constraint LastC)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_ComputeCLine(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, CascadeSharp.AppParCurves_Constraint FirstC)
+		public BRepFill_ComputeCLine(int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, bool cutting, AppParCurves_Constraint FirstC)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -129,7 +130,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetConstraints(CascadeSharp.AppParCurves_Constraint FirstC, CascadeSharp.AppParCurves_Constraint LastC)
+		public void SetConstraints(AppParCurves_Constraint FirstC, AppParCurves_Constraint LastC)
 		{
 			throw new NotImplementedException();
 		}

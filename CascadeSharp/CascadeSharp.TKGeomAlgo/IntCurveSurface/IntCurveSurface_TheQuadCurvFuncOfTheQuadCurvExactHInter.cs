@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.IntCurveSurface
 {
 	//---------------------------------------------------------------------
 	//  Class  IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter
 	//---------------------------------------------------------------------
-	public  sealed class IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter : math_FunctionWithDerivative
 	{
 
 		public IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter(IntSurf_Quadric Q, Adaptor3d_HCurve C)

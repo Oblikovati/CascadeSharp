@@ -2,15 +2,16 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.gce
 {
 	//---------------------------------------------------------------------
 	//  Class  gce_MakeDir
 	//---------------------------------------------------------------------
-	public  sealed class gce_MakeDir : CascadeSharp.gce_Root
+	public  sealed class gce_MakeDir : gce_Root
 	{
 
 		public gce_MakeDir(gp_Vec V)

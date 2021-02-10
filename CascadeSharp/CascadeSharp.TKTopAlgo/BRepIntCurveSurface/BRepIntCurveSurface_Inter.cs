@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKG3d.GeomAdaptor;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKGeomAlgo.IntCurveSurface;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKTopAlgo.BRepIntCurveSurface
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepIntCurveSurface_Inter
@@ -80,12 +85,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopAbs_State State()
+		public TopAbs_State State()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.IntCurveSurface_TransitionOnCurve Transition()
+		public IntCurveSurface_TransitionOnCurve Transition()
 		{
 			throw new NotImplementedException();
 		}

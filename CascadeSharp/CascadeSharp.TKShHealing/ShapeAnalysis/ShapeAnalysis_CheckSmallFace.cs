@@ -2,10 +2,14 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeAnalysis
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeAnalysis_CheckSmallFace
@@ -115,7 +119,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool Status(CascadeSharp.ShapeExtend_Status status)
+		public bool Status(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
@@ -130,37 +134,37 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool StatusSpot(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusSpot(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusStrip(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusStrip(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusPin(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusPin(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusTwisted(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusTwisted(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusSplitVert(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusSplitVert(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusPinFace(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusPinFace(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool StatusPinEdges(CascadeSharp.ShapeExtend_Status status)
+		public bool StatusPinEdges(ShapeExtend_Status status)
 		{
 			throw new NotImplementedException();
 		}

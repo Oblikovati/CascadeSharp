@@ -2,15 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKMath.math
 {
 	//---------------------------------------------------------------------
 	//  Class  math_MultipleVarFunctionWithHessian
 	//---------------------------------------------------------------------
-	public  abstract class math_MultipleVarFunctionWithHessian : CascadeSharp.math_MultipleVarFunctionWithGradient
+	public  abstract class math_MultipleVarFunctionWithHessian : math_MultipleVarFunctionWithGradient
 	{
 
 		public math_MultipleVarFunctionWithHessian()

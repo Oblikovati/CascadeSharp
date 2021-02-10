@@ -2,15 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.Prs3d;
+using CascadeSharp.TKV3d.SelectMgr;
+using CascadeSharp.TKV3d.V3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_InteractiveObject
 	//---------------------------------------------------------------------
-	public  abstract class AIS_InteractiveObject : CascadeSharp.SelectMgr_SelectableObject
+	public  abstract class AIS_InteractiveObject : SelectMgr_SelectableObject
 	{
 
 				public AIS_InteractiveObject(AIS_InteractiveObject parameter1)
@@ -29,7 +34,7 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.AIS_KindOfInteractive Type()
+						public AIS_KindOfInteractive Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -84,7 +89,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ProcessDragging(AIS_InteractiveContext theCtx, V3d_View theView, SelectMgr_EntityOwner theOwner, Graphic3d_Vec2i theDragFrom, Graphic3d_Vec2i theDragTo, CascadeSharp.AIS_DragAction theAction)
+		public bool ProcessDragging(AIS_InteractiveContext theCtx, V3d_View theView, SelectMgr_EntityOwner theOwner, Graphic3d_Vec2i theDragFrom, Graphic3d_Vec2i theDragTo, AIS_DragAction theAction)
 		{
 			throw new NotImplementedException();
 		}

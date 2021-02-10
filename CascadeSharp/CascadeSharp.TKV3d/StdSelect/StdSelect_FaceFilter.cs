@@ -2,18 +2,20 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.TopAbs;
+using CascadeSharp.TKV3d.SelectMgr;
+
+namespace CascadeSharp.TKV3d.StdSelect
 {
 	//---------------------------------------------------------------------
 	//  Class  StdSelect_FaceFilter
 	//---------------------------------------------------------------------
-	public  sealed class StdSelect_FaceFilter : CascadeSharp.SelectMgr_Filter
+	public  sealed class StdSelect_FaceFilter : SelectMgr_Filter
 	{
 
-		public StdSelect_FaceFilter(CascadeSharp.StdSelect_TypeOfFace aTypeOfFace)
+		public StdSelect_FaceFilter(StdSelect_TypeOfFace aTypeOfFace)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -30,12 +32,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetType(CascadeSharp.StdSelect_TypeOfFace aNewType)
+		public void SetType(StdSelect_TypeOfFace aNewType)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.StdSelect_TypeOfFace Type()
+		public StdSelect_TypeOfFace Type()
 		{
 			throw new NotImplementedException();
 		}
@@ -45,7 +47,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool ActsOn(CascadeSharp.TopAbs_ShapeEnum aStandardMode)
+		public bool ActsOn(TopAbs_ShapeEnum aStandardMode)
 		{
 			throw new NotImplementedException();
 		}

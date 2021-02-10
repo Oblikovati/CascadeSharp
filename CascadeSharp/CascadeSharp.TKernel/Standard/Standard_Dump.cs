@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKernel.Standard
 {
 	//---------------------------------------------------------------------
 	//  Class  Standard_Dump
@@ -30,12 +31,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public string JsonKeyToString(CascadeSharp.Standard_JsonKey theKey)
+		public string JsonKeyToString(Standard_JsonKey theKey)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int JsonKeyLength(CascadeSharp.Standard_JsonKey theKey)
+		public int JsonKeyLength(Standard_JsonKey theKey)
 		{
 			throw new NotImplementedException();
 		}
@@ -90,12 +91,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-				public bool jsonKey(TCollection_AsciiString theStreamStr, int theStartIndex, ref int theNextIndex,  ref CascadeSharp.Standard_JsonKey theKey)
+				public bool jsonKey(TCollection_AsciiString theStreamStr, int theStartIndex, ref int theNextIndex,  ref Standard_JsonKey theKey)
 		{
 			throw new NotImplementedException();
 		}
 
-		public int nextClosePosition(TCollection_AsciiString theSourceValue, int theStartPosition, CascadeSharp.Standard_JsonKey theCloseKey, CascadeSharp.Standard_JsonKey theOpenKey)
+		public int nextClosePosition(TCollection_AsciiString theSourceValue, int theStartPosition, Standard_JsonKey theCloseKey, Standard_JsonKey theOpenKey)
 		{
 			throw new NotImplementedException();
 		}

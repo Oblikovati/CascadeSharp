@@ -2,10 +2,10 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+
+namespace CascadeSharp.TKGeomBase.AdvApp2Var
 {
 	//---------------------------------------------------------------------
 	//  Class  AdvApp2Var_Criterion
@@ -40,12 +40,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AdvApp2Var_CriterionType Type()
+		public AdvApp2Var_CriterionType Type()
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.AdvApp2Var_CriterionRepartition Repartition()
+		public AdvApp2Var_CriterionRepartition Repartition()
 		{
 			throw new NotImplementedException();
 		}

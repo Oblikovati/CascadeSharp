@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Adaptor3d;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKGeomAlgo.IntCurveSurface
 {
 	//---------------------------------------------------------------------
 	//  Class  IntCurveSurface_TheCSFunctionOfHInter
 	//---------------------------------------------------------------------
-	public  sealed class IntCurveSurface_TheCSFunctionOfHInter : CascadeSharp.math_FunctionSetWithDerivatives
+	public  sealed class IntCurveSurface_TheCSFunctionOfHInter : math_FunctionSetWithDerivatives
 	{
 
 		public IntCurveSurface_TheCSFunctionOfHInter(Adaptor3d_HSurface S, Adaptor3d_HCurve C)

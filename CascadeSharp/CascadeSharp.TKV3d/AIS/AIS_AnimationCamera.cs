@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Graphic3d;
+using CascadeSharp.TKV3d.V3d;
+
+namespace CascadeSharp.TKV3d.AIS
 {
 	//---------------------------------------------------------------------
 	//  Class  AIS_AnimationCamera
 	//---------------------------------------------------------------------
-	public  sealed class AIS_AnimationCamera : CascadeSharp.AIS_Animation
+	public  sealed class AIS_AnimationCamera : AIS_Animation
 	{
 
 		public AIS_AnimationCamera(TCollection_AsciiString theAnimationName, V3d_View theView)

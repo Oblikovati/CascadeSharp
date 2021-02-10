@@ -2,10 +2,12 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.NCollection;
+using CascadeSharp.TKG3d.Geom;
+
+namespace CascadeSharp.TKG3d.TColGeom
 {
 	//---------------------------------------------------------------------
 	//  Class  TColGeom_SequenceOfBoundedCurve

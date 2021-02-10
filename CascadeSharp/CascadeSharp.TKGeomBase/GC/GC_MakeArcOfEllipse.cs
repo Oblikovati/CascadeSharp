@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG3d.Geom;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomBase.GC
 {
 	//---------------------------------------------------------------------
 	//  Class  GC_MakeArcOfEllipse
 	//---------------------------------------------------------------------
-	public  sealed class GC_MakeArcOfEllipse : CascadeSharp.GC_Root
+	public  sealed class GC_MakeArcOfEllipse : GC_Root
 	{
 
 		public GC_MakeArcOfEllipse(gp_Elips Elips, double Alpha1, double Alpha2, bool Sense)

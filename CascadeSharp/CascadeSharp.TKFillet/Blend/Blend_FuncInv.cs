@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Adaptor2d;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKFillet.Blend
 {
 	//---------------------------------------------------------------------
 	//  Class  Blend_FuncInv
 	//---------------------------------------------------------------------
-	public  abstract class Blend_FuncInv : CascadeSharp.math_FunctionSetWithDerivatives
+	public  abstract class Blend_FuncInv : math_FunctionSetWithDerivatives
 	{
 
 		public Blend_FuncInv()

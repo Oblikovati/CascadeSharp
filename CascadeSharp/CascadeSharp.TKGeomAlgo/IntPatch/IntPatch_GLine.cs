@@ -2,24 +2,26 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKGeomAlgo.IntSurf;
+using CascadeSharp.TKMath.gp;
+
+namespace CascadeSharp.TKGeomAlgo.IntPatch
 {
 	//---------------------------------------------------------------------
 	//  Class  IntPatch_GLine
 	//---------------------------------------------------------------------
-	public  sealed class IntPatch_GLine : CascadeSharp.IntPatch_Line
+	public  sealed class IntPatch_GLine : IntPatch_Line
 	{
 
-		public IntPatch_GLine(gp_Lin L, bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_GLine(gp_Lin L, bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Lin L, bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_GLine(gp_Lin L, bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -31,13 +33,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Circ C, bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_GLine(gp_Circ C, bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Circ C, bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_GLine(gp_Circ C, bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -49,13 +51,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Elips E, bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_GLine(gp_Elips E, bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Elips E, bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_GLine(gp_Elips E, bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -67,13 +69,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Parab P, bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_GLine(gp_Parab P, bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Parab P, bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_GLine(gp_Parab P, bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -85,13 +87,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Hypr H, bool Tang, CascadeSharp.IntSurf_TypeTrans Trans1, CascadeSharp.IntSurf_TypeTrans Trans2)
+		public IntPatch_GLine(gp_Hypr H, bool Tang, IntSurf_TypeTrans Trans1, IntSurf_TypeTrans Trans2)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public IntPatch_GLine(gp_Hypr H, bool Tang, CascadeSharp.IntSurf_Situation Situ1, CascadeSharp.IntSurf_Situation Situ2)
+		public IntPatch_GLine(gp_Hypr H, bool Tang, IntSurf_Situation Situ1, IntSurf_Situation Situ2)
 			: base()
 		{
 			throw new NotImplementedException();

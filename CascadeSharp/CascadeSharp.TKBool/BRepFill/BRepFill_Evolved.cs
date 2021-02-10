@@ -2,10 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.BRepTools;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+using CascadeSharp.TKMath.GeomAbs;
+using CascadeSharp.TKMath.gp;
+using CascadeSharp.TKMath.TopLoc;
+using CascadeSharp.TKTopAlgo.BRepMAT2d;
+
+namespace CascadeSharp.TKBool.BRepFill
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFill_Evolved
@@ -19,13 +26,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_Evolved(TopoDS_Wire Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join, bool Solid)
+		public BRepFill_Evolved(TopoDS_Wire Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join, bool Solid)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_Evolved(TopoDS_Wire Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join)
+		public BRepFill_Evolved(TopoDS_Wire Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -37,13 +44,13 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_Evolved(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join, bool Solid)
+		public BRepFill_Evolved(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join, bool Solid)
 			: base()
 		{
 			throw new NotImplementedException();
 		}
 
-		public BRepFill_Evolved(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join)
+		public BRepFill_Evolved(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join)
 			: base()
 		{
 			throw new NotImplementedException();
@@ -61,12 +68,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(TopoDS_Wire Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join, bool Solid)
+		public void Perform(TopoDS_Wire Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join, bool Solid)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(TopoDS_Wire Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join)
+		public void Perform(TopoDS_Wire Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join)
 		{
 			throw new NotImplementedException();
 		}
@@ -76,12 +83,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void Perform(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join, bool Solid)
+		public void Perform(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join, bool Solid)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Perform(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join)
+		public void Perform(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join)
 		{
 			throw new NotImplementedException();
 		}
@@ -106,7 +113,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.GeomAbs_JoinType JoinType()
+		public GeomAbs_JoinType JoinType()
 		{
 			throw new NotImplementedException();
 		}
@@ -121,12 +128,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void PrivatePerform(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join, bool Solid)
+		public void PrivatePerform(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join, bool Solid)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void PrivatePerform(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, CascadeSharp.GeomAbs_JoinType Join)
+		public void PrivatePerform(TopoDS_Face Spine, TopoDS_Wire Profile, gp_Ax3 AxeProf, GeomAbs_JoinType Join)
 		{
 			throw new NotImplementedException();
 		}
@@ -141,7 +148,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void ElementaryPerform(TopoDS_Face Spine, TopoDS_Wire Profile, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, CascadeSharp.GeomAbs_JoinType Join)
+		public void ElementaryPerform(TopoDS_Face Spine, TopoDS_Wire Profile, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, GeomAbs_JoinType Join)
 		{
 			throw new NotImplementedException();
 		}
@@ -151,7 +158,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void PlanarPerform(TopoDS_Face Spine, TopoDS_Wire Profile, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, CascadeSharp.GeomAbs_JoinType Join)
+		public void PlanarPerform(TopoDS_Face Spine, TopoDS_Wire Profile, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, GeomAbs_JoinType Join)
 		{
 			throw new NotImplementedException();
 		}
@@ -161,7 +168,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void VerticalPerform(TopoDS_Face Spine, TopoDS_Wire Profile, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, CascadeSharp.GeomAbs_JoinType Join)
+		public void VerticalPerform(TopoDS_Face Spine, TopoDS_Wire Profile, BRepMAT2d_BisectingLocus Locus, BRepMAT2d_LinkTopoBilo Link, GeomAbs_JoinType Join)
 		{
 			throw new NotImplementedException();
 		}

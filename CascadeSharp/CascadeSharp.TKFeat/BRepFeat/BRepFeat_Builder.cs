@@ -2,15 +2,18 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBO.BOPAlgo;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKBRep.TopTools;
+
+namespace CascadeSharp.TKFeat.BRepFeat
 {
 	//---------------------------------------------------------------------
 	//  Class  BRepFeat_Builder
 	//---------------------------------------------------------------------
-	public  class BRepFeat_Builder : CascadeSharp.BOPAlgo_BOP
+	public  class BRepFeat_Builder : BOPAlgo_BOP
 	{
 
 		public BRepFeat_Builder()

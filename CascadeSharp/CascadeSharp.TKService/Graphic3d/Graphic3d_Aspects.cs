@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Quantity;
+using CascadeSharp.TKernel.TCollection;
+using CascadeSharp.TKService.Aspect;
+using CascadeSharp.TKService.Font;
+
+namespace CascadeSharp.TKService.Graphic3d
 {
 	//---------------------------------------------------------------------
 	//  Class  Graphic3d_Aspects
@@ -30,27 +35,27 @@ namespace CascadeSharp
 			throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
 		}
 
-						public CascadeSharp.Aspect_InteriorStyle InteriorStyle()
+						public Aspect_InteriorStyle InteriorStyle()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetInteriorStyle(CascadeSharp.Aspect_InteriorStyle theStyle)
+		public void SetInteriorStyle(Aspect_InteriorStyle theStyle)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_TypeOfShadingModel ShadingModel()
+		public Graphic3d_TypeOfShadingModel ShadingModel()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetShadingModel(CascadeSharp.Graphic3d_TypeOfShadingModel theShadingModel)
+		public void SetShadingModel(Graphic3d_TypeOfShadingModel theShadingModel)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Graphic3d_AlphaMode AlphaMode()
+		public Graphic3d_AlphaMode AlphaMode()
 		{
 			throw new NotImplementedException();
 		}
@@ -60,12 +65,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetAlphaMode(CascadeSharp.Graphic3d_AlphaMode theMode, float theAlphaCutoff)
+		public void SetAlphaMode(Graphic3d_AlphaMode theMode, float theAlphaCutoff)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetAlphaMode(CascadeSharp.Graphic3d_AlphaMode theMode)
+		public void SetAlphaMode(Graphic3d_AlphaMode theMode)
 		{
 			throw new NotImplementedException();
 		}
@@ -275,12 +280,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfLine LineType()
+		public Aspect_TypeOfLine LineType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetLineType(CascadeSharp.Aspect_TypeOfLine theType)
+		public void SetLineType(Aspect_TypeOfLine theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -295,12 +300,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-						public CascadeSharp.Aspect_TypeOfMarker MarkerType()
+						public Aspect_TypeOfMarker MarkerType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetMarkerType(CascadeSharp.Aspect_TypeOfMarker theType)
+		public void SetMarkerType(Aspect_TypeOfMarker theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -340,22 +345,22 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Font_FontAspect TextFontAspect()
+		public Font_FontAspect TextFontAspect()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTextFontAspect(CascadeSharp.Font_FontAspect theFontAspect)
+		public void SetTextFontAspect(Font_FontAspect theFontAspect)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfDisplayText TextDisplayType()
+		public Aspect_TypeOfDisplayText TextDisplayType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTextDisplayType(CascadeSharp.Aspect_TypeOfDisplayText theType)
+		public void SetTextDisplayType(Aspect_TypeOfDisplayText theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -390,12 +395,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfStyleText TextStyle()
+		public Aspect_TypeOfStyleText TextStyle()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetTextStyle(CascadeSharp.Aspect_TypeOfStyleText theStyle)
+		public void SetTextStyle(Aspect_TypeOfStyleText theStyle)
 		{
 			throw new NotImplementedException();
 		}
@@ -450,12 +455,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.Aspect_TypeOfLine EdgeLineType()
+		public Aspect_TypeOfLine EdgeLineType()
 		{
 			throw new NotImplementedException();
 		}
 
-		public void SetEdgeLineType(CascadeSharp.Aspect_TypeOfLine theType)
+		public void SetEdgeLineType(Aspect_TypeOfLine theType)
 		{
 			throw new NotImplementedException();
 		}
@@ -500,7 +505,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SetHatchStyle(CascadeSharp.Aspect_HatchStyle theStyle)
+		public void SetHatchStyle(Aspect_HatchStyle theStyle)
 		{
 			throw new NotImplementedException();
 		}

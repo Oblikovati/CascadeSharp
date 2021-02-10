@@ -2,10 +2,11 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKernel.TCollection;
+
+namespace CascadeSharp.TKBool.TopOpeBRepDS
 {
 	//---------------------------------------------------------------------
 	//  Class  TopOpeBRepDS_TKI
@@ -40,32 +41,32 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsBound(CascadeSharp.TopOpeBRepDS_Kind K, int G)
+		public bool IsBound(TopOpeBRepDS_Kind K, int G)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_ListOfInterference Interferences(CascadeSharp.TopOpeBRepDS_Kind K, int G)
+		public TopOpeBRepDS_ListOfInterference Interferences(TopOpeBRepDS_Kind K, int G)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_ListOfInterference ChangeInterferences(CascadeSharp.TopOpeBRepDS_Kind K, int G)
+		public TopOpeBRepDS_ListOfInterference ChangeInterferences(TopOpeBRepDS_Kind K, int G)
 		{
 			throw new NotImplementedException();
 		}
 
-		public bool HasInterferences(CascadeSharp.TopOpeBRepDS_Kind K, int G)
+		public bool HasInterferences(TopOpeBRepDS_Kind K, int G)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Add(CascadeSharp.TopOpeBRepDS_Kind K, int G)
+		public void Add(TopOpeBRepDS_Kind K, int G)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void Add(CascadeSharp.TopOpeBRepDS_Kind K, int G, TopOpeBRepDS_Interference HI)
+		public void Add(TopOpeBRepDS_Kind K, int G, TopOpeBRepDS_Interference HI)
 		{
 			throw new NotImplementedException();
 		}
@@ -100,12 +101,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_ListOfInterference Value( ref CascadeSharp.TopOpeBRepDS_Kind K, ref int G)
+		public TopOpeBRepDS_ListOfInterference Value( ref TopOpeBRepDS_Kind K, ref int G)
 		{
 			throw new NotImplementedException();
 		}
 
-		public TopOpeBRepDS_ListOfInterference ChangeValue( ref CascadeSharp.TopOpeBRepDS_Kind K, ref int G)
+		public TopOpeBRepDS_ListOfInterference ChangeValue( ref TopOpeBRepDS_Kind K, ref int G)
 		{
 			throw new NotImplementedException();
 		}
@@ -145,12 +146,12 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public int KindToTableIndex(CascadeSharp.TopOpeBRepDS_Kind K)
+		public int KindToTableIndex(TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
 
-		public CascadeSharp.TopOpeBRepDS_Kind TableIndexToKind(int TI)
+		public TopOpeBRepDS_Kind TableIndexToKind(int TI)
 		{
 			throw new NotImplementedException();
 		}
@@ -160,7 +161,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsValidK(CascadeSharp.TopOpeBRepDS_Kind K)
+		public bool IsValidK(TopOpeBRepDS_Kind K)
 		{
 			throw new NotImplementedException();
 		}
@@ -170,7 +171,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public bool IsValidKG(CascadeSharp.TopOpeBRepDS_Kind K, int G)
+		public bool IsValidKG(TopOpeBRepDS_Kind K, int G)
 		{
 			throw new NotImplementedException();
 		}

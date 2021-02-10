@@ -2,10 +2,15 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKBRep.TopoDS;
+using CascadeSharp.TKernel;
+using CascadeSharp.TKernel.Message;
+using CascadeSharp.TKShHealing.ShapeBuild;
+using CascadeSharp.TKShHealing.ShapeExtend;
+
+namespace CascadeSharp.TKShHealing.ShapeFix
 {
 	//---------------------------------------------------------------------
 	//  Class  ShapeFix_Root
@@ -85,7 +90,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SendMsg(TopoDS_Shape shape, Message_Msg message, CascadeSharp.Message_Gravity gravity)
+		public void SendMsg(TopoDS_Shape shape, Message_Msg message, Message_Gravity gravity)
 		{
 			throw new NotImplementedException();
 		}
@@ -95,7 +100,7 @@ namespace CascadeSharp
 			throw new NotImplementedException();
 		}
 
-		public void SendMsg(Message_Msg message, CascadeSharp.Message_Gravity gravity)
+		public void SendMsg(Message_Msg message, Message_Gravity gravity)
 		{
 			throw new NotImplementedException();
 		}

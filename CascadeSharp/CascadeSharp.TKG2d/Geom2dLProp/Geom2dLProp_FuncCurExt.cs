@@ -2,15 +2,17 @@
 // CascadeSharp
 // General Public License V2
 //---------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 
-namespace CascadeSharp
+using System;
+using CascadeSharp.TKG2d.Geom2d;
+using CascadeSharp.TKMath.math;
+
+namespace CascadeSharp.TKG2d.Geom2dLProp
 {
 	//---------------------------------------------------------------------
 	//  Class  Geom2dLProp_FuncCurExt
 	//---------------------------------------------------------------------
-	public  sealed class Geom2dLProp_FuncCurExt : CascadeSharp.math_FunctionWithDerivative
+	public  sealed class Geom2dLProp_FuncCurExt : math_FunctionWithDerivative
 	{
 
 		public Geom2dLProp_FuncCurExt(Geom2d_Curve C, double Tol)
