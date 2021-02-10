@@ -4,6 +4,7 @@
 //---------------------------------------------------------------------
 
 using System;
+using System.Collections.Generic;
 using CascadeSharp.TKMath.gp;
 
 namespace CascadeSharp.TKMath.math
@@ -14,45 +15,48 @@ namespace CascadeSharp.TKMath.math
     public sealed class math_Vector
     {
         public math_Vector(int theLower, int theUpper)
-            : base()
         {
-            throw new NotImplementedException();
+            myLocArray =  new List<double>(theUpper - theLower + 1);
+
         }
 
         public math_Vector(int theLower, int theUpper, double theInitialValue)
-            : base()
         {
             throw new NotImplementedException();
         }
 
         public math_Vector(double theTab, int theLower, int theUpper)
-            : base()
         {
             throw new NotImplementedException();
         }
 
         public math_Vector(gp_XY Other)
-            : base()
         {
             throw new NotImplementedException();
         }
 
         public math_Vector(gp_XYZ Other)
-            : base()
         {
             throw new NotImplementedException();
         }
 
         public math_Vector(math_Vector theOther)
-            : base()
         {
             throw new NotImplementedException();
         }
 
         public math_Vector()
         {
-            throw new NotImplementedException();
+            myLocArray = new List<double>(512);
+            Array = new List<double>();
         }
+
+        #region Private Objects
+
+        private List<double> myLocArray;
+        private List<double> Array;
+
+        #endregion
 
         public void Init(double theInitialValue)
         {
@@ -189,10 +193,15 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public double Value(int theNum)
+        public void SetValue(int index, double value)
         {
-            throw new NotImplementedException();
+            Array[index] = value;
         }
+        public double GetValue(int index)
+        {
+            return Array[index];
+        }
+
 
         public math_Vector Initialized(math_Vector theOther)
         {
