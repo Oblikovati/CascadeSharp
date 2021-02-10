@@ -1,0 +1,76 @@
+//---------------------------------------------------------------------
+// CascadeSharp
+// General Public License V2
+//---------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+
+namespace CascadeSharp
+{
+	//---------------------------------------------------------------------
+	//  Class  BlendFunc_ConstThroatWithPenetration
+	//---------------------------------------------------------------------
+	public  sealed class BlendFunc_ConstThroatWithPenetration : CascadeSharp.BlendFunc_ConstThroat
+	{
+
+		public BlendFunc_ConstThroatWithPenetration(Adaptor3d_HSurface S1, Adaptor3d_HSurface S2, Adaptor3d_HCurve C)
+			: base()
+		{
+			throw new NotImplementedException();
+		}
+
+		public BlendFunc_ConstThroatWithPenetration(BlendFunc_ConstThroatWithPenetration parameter1)
+			: base()
+		{
+			throw new NotImplementedException();
+		}
+
+		public BlendFunc_ConstThroatWithPenetration()
+		{
+			throw new NotImplementedException();
+		}
+
+		public bool Value(math_Vector X, math_Vector F)
+		{
+			throw new NotImplementedException();
+		}
+
+		public bool Derivatives(math_Vector X, math_Matrix D)
+		{
+			throw new NotImplementedException();
+		}
+
+		public bool IsSolution(math_Vector Sol, double Tol)
+		{
+			throw new NotImplementedException();
+		}
+
+		public gp_Vec TangentOnS1()
+		{
+			throw new NotImplementedException();
+		}
+
+		public gp_Vec2d Tangent2dOnS1()
+		{
+			throw new NotImplementedException();
+		}
+
+		public gp_Vec TangentOnS2()
+		{
+			throw new NotImplementedException();
+		}
+
+		public gp_Vec2d Tangent2dOnS2()
+		{
+			throw new NotImplementedException();
+		}
+
+		public double GetSectionSize()
+		{
+			throw new NotImplementedException();
+		}
+
+
+	}; // class BlendFunc_ConstThroatWithPenetration
+
+}

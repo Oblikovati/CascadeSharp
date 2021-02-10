@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CascadeSharp.TKBRep\CascadeSharp.TKBRep.csproj" />
+    <ProjectReference Include="..\CascadeSharp.TKernel\CascadeSharp.TKernel.csproj" />
+    <ProjectReference Include="..\CascadeSharp.TKG3d\CascadeSharp.TKG3d.csproj" />
+    <ProjectReference Include="..\CascadeSharp.TKGeomAlgo\CascadeSharp.TKGeomAlgo.csproj" />
+    <ProjectReference Include="..\CascadeSharp.TKTopAlgo\CascadeSharp.TKTopAlgo.csproj" />
+  </ItemGroup>
+
+</Project>
