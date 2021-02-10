@@ -72,7 +72,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
         }
 
         public bool FillInitialVectorOfSolution(double u1, double v1, double u2, double v2, double binfu, double bsupu,
-            double binfv, double bsupv, math_Vector X, ref double TranslationU, ref double TranslationV)
+            double binfv, double bsupv, Vector X, ref double TranslationU, ref double TranslationV)
         {
             throw new NotImplementedException();
         }

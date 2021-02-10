@@ -76,106 +76,106 @@ namespace CascadeSharp.TKGeomBase.AppDef
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(AppDef_MultiLine Line, math_Vector Parameters, int degreemin, int degreemax,
+        public AppDef_Compute(AppDef_MultiLine Line, Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, bool Squares)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(AppDef_MultiLine Line, math_Vector Parameters, int degreemin, int degreemax,
+        public AppDef_Compute(AppDef_MultiLine Line, Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(AppDef_MultiLine Line, math_Vector Parameters, int degreemin, int degreemax,
+        public AppDef_Compute(AppDef_MultiLine Line, Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d, double Tolerance2d, int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(AppDef_MultiLine Line, math_Vector Parameters, int degreemin, int degreemax,
+        public AppDef_Compute(AppDef_MultiLine Line, Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d, double Tolerance2d)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(AppDef_MultiLine Line, math_Vector Parameters, int degreemin, int degreemax,
+        public AppDef_Compute(AppDef_MultiLine Line, Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(AppDef_MultiLine Line, math_Vector Parameters, int degreemin, int degreemax)
+        public AppDef_Compute(AppDef_MultiLine Line, Vector Parameters, int degreemin, int degreemax)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(AppDef_MultiLine Line, math_Vector Parameters, int degreemin)
+        public AppDef_Compute(AppDef_MultiLine Line, Vector Parameters, int degreemin)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(AppDef_MultiLine Line, math_Vector Parameters)
+        public AppDef_Compute(AppDef_MultiLine Line, Vector Parameters)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(math_Vector Parameters, int degreemin, int degreemax, double Tolerance3d,
+        public AppDef_Compute(Vector Parameters, int degreemin, int degreemax, double Tolerance3d,
             double Tolerance2d, int NbIterations, bool cutting, bool Squares)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(math_Vector Parameters, int degreemin, int degreemax, double Tolerance3d,
+        public AppDef_Compute(Vector Parameters, int degreemin, int degreemax, double Tolerance3d,
             double Tolerance2d, int NbIterations, bool cutting)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(math_Vector Parameters, int degreemin, int degreemax, double Tolerance3d,
+        public AppDef_Compute(Vector Parameters, int degreemin, int degreemax, double Tolerance3d,
             double Tolerance2d, int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(math_Vector Parameters, int degreemin, int degreemax, double Tolerance3d,
+        public AppDef_Compute(Vector Parameters, int degreemin, int degreemax, double Tolerance3d,
             double Tolerance2d)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(math_Vector Parameters, int degreemin, int degreemax, double Tolerance3d)
+        public AppDef_Compute(Vector Parameters, int degreemin, int degreemax, double Tolerance3d)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(math_Vector Parameters, int degreemin, int degreemax)
+        public AppDef_Compute(Vector Parameters, int degreemin, int degreemax)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(math_Vector Parameters, int degreemin)
+        public AppDef_Compute(Vector Parameters, int degreemin)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Compute(math_Vector Parameters)
+        public AppDef_Compute(Vector Parameters)
             : base()
         {
             throw new NotImplementedException();
@@ -371,7 +371,7 @@ namespace CascadeSharp.TKGeomBase.AppDef
             throw new NotImplementedException();
         }
 
-        public bool Compute(AppDef_MultiLine Line, int fpt, int lpt, math_Vector Para, ref double TheTol3d,
+        public bool Compute(AppDef_MultiLine Line, int fpt, int lpt, Vector Para, ref double TheTol3d,
             ref double TheTol2d, ref int indbad)
         {
             throw new NotImplementedException();
@@ -382,27 +382,27 @@ namespace CascadeSharp.TKGeomBase.AppDef
             throw new NotImplementedException();
         }
 
-        public void Parameters(AppDef_MultiLine Line, int firstP, int LastP, math_Vector TheParameters)
+        public void Parameters(AppDef_MultiLine Line, int firstP, int LastP, Vector TheParameters)
         {
             throw new NotImplementedException();
         }
 
-        public double SearchFirstLambda(AppDef_MultiLine Line, math_Vector Para, math_Vector V, int index)
+        public double SearchFirstLambda(AppDef_MultiLine Line, Vector Para, Vector V, int index)
         {
             throw new NotImplementedException();
         }
 
-        public double SearchLastLambda(AppDef_MultiLine Line, math_Vector Para, math_Vector V, int index)
+        public double SearchLastLambda(AppDef_MultiLine Line, Vector Para, Vector V, int index)
         {
             throw new NotImplementedException();
         }
 
-        public void FirstTangencyVector(AppDef_MultiLine Line, int index, math_Vector V)
+        public void FirstTangencyVector(AppDef_MultiLine Line, int index, Vector V)
         {
             throw new NotImplementedException();
         }
 
-        public void LastTangencyVector(AppDef_MultiLine Line, int index, math_Vector V)
+        public void LastTangencyVector(AppDef_MultiLine Line, int index, Vector V)
         {
             throw new NotImplementedException();
         }

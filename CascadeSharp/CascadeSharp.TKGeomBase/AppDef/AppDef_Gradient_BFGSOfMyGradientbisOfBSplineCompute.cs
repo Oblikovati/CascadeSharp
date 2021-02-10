@@ -14,14 +14,14 @@ namespace CascadeSharp.TKGeomBase.AppDef
     public sealed class AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute : math_BFGS
     {
         public AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute(math_MultipleVarFunctionWithGradient F,
-            math_Vector StartingPoint, double Tolerance3d, double Tolerance2d, double Eps, int NbIterations)
+            Vector StartingPoint, double Tolerance3d, double Tolerance2d, double Eps, int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
         public AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute(math_MultipleVarFunctionWithGradient F,
-            math_Vector StartingPoint, double Tolerance3d, double Tolerance2d, double Eps)
+            Vector StartingPoint, double Tolerance3d, double Tolerance2d, double Eps)
             : base()
         {
             throw new NotImplementedException();

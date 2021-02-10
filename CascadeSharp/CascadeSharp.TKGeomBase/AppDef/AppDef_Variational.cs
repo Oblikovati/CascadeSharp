@@ -317,12 +317,12 @@ namespace CascadeSharp.TKGeomBase.AppDef
             throw new NotImplementedException();
         }
 
-        public void EstTangent(int ipnt, math_Vector VTang)
+        public void EstTangent(int ipnt, Vector VTang)
         {
             throw new NotImplementedException();
         }
 
-        public void EstSecnd(int ipnt, math_Vector VTang1, math_Vector VTang2, double Length, math_Vector VScnd)
+        public void EstSecnd(int ipnt, Vector VTang1, Vector VTang2, double Length, Vector VScnd)
         {
             throw new NotImplementedException();
         }

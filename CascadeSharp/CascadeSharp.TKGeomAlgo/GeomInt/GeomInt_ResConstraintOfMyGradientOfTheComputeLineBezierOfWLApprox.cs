@@ -58,12 +58,12 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public math_Vector Duale()
+        public Vector Duale()
         {
             throw new NotImplementedException();
         }
 
-        public math_Matrix ConstraintDerivative(GeomInt_TheMultiLineOfWLApprox SSP, math_Vector Parameters, int Deg,
+        public math_Matrix ConstraintDerivative(GeomInt_TheMultiLineOfWLApprox SSP, Vector Parameters, int Deg,
             math_Matrix DA)
         {
             throw new NotImplementedException();

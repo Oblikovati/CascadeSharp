@@ -78,8 +78,8 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public bool GKRule(math_Function theFunction, double theLower, double theUpper, math_Vector theGaussP,
-            math_Vector theGaussW, math_Vector theKronrodP, math_Vector theKronrodW, ref double theValue,
+        public bool GKRule(math_Function theFunction, double theLower, double theUpper, Vector theGaussP,
+            Vector theGaussW, Vector theKronrodP, Vector theKronrodW, ref double theValue,
             ref double theError)
         {
             throw new NotImplementedException();

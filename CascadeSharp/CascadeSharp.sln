@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualization", "Visualizat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKernel", "TKernel", "{99AAC440-5016-44FA-97E6-E21BB8E11B90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKernel", "CascadeSharp.TKernel\CascadeSharp.TKernel.csproj", "{3E943544-C8BC-4315-98BB-95B705052FD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKernel", "CascadeSharp.TKernel\CascadeSharp.TKernel.csproj", "{3E943544-C8BC-4315-98BB-95B705052FD0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKMath", "TKMath", "{8CFA59E2-C2A2-4F46-A684-E0A1A4912AD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKMath", "CascadeSharp.TKMath\CascadeSharp.TKMath.csproj", "{F2C3BC5B-B27D-494B-A167-774AA6B06284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKMath", "CascadeSharp.TKMath\CascadeSharp.TKMath.csproj", "{F2C3BC5B-B27D-494B-A167-774AA6B06284}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKG2d", "TKG2d", "{F1D2C144-0F75-451E-8952-46BAB15D336F}"
 EndProject
@@ -25,59 +25,61 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKG3d", "TKG3d", "{E1E7FB99
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKGeomBase", "TKGeomBase", "{FC3B653A-4B0B-4163-BC48-5829B8A9615D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKG2d", "CascadeSharp.TKG2d\CascadeSharp.TKG2d.csproj", "{1AB61E5C-1429-4845-A7F0-0A657D79ADC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKG2d", "CascadeSharp.TKG2d\CascadeSharp.TKG2d.csproj", "{1AB61E5C-1429-4845-A7F0-0A657D79ADC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKG3d", "CascadeSharp.TKG3d\CascadeSharp.TKG3d.csproj", "{9755C93E-C95F-4B12-8F2F-259AAE95FE2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKG3d", "CascadeSharp.TKG3d\CascadeSharp.TKG3d.csproj", "{9755C93E-C95F-4B12-8F2F-259AAE95FE2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKGeomBase", "CascadeSharp.TKGeomBase\CascadeSharp.TKGeomBase.csproj", "{92531C7C-EF83-4905-B8BA-85FD123B4FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKGeomBase", "CascadeSharp.TKGeomBase\CascadeSharp.TKGeomBase.csproj", "{92531C7C-EF83-4905-B8BA-85FD123B4FC3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKBRep", "TKBRep", "{8300F550-E807-4611-A378-4F957B951360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKBRep", "CascadeSharp.TKBRep\CascadeSharp.TKBRep.csproj", "{D3B95B6A-C479-4A4E-999C-A0857715507B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKBRep", "CascadeSharp.TKBRep\CascadeSharp.TKBRep.csproj", "{D3B95B6A-C479-4A4E-999C-A0857715507B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKGeomAlgo", "TKGeomAlgo", "{D59A5377-3CDF-45FC-9946-F8543CEA9DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKGeomAlgo", "CascadeSharp.TKGeomAlgo\CascadeSharp.TKGeomAlgo.csproj", "{421D24F0-380D-49C7-ABC8-4AD4FB108BE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKGeomAlgo", "CascadeSharp.TKGeomAlgo\CascadeSharp.TKGeomAlgo.csproj", "{421D24F0-380D-49C7-ABC8-4AD4FB108BE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKTopAlgo", "TKTopAlgo", "{F8AC61E0-737C-495C-9E2E-827FEA3085E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKTopAlgo", "CascadeSharp.TKTopAlgo\CascadeSharp.TKTopAlgo.csproj", "{1F5198BD-DD0A-445F-80C8-C0DCD9F0743F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKTopAlgo", "CascadeSharp.TKTopAlgo\CascadeSharp.TKTopAlgo.csproj", "{1F5198BD-DD0A-445F-80C8-C0DCD9F0743F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKPrim", "TKPrim", "{654C8C28-1DC2-40D8-894A-FF10CE865318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKPrim", "CascadeSharp.TKPrim\CascadeSharp.TKPrim.csproj", "{74C26F02-810D-41BF-8170-A15046252AEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKPrim", "CascadeSharp.TKPrim\CascadeSharp.TKPrim.csproj", "{74C26F02-810D-41BF-8170-A15046252AEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKBO", "TKBO", "{874DCCC5-32FB-4CAC-84B2-FCC4EE6E9C5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKBO", "CascadeSharp.TKBO\CascadeSharp.TKBO.csproj", "{A83C0B9B-E994-42A3-AEDF-DF6D428ACF9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKBO", "CascadeSharp.TKBO\CascadeSharp.TKBO.csproj", "{A83C0B9B-E994-42A3-AEDF-DF6D428ACF9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKBool", "TKBool", "{49CEACF2-5FD3-48B3-B192-133B056DC4CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKBool", "CascadeSharp.TKBool\CascadeSharp.TKBool.csproj", "{44609A84-073C-44A0-80D4-A83B9CD44B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKBool", "CascadeSharp.TKBool\CascadeSharp.TKBool.csproj", "{44609A84-073C-44A0-80D4-A83B9CD44B4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKFeat", "TKFeat", "{17B5B38F-F216-48DC-B60C-3D2F9AE385F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKFeat", "CascadeSharp.TKFeat\CascadeSharp.TKFeat.csproj", "{A31A5975-A1A3-4E12-B495-F45768F53FF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKFeat", "CascadeSharp.TKFeat\CascadeSharp.TKFeat.csproj", "{A31A5975-A1A3-4E12-B495-F45768F53FF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKShHealing", "TKShHealing", "{4701E4C2-7565-41CE-A383-EEFE3491A84A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKShHealing", "CascadeSharp.TKShHealing\CascadeSharp.TKShHealing.csproj", "{CABF1CA2-ED2D-48A5-BEAA-D26F59BD3E68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKShHealing", "CascadeSharp.TKShHealing\CascadeSharp.TKShHealing.csproj", "{CABF1CA2-ED2D-48A5-BEAA-D26F59BD3E68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKFillet", "TKFillet", "{7213AF3D-5AB6-4EF6-8FE7-BE677D6AADEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKFillet", "CascadeSharp.TKFillet\CascadeSharp.TKFillet.csproj", "{1307E7CC-5C96-439D-8E68-CA4982972915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKFillet", "CascadeSharp.TKFillet\CascadeSharp.TKFillet.csproj", "{1307E7CC-5C96-439D-8E68-CA4982972915}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKOffset", "TKOffset", "{916508B2-7C95-4B5A-B392-0A01F1A2F4E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKOffset", "CascadeSharp.TKOffset\CascadeSharp.TKOffset.csproj", "{C40ACE88-2686-4953-88D0-83B310C8E8F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKOffset", "CascadeSharp.TKOffset\CascadeSharp.TKOffset.csproj", "{C40ACE88-2686-4953-88D0-83B310C8E8F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKService", "TKService", "{8C48A76C-90F4-4F40-A54D-37F63CDA204C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TKV3d", "TKV3d", "{6DC9C9A0-29E8-4049-8860-8D969D1117E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKV3d", "CascadeSharp.TKV3d\CascadeSharp.TKV3d.csproj", "{8A182AE4-5F3E-401D-9453-2A55B1812EB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKV3d", "CascadeSharp.TKV3d\CascadeSharp.TKV3d.csproj", "{8A182AE4-5F3E-401D-9453-2A55B1812EB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKService", "CascadeSharp.TKService\CascadeSharp.TKService.csproj", "{B5EF4AA2-D09F-4E89-9B0C-A28A618058CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CascadeSharp.TKService", "CascadeSharp.TKService\CascadeSharp.TKService.csproj", "{B5EF4AA2-D09F-4E89-9B0C-A28A618058CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeSharp.TKMath.Tests", "CascadeSharp.TKMath.Tests\CascadeSharp.TKMath.Tests.csproj", "{99DFC8AC-EA96-477E-8B7C-AD1257DFB278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{B5EF4AA2-D09F-4E89-9B0C-A28A618058CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5EF4AA2-D09F-4E89-9B0C-A28A618058CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5EF4AA2-D09F-4E89-9B0C-A28A618058CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DFC8AC-EA96-477E-8B7C-AD1257DFB278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DFC8AC-EA96-477E-8B7C-AD1257DFB278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DFC8AC-EA96-477E-8B7C-AD1257DFB278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DFC8AC-EA96-477E-8B7C-AD1257DFB278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -192,6 +198,7 @@ Global
 		{6DC9C9A0-29E8-4049-8860-8D969D1117E1} = {799D10DC-EE5E-48A9-9E02-380889D594DC}
 		{8A182AE4-5F3E-401D-9453-2A55B1812EB8} = {6DC9C9A0-29E8-4049-8860-8D969D1117E1}
 		{B5EF4AA2-D09F-4E89-9B0C-A28A618058CE} = {8C48A76C-90F4-4F40-A54D-37F63CDA204C}
+		{99DFC8AC-EA96-477E-8B7C-AD1257DFB278} = {8CFA59E2-C2A2-4F46-A684-E0A1A4912AD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54E5AF8B-54F6-421E-94A3-DB6C0813F82C}

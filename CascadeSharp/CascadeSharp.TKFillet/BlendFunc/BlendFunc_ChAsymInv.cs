@@ -38,17 +38,17 @@ namespace CascadeSharp.TKFillet.BlendFunc
             throw new NotImplementedException();
         }
 
-        public void GetTolerance(math_Vector Tolerance, double Tol)
+        public void GetTolerance(Vector Tolerance, double Tol)
         {
             throw new NotImplementedException();
         }
 
-        public void GetBounds(math_Vector InfBound, math_Vector SupBound)
+        public void GetBounds(Vector InfBound, Vector SupBound)
         {
             throw new NotImplementedException();
         }
 
-        public bool IsSolution(math_Vector Sol, double Tol)
+        public bool IsSolution(Vector Sol, double Tol)
         {
             throw new NotImplementedException();
         }
@@ -58,22 +58,22 @@ namespace CascadeSharp.TKFillet.BlendFunc
             throw new NotImplementedException();
         }
 
-        public bool ComputeValues(math_Vector X, int DegF, int DegL)
+        public bool ComputeValues(Vector X, int DegF, int DegL)
         {
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, math_Vector F)
+        public bool Value(Vector X, Vector F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Derivatives(math_Vector X, math_Matrix D)
+        public bool Derivatives(Vector X, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, math_Vector F, math_Matrix D)
+        public bool Values(Vector X, Vector F, math_Matrix D)
         {
             throw new NotImplementedException();
         }

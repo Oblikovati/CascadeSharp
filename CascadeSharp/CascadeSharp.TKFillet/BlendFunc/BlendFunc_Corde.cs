@@ -42,12 +42,12 @@ namespace CascadeSharp.TKFillet.BlendFunc
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, math_Vector F)
+        public bool Value(Vector X, Vector F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Derivatives(math_Vector X, math_Matrix D)
+        public bool Derivatives(Vector X, math_Matrix D)
         {
             throw new NotImplementedException();
         }
@@ -82,12 +82,12 @@ namespace CascadeSharp.TKFillet.BlendFunc
             throw new NotImplementedException();
         }
 
-        public void DerFguide(math_Vector Sol, gp_Vec2d DerF)
+        public void DerFguide(Vector Sol, gp_Vec2d DerF)
         {
             throw new NotImplementedException();
         }
 
-        public bool IsSolution(math_Vector Sol, double Tol)
+        public bool IsSolution(Vector Sol, double Tol)
         {
             throw new NotImplementedException();
         }

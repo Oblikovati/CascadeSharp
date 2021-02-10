@@ -18,7 +18,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
     {
         public GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP,
             int FirstPoint, int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints,
-            math_Vector Parameters, TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int NbPol)
+            Vector Parameters, TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int NbPol)
             : base()
         {
             throw new NotImplementedException();
@@ -41,22 +41,22 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, ref double F)
+        public bool Value(Vector X, ref double F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Gradient(math_Vector X, math_Vector G)
+        public bool Gradient(Vector X, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, ref double F, math_Vector G)
+        public bool Values(Vector X, ref double F, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public math_Vector NewParameters()
+        public Vector NewParameters()
         {
             throw new NotImplementedException();
         }
@@ -118,7 +118,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Vector X)
+        public void Perform(Vector X)
         {
             throw new NotImplementedException();
         }

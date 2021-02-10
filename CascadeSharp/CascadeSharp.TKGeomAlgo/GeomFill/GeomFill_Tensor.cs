@@ -45,7 +45,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomFill
             throw new NotImplementedException();
         }
 
-        public void Multiply(math_Vector Right, math_Matrix Product)
+        public void Multiply(Vector Right, math_Matrix Product)
         {
             throw new NotImplementedException();
         }

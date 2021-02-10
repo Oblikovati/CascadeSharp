@@ -66,17 +66,17 @@ namespace CascadeSharp.TKGeomAlgo.FairCurve
             throw new NotImplementedException();
         }
 
-        public bool Variable(math_Vector X)
+        public bool Variable(Vector X)
         {
             throw new NotImplementedException();
         }
 
-        public void ComputePoles(math_Vector X)
+        public void ComputePoles(Vector X)
         {
             throw new NotImplementedException();
         }
 
-        public bool Compute(int DerivativeOrder, math_Vector Result)
+        public bool Compute(int DerivativeOrder, Vector Result)
         {
             throw new NotImplementedException();
         }

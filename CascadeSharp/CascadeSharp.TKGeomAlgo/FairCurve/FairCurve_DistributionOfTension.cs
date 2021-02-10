@@ -54,7 +54,7 @@ namespace CascadeSharp.TKGeomAlgo.FairCurve
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, math_Vector F)
+        public bool Value(Vector X, Vector F)
         {
             throw new NotImplementedException();
         }

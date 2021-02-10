@@ -42,27 +42,27 @@ namespace CascadeSharp.TKGeomAlgo.GeomFill
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, math_Vector F)
+        public bool Value(Vector X, Vector F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Derivatives(math_Vector X, math_Matrix D)
+        public bool Derivatives(Vector X, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, math_Vector F, math_Matrix D)
+        public bool Values(Vector X, Vector F, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public bool DerivT(Adaptor3d_HCurve C, double Param, double W, gp_Vec dN, double teta, math_Vector F)
+        public bool DerivT(Adaptor3d_HCurve C, double Param, double W, gp_Vec dN, double teta, Vector F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Deriv2T(Adaptor3d_HCurve C, double Param, double W, gp_Vec d2N, double teta, math_Vector F)
+        public bool Deriv2T(Adaptor3d_HCurve C, double Param, double W, gp_Vec d2N, double teta, Vector F)
         {
             throw new NotImplementedException();
         }
@@ -72,7 +72,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomFill
             throw new NotImplementedException();
         }
 
-        public bool Deriv2X(math_Vector X, GeomFill_Tensor T)
+        public bool Deriv2X(Vector X, GeomFill_Tensor T)
         {
             throw new NotImplementedException();
         }

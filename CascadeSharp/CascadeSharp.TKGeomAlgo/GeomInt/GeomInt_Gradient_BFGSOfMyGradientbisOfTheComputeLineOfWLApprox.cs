@@ -14,14 +14,14 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
     public sealed class GeomInt_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfWLApprox : math_BFGS
     {
         public GeomInt_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfWLApprox(math_MultipleVarFunctionWithGradient F,
-            math_Vector StartingPoint, double Tolerance3d, double Tolerance2d, double Eps, int NbIterations)
+            Vector StartingPoint, double Tolerance3d, double Tolerance2d, double Eps, int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
         public GeomInt_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfWLApprox(math_MultipleVarFunctionWithGradient F,
-            math_Vector StartingPoint, double Tolerance3d, double Tolerance2d, double Eps)
+            Vector StartingPoint, double Tolerance3d, double Tolerance2d, double Eps)
             : base()
         {
             throw new NotImplementedException();

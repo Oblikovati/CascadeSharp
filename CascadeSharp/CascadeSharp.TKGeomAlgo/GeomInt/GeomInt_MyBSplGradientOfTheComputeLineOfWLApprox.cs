@@ -16,7 +16,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
     public sealed class GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox
     {
         public GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint,
-            int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters,
+            int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters,
             TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d,
             int NbIterations)
             : base()
@@ -25,7 +25,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
         }
 
         public GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint,
-            int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters,
+            int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters,
             TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d)
             : base()
         {
@@ -33,7 +33,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
         }
 
         public GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint,
-            int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters,
+            int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters,
             TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d,
             int NbIterations, double lambda1, double lambda2)
             : base()
@@ -84,14 +84,14 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
         }
 
         public void Perform(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, TColStd_Array1OfReal Knots,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, TColStd_Array1OfReal Knots,
             TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d, int NbIterations)
         {
             throw new NotImplementedException();
         }
 
         public void Perform(GeomInt_TheMultiLineOfWLApprox SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, TColStd_Array1OfReal Knots,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, TColStd_Array1OfReal Knots,
             TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d)
         {
             throw new NotImplementedException();

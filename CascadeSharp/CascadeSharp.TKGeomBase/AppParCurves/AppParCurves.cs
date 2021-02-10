@@ -25,22 +25,22 @@ namespace CascadeSharp.TKGeomBase.AppParCurves
             throw new NotImplementedException();
         }
 
-        public void BernsteinMatrix(int NbPoles, math_Vector U, math_Matrix A)
+        public void BernsteinMatrix(int NbPoles, Vector U, math_Matrix A)
         {
             throw new NotImplementedException();
         }
 
-        public void Bernstein(int NbPoles, math_Vector U, math_Matrix A, math_Matrix DA)
+        public void Bernstein(int NbPoles, Vector U, math_Matrix A, math_Matrix DA)
         {
             throw new NotImplementedException();
         }
 
-        public void SecondDerivativeBernstein(double U, math_Vector DDA)
+        public void SecondDerivativeBernstein(double U, Vector DDA)
         {
             throw new NotImplementedException();
         }
 
-        public void SplineFunction(int NbPoles, int Degree, math_Vector Parameters, math_Vector FlatKnots,
+        public void SplineFunction(int NbPoles, int Degree, Vector Parameters, Vector FlatKnots,
             math_Matrix A, math_Matrix DA, math_IntegerVector Index)
         {
             throw new NotImplementedException();

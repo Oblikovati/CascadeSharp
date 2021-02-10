@@ -52,7 +52,7 @@ namespace CascadeSharp.TKGeomBase.FEmTool
             throw new NotImplementedException();
         }
 
-        public void Gradient(int Dim, math_Vector G)
+        public void Gradient(int Dim, Vector G)
         {
             throw new NotImplementedException();
         }

@@ -13,7 +13,7 @@ namespace CascadeSharp.TKGeomBase.GeomLib
     //---------------------------------------------------------------------
     public sealed class GeomLib_PolyFunc : math_FunctionWithDerivative
     {
-        public GeomLib_PolyFunc(math_Vector Coeffs)
+        public GeomLib_PolyFunc(Vector Coeffs)
             : base()
         {
             throw new NotImplementedException();

@@ -34,7 +34,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Values()
+        public Vector Values()
         {
             throw new NotImplementedException();
         }
@@ -49,7 +49,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Vector(int Num, math_Vector V)
+        public void Vector(int Num, Vector V)
         {
             throw new NotImplementedException();
         }

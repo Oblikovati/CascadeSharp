@@ -12,7 +12,7 @@ namespace CascadeSharp.TKMath.math
     //---------------------------------------------------------------------
     public sealed class math_GaussMultipleIntegration
     {
-        public math_GaussMultipleIntegration(math_MultipleVarFunction F, math_Vector Lower, math_Vector Upper,
+        public math_GaussMultipleIntegration(math_MultipleVarFunction F, Vector Lower, Vector Upper,
             math_IntegerVector Order)
             : base()
         {

@@ -42,7 +42,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Perform(math_MultipleVarFunctionWithGradient theFunction, math_Vector theStartingPoint)
+        public void Perform(math_MultipleVarFunctionWithGradient theFunction, Vector theStartingPoint)
         {
             throw new NotImplementedException();
         }
@@ -57,12 +57,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Location()
+        public Vector Location()
         {
             throw new NotImplementedException();
         }
 
-        public void Location(math_Vector Loc)
+        public void Location(Vector Loc)
         {
             throw new NotImplementedException();
         }
@@ -72,12 +72,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Gradient()
+        public Vector Gradient()
         {
             throw new NotImplementedException();
         }
 
-        public void Gradient(math_Vector Grad)
+        public void Gradient(Vector Grad)
         {
             throw new NotImplementedException();
         }

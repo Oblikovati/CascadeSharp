@@ -29,17 +29,17 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, ref double F)
+        public bool Value(Vector X, ref double F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Gradient(math_Vector X, math_Vector G)
+        public bool Gradient(Vector X, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, ref double F, math_Vector G)
+        public bool Values(Vector X, ref double F, Vector G)
         {
             throw new NotImplementedException();
         }

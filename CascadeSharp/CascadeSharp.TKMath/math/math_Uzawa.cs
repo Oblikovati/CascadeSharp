@@ -12,53 +12,53 @@ namespace CascadeSharp.TKMath.math
     //---------------------------------------------------------------------
     public sealed class math_Uzawa
     {
-        public math_Uzawa(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, double EpsLix, double EpsLic,
+        public math_Uzawa(math_Matrix Cont, Vector Secont, Vector StartingPoint, double EpsLix, double EpsLic,
             int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_Uzawa(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, double EpsLix, double EpsLic)
+        public math_Uzawa(math_Matrix Cont, Vector Secont, Vector StartingPoint, double EpsLix, double EpsLic)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_Uzawa(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, double EpsLix)
+        public math_Uzawa(math_Matrix Cont, Vector Secont, Vector StartingPoint, double EpsLix)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_Uzawa(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint)
+        public math_Uzawa(math_Matrix Cont, Vector Secont, Vector StartingPoint)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_Uzawa(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, int Nci, int Nce,
+        public math_Uzawa(math_Matrix Cont, Vector Secont, Vector StartingPoint, int Nci, int Nce,
             double EpsLix, double EpsLic, int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_Uzawa(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, int Nci, int Nce,
+        public math_Uzawa(math_Matrix Cont, Vector Secont, Vector StartingPoint, int Nci, int Nce,
             double EpsLix, double EpsLic)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_Uzawa(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, int Nci, int Nce,
+        public math_Uzawa(math_Matrix Cont, Vector Secont, Vector StartingPoint, int Nci, int Nce,
             double EpsLix)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_Uzawa(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, int Nci, int Nce)
+        public math_Uzawa(math_Matrix Cont, Vector Secont, Vector StartingPoint, int Nci, int Nce)
             : base()
         {
             throw new NotImplementedException();
@@ -80,22 +80,22 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Value()
+        public Vector Value()
         {
             throw new NotImplementedException();
         }
 
-        public math_Vector InitialError()
+        public Vector InitialError()
         {
             throw new NotImplementedException();
         }
 
-        public void Duale(math_Vector V)
+        public void Duale(Vector V)
         {
             throw new NotImplementedException();
         }
 
-        public math_Vector Error()
+        public Vector Error()
         {
             throw new NotImplementedException();
         }
@@ -110,25 +110,25 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, int Nci, int Nce,
+        public void Perform(math_Matrix Cont, Vector Secont, Vector StartingPoint, int Nci, int Nce,
             double EpsLix, double EpsLic, int NbIterations)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, int Nci, int Nce,
+        public void Perform(math_Matrix Cont, Vector Secont, Vector StartingPoint, int Nci, int Nce,
             double EpsLix, double EpsLic)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, int Nci, int Nce,
+        public void Perform(math_Matrix Cont, Vector Secont, Vector StartingPoint, int Nci, int Nce,
             double EpsLix)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Matrix Cont, math_Vector Secont, math_Vector StartingPoint, int Nci, int Nce)
+        public void Perform(math_Matrix Cont, Vector Secont, Vector StartingPoint, int Nci, int Nce)
         {
             throw new NotImplementedException();
         }

@@ -23,7 +23,7 @@ namespace CascadeSharp.TKMath.math
         /// </summary>
         /// <param name="Index"></param>
         /// <param name="GPoint"></param>
-        public static void GaussPoints(int Index, ref math_Vector GPoint)
+        public static void GaussPoints(int Index, ref Vector GPoint)
         {
             int Som = 0;
             int i;
@@ -47,7 +47,7 @@ namespace CascadeSharp.TKMath.math
         /// </summary>
         /// <param name="Index"></param>
         /// <param name="GWeight"></param>
-        public static void GaussWeights(int Index, math_Vector GWeight)
+        public static void GaussWeights(int Index, Vector GWeight)
         {
             int Som = 0;
             int i;
@@ -89,7 +89,7 @@ namespace CascadeSharp.TKMath.math
         /// <param name="Points"></param>
         /// <param name="Weights"></param>
         /// <returns></returns>
-        public static bool OrderedGaussPointsAndWeights(int Index, ref math_Vector Points, ref math_Vector Weights)
+        public static bool OrderedGaussPointsAndWeights(int Index, ref Vector Points, ref Vector Weights)
         {
             if (Index < 1 ||    // Index is not positive
                 Points.Length() != Index || // Inconsistent length of Points.
@@ -157,7 +157,7 @@ namespace CascadeSharp.TKMath.math
         /// <param name="Points"></param>
         /// <param name="Weights"></param>
         /// <returns></returns>
-        public static bool KronrodPointsAndWeights(int Index, math_Vector Points, math_Vector Weights)
+        public static bool KronrodPointsAndWeights(int Index, Vector Points, Vector Weights)
         {
             if (Index < 3 ||   // Index is less then 3
                 Index % 2 == 0 ||   // Index is even

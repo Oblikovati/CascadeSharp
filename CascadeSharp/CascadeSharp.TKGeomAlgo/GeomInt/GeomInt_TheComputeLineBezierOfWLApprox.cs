@@ -78,7 +78,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Parameters,
+        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, Vector Parameters,
             int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting,
             bool Squares)
             : base()
@@ -86,102 +86,102 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Parameters,
+        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, Vector Parameters,
             int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Parameters,
+        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, Vector Parameters,
             int degreemin, int degreemax, double Tolerance3d, double Tolerance2d, int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Parameters,
+        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, Vector Parameters,
             int degreemin, int degreemax, double Tolerance3d, double Tolerance2d)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Parameters,
+        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, Vector Parameters,
             int degreemin, int degreemax, double Tolerance3d)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Parameters,
+        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, Vector Parameters,
             int degreemin, int degreemax)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Parameters,
+        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, Vector Parameters,
             int degreemin)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Parameters)
+        public GeomInt_TheComputeLineBezierOfWLApprox(GeomInt_TheMultiLineOfWLApprox Line, Vector Parameters)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(math_Vector Parameters, int degreemin, int degreemax,
+        public GeomInt_TheComputeLineBezierOfWLApprox(Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting, bool Squares)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(math_Vector Parameters, int degreemin, int degreemax,
+        public GeomInt_TheComputeLineBezierOfWLApprox(Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d, double Tolerance2d, int NbIterations, bool cutting)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(math_Vector Parameters, int degreemin, int degreemax,
+        public GeomInt_TheComputeLineBezierOfWLApprox(Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d, double Tolerance2d, int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(math_Vector Parameters, int degreemin, int degreemax,
+        public GeomInt_TheComputeLineBezierOfWLApprox(Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d, double Tolerance2d)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(math_Vector Parameters, int degreemin, int degreemax,
+        public GeomInt_TheComputeLineBezierOfWLApprox(Vector Parameters, int degreemin, int degreemax,
             double Tolerance3d)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(math_Vector Parameters, int degreemin, int degreemax)
+        public GeomInt_TheComputeLineBezierOfWLApprox(Vector Parameters, int degreemin, int degreemax)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(math_Vector Parameters, int degreemin)
+        public GeomInt_TheComputeLineBezierOfWLApprox(Vector Parameters, int degreemin)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public GeomInt_TheComputeLineBezierOfWLApprox(math_Vector Parameters)
+        public GeomInt_TheComputeLineBezierOfWLApprox(Vector Parameters)
             : base()
         {
             throw new NotImplementedException();
@@ -380,7 +380,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public bool Compute(GeomInt_TheMultiLineOfWLApprox Line, int fpt, int lpt, math_Vector Para,
+        public bool Compute(GeomInt_TheMultiLineOfWLApprox Line, int fpt, int lpt, Vector Para,
             ref double TheTol3d, ref double TheTol2d, ref int indbad)
         {
             throw new NotImplementedException();
@@ -391,27 +391,27 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public void Parameters(GeomInt_TheMultiLineOfWLApprox Line, int firstP, int LastP, math_Vector TheParameters)
+        public void Parameters(GeomInt_TheMultiLineOfWLApprox Line, int firstP, int LastP, Vector TheParameters)
         {
             throw new NotImplementedException();
         }
 
-        public double SearchFirstLambda(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Para, math_Vector V, int index)
+        public double SearchFirstLambda(GeomInt_TheMultiLineOfWLApprox Line, Vector Para, Vector V, int index)
         {
             throw new NotImplementedException();
         }
 
-        public double SearchLastLambda(GeomInt_TheMultiLineOfWLApprox Line, math_Vector Para, math_Vector V, int index)
+        public double SearchLastLambda(GeomInt_TheMultiLineOfWLApprox Line, Vector Para, Vector V, int index)
         {
             throw new NotImplementedException();
         }
 
-        public void FirstTangencyVector(GeomInt_TheMultiLineOfWLApprox Line, int index, math_Vector V)
+        public void FirstTangencyVector(GeomInt_TheMultiLineOfWLApprox Line, int index, Vector V)
         {
             throw new NotImplementedException();
         }
 
-        public void LastTangencyVector(GeomInt_TheMultiLineOfWLApprox Line, int index, math_Vector V)
+        public void LastTangencyVector(GeomInt_TheMultiLineOfWLApprox Line, int index, Vector V)
         {
             throw new NotImplementedException();
         }

@@ -46,23 +46,23 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, math_Vector F)
+        public bool Value(Vector X, Vector F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Derivatives(math_Vector X, math_Matrix D)
+        public bool Derivatives(Vector X, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, math_Vector F, math_Matrix D)
+        public bool Values(Vector X, Vector F, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public void ComputeParameters(IntImp_ConstIsoparametric ChoixIso, TColStd_Array1OfReal Param, math_Vector UVap,
-            math_Vector BornInf, math_Vector BornSup, math_Vector Tolerance)
+        public void ComputeParameters(IntImp_ConstIsoparametric ChoixIso, TColStd_Array1OfReal Param, Vector UVap,
+            Vector BornInf, Vector BornSup, Vector Tolerance)
         {
             throw new NotImplementedException();
         }
@@ -77,7 +77,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public bool IsTangent(math_Vector UVap, TColStd_Array1OfReal Param, ref IntImp_ConstIsoparametric BestChoix)
+        public bool IsTangent(Vector UVap, TColStd_Array1OfReal Param, ref IntImp_ConstIsoparametric BestChoix)
         {
             throw new NotImplementedException();
         }

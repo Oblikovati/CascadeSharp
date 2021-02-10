@@ -42,7 +42,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Perform(math_MultipleVarFunction theFunction, math_Vector theStartingPoint,
+        public void Perform(math_MultipleVarFunction theFunction, Vector theStartingPoint,
             math_Matrix theStartingDirections)
         {
             throw new NotImplementedException();
@@ -58,12 +58,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Location()
+        public Vector Location()
         {
             throw new NotImplementedException();
         }
 
-        public void Location(math_Vector Loc)
+        public void Location(Vector Loc)
         {
             throw new NotImplementedException();
         }

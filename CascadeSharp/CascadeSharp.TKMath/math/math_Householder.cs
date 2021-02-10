@@ -38,13 +38,13 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Householder(math_Matrix A, math_Vector B, double EPS)
+        public math_Householder(math_Matrix A, Vector B, double EPS)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_Householder(math_Matrix A, math_Vector B)
+        public math_Householder(math_Matrix A, Vector B)
             : base()
         {
             throw new NotImplementedException();
@@ -66,12 +66,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Value(math_Vector sol, int Index)
+        public void Value(Vector sol, int Index)
         {
             throw new NotImplementedException();
         }
 
-        public void Value(math_Vector sol)
+        public void Value(Vector sol)
         {
             throw new NotImplementedException();
         }

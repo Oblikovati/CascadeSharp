@@ -40,7 +40,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Solve(math_Vector B, math_Vector X)
+        public void Solve(Vector B, Vector X)
         {
             throw new NotImplementedException();
         }

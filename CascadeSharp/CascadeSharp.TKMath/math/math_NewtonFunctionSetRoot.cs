@@ -12,14 +12,14 @@ namespace CascadeSharp.TKMath.math
     //---------------------------------------------------------------------
     public sealed class math_NewtonFunctionSetRoot
     {
-        public math_NewtonFunctionSetRoot(math_FunctionSetWithDerivatives theFunction, math_Vector theXTolerance,
+        public math_NewtonFunctionSetRoot(math_FunctionSetWithDerivatives theFunction, Vector theXTolerance,
             double theFTolerance, int tehNbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_NewtonFunctionSetRoot(math_FunctionSetWithDerivatives theFunction, math_Vector theXTolerance,
+        public math_NewtonFunctionSetRoot(math_FunctionSetWithDerivatives theFunction, Vector theXTolerance,
             double theFTolerance)
             : base()
         {
@@ -50,18 +50,18 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void SetTolerance(math_Vector XTol)
+        public void SetTolerance(Vector XTol)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_FunctionSetWithDerivatives theFunction, math_Vector theStartingPoint)
+        public void Perform(math_FunctionSetWithDerivatives theFunction, Vector theStartingPoint)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_FunctionSetWithDerivatives theFunction, math_Vector theStartingPoint,
-            math_Vector theInfBound, math_Vector theSupBound)
+        public void Perform(math_FunctionSetWithDerivatives theFunction, Vector theStartingPoint,
+            Vector theInfBound, Vector theSupBound)
         {
             throw new NotImplementedException();
         }
@@ -76,12 +76,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Root()
+        public Vector Root()
         {
             throw new NotImplementedException();
         }
 
-        public void Root(math_Vector Root)
+        public void Root(Vector Root)
         {
             throw new NotImplementedException();
         }
@@ -101,12 +101,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector FunctionSetErrors()
+        public Vector FunctionSetErrors()
         {
             throw new NotImplementedException();
         }
 
-        public void FunctionSetErrors(math_Vector Err)
+        public void FunctionSetErrors(Vector Err)
         {
             throw new NotImplementedException();
         }

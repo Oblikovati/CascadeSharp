@@ -41,16 +41,16 @@ namespace CascadeSharp.TKGeomAlgo.IntPatch
         }
 
         public bool AddPointOnUorVIso(Adaptor3d_HSurface theQSurf, Adaptor3d_HSurface thePSurf,
-            IntSurf_PntOn2S theRefPt, bool theIsU, double theIsoParameter, math_Vector theToler,
-            math_Vector theInitPoint, math_Vector theInfBound, math_Vector theSupBound, IntSurf_PntOn2S theAddedPoint,
+            IntSurf_PntOn2S theRefPt, bool theIsU, double theIsoParameter, Vector theToler,
+            Vector theInitPoint, Vector theInfBound, Vector theSupBound, IntSurf_PntOn2S theAddedPoint,
             bool theIsReversed)
         {
             throw new NotImplementedException();
         }
 
         public bool AddPointOnUorVIso(Adaptor3d_HSurface theQSurf, Adaptor3d_HSurface thePSurf,
-            IntSurf_PntOn2S theRefPt, bool theIsU, double theIsoParameter, math_Vector theToler,
-            math_Vector theInitPoint, math_Vector theInfBound, math_Vector theSupBound, IntSurf_PntOn2S theAddedPoint)
+            IntSurf_PntOn2S theRefPt, bool theIsU, double theIsoParameter, Vector theToler,
+            Vector theInitPoint, Vector theInfBound, Vector theSupBound, IntSurf_PntOn2S theAddedPoint)
         {
             throw new NotImplementedException();
         }

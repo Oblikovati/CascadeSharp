@@ -99,7 +99,7 @@ namespace CascadeSharp.TKGeomAlgo.Geom2dGcc
             throw new NotImplementedException();
         }
 
-        public void InitDerivative(math_Vector X, gp_Pnt2d Point1, gp_Pnt2d Point2, gp_Pnt2d Point3, gp_Vec2d Tan1,
+        public void InitDerivative(Vector X, gp_Pnt2d Point1, gp_Pnt2d Point2, gp_Pnt2d Point3, gp_Vec2d Tan1,
             gp_Vec2d Tan2, gp_Vec2d Tan3, gp_Vec2d D21, gp_Vec2d D22, gp_Vec2d D23)
         {
             throw new NotImplementedException();
@@ -115,17 +115,17 @@ namespace CascadeSharp.TKGeomAlgo.Geom2dGcc
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, math_Vector F)
+        public bool Value(Vector X, Vector F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Derivatives(math_Vector X, math_Matrix D)
+        public bool Derivatives(Vector X, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, math_Vector F, math_Matrix D)
+        public bool Values(Vector X, Vector F, math_Matrix D)
         {
             throw new NotImplementedException();
         }

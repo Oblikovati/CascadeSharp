@@ -13,14 +13,14 @@ namespace CascadeSharp.TKGeomBase.AppDef
     //---------------------------------------------------------------------
     public sealed class AppDef_Gradient_BFGSOfTheGradient : math_BFGS
     {
-        public AppDef_Gradient_BFGSOfTheGradient(math_MultipleVarFunctionWithGradient F, math_Vector StartingPoint,
+        public AppDef_Gradient_BFGSOfTheGradient(math_MultipleVarFunctionWithGradient F, Vector StartingPoint,
             double Tolerance3d, double Tolerance2d, double Eps, int NbIterations)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public AppDef_Gradient_BFGSOfTheGradient(math_MultipleVarFunctionWithGradient F, math_Vector StartingPoint,
+        public AppDef_Gradient_BFGSOfTheGradient(math_MultipleVarFunctionWithGradient F, Vector StartingPoint,
             double Tolerance3d, double Tolerance2d, double Eps)
             : base()
         {

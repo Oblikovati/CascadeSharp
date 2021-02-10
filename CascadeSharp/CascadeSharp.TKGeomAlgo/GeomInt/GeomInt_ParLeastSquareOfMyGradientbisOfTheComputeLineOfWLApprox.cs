@@ -17,7 +17,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
     {
         public GeomInt_ParLeastSquareOfMyGradientbisOfTheComputeLineOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP,
             int FirstPoint, int LastPoint, AppParCurves_Constraint FirstCons, AppParCurves_Constraint LastCons,
-            math_Vector Parameters, int NbPol)
+            Vector Parameters, int NbPol)
             : base()
         {
             throw new NotImplementedException();
@@ -33,7 +33,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
 
         public GeomInt_ParLeastSquareOfMyGradientbisOfTheComputeLineOfWLApprox(GeomInt_TheMultiLineOfWLApprox SSP,
             TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int FirstPoint, int LastPoint,
-            AppParCurves_Constraint FirstCons, AppParCurves_Constraint LastCons, math_Vector Parameters, int NbPol)
+            AppParCurves_Constraint FirstCons, AppParCurves_Constraint LastCons, Vector Parameters, int NbPol)
             : base()
         {
             throw new NotImplementedException();
@@ -59,22 +59,22 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Vector Parameters)
+        public void Perform(Vector Parameters)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Vector Parameters, double l1, double l2)
+        public void Perform(Vector Parameters, double l1, double l2)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Vector Parameters, math_Vector V1t, math_Vector V2t, double l1, double l2)
+        public void Perform(Vector Parameters, Vector V1t, Vector V2t, double l1, double l2)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Vector Parameters, math_Vector V1t, math_Vector V2t, math_Vector V1c, math_Vector V2c,
+        public void Perform(Vector Parameters, Vector V1t, Vector V2t, Vector V1c, Vector V2c,
             double l1, double l2)
         {
             throw new NotImplementedException();
@@ -105,7 +105,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public void ErrorGradient(math_Vector Grad, ref double F, ref double MaxE3d, ref double MaxE2d)
+        public void ErrorGradient(Vector Grad, ref double F, ref double MaxE3d, ref double MaxE2d)
         {
             throw new NotImplementedException();
         }
@@ -166,12 +166,12 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
         }
 
         public void Affect(GeomInt_TheMultiLineOfWLApprox SSP, int Index, ref AppParCurves_Constraint Cons,
-            math_Vector Vt, math_Vector Vc)
+            Vector Vt, Vector Vc)
         {
             throw new NotImplementedException();
         }
 
-        public void ComputeFunction(math_Vector Parameters)
+        public void ComputeFunction(Vector Parameters)
         {
             throw new NotImplementedException();
         }
@@ -181,17 +181,17 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
             throw new NotImplementedException();
         }
 
-        public void MakeTAA(math_Vector TheA, math_Vector TheB)
+        public void MakeTAA(Vector TheA, Vector TheB)
         {
             throw new NotImplementedException();
         }
 
-        public void MakeTAA(math_Vector TheA)
+        public void MakeTAA(Vector TheA)
         {
             throw new NotImplementedException();
         }
 
-        public void MakeTAA(math_Vector TheA, math_Matrix TheB)
+        public void MakeTAA(Vector TheA, math_Matrix TheB)
         {
             throw new NotImplementedException();
         }

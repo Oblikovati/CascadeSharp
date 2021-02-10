@@ -46,7 +46,7 @@ namespace CascadeSharp.TKGeomBase.FEmTool
             throw new NotImplementedException();
         }
 
-        public void AddVector(int Element, int Dimension, math_Vector Vec)
+        public void AddVector(int Element, int Dimension, Vector Vec)
         {
             throw new NotImplementedException();
         }
@@ -61,7 +61,7 @@ namespace CascadeSharp.TKGeomBase.FEmTool
             throw new NotImplementedException();
         }
 
-        public void AddConstraint(int IndexofConstraint, int Element, int Dimension, math_Vector LinearForm,
+        public void AddConstraint(int IndexofConstraint, int Element, int Dimension, Vector LinearForm,
             double Value)
         {
             throw new NotImplementedException();
@@ -72,7 +72,7 @@ namespace CascadeSharp.TKGeomBase.FEmTool
             throw new NotImplementedException();
         }
 
-        public void Solution(math_Vector Solution)
+        public void Solution(Vector Solution)
         {
             throw new NotImplementedException();
         }

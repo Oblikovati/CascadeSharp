@@ -16,7 +16,7 @@ namespace CascadeSharp.TKGeomBase.AppDef
     public sealed class AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute : math_MultipleVarFunctionWithGradient
     {
         public AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute(AppDef_MultiLine SSP, int FirstPoint,
-            int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters,
+            int LastPoint, AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters,
             TColStd_Array1OfReal Knots, TColStd_Array1OfInteger Mults, int NbPol)
             : base()
         {
@@ -40,22 +40,22 @@ namespace CascadeSharp.TKGeomBase.AppDef
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, ref double F)
+        public bool Value(Vector X, ref double F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Gradient(math_Vector X, math_Vector G)
+        public bool Gradient(Vector X, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, ref double F, math_Vector G)
+        public bool Values(Vector X, ref double F, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public math_Vector NewParameters()
+        public Vector NewParameters()
         {
             throw new NotImplementedException();
         }
@@ -117,7 +117,7 @@ namespace CascadeSharp.TKGeomBase.AppDef
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Vector X)
+        public void Perform(Vector X)
         {
             throw new NotImplementedException();
         }

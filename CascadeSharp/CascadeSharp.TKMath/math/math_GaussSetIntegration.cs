@@ -12,7 +12,7 @@ namespace CascadeSharp.TKMath.math
     //---------------------------------------------------------------------
     public sealed class math_GaussSetIntegration
     {
-        public math_GaussSetIntegration(math_FunctionSet F, math_Vector Lower, math_Vector Upper,
+        public math_GaussSetIntegration(math_FunctionSet F, Vector Lower, Vector Upper,
             math_IntegerVector Order)
             : base()
         {
@@ -35,7 +35,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Value()
+        public Vector Value()
         {
             throw new NotImplementedException();
         }

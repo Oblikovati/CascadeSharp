@@ -16,7 +16,7 @@ namespace CascadeSharp.TKGeomBase.AppDef
     public sealed class AppDef_MyBSplGradientOfBSplineCompute
     {
         public AppDef_MyBSplGradientOfBSplineCompute(AppDef_MultiLine SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, TColStd_Array1OfReal Knots,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, TColStd_Array1OfReal Knots,
             TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d, int NbIterations)
             : base()
         {
@@ -24,7 +24,7 @@ namespace CascadeSharp.TKGeomBase.AppDef
         }
 
         public AppDef_MyBSplGradientOfBSplineCompute(AppDef_MultiLine SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, TColStd_Array1OfReal Knots,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, TColStd_Array1OfReal Knots,
             TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d)
             : base()
         {
@@ -32,7 +32,7 @@ namespace CascadeSharp.TKGeomBase.AppDef
         }
 
         public AppDef_MyBSplGradientOfBSplineCompute(AppDef_MultiLine SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, TColStd_Array1OfReal Knots,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, TColStd_Array1OfReal Knots,
             TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d, int NbIterations, double lambda1,
             double lambda2)
             : base()
@@ -82,14 +82,14 @@ namespace CascadeSharp.TKGeomBase.AppDef
         }
 
         public void Perform(AppDef_MultiLine SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, TColStd_Array1OfReal Knots,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, TColStd_Array1OfReal Knots,
             TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d, int NbIterations)
         {
             throw new NotImplementedException();
         }
 
         public void Perform(AppDef_MultiLine SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, TColStd_Array1OfReal Knots,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, TColStd_Array1OfReal Knots,
             TColStd_Array1OfInteger Mults, int Deg, double Tol3d, double Tol2d)
         {
             throw new NotImplementedException();

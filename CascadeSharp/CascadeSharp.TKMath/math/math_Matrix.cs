@@ -41,6 +41,13 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
+        //TODO: those fields are private on c++?!?
+        public int LowerRowIndex;
+        public int UpperRowIndex;
+        public int LowerColIndex;
+        public int UpperColIndex;
+        public math_DoubleTab Array;
+
         public void Init(double InitialValue)
         {
             throw new NotImplementedException();
@@ -146,12 +153,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void SetRow(int Row, math_Vector V)
+        public void SetRow(int Row, Vector V)
         {
             throw new NotImplementedException();
         }
 
-        public void SetCol(int Col, math_Vector V)
+        public void SetCol(int Col, Vector V)
         {
             throw new NotImplementedException();
         }
@@ -161,12 +168,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Row(int Row)
+        public Vector Row(int Row)
         {
             throw new NotImplementedException();
         }
 
-        public math_Vector Col(int Col)
+        public Vector Col(int Col)
         {
             throw new NotImplementedException();
         }
@@ -196,7 +203,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Multiply(math_Vector Left, math_Vector Right)
+        public void Multiply(Vector Left, Vector Right)
         {
             throw new NotImplementedException();
         }
@@ -236,7 +243,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Multiplied(math_Vector Right)
+        public Vector Multiplied(Vector Right)
         {
             throw new NotImplementedException();
         }

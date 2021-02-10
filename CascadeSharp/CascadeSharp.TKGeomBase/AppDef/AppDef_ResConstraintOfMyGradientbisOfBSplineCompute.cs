@@ -57,12 +57,12 @@ namespace CascadeSharp.TKGeomBase.AppDef
             throw new NotImplementedException();
         }
 
-        public math_Vector Duale()
+        public Vector Duale()
         {
             throw new NotImplementedException();
         }
 
-        public math_Matrix ConstraintDerivative(AppDef_MultiLine SSP, math_Vector Parameters, int Deg, math_Matrix DA)
+        public math_Matrix ConstraintDerivative(AppDef_MultiLine SSP, Vector Parameters, int Deg, math_Matrix DA)
         {
             throw new NotImplementedException();
         }

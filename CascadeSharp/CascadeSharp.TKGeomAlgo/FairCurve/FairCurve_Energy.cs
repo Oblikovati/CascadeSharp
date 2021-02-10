@@ -78,27 +78,27 @@ namespace CascadeSharp.TKGeomAlgo.FairCurve
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, ref double E)
+        public bool Value(Vector X, ref double E)
         {
             throw new NotImplementedException();
         }
 
-        public bool Gradient(math_Vector X, math_Vector G)
+        public bool Gradient(Vector X, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, ref double E, math_Vector G)
+        public bool Values(Vector X, ref double E, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, ref double E, math_Vector G, math_Matrix H)
+        public bool Values(Vector X, ref double E, Vector G, math_Matrix H)
         {
             throw new NotImplementedException();
         }
 
-        public bool Variable(math_Vector X)
+        public bool Variable(Vector X)
         {
             throw new NotImplementedException();
         }
@@ -108,17 +108,17 @@ namespace CascadeSharp.TKGeomAlgo.FairCurve
             throw new NotImplementedException();
         }
 
-        public void Gradient1(math_Vector TheVector, math_Vector G)
+        public void Gradient1(Vector TheVector, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public void Hessian1(math_Vector TheVector, math_Matrix H)
+        public void Hessian1(Vector TheVector, math_Matrix H)
         {
             throw new NotImplementedException();
         }
 
-        public void ComputePoles(math_Vector X)
+        public void ComputePoles(Vector X)
         {
             throw new NotImplementedException();
         }
@@ -138,7 +138,7 @@ namespace CascadeSharp.TKGeomAlgo.FairCurve
             throw new NotImplementedException();
         }
 
-        public bool Compute(int DerivativeOrder, math_Vector Result)
+        public bool Compute(int DerivativeOrder, Vector Result)
         {
             throw new NotImplementedException();
         }

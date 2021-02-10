@@ -34,17 +34,17 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, math_Vector F)
+        public bool Value(Vector X, Vector F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Derivatives(math_Vector X, math_Matrix D)
+        public bool Derivatives(Vector X, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, math_Vector F, math_Matrix D)
+        public bool Values(Vector X, Vector F, math_Matrix D)
         {
             throw new NotImplementedException();
         }

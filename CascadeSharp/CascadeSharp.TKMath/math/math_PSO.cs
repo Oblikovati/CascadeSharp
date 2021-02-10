@@ -12,22 +12,22 @@ namespace CascadeSharp.TKMath.math
     //---------------------------------------------------------------------
     public sealed class math_PSO
     {
-        public math_PSO(math_MultipleVarFunction theFunc, math_Vector theLowBorder, math_Vector theUppBorder,
-            math_Vector theSteps, int theNbParticles, int theNbIter)
+        public math_PSO(math_MultipleVarFunction theFunc, Vector theLowBorder, Vector theUppBorder,
+            Vector theSteps, int theNbParticles, int theNbIter)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_PSO(math_MultipleVarFunction theFunc, math_Vector theLowBorder, math_Vector theUppBorder,
-            math_Vector theSteps, int theNbParticles)
+        public math_PSO(math_MultipleVarFunction theFunc, Vector theLowBorder, Vector theUppBorder,
+            Vector theSteps, int theNbParticles)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_PSO(math_MultipleVarFunction theFunc, math_Vector theLowBorder, math_Vector theUppBorder,
-            math_Vector theSteps)
+        public math_PSO(math_MultipleVarFunction theFunc, Vector theLowBorder, Vector theUppBorder,
+            Vector theSteps)
             : base()
         {
             throw new NotImplementedException();
@@ -44,36 +44,36 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Vector theSteps, ref double theValue, math_Vector theOutPnt, int theNbIter)
+        public void Perform(Vector theSteps, ref double theValue, Vector theOutPnt, int theNbIter)
         {
             throw new NotImplementedException();
         }
 
-        public void Perform(math_Vector theSteps, ref double theValue, math_Vector theOutPnt)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Perform(math_PSOParticlesPool theParticles, int theNbParticles, ref double theValue,
-            math_Vector theOutPnt, int theNbIter)
+        public void Perform(Vector theSteps, ref double theValue, Vector theOutPnt)
         {
             throw new NotImplementedException();
         }
 
         public void Perform(math_PSOParticlesPool theParticles, int theNbParticles, ref double theValue,
-            math_Vector theOutPnt)
+            Vector theOutPnt, int theNbIter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Perform(math_PSOParticlesPool theParticles, int theNbParticles, ref double theValue,
+            Vector theOutPnt)
         {
             throw new NotImplementedException();
         }
 
         public void performPSOWithGivenParticles(math_PSOParticlesPool theParticles, int theNbParticles,
-            ref double theValue, math_Vector theOutPnt, int theNbIter)
+            ref double theValue, Vector theOutPnt, int theNbIter)
         {
             throw new NotImplementedException();
         }
 
         public void performPSOWithGivenParticles(math_PSOParticlesPool theParticles, int theNbParticles,
-            ref double theValue, math_Vector theOutPnt)
+            ref double theValue, Vector theOutPnt)
         {
             throw new NotImplementedException();
         }

@@ -53,27 +53,27 @@ namespace CascadeSharp.TKGeomAlgo.GeomFill
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, math_Vector F)
+        public bool Value(Vector X, Vector F)
         {
             throw new NotImplementedException();
         }
 
-        public bool Derivatives(math_Vector X, math_Matrix D)
+        public bool Derivatives(Vector X, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public bool Values(math_Vector X, math_Vector F, math_Matrix D)
+        public bool Values(Vector X, Vector F, math_Matrix D)
         {
             throw new NotImplementedException();
         }
 
-        public bool DerivT(math_Vector X, gp_XYZ DCentre, gp_XYZ DDir, math_Vector DFDT)
+        public bool DerivT(Vector X, gp_XYZ DCentre, gp_XYZ DDir, Vector DFDT)
         {
             throw new NotImplementedException();
         }
 
-        public bool Deriv2T(gp_XYZ DCentre, gp_XYZ DDir, math_Vector DFDT, math_Vector D2FT)
+        public bool Deriv2T(gp_XYZ DCentre, gp_XYZ DDir, Vector DFDT, Vector D2FT)
         {
             throw new NotImplementedException();
         }

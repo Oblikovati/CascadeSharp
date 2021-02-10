@@ -12,6 +12,7 @@ namespace CascadeSharp.TKMath.math
     //---------------------------------------------------------------------
     public sealed class math_DoubleTab
     {
+        public double this[int r, int c] => 0;
         public math_DoubleTab(int LowerRow, int UpperRow, int LowerCol, int UpperCol)
             : base()
         {

@@ -41,7 +41,7 @@ namespace CascadeSharp.TKGeomBase.FEmTool
             throw new NotImplementedException();
         }
 
-        public void Solve(math_Vector B, math_Vector X)
+        public void Solve(Vector B, Vector X)
         {
             throw new NotImplementedException();
         }
@@ -51,23 +51,23 @@ namespace CascadeSharp.TKGeomBase.FEmTool
             throw new NotImplementedException();
         }
 
-        public void Solve(math_Vector B, math_Vector Init, math_Vector X, math_Vector Residual, double Tolerance,
+        public void Solve(Vector B, Vector Init, Vector X, Vector Residual, double Tolerance,
             int NbIterations)
         {
             throw new NotImplementedException();
         }
 
-        public void Solve(math_Vector B, math_Vector Init, math_Vector X, math_Vector Residual, double Tolerance)
+        public void Solve(Vector B, Vector Init, Vector X, Vector Residual, double Tolerance)
         {
             throw new NotImplementedException();
         }
 
-        public void Solve(math_Vector B, math_Vector Init, math_Vector X, math_Vector Residual)
+        public void Solve(Vector B, Vector Init, Vector X, Vector Residual)
         {
             throw new NotImplementedException();
         }
 
-        public void Multiplied(math_Vector X, math_Vector MX)
+        public void Multiplied(Vector X, Vector MX)
         {
             throw new NotImplementedException();
         }

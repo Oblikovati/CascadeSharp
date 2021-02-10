@@ -12,28 +12,28 @@ namespace CascadeSharp.TKMath.math
     //---------------------------------------------------------------------
     public sealed class math_GlobOptMin
     {
-        public math_GlobOptMin(math_MultipleVarFunction theFunc, math_Vector theLowerBorder, math_Vector theUpperBorder,
+        public math_GlobOptMin(math_MultipleVarFunction theFunc, Vector theLowerBorder, Vector theUpperBorder,
             double theC, double theD_iscretizationTol, double theSameTol)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_GlobOptMin(math_MultipleVarFunction theFunc, math_Vector theLowerBorder, math_Vector theUpperBorder,
+        public math_GlobOptMin(math_MultipleVarFunction theFunc, Vector theLowerBorder, Vector theUpperBorder,
             double theC, double theD_iscretizationTol)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_GlobOptMin(math_MultipleVarFunction theFunc, math_Vector theLowerBorder, math_Vector theUpperBorder,
+        public math_GlobOptMin(math_MultipleVarFunction theFunc, Vector theLowerBorder, Vector theUpperBorder,
             double theC)
             : base()
         {
             throw new NotImplementedException();
         }
 
-        public math_GlobOptMin(math_MultipleVarFunction theFunc, math_Vector theLowerBorder, math_Vector theUpperBorder)
+        public math_GlobOptMin(math_MultipleVarFunction theFunc, Vector theLowerBorder, Vector theUpperBorder)
             : base()
         {
             throw new NotImplementedException();
@@ -50,31 +50,31 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void SetGlobalParams(math_MultipleVarFunction theFunc, math_Vector theLowerBorder,
-            math_Vector theUpperBorder, double theC, double theD_iscretizationTol, double theSameTol)
+        public void SetGlobalParams(math_MultipleVarFunction theFunc, Vector theLowerBorder,
+            Vector theUpperBorder, double theC, double theD_iscretizationTol, double theSameTol)
         {
             throw new NotImplementedException();
         }
 
-        public void SetGlobalParams(math_MultipleVarFunction theFunc, math_Vector theLowerBorder,
-            math_Vector theUpperBorder, double theC, double theD_iscretizationTol)
+        public void SetGlobalParams(math_MultipleVarFunction theFunc, Vector theLowerBorder,
+            Vector theUpperBorder, double theC, double theD_iscretizationTol)
         {
             throw new NotImplementedException();
         }
 
-        public void SetGlobalParams(math_MultipleVarFunction theFunc, math_Vector theLowerBorder,
-            math_Vector theUpperBorder, double theC)
+        public void SetGlobalParams(math_MultipleVarFunction theFunc, Vector theLowerBorder,
+            Vector theUpperBorder, double theC)
         {
             throw new NotImplementedException();
         }
 
-        public void SetGlobalParams(math_MultipleVarFunction theFunc, math_Vector theLowerBorder,
-            math_Vector theUpperBorder)
+        public void SetGlobalParams(math_MultipleVarFunction theFunc, Vector theLowerBorder,
+            Vector theUpperBorder)
         {
             throw new NotImplementedException();
         }
 
-        public void SetLocalParams(math_Vector theLocalA, math_Vector theLocalB)
+        public void SetLocalParams(Vector theLocalA, Vector theLocalB)
         {
             throw new NotImplementedException();
         }
@@ -99,7 +99,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public void Points(int theIndex, math_Vector theSol)
+        public void Points(int theIndex, Vector theSol)
         {
             throw new NotImplementedException();
         }
@@ -159,7 +159,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public bool computeLocalExtremum(math_Vector thePnt, ref double theVal, math_Vector theOutPnt)
+        public bool computeLocalExtremum(Vector thePnt, ref double theVal, Vector theOutPnt)
         {
             throw new NotImplementedException();
         }
@@ -179,17 +179,17 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public bool isInside(math_Vector thePnt)
+        public bool isInside(Vector thePnt)
         {
             throw new NotImplementedException();
         }
 
-        public bool isStored(math_Vector thePnt)
+        public bool isStored(Vector thePnt)
         {
             throw new NotImplementedException();
         }
 
-        public void checkAddCandidate(math_Vector thePnt, double theValue)
+        public void checkAddCandidate(Vector thePnt, double theValue)
         {
             throw new NotImplementedException();
         }

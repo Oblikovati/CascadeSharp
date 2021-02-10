@@ -15,7 +15,7 @@ namespace CascadeSharp.TKGeomBase.AppDef
     public sealed class AppDef_MyGradientbisOfBSplineCompute
     {
         public AppDef_MyGradientbisOfBSplineCompute(AppDef_MultiLine SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, int Deg, double Tol3d,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, int Deg, double Tol3d,
             double Tol2d, int NbIterations)
             : base()
         {
@@ -23,7 +23,7 @@ namespace CascadeSharp.TKGeomBase.AppDef
         }
 
         public AppDef_MyGradientbisOfBSplineCompute(AppDef_MultiLine SSP, int FirstPoint, int LastPoint,
-            AppParCurves_HArray1OfConstraintCouple TheConstraints, math_Vector Parameters, int Deg, double Tol3d,
+            AppParCurves_HArray1OfConstraintCouple TheConstraints, Vector Parameters, int Deg, double Tol3d,
             double Tol2d)
             : base()
         {

@@ -93,24 +93,24 @@ namespace CascadeSharp.TKGeomAlgo.IntPatch
             throw new NotImplementedException();
         }
 
-        public bool Cadrage(math_Vector BornInf, math_Vector BornSup, math_Vector UVap, ref double Step, int StepSign)
+        public bool Cadrage(Vector BornInf, Vector BornSup, Vector UVap, ref double Step, int StepSign)
         {
             throw new NotImplementedException();
         }
 
         public bool TestArretPassage(TColStd_SequenceOfReal Umult, TColStd_SequenceOfReal Vmult,
-            IntPatch_TheSurfFunction Section, math_Vector UV, ref int Irang)
+            IntPatch_TheSurfFunction Section, Vector UV, ref int Irang)
         {
             throw new NotImplementedException();
         }
 
-        public bool TestArretPassage(TColStd_SequenceOfReal Umult, TColStd_SequenceOfReal Vmult, math_Vector UV,
+        public bool TestArretPassage(TColStd_SequenceOfReal Umult, TColStd_SequenceOfReal Vmult, Vector UV,
             int Index, ref int Irang)
         {
             throw new NotImplementedException();
         }
 
-        public bool TestArretAjout(IntPatch_TheSurfFunction Section, math_Vector UV, ref int Irang,
+        public bool TestArretAjout(IntPatch_TheSurfFunction Section, Vector UV, ref int Irang,
             IntSurf_PntOn2S PSol)
         {
             throw new NotImplementedException();
@@ -123,7 +123,7 @@ namespace CascadeSharp.TKGeomAlgo.IntPatch
         }
 
         public void TestArretCadre(TColStd_SequenceOfReal Umult, TColStd_SequenceOfReal Vmult,
-            IntPatch_TheIWLineOfTheIWalking Line, IntPatch_TheSurfFunction Section, math_Vector UV, ref int Irang)
+            IntPatch_TheIWLineOfTheIWalking Line, IntPatch_TheSurfFunction Section, Vector UV, ref int Irang)
         {
             throw new NotImplementedException();
         }
@@ -178,7 +178,7 @@ namespace CascadeSharp.TKGeomAlgo.IntPatch
             throw new NotImplementedException();
         }
 
-        public bool IsPointOnLine(IntSurf_PntOn2S thePOn2S, math_Vector theInfBounds, math_Vector theSupBounds,
+        public bool IsPointOnLine(IntSurf_PntOn2S thePOn2S, Vector theInfBounds, Vector theSupBounds,
             math_FunctionSetRoot theSolver, IntPatch_TheSurfFunction theFunc)
         {
             throw new NotImplementedException();

@@ -30,7 +30,7 @@ namespace CascadeSharp.TKGeomBase.GCPnts
             throw new NotImplementedException();
         }
 
-        public bool Value(math_Vector X, ref double F)
+        public bool Value(Vector X, ref double F)
         {
             throw new NotImplementedException();
         }

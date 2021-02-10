@@ -14,7 +14,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
     public sealed class GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox : math_BFGS
     {
         public GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox(
-            math_MultipleVarFunctionWithGradient F, math_Vector StartingPoint, double Tolerance3d, double Tolerance2d,
+            math_MultipleVarFunctionWithGradient F, Vector StartingPoint, double Tolerance3d, double Tolerance2d,
             double Eps, int NbIterations)
             : base()
         {
@@ -22,7 +22,7 @@ namespace CascadeSharp.TKGeomAlgo.GeomInt
         }
 
         public GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox(
-            math_MultipleVarFunctionWithGradient F, math_Vector StartingPoint, double Tolerance3d, double Tolerance2d,
+            math_MultipleVarFunctionWithGradient F, Vector StartingPoint, double Tolerance3d, double Tolerance2d,
             double Eps)
             : base()
         {

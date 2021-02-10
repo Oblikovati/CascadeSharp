@@ -87,12 +87,12 @@ namespace CascadeSharp.TKGeomBase.AppDef
             throw new NotImplementedException();
         }
 
-        public void Gradient(int Element, int Dimension, math_Vector G)
+        public void Gradient(int Element, int Dimension, Vector G)
         {
             throw new NotImplementedException();
         }
 
-        public void InputVector(math_Vector X, FEmTool_HAssemblyTable AssTable)
+        public void InputVector(Vector X, FEmTool_HAssemblyTable AssTable)
         {
             throw new NotImplementedException();
         }

@@ -45,7 +45,7 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector EigenVector(int Index)
+        public Vector EigenVector(int Index)
         {
             throw new NotImplementedException();
         }

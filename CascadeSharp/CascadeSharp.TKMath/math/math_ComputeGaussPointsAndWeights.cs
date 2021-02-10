@@ -34,12 +34,12 @@ namespace CascadeSharp.TKMath.math
             throw new NotImplementedException();
         }
 
-        public math_Vector Points()
+        public Vector Points()
         {
             throw new NotImplementedException();
         }
 
-        public math_Vector Weights()
+        public Vector Weights()
         {
             throw new NotImplementedException();
         }
