@@ -56,6 +56,11 @@ namespace CascadeSharp.TKMath.math
             AddRange(theOther.ToArray());
         }
 
+        public Vector(int capacity)
+            : base(capacity)
+        {
+            
+        }
         public Vector()
             :base(1)
         {
@@ -87,9 +92,12 @@ namespace CascadeSharp.TKMath.math
 
         public int Upper()
         {
-            return Count;
+            return Count -1;
         }
-
+        /// <summary>
+        /// Returns the value or the square of the norm of this vector.
+        /// </summary>
+        /// <returns></returns>
         public double Norm()
         {
             double result = 0;
@@ -101,7 +109,10 @@ namespace CascadeSharp.TKMath.math
 
             return result.Sqrt();
         }
-
+        /// <summary>
+        /// Returns the value of the square of the norm of a vector.
+        /// </summary>
+        /// <returns></returns>
         public double Norm2()
         {
             return Norm();
@@ -138,7 +149,11 @@ namespace CascadeSharp.TKMath.math
 
             return i;
         }
-
+        /// <summary>
+        /// Normalizes this vector (the norm of the result is equal to 1.0) and assigns
+        /// the result to this vector Exceptions Standard_NullValue if this vector is null
+        /// (i.e. if its norm is less than or equal to Standard_Real::RealEpsilon().
+        /// </summary>
         public void Normalize()
         {
             var result = Norm();
