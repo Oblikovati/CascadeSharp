@@ -8,36 +8,45 @@ using System;
 namespace CascadeSharp.TKMath.math
 {
     //---------------------------------------------------------------------
-    //  Class  math_ValueAndWeight
+    //  Class  ValueAndWeight
     //---------------------------------------------------------------------
-    public sealed class math_ValueAndWeight
+    public sealed class ValueAndWeight
     {
-        public math_ValueAndWeight()
+        public ValueAndWeight()
             : base()
         {
-            throw new NotImplementedException();
+            value = 0;
+            weight = 0;
         }
 
-        public math_ValueAndWeight(double theValue, double theWeight)
+        public ValueAndWeight(double theValue, double theWeight)
             : base()
         {
-            throw new NotImplementedException();
+            value = theValue;
+            weight = theWeight;
         }
 
-        public math_ValueAndWeight(math_ValueAndWeight parameter1)
+        public ValueAndWeight(ValueAndWeight parameter1)
             : base()
         {
-            throw new NotImplementedException();
+            value = parameter1.Value();
+            weight = parameter1.Weight();
         }
+
+        #region Private Objects
+
+        private double value, weight;
+
+        #endregion
 
         public double Value()
         {
-            throw new NotImplementedException();
+            return value;
         }
 
         public double Weight()
         {
-            throw new NotImplementedException();
+            return weight;
         }
-    }; // class math_ValueAndWeight
+    }; // class ValueAndWeight
 }
