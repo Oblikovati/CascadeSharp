@@ -3,8 +3,9 @@
 // General Public License V2
 //---------------------------------------------------------------------
 
-using System;
-using CascadeSharp.TKernel;
+using System.IO;
+using System.Text.Json;
+using CascadeSharp.TKernel.Standard;
 using CascadeSharp.TKG3d.TopAbs;
 
 namespace CascadeSharp.TKBRep.TopoDS
@@ -12,139 +13,102 @@ namespace CascadeSharp.TKBRep.TopoDS
     //---------------------------------------------------------------------
     //  Class  TopoDS_TShape
     //---------------------------------------------------------------------
-    public abstract class TopoDS_TShape : Standard_Transient
+    /// <summary>
+    ///A TShape  is a topological  structure describing a set of points in a 2D or 3D space.
+    /// A topological shape is a structure made from other shapes.
+    /// This is a deferred class  used to support topological objects.
+    /// TShapes are   defined   by  their  optional domain (geometry)  and  their  components  (other TShapes
+    /// with  Locations and Orientations).  The components are stored in a List of Shapes.
+    /// A   TShape contains  the   following boolean flags :
+    /// - Free       : Free or Frozen.
+    /// - Modified   : Has been modified.
+    /// - Checked    : Has been checked.
+    /// - Orientable : Can be oriented.
+    /// - Closed     : Is closed (note that only Wires and Shells may be closed).
+    /// - Infinite   : Is infinite.
+    /// - Convex     : Is convex.
+    /// Users have no direct access to the classes derived from TShape.  They  handle them with  the classes
+    /// derived from Shape.
+    /// </summary>
+    public abstract class TopoDS_TShape
     {
-        public TopoDS_TShape()
-            : base()
+        protected TopoDS_TShape()
         {
-            throw new NotImplementedException("Native class is abstract");
+            myShapes = new TopoDS_ListOfShape();
         }
 
-        public TopoDS_TShape(TopoDS_TShape parameter1)
-            : base()
+        protected TopoDS_TShape(TopoDS_TShape tShape)
         {
-            throw new NotImplementedException("Native class is abstract");
+            Free = tShape.Free;
+            Locked = tShape.Locked;
+            Modified = tShape.Modified;
+            Checked = tShape.Checked;
+            Orientable = tShape.Orientable;
+            Closed = tShape.Closed;
+            Infinite = tShape.Infinite;
+            Convex = tShape.Convex;
+            myShapes = new TopoDS_ListOfShape();
+            foreach (var shape in tShape.myShapes)
+            {
+                myShapes.Append(shape);
+            }
         }
 
-        public bool Free()
-        {
-            throw new NotImplementedException();
-        }
+        #region Private Objects
 
-        public void Free(bool theIsFree)
-        {
-            throw new NotImplementedException();
-        }
+        TopoDS_ListOfShape myShapes;
 
-        public bool Locked()
-        {
-            throw new NotImplementedException();
-        }
 
-        public void Locked(bool theIsLocked)
-        {
-            throw new NotImplementedException();
-        }
+        #endregion
 
-        public bool Modified()
-        {
-            throw new NotImplementedException();
-        }
+        public bool Free { get; protected set; }
 
-        public void Modified(bool theIsModified)
-        {
-            throw new NotImplementedException();
-        }
+        public bool Locked { get; protected set; }
 
-        public bool Checked()
-        {
-            throw new NotImplementedException();
-        }
+        public bool Modified { get; protected set; }
 
-        public void Checked(bool theIsChecked)
-        {
-            throw new NotImplementedException();
-        }
+        public bool Checked { get; protected set; }
 
-        public bool Orientable()
-        {
-            throw new NotImplementedException();
-        }
+        public bool Orientable { get; protected set; }
 
-        public void Orientable(bool theIsOrientable)
-        {
-            throw new NotImplementedException();
-        }
+        public bool Closed { get; protected set; }
 
-        public bool Closed()
-        {
-            throw new NotImplementedException();
-        }
+        public bool Infinite { get; protected set; }
 
-        public void Closed(bool theIsClosed)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Infinite()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Infinite(bool theIsInfinite)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Convex()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Convex(bool theIsConvex)
-        {
-            throw new NotImplementedException();
-        }
+        public bool Convex { get; protected set; }
 
         public TopAbs_ShapeEnum ShapeType()
         {
-            throw new NotImplementedException();
+            return TopAbs_ShapeEnum.TopAbs_COMPOUND;
         }
 
-        public TopoDS_TShape EmptyCopy()
+        public T EmptyCopy<T>() where T : TopoDS_TShape, new()
         {
-            throw new NotImplementedException();
+            return new T
+            {
+                Free = Free,
+                Locked = Locked,
+                Checked = Checked,
+                Closed = Closed,
+                Convex = Convex,
+                Infinite = Infinite,
+                Modified = Modified,
+                Orientable = Orientable
+            };
         }
 
         public int NbChildren()
         {
-            throw new NotImplementedException();
+            return myShapes.Size();
         }
 
-        public char get_type_name()
+        public virtual void DumpJson(Standard_OStream theOStream, int theDepth = -1)
         {
-            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
+            using (theOStream)
+            {
+                using var writer = new StreamWriter(theOStream);
+                writer.Write(JsonSerializer.Serialize(this));
+            }
         }
-
-        public void setFlag(TopoDS_TShape_Flags theFlag, bool theIsOn)
-        {
-            throw new NotImplementedException();
-        }
-
-
-        //---------------------------------------------------------------------
-        //  Enum  TopoDS_TShape_Flags
-        //---------------------------------------------------------------------
-        public enum TopoDS_TShape_Flags
-        {
-            TopoDS_TShape_Flags_Free = 1,
-            TopoDS_TShape_Flags_Modified = 2,
-            TopoDS_TShape_Flags_Checked = 4,
-            TopoDS_TShape_Flags_Orientable = 8,
-            TopoDS_TShape_Flags_Closed = 16,
-            TopoDS_TShape_Flags_Infinite = 32,
-            TopoDS_TShape_Flags_Convex = 64,
-            TopoDS_TShape_Flags_Locked = 128
-        } // enum  class TopoDS_TShape_Flags
-    }; // class TopoDS_TShape
+    }
 }

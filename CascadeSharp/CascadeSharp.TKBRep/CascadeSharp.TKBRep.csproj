@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CascadeSharp.TKernel\CascadeSharp.TKernel.csproj" />
     <ProjectReference Include="..\CascadeSharp.TKG2d\CascadeSharp.TKG2d.csproj" />
     <ProjectReference Include="..\CascadeSharp.TKG3d\CascadeSharp.TKG3d.csproj" />
