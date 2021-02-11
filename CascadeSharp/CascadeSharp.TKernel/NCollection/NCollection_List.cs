@@ -4,6 +4,15 @@ namespace CascadeSharp.TKernel.NCollection
 {
     public class NCollection_List<T>  : List<T>
     {
+        public NCollection_List()
+        {
+            
+        }
+
+        public NCollection_List(NCollection_List<T> theOther)
+        {
+            Assign(theOther);
+        }
         public int Size()
         {
             return Count;
