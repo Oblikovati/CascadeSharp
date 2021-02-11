@@ -12,69 +12,66 @@ namespace CascadeSharp.TKMath.math
     //---------------------------------------------------------------------
     public sealed class math
     {
-        public static int GaussPointsMax()
-        {
-            return 61;
-        }
         /// <summary>
-        /// // The GPoints and GWeights methods return vectors of Gaussian points and weights.
+        /// // The GPoints method return a vector of Gaussian points.
         /// The following calculation makes it possible to have stored only
         /// half of the points given that they are repeated twice.
         /// </summary>
         /// <param name="Index"></param>
         /// <param name="GPoint"></param>
-        public static void GaussPoints(int Index, ref Vector GPoint)
+        public static void GaussPoints(int Index, out Vector GPoint)
         {
+            //The C++ implementation would ask for a 11 elements array and return
+            // the first element as zero, this looks incorrect so I'm fixing it
+            //or maybe I'm too dumb to understand the math behind it
             int Som = 0;
             int i;
+            int ind = (Index + 1) >> 1;
+            GPoint = new Vector(Index);
+            GPoint.Init(0);
+
             for (i = 1; i < Index; i++)
             {
                 Som += (i + 1) >> 1;
             }
-            int ind = (Index + 1) >> 1;
-
+            
             for (i = 1; i <= ind; i++)
             {
-                GPoint.SetValue(i, GaussPoint[Som + i]);
-                if ((i + ind) <= Index)
-                    GPoint.SetValue(i + ind,-GPoint.GetValue(i));
+                GPoint[i-1] = GaussPoint[Som + i];
+                GPoint[i + ind-1] = -GPoint[i-1];
             }
         }
+
         /// <summary>
-        /// // The GPoints and GWeights methods return vectors of Gaussian points and weights.
+        /// // The GWeights method return a vectos of Gaussian weights.
         /// The following calculation makes it possible to have stored only
         /// half of the points given that they are repeated twice.
         /// </summary>
         /// <param name="Index"></param>
         /// <param name="GWeight"></param>
-        public static void GaussWeights(int Index, Vector GWeight)
+        public static void GaussWeights(int Index, out Vector GWeight)
         {
+            //The C++ implementation would ask for a 11 elements array and return
+            // the first element as zero, this looks incorrect so I'm fixing it
+            //or maybe I'm too dumb to understand the math behind it
             int Som = 0;
             int i;
+            int ind = (Index + 1) >> 1;
+            GWeight = new Vector(Index);
+            GWeight.Init(0);
 
             for (i = 1; i < Index; i++)
             {
                 Som += (i + 1) >> 1;
             }
-            int ind = (Index + 1) >> 1;
-
+            
             for (i = 1; i <= ind; i++)
             {
-                GWeight.SetValue(i, GaussWeight[Som + i]);
-                if ((i + ind) <= Index)
-                    GWeight.SetValue(i + ind,GWeight.GetValue(i));
+                GWeight[i-1]= GaussWeight[Som + i];
+                GWeight[i + ind-1] = GWeight[i-i];
             }
         }
-        /// <summary>
-        /// Returns the maximal number of points for that the values
-        /// are stored in the table. If the number is greater then
-        /// KronrodPointsMax, the points will be computed.
-        /// </summary>
-        /// <returns></returns>
-        public static int KronrodPointsMax()
-        {
-            return 123;
-        }
+
         /// <summary>
         /// Returns a vector of Gauss points and a vector of their weights.
         /// The difference with the
@@ -89,13 +86,20 @@ namespace CascadeSharp.TKMath.math
         /// <param name="Points"></param>
         /// <param name="Weights"></param>
         /// <returns></returns>
-        public static bool OrderedGaussPointsAndWeights(int Index, ref Vector Points, ref Vector Weights)
+        public static bool OrderedGaussPointsAndWeights(int Index, out Vector Points, out Vector Weights)
         {
-            if (Index < 1 ||    // Index is not positive
-                Points.Length() != Index || // Inconsistent length of Points.
-                Weights.Length() != Index)   // Inconsistent length of Weights.
+            if (Index < 1)
+            {
+                Points = null;
+                Weights = null;
                 return false;
+            }
 
+            Points = new Vector(Index);
+            Points.Init(0);
+            Weights = new Vector(Index);
+            Weights.Init(0);
+            
             if (Index <= 61)
             {
                 // Get points from the array.
@@ -113,17 +117,17 @@ namespace CascadeSharp.TKMath.math
 
                 for (i = 0; i < aNbPts; i++)
                 {
-                    Points.SetValue(aLowerI + i, -GaussPoint[aStartInd + i]);  
-                    Points.SetValue(anUpperI - i, GaussPoint[aStartInd + i]); 
-                    Weights.SetValue(aLowerI + i, GaussWeight[aStartInd + i]);
-                    Weights.SetValue(anUpperI - i, GaussWeight[aStartInd + i]);
+                    Points[aLowerI + i]= -GaussPoint[aStartInd + i];  
+                    Points[anUpperI - i]= GaussPoint[aStartInd + i]; 
+                    Weights[aLowerI + i]= GaussWeight[aStartInd + i];
+                    Weights[anUpperI - i]= GaussWeight[aStartInd + i];
                 }
 
                 if (Index % 2 == 1)
                 {
                     // Index is odd.
-                    Points.SetValue(aLowerI + i, GaussPoint[aStartInd + i]);
-                    Weights.SetValue(aLowerI + i, GaussWeight[aStartInd + i]);
+                    Points[aLowerI + i] = GaussPoint[aStartInd + i];
+                    Weights[aLowerI + i] = GaussWeight[aStartInd + i];
                 }
 
                 return true;
@@ -157,7 +161,7 @@ namespace CascadeSharp.TKMath.math
         /// <param name="Points"></param>
         /// <param name="Weights"></param>
         /// <returns></returns>
-        public static bool KronrodPointsAndWeights(int Index, Vector Points, Vector Weights)
+        public static bool KronrodPointsAndWeights(int Index, ref Vector Points, ref Vector Weights)
         {
             if (Index < 3 ||   // Index is less then 3
                 Index % 2 == 0 ||   // Index is even
@@ -204,6 +208,19 @@ namespace CascadeSharp.TKMath.math
         }
 
         #region Constants
+        /// <summary>
+        /// Returns the maximal number of points for that the values
+        /// are stored in the table. If the number is greater then
+        /// GaussPointsMax, the points will be computed.
+        /// </summary>
+        public const int GaussPointsMax = 61;
+
+        /// <summary>
+        /// Returns the maximal number of points for that the values
+        /// are stored in the table. If the number is greater then
+        /// KronrodPointsMax, the points will be computed.
+        /// </summary>
+        public const int KronrodPointsMax = 123;
 
         public static readonly double[] GaussPoint =
         {
