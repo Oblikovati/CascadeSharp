@@ -80,7 +80,7 @@ namespace CascadeSharp.TKBRep.BRep
             throw new NotImplementedException();
         }
 
-        public TopoDS_TShape EmptyCopy()
+        public override TopoDS_TShape EmptyCopy()
         {
             throw new NotImplementedException();
         }
