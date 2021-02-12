@@ -24,7 +24,7 @@ namespace CascadeSharp.TKG3d.TopAbs
             throw new NotImplementedException();
         }
 
-        public TopAbs_Orientation Compose(TopAbs_Orientation Or1, TopAbs_Orientation Or2)
+        public static TopAbs_Orientation Compose(TopAbs_Orientation Or1, TopAbs_Orientation Or2)
         {
             throw new NotImplementedException();
         }

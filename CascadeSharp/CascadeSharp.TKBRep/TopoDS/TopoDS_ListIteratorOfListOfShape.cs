@@ -1,4 +1,5 @@
 ﻿using CascadeSharp.TKernel.NCollection;
+using System;
 
 namespace CascadeSharp.TKBRep.TopoDS
 {
@@ -13,6 +14,26 @@ namespace CascadeSharp.TKBRep.TopoDS
             : base(list)
         {
                     
+        }
+
+        internal void Initialize(TopoDS_ListOfShape myShapes)
+        {
+            throw new NotImplementedException();
+        }
+
+        public TopoDS_Shape Value()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Next()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool More()
+        {
+            throw new NotImplementedException();
         }
     }
 }
