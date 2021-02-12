@@ -108,5 +108,16 @@ namespace CascadeSharp.TKernel.NCollection
         {
             InsertRange(theIndex +1, theOther);
         }
+        public class Iterator : NCollection_TListIterator<T>
+        {
+            public Iterator()
+            {
+                
+            }
+            protected Iterator(NCollection_List<T> list)
+            {
+                throw new System.NotImplementedException();
+            }
+        }
     }
 }
