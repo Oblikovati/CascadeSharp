@@ -54,18 +54,26 @@ namespace CascadeSharp.TKBRep.TopoDS
             }
         }
 
-        #region Private Objects
 
-        TopoDS_ListOfShape myShapes;
-
-
-        #endregion
+        public TopoDS_ListOfShape myShapes { get; protected set;  }
 
         public bool Free { get; protected set; }
+        /// <summary>
+        /// This is a hack to solve for now the no friends in c# problem.
+        /// DO NOT use it outside Builder and Iterator!
+        /// </summary>
+        /// <param name="value"></param>
+        public void OnlyFriendsFree(bool value) => Free = value;
 
         public bool Locked { get; protected set; }
 
         public bool Modified { get; protected set; }
+        /// <summary>
+        /// This is a hack to solve for now the no friends in c# problem.
+        /// DO NOT use it outside Builder and Iterator!
+        /// </summary>
+        /// <param name="value"></param>
+        public void OnlyFriendsModified(bool value) => Modified = value;
 
         public bool Checked { get; protected set; }
 
