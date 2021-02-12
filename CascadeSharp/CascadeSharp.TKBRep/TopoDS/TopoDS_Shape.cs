@@ -4,6 +4,9 @@
 //---------------------------------------------------------------------
 
 using System;
+using System.IO;
+using System.Text.Json;
+using CascadeSharp.TKernel.Standard;
 using CascadeSharp.TKG3d.TopAbs;
 using CascadeSharp.TKMath.TopLoc;
 
@@ -22,222 +25,249 @@ namespace CascadeSharp.TKBRep.TopoDS
     public class TopoDS_Shape
     {
         public TopoDS_Shape()
-            : base()
         {
-            throw new NotImplementedException();
+            myOrient = TopAbs_Orientation.TopAbs_EXTERNAL;
         }
 
-        public TopoDS_Shape(TopoDS_Shape parameter1)
-            : base()
+        public TopoDS_Shape(TopoDS_Shape theOther)
         {
-            throw new NotImplementedException();
+            myOrient = theOther.myOrient;
+            myLocation = theOther.myLocation;
+            myTShape = theOther.myTShape;
         }
 
+        #region Private Objects
+
+        TopoDS_TShape myTShape;
+        TopLoc_Location myLocation;
+        TopAbs_Orientation myOrient;
+
+        #endregion
+        /// <summary>
+        /// Returns true if this shape is null. In other words, it  references no underlying shape with the potential to
+        /// be given a location and an orientation.
+        /// </summary>
+        /// <returns></returns>
         public bool IsNull()
         {
-            throw new NotImplementedException();
+            return myTShape is null;
         }
-
+        /// <summary>
+        /// Destroys the reference to the underlying shape
+        /// stored in this shape. As a result, this shape becomes null.
+        /// </summary>
         public void Nullify()
         {
-            throw new NotImplementedException();
+            myTShape = null;
         }
-
-        public TopLoc_Location Location()
+        /// <summary>
+        /// Returns the shape local coordinate system.
+        /// </summary>
+        /// <returns></returns>
+        public TopLoc_Location Location
         {
-            throw new NotImplementedException();
+            get => myLocation;
+            set => myLocation = value;
         }
-
-        public void Location(TopLoc_Location theLoc)
-        {
-            throw new NotImplementedException();
-        }
-
+        /// <summary>
+        /// Returns a  shape  similar to <me> with  the local  coordinate system set to <Loc>.
+        /// </summary>
+        /// <param name="theLoc"></param>
+        /// <returns></returns>
         public TopoDS_Shape Located(TopLoc_Location theLoc)
         {
-            throw new NotImplementedException();
+            var aShape = new TopoDS_Shape(this);
+            aShape.Location = theLoc;
+            return aShape;
         }
-
-        public TopAbs_Orientation Orientation()
+        /// <summary>
+        /// Returns the shape orientation.
+        /// </summary>
+        /// <returns></returns>
+        public TopAbs_Orientation Orientation
         {
-            throw new NotImplementedException();
+            get => myOrient;
+            set => myOrient = value;
         }
-
-        public void Orientation(TopAbs_Orientation theOrient)
-        {
-            throw new NotImplementedException();
-        }
-
+        /// <summary>
+        /// Returns  a    shape  similar  to  <me>   with  the  orientation set to <Or>.
+        /// </summary>
+        /// <param name="theOrient"></param>
+        /// <returns></returns>
         public TopoDS_Shape Oriented(TopAbs_Orientation theOrient)
         {
-            throw new NotImplementedException();
+            var aShape = new TopoDS_Shape(this);
+            aShape.Orientation = theOrient;
+            return aShape;
         }
 
         public TopoDS_TShape TShape()
         {
-            throw new NotImplementedException();
+            return myTShape;
         }
 
         public TopAbs_ShapeEnum ShapeType()
         {
-            throw new NotImplementedException();
+            return myTShape.ShapeType();
         }
 
-        public bool Free { get; protected set; }
-
-        public bool Locked()
+        public bool Free
         {
-            throw new NotImplementedException();
+            get => myTShape.Free;
+            set => myTShape.OnlyFriendsFree(value);
         }
 
-        public void Locked(bool theIsLocked)
+        public bool Locked
         {
-            throw new NotImplementedException();
+            get => myTShape.Locked;
+            set => myTShape.OnlyFriendsLocked(value);
         }
 
-        public bool Modified()
+        public bool Modified
         {
-            throw new NotImplementedException();
+            get => myTShape.Modified;
+            set => myTShape.OnlyFriendsModified(value);
         }
 
-        public void Modified(bool theIsModified)
+        public bool Checked
         {
-            throw new NotImplementedException();
+            get => myTShape.Checked;
+            set => myTShape.OnlyFriendsChecked(value);
         }
 
-        public bool Checked()
+        public bool Orientable
         {
-            throw new NotImplementedException();
+            get => myTShape.Orientable;
+            set => myTShape.OnlyFriendsOrientable(value);
         }
 
-        public void Checked(bool theIsChecked)
+        public bool Closed
         {
-            throw new NotImplementedException();
+            get => myTShape.Closed;
+            set => myTShape.OnlyFriendsClosed(value);
         }
 
-        public bool Orientable()
+        public bool Infinite
         {
-            throw new NotImplementedException();
+            get => myTShape.Infinite;
+            set => myTShape.OnlyFriendsInfinite(value);
         }
 
-        public void Orientable(bool theIsOrientable)
+        public bool Convex
         {
-            throw new NotImplementedException();
-        }
-
-        public bool Closed()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Closed(bool theIsClosed)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Infinite()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Infinite(bool theIsInfinite)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Convex()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Convex(bool theIsConvex)
-        {
-            throw new NotImplementedException();
+            get => myTShape.Convex;
+            set => myTShape.OnlyFriendsConvex(value);
         }
 
         public void Move(TopLoc_Location thePosition)
         {
-            throw new NotImplementedException();
+            myLocation = thePosition;
         }
 
         public TopoDS_Shape Moved(TopLoc_Location thePosition)
         {
-            throw new NotImplementedException();
+            var aShape = new TopoDS_Shape(this);
+            aShape.Move(thePosition);
+            return aShape;
         }
 
         public void Reverse()
         {
-            throw new NotImplementedException();
+            myOrient = TopAbs.Reverse(myOrient);
         }
 
         public TopoDS_Shape Reversed()
         {
-            throw new NotImplementedException();
+            var aShape = new TopoDS_Shape(this);
+            aShape.Reverse();
+            return aShape;
         }
 
         public void Complement()
         {
-            throw new NotImplementedException();
+            myOrient = TopAbs.Complement(myOrient);
         }
 
         public TopoDS_Shape Complemented()
         {
-            throw new NotImplementedException();
+            var aShape = new TopoDS_Shape(this);
+            aShape.Complement();
+            return aShape;
         }
 
         public void Compose(TopAbs_Orientation theOrient)
         {
-            throw new NotImplementedException();
+            myOrient = TopAbs.Compose(myOrient,theOrient);
         }
 
         public TopoDS_Shape Composed(TopAbs_Orientation theOrient)
         {
-            throw new NotImplementedException();
+            var aShape = new TopoDS_Shape(this);
+            aShape.Compose(theOrient);
+            return aShape;
         }
 
         public int NbChildren()
         {
-            throw new NotImplementedException();
+            return myTShape?.NbChildren() ?? 0;
         }
 
         public bool IsPartner(TopoDS_Shape theOther)
         {
-            throw new NotImplementedException();
+            return myTShape.Equals(theOther.myTShape);
         }
 
         public bool IsSame(TopoDS_Shape theOther)
         {
-            throw new NotImplementedException();
+            return myTShape.Equals(theOther.myTShape) && myLocation.Equals(theOther.Location);
         }
 
         public bool IsEqual(TopoDS_Shape theOther)
         {
-            throw new NotImplementedException();
+            return myTShape.Equals(theOther.myTShape) &&
+                   myLocation.Equals(theOther.Location) &&
+                   myOrient.Equals(theOther.myOrient);
         }
 
         public bool IsNotEqual(TopoDS_Shape theOther)
         {
-            throw new NotImplementedException();
+            return !IsEqual(theOther);
         }
 
-        public int HashCode(int theUpperBound)
+        public void EmptyCopy<T>() where T : TopoDS_TShape, new()
         {
-            throw new NotImplementedException();
+           myTShape = myTShape.EmptyCopy<T>();
         }
 
-        public void EmptyCopy()
+        public TopoDS_Shape EmptyCopied<T>() where T: TopoDS_TShape, new()
         {
-            throw new NotImplementedException();
-        }
-
-        public TopoDS_Shape EmptyCopied()
-        {
-            throw new NotImplementedException();
+            var aShape = new TopoDS_Shape(this);
+            aShape.EmptyCopy<T>();
+            return aShape;
         }
 
         public void TShape(TopoDS_TShape theTShape)
         {
+            myTShape = theTShape;
+        }
+
+        public int HashCode(TopoDS_Shape theShape, int theUpperBound)
+        {
             throw new NotImplementedException();
+        }
+
+        public void DumpJson(Standard_OStream stream, int theDepth = -1)
+        {
+            using (stream)
+            {
+                using (var writer = new StreamWriter(stream))
+                {
+                    writer.Write(JsonSerializer.Serialize(this,new JsonSerializerOptions()
+                    {
+                        MaxDepth = theDepth
+                    }));
+                }
+            }
         }
     }
 }

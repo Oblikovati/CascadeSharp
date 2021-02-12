@@ -66,6 +66,15 @@ namespace CascadeSharp.TKBRep.TopoDS
         public void OnlyFriendsFree(bool value) => Free = value;
 
         public bool Locked { get; protected set; }
+        /// <summary>
+        /// This is a hack to solve for now the no friends in c# problem.
+        /// DO NOT use it outside Builder and Iterator!
+        /// </summary>
+        /// <param name="value"></param>
+        public void OnlyFriendsLocked(bool value)
+        {
+            Locked = value;
+        }
 
         public bool Modified { get; protected set; }
         /// <summary>
@@ -117,6 +126,33 @@ namespace CascadeSharp.TKBRep.TopoDS
                 using var writer = new StreamWriter(theOStream);
                 writer.Write(JsonSerializer.Serialize(this));
             }
+        }
+
+
+        public void OnlyFriendsChecked(in bool value)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void OnlyFriendsOrientable(in bool value)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void OnlyFriendsClosed(in bool value)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void OnlyFriendsInfinite(in bool value)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void OnlyFriendsConvex(in bool value)
+        {
+            
+
         }
     }
 }
