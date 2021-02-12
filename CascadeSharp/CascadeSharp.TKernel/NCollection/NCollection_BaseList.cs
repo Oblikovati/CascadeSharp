@@ -4,13 +4,15 @@
 //---------------------------------------------------------------------
 
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace CascadeSharp.TKernel.NCollection
 {
     //---------------------------------------------------------------------
     //  Class  NCollection_BaseList
     //---------------------------------------------------------------------
-    public sealed class NCollection_BaseList
+    public class NCollection_BaseList
     {
         public NCollection_BaseList(NCollection_BaseAllocator theAllocator)
             : base()
@@ -58,5 +60,22 @@ namespace CascadeSharp.TKernel.NCollection
         {
             throw new NotImplementedException();
         }
-    }; // class NCollection_BaseList
+        public class Iterator : IEnumerable
+        {
+            protected Iterator(NCollection_BaseList theList)
+            {
+                throw new NotImplementedException();
+            }
+
+            protected Iterator()
+            {
+                throw new NotImplementedException();
+            }
+
+            public IEnumerator GetEnumerator()
+            {
+                throw new NotImplementedException();
+            }
+        }
+    }
 }
