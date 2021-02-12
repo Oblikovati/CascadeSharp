@@ -3,7 +3,6 @@
 // General Public License V2
 //---------------------------------------------------------------------
 
-using System;
 using CascadeSharp.TKG3d.TopAbs;
 
 namespace CascadeSharp.TKBRep.TopoDS
@@ -11,33 +10,20 @@ namespace CascadeSharp.TKBRep.TopoDS
     //---------------------------------------------------------------------
     //  Class  TopoDS_TCompound
     //---------------------------------------------------------------------
-    public sealed class TopoDS_TCompound : TopoDS_TShape
+    /// <summary>
+    /// A TCompound is an all-purpose set of Shapes.
+    /// </summary>
+    public class TopoDS_TCompound : TopoDS_TShape
     {
-        public TopoDS_TCompound()
-            : base()
+        public override TopAbs_ShapeEnum ShapeType()
         {
-            throw new NotImplementedException();
+            return TopAbs_ShapeEnum.TopAbs_COMPOUND;
         }
 
-        public TopoDS_TCompound(TopoDS_TCompound parameter1)
-            : base()
+        public override TopoDS_TShape EmptyCopy()
         {
-            throw new NotImplementedException();
+            return new TopoDS_TCompound();
         }
 
-        public TopAbs_ShapeEnum ShapeType()
-        {
-            throw new NotImplementedException();
-        }
-
-        public TopoDS_TShape EmptyCopy()
-        {
-            throw new NotImplementedException();
-        }
-
-        public char get_type_name()
-        {
-            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-        }
-    }; // class TopoDS_TCompound
+    }
 }

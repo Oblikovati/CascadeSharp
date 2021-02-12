@@ -3,7 +3,6 @@
 // General Public License V2
 //---------------------------------------------------------------------
 
-using System;
 using CascadeSharp.TKG3d.TopAbs;
 
 namespace CascadeSharp.TKBRep.TopoDS
@@ -11,28 +10,18 @@ namespace CascadeSharp.TKBRep.TopoDS
     //---------------------------------------------------------------------
     //  Class  TopoDS_TVertex
     //---------------------------------------------------------------------
+    /// <summary>
+    /// A Vertex is a topological point in two or three dimensions.
+    /// </summary>
     public abstract class TopoDS_TVertex : TopoDS_TShape
     {
-        public TopoDS_TVertex()
-            : base()
+        protected TopoDS_TVertex() { }
+
+
+        public override TopAbs_ShapeEnum ShapeType()
         {
-            throw new NotImplementedException("Native class is abstract");
+            return TopAbs_ShapeEnum.TopAbs_VERTEX;
         }
 
-        public TopoDS_TVertex(TopoDS_TVertex parameter1)
-            : base()
-        {
-            throw new NotImplementedException("Native class is abstract");
-        }
-
-        public TopAbs_ShapeEnum ShapeType()
-        {
-            throw new NotImplementedException();
-        }
-
-        public char get_type_name()
-        {
-            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-        }
-    }; // class TopoDS_TVertex
+    }
 }

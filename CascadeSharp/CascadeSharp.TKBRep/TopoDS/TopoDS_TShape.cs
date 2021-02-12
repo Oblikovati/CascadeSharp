@@ -99,7 +99,7 @@ namespace CascadeSharp.TKBRep.TopoDS
         public bool Convex { get; protected set; }
         public void OnlyFriendsConvex(in bool value) => Convex = value;
 
-        public TopAbs_ShapeEnum ShapeType()
+        public virtual TopAbs_ShapeEnum ShapeType()
         {
             return TopAbs_ShapeEnum.TopAbs_COMPOUND;
         }
@@ -135,5 +135,7 @@ namespace CascadeSharp.TKBRep.TopoDS
                 }));
             }
         }
+
+        public abstract TopoDS_TShape EmptyCopy();
     }
 }

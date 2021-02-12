@@ -11,33 +11,24 @@ namespace CascadeSharp.TKBRep.TopoDS
     //---------------------------------------------------------------------
     //  Class  TopoDS_TCompSolid
     //---------------------------------------------------------------------
-    public sealed class TopoDS_TCompSolid : TopoDS_TShape
+    /// <summary>
+    /// A set of solids connected by their faces.
+    /// </summary>
+    public class TopoDS_TCompSolid : TopoDS_TShape
     {
-        public TopoDS_TCompSolid()
-            : base()
+        public override TopAbs_ShapeEnum ShapeType()
         {
-            throw new NotImplementedException();
+            return TopAbs_ShapeEnum.TopAbs_COMPSOLID;
         }
 
-        public TopoDS_TCompSolid(TopoDS_TCompSolid parameter1)
-            : base()
+        public override TopoDS_TShape EmptyCopy()
         {
-            throw new NotImplementedException();
-        }
-
-        public TopAbs_ShapeEnum ShapeType()
-        {
-            throw new NotImplementedException();
-        }
-
-        public TopoDS_TShape EmptyCopy()
-        {
-            throw new NotImplementedException();
+            return new TopoDS_TCompSolid();
         }
 
         public char get_type_name()
         {
             throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
         }
-    }; // class TopoDS_TCompSolid
+    }
 }

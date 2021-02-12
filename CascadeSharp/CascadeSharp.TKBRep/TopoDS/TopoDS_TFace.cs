@@ -3,7 +3,6 @@
 // General Public License V2
 //---------------------------------------------------------------------
 
-using System;
 using CascadeSharp.TKG3d.TopAbs;
 
 namespace CascadeSharp.TKBRep.TopoDS
@@ -11,33 +10,21 @@ namespace CascadeSharp.TKBRep.TopoDS
     //---------------------------------------------------------------------
     //  Class  TopoDS_TFace
     //---------------------------------------------------------------------
+    /// <summary>
+    /// A topological part of a surface or of the 2D space.
+    /// The  boundary is a set of wires and vertices.
+    /// </summary>
     public class TopoDS_TFace : TopoDS_TShape
     {
-        public TopoDS_TFace()
-            : base()
+        public override TopAbs_ShapeEnum ShapeType()
         {
-            throw new NotImplementedException();
+            return TopAbs_ShapeEnum.TopAbs_FACE;
         }
 
-        public TopoDS_TFace(TopoDS_TFace parameter1)
-            : base()
+        public override TopoDS_TShape EmptyCopy()
         {
-            throw new NotImplementedException();
+            return new TopoDS_TFace();
         }
 
-        public TopAbs_ShapeEnum ShapeType()
-        {
-            throw new NotImplementedException();
-        }
-
-        public TopoDS_TShape EmptyCopy()
-        {
-            throw new NotImplementedException();
-        }
-
-        public char get_type_name()
-        {
-            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-        }
-    }; // class TopoDS_TFace
+    }
 }

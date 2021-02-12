@@ -3,7 +3,6 @@
 // General Public License V2
 //---------------------------------------------------------------------
 
-using System;
 using CascadeSharp.TKG3d.TopAbs;
 
 namespace CascadeSharp.TKBRep.TopoDS
@@ -11,33 +10,21 @@ namespace CascadeSharp.TKBRep.TopoDS
     //---------------------------------------------------------------------
     //  Class  TopoDS_TSolid
     //---------------------------------------------------------------------
-    public sealed class TopoDS_TSolid : TopoDS_TShape
+    /// <summary>
+    /// A Topological part of 3D space, bounded by shells, edges and vertices.
+    /// </summary>
+    public class TopoDS_TSolid : TopoDS_TShape
     {
-        public TopoDS_TSolid()
-            : base()
+
+        public override TopAbs_ShapeEnum ShapeType()
         {
-            throw new NotImplementedException();
+            return TopAbs_ShapeEnum.TopAbs_SOLID;
         }
 
-        public TopoDS_TSolid(TopoDS_TSolid parameter1)
-            : base()
+        public override TopoDS_TShape EmptyCopy()
         {
-            throw new NotImplementedException();
+            return new TopoDS_TSolid();
         }
 
-        public TopAbs_ShapeEnum ShapeType()
-        {
-            throw new NotImplementedException();
-        }
-
-        public TopoDS_TShape EmptyCopy()
-        {
-            throw new NotImplementedException();
-        }
-
-        public char get_type_name()
-        {
-            throw new NotImplementedException("Native class returns pointer to integer/double/handle.");
-        }
-    }; // class TopoDS_TSolid
+    }
 }
