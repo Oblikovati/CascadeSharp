@@ -56,11 +56,11 @@ namespace CascadeSharp.TKBRep.TopoDS
         public void Initialize(TopoDS_Shape S, bool cumOri, bool cumLoc)
         {
             if (cumLoc)
-                myLocation = S.Location();
+                myLocation = S.Location;
             else
                 myLocation.Identity();
             if (cumOri)
-                myOrientation = S.Orientation();
+                myOrientation = S.Orientation;
             else
                 myOrientation = TopAbs_Orientation.TopAbs_FORWARD;
 
@@ -72,7 +72,7 @@ namespace CascadeSharp.TKBRep.TopoDS
             if (More())
             {
                 myShape = myShapes.Value();
-                myShape.Orientation(TopAbs.Compose(myOrientation, myShape.Orientation()));
+                myShape.Orientation = TopAbs.Compose(myOrientation, myShape.Orientation);
                 if (!myLocation.IsIdentity())
                     myShape.Move(myLocation);
             }
@@ -84,7 +84,7 @@ namespace CascadeSharp.TKBRep.TopoDS
             if (More())
             {
                 myShape = myShapes.Value();
-                myShape.Orientation(TopAbs.Compose(myOrientation, myShape.Orientation()));
+                myShape.Orientation = TopAbs.Compose(myOrientation, myShape.Orientation);
                 if (!myLocation.IsIdentity())
                     myShape.Move(myLocation);
             }

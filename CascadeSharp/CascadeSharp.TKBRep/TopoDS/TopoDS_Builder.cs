@@ -120,11 +120,11 @@ namespace CascadeSharp.TKBRep.TopoDS
                     var S = L.Last;
                     //
                     // compute the relative Orientation
-                    if (aShape.Orientation() == TopAbs_Orientation.TopAbs_REVERSED)
+                    if (aShape.Orientation == TopAbs_Orientation.TopAbs_REVERSED)
                         S.Reverse();
                     //
                     // and the Relative Location
-                    var aLoc = aShape.Location();
+                    var aLoc = aShape.Location;
                     if (!aLoc.IsIdentity())
                         S.Move(aLoc.Inverted());
                     //
@@ -149,9 +149,9 @@ namespace CascadeSharp.TKBRep.TopoDS
 
             // compute the relative Orientation and Location of aComponent
             var S = aComponent;
-            if (aShape.Orientation() == TopAbs_Orientation.TopAbs_REVERSED)
+            if (aShape.Orientation == TopAbs_Orientation.TopAbs_REVERSED)
                 S.Reverse();
-            S.Location(S.Location().Predivided(aShape.Location()));
+            S.Location = S.Location.Predivided(aShape.Location);
 
             var L = aShape.TShape().myShapes;
             var It = new TopoDS_ListIteratorOfListOfShape(L);
@@ -168,8 +168,8 @@ namespace CascadeSharp.TKBRep.TopoDS
         protected void MakeShape(TopoDS_Shape S, TopoDS_TShape T)
         {
             S.TShape(T);
-            S.Location(new TopLoc_Location());
-            S.Orientation(TopAbs_Orientation.TopAbs_FORWARD);
+            S.Location = new TopLoc_Location();
+            S.Orientation = TopAbs_Orientation.TopAbs_FORWARD;
         }
     }
 }
