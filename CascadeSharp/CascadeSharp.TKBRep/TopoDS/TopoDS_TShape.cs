@@ -85,14 +85,19 @@ namespace CascadeSharp.TKBRep.TopoDS
         public void OnlyFriendsModified(bool value) => Modified = value;
 
         public bool Checked { get; protected set; }
+        public void OnlyFriendsChecked(in bool value) => Checked = value;
 
         public bool Orientable { get; protected set; }
+        public void OnlyFriendsOrientable(in bool value) => Orientable = value;
 
         public bool Closed { get; protected set; }
+        public void OnlyFriendsClosed(in bool value) => Closed = value;
 
         public bool Infinite { get; protected set; }
+        public void OnlyFriendsInfinite(in bool value) => Infinite = value;
 
         public bool Convex { get; protected set; }
+        public void OnlyFriendsConvex(in bool value) => Convex = value;
 
         public TopAbs_ShapeEnum ShapeType()
         {
@@ -124,35 +129,11 @@ namespace CascadeSharp.TKBRep.TopoDS
             using (theOStream)
             {
                 using var writer = new StreamWriter(theOStream);
-                writer.Write(JsonSerializer.Serialize(this));
+                writer.Write(JsonSerializer.Serialize(this,new JsonSerializerOptions()
+                {
+                    MaxDepth = theDepth
+                }));
             }
-        }
-
-
-        public void OnlyFriendsChecked(in bool value)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void OnlyFriendsOrientable(in bool value)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void OnlyFriendsClosed(in bool value)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void OnlyFriendsInfinite(in bool value)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void OnlyFriendsConvex(in bool value)
-        {
-            
-
         }
     }
 }
