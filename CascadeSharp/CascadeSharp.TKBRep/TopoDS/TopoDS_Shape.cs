@@ -12,6 +12,13 @@ namespace CascadeSharp.TKBRep.TopoDS
     //---------------------------------------------------------------------
     //  Class  TopoDS_Shape
     //---------------------------------------------------------------------
+    /// <summary>
+    /// Describes a shape which references an underlying shape with the potential
+    /// to be given a location and an orientation has a location for the underlying shape, giving its
+    /// placement in the local coordinate system has an orientation for the underlying shape, in
+    /// terms of its geometry (as opposed to orientation in relation to other shapes).
+    /// Note: A Shape is empty if it references an underlying shape which has an empty list of shapes.
+    /// </summary>
     public class TopoDS_Shape
     {
         public TopoDS_Shape()
@@ -76,15 +83,7 @@ namespace CascadeSharp.TKBRep.TopoDS
             throw new NotImplementedException();
         }
 
-        public bool Free()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Free(bool theIsFree)
-        {
-            throw new NotImplementedException();
-        }
+        public bool Free { get; protected set; }
 
         public bool Locked()
         {
@@ -240,5 +239,5 @@ namespace CascadeSharp.TKBRep.TopoDS
         {
             throw new NotImplementedException();
         }
-    }; // class TopoDS_Shape
+    }
 }
