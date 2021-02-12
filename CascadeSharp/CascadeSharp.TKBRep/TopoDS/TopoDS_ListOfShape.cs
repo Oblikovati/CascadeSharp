@@ -29,5 +29,10 @@ namespace CascadeSharp.TKBRep.TopoDS
         {
             return (TopoDS_ListOfShape) base.Assign(theOther);
         }
+
+        public void Remove(TopoDS_ListIteratorOfListOfShape theInt)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
