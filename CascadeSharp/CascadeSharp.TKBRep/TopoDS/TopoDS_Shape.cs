@@ -253,6 +253,7 @@ namespace CascadeSharp.TKBRep.TopoDS
 
         public int HashCode(TopoDS_Shape theShape, int theUpperBound)
         {
+            //TODO: is custom hashcode logic necessary?
             throw new NotImplementedException();
         }
 
@@ -268,6 +269,22 @@ namespace CascadeSharp.TKBRep.TopoDS
                     }));
                 }
             }
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(this, obj))
+                return true;
+            if (obj is TopoDS_Shape aShape)
+                return myTShape.Equals(aShape.myTShape) &&
+                       myLocation.Equals(aShape.myLocation) &&
+                       myOrient.Equals(aShape.myOrient);
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return System.HashCode.Combine(myTShape.GetHashCode(), myLocation.GetHashCode(), myOrient.GetHashCode());
         }
     }
 }
