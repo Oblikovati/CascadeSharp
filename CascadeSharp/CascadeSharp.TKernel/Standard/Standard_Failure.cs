@@ -10,7 +10,7 @@ namespace CascadeSharp.TKernel.Standard
     //---------------------------------------------------------------------
     //  Class  Standard_Failure
     //---------------------------------------------------------------------
-    public class Standard_Failure : Standard_Transient
+    public class Standard_Failure : Exception
     {
         public Standard_Failure()
             : base()
